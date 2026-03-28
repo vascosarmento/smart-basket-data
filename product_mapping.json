@@ -2,12 +2,12 @@
   "101": {
     "global_id": 101,
     "cont_name": "Fraldas Cueca Pants +15kg T7 Dodot",
-    "pingo_name": "Fraldas Cueca Pants Activity Extra T7 +15kg",
+    "pingo_name": "",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "8191540",
-    "pingo_id": "965896",
+    "pingo_id": "",
     "conversion_factor": 1.0
   },
   "102": {
@@ -312,12 +312,12 @@
   "129": {
     "global_id": 129,
     "cont_name": "Queijo Flamengo sem Lactose Fatiado Terra Nostra",
-    "pingo_name": "Queijo Flamengo Fatiado",
+    "pingo_name": "",
     "receipt_string": "",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "5125010",
-    "pingo_id": "879712",
+    "pingo_id": "",
     "conversion_factor": 1.0
   },
   "130": {
@@ -334,12 +334,12 @@
   "131": {
     "global_id": 131,
     "cont_name": "Uva Branca sem Grainha Continente",
-    "pingo_name": "Uva Branca",
+    "pingo_name": "",
     "receipt_string": "",
     "category": "🥬 Frescos",
     "exclude_comparison": false,
     "cont_id": "2076622",
-    "pingo_id": "920794",
+    "pingo_id": "",
     "conversion_factor": 1.0
   },
   "132": {
@@ -400,12 +400,12 @@
   "137": {
     "global_id": 137,
     "cont_name": "Metade Abóbora Manteiga (Butternut) Continente",
-    "pingo_name": "Abóbora Manteiga",
+    "pingo_name": "",
     "receipt_string": "",
     "category": "🥬 Frescos",
     "exclude_comparison": false,
     "cont_id": "6956929",
-    "pingo_id": "962770",
+    "pingo_id": "",
     "conversion_factor": 1.0
   },
   "138": {
@@ -435,11 +435,12 @@
     "cont_name": "Maçã Fuji IGP Alcobaça",
     "pingo_name": "Maçã Fuji",
     "receipt_string": "",
-    "category": "🥫 Despensa",
+    "category": "🥬 Frescos",
     "exclude_comparison": false,
     "cont_id": "5983000",
     "pingo_id": "261946",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "141": {
     "global_id": 141,
@@ -488,23 +489,23 @@
   "145": {
     "global_id": 145,
     "cont_name": "Queijo Flamengo Fatiado Continente",
-    "pingo_name": "Queijo Flamengo Fatiado",
+    "pingo_name": "",
     "receipt_string": "",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "2888438",
-    "pingo_id": "879922",
+    "pingo_id": "",
     "conversion_factor": 1.0
   },
   "146": {
     "global_id": 146,
     "cont_name": "Pera Rocha DOP Oeste Continente",
-    "pingo_name": "Pera Rocha DOP Oeste",
+    "pingo_name": "",
     "receipt_string": "",
     "category": "🥬 Frescos",
     "exclude_comparison": false,
     "cont_id": "7036485",
-    "pingo_id": "369927",
+    "pingo_id": "",
     "conversion_factor": 1.0
   },
   "147": {
@@ -554,12 +555,12 @@
   "151": {
     "global_id": 151,
     "cont_name": "Queijo Flamengo dos Açores Fatiado Continente",
-    "pingo_name": "Queijo Flamengo Fatiado",
+    "pingo_name": "",
     "receipt_string": "",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "5126086",
-    "pingo_id": "846659",
+    "pingo_id": "",
     "conversion_factor": 1.0
   },
   "152": {
@@ -620,23 +621,23 @@
   "157": {
     "global_id": 157,
     "cont_name": "Preparado de Carne Picada Mista Continente",
-    "pingo_name": "Carne Picada Mista",
+    "pingo_name": "",
     "receipt_string": "",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "7993967",
-    "pingo_id": "1001449",
+    "pingo_id": "",
     "conversion_factor": 1.0
   },
   "158": {
     "global_id": 158,
     "cont_name": "Cenoura Continente",
-    "pingo_name": "Cenoura",
+    "pingo_name": "",
     "receipt_string": "",
     "category": "🥬 Frescos",
     "exclude_comparison": false,
     "cont_id": "2885107",
-    "pingo_id": "638809",
+    "pingo_id": "",
     "conversion_factor": 1.0
   },
   "159": {
@@ -665,12 +666,12 @@
   "161": {
     "global_id": 161,
     "cont_name": "Queijo Flamengo sem Lactose Fatiado Limiano",
-    "pingo_name": "Queijo Flamengo Fatiado",
+    "pingo_name": "",
     "receipt_string": "",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "4863936",
-    "pingo_id": "846658",
+    "pingo_id": "",
     "conversion_factor": 1.0
   },
   "162": {
@@ -742,12 +743,12 @@
   "168": {
     "global_id": 168,
     "cont_name": "Preparado de Carne Picada Mista Continente",
-    "pingo_name": "Preparado de Carne Picada de Vitelão",
+    "pingo_name": "",
     "receipt_string": "",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "8442977",
-    "pingo_id": "622075",
+    "pingo_id": "",
     "conversion_factor": 1.0
   },
   "169": {
@@ -797,23 +798,23 @@
   "173": {
     "global_id": 173,
     "cont_name": "Preparado de Carne Picada de Bovino Continente",
-    "pingo_name": "Preparado de Carne Picada de Vitela",
+    "pingo_name": "",
     "receipt_string": "",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "7430620",
-    "pingo_id": "253998",
+    "pingo_id": "",
     "conversion_factor": 1.0
   },
   "174": {
     "global_id": 174,
     "cont_name": "Queijo Flamengo sem Lactose Fatiado Limiano",
-    "pingo_name": "Queijo Flamengo Fatiado",
+    "pingo_name": "",
     "receipt_string": "",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "2543571",
-    "pingo_id": "900685",
+    "pingo_id": "",
     "conversion_factor": 1.0
   },
   "175": {
@@ -852,12 +853,12 @@
   "178": {
     "global_id": 178,
     "cont_name": "Iogurte Líquido Magro Limão Continente Equilíbrio",
-    "pingo_name": "Limão",
+    "pingo_name": "",
     "receipt_string": "",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "5889419",
-    "pingo_id": "54677",
+    "pingo_id": "",
     "conversion_factor": 1.0
   },
   "179": {
@@ -984,12 +985,12 @@
   "190": {
     "global_id": 190,
     "cont_name": "Iogurte Líquido Magro Manga, Laranja e Cenoura Continente Equilíbrio",
-    "pingo_name": "Laranja",
+    "pingo_name": "",
     "receipt_string": "",
     "category": "🥬 Frescos",
     "exclude_comparison": false,
     "cont_id": "8022987",
-    "pingo_id": "46442",
+    "pingo_id": "",
     "conversion_factor": 1.0
   },
   "191": {
@@ -1008,22 +1009,24 @@
     "cont_name": "Leite UHT Meio Gordo Continente",
     "pingo_name": "Leite UHT Meio Gordo",
     "receipt_string": "",
-    "category": "🧀 Frigorífico",
+    "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "6879912",
     "pingo_id": "48150",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "193": {
     "global_id": 193,
     "cont_name": "Leite UHT Meio Gordo Continente",
     "pingo_name": "Leite UHT Meio Gordo Pack 4",
     "receipt_string": "",
-    "category": "🧀 Frigorífico",
+    "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "7062996",
     "pingo_id": "876574",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "194": {
     "global_id": 194,
@@ -1127,12 +1130,12 @@
   "203": {
     "global_id": 203,
     "cont_name": "Sacos Lixo Fecho Fácil 30 lt Continente",
-    "pingo_name": "Sacos do Lixo Lavanda Fecho Fácil 30L",
+    "pingo_name": "",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "7536679",
-    "pingo_id": "1002325",
+    "pingo_id": "",
     "conversion_factor": 1.0
   },
   "204": {
@@ -1380,12 +1383,12 @@
   "226": {
     "global_id": 226,
     "cont_name": "Detergente Manual Loiça Ultra Limão Fairy",
-    "pingo_name": "Detergente Loiça Manual Ultra Limão",
+    "pingo_name": "",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "8105780",
-    "pingo_id": "952432",
+    "pingo_id": "",
     "conversion_factor": 1.0
   },
   "227": {
@@ -1492,11 +1495,12 @@
     "cont_name": "Saqueta de Fruta Banana e Morango +8M Continente",
     "pingo_name": "Bolsa de Fruta Banana e Morango",
     "receipt_string": "",
-    "category": "🥬 Frescos",
+    "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "7267765",
     "pingo_id": "1004487",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "237": {
     "global_id": 237,
@@ -1547,11 +1551,12 @@
     "cont_name": "Saqueta de Fruta Pêssego, Maçã e Banana +8M Continente",
     "pingo_name": "Bolsa de Fruta Maçã e Banana",
     "receipt_string": "",
-    "category": "🥬 Frescos",
+    "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "7273640",
     "pingo_id": "1004486",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "242": {
     "global_id": 242,
@@ -1611,12 +1616,12 @@
   "247": {
     "global_id": 247,
     "cont_name": "Gelatina em Pó Ananás sem Açúcar Continente",
-    "pingo_name": "Gelatina em Pó de Ananás  0% Açúcar",
+    "pingo_name": "",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "8422400",
-    "pingo_id": "544170",
+    "pingo_id": "",
     "conversion_factor": 1.0
   },
   "248": {
@@ -1633,12 +1638,12 @@
   "249": {
     "global_id": 249,
     "cont_name": "Gelatina em Pó Frutos Tropicais sem Açúcar Continente",
-    "pingo_name": "Gelatina em Pó de Frutas Tropicais  0% Açúcar",
+    "pingo_name": "",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "8422398",
-    "pingo_id": "729225",
+    "pingo_id": "",
     "conversion_factor": 1.0
   },
   "250": {
@@ -1833,11 +1838,12 @@
     "cont_name": "Saqueta de Fruta Maçã e Manga +8M Continente",
     "pingo_name": "Bolsa de Fruta Maçã, Manga e Pêssego",
     "receipt_string": "",
-    "category": "🥬 Frescos",
+    "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "7273631",
     "pingo_id": "900853",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "268": {
     "global_id": 268,
@@ -1930,12 +1936,12 @@
   "276": {
     "global_id": 276,
     "cont_name": "Cápsulas de Café Original Int 8 Buondi",
-    "pingo_name": "Cápsulas de Café Nespresso Buondi Original",
+    "pingo_name": "",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "8577938",
-    "pingo_id": "901449",
+    "pingo_id": "",
     "conversion_factor": 1.0
   },
   "277": {
