@@ -8,7 +8,8 @@
     "exclude_comparison": false,
     "cont_id": "8191540",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "102": {
     "global_id": 102,
@@ -433,12 +434,12 @@
   "140": {
     "global_id": 140,
     "cont_name": "Maçã Fuji IGP Alcobaça",
-    "pingo_name": "Maçã Fuji",
+    "pingo_name": "",
     "receipt_string": "",
     "category": "🥬 Frescos",
     "exclude_comparison": false,
     "cont_id": "5983000",
-    "pingo_id": "261946",
+    "pingo_id": "",
     "conversion_factor": 1.0,
     "category_manual": true
   },
@@ -3141,6 +3142,226 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "805491",
+    "conversion_factor": 1.0
+  },
+  "386": {
+    "global_id": 386,
+    "cont_name": "",
+    "pingo_name": "Maçã Fuji",
+    "receipt_string": "",
+    "category": "🥫 Despensa",
+    "exclude_comparison": false,
+    "cont_id": "",
+    "pingo_id": "261946",
+    "conversion_factor": 1.0
+  },
+  "387": {
+    "global_id": 387,
+    "cont_name": "",
+    "pingo_name": "Gelatina em Pó de Frutas Tropicais  0% Açúcar",
+    "receipt_string": "",
+    "category": "🥫 Despensa",
+    "exclude_comparison": false,
+    "cont_id": "",
+    "pingo_id": "729225",
+    "conversion_factor": 1.0
+  },
+  "388": {
+    "global_id": 388,
+    "cont_name": "",
+    "pingo_name": "Uva Branca",
+    "receipt_string": "",
+    "category": "🥬 Frescos",
+    "exclude_comparison": false,
+    "cont_id": "",
+    "pingo_id": "920794",
+    "conversion_factor": 1.0
+  },
+  "389": {
+    "global_id": 389,
+    "cont_name": "",
+    "pingo_name": "Abóbora Manteiga",
+    "receipt_string": "",
+    "category": "🥬 Frescos",
+    "exclude_comparison": false,
+    "cont_id": "",
+    "pingo_id": "962770",
+    "conversion_factor": 1.0
+  },
+  "390": {
+    "global_id": 390,
+    "cont_name": "",
+    "pingo_name": "Gelatina em Pó de Ananás  0% Açúcar",
+    "receipt_string": "",
+    "category": "🥫 Despensa",
+    "exclude_comparison": false,
+    "cont_id": "",
+    "pingo_id": "544170",
+    "conversion_factor": 1.0
+  },
+  "391": {
+    "global_id": 391,
+    "cont_name": "",
+    "pingo_name": "Carne Picada Mista",
+    "receipt_string": "",
+    "category": "🧀 Frigorífico",
+    "exclude_comparison": false,
+    "cont_id": "",
+    "pingo_id": "1001449",
+    "conversion_factor": 1.0
+  },
+  "392": {
+    "global_id": 392,
+    "cont_name": "",
+    "pingo_name": "Laranja",
+    "receipt_string": "",
+    "category": "🥫 Despensa",
+    "exclude_comparison": false,
+    "cont_id": "",
+    "pingo_id": "46442",
+    "conversion_factor": 1.0
+  },
+  "393": {
+    "global_id": 393,
+    "cont_name": "",
+    "pingo_name": "Limão",
+    "receipt_string": "",
+    "category": "🥫 Despensa",
+    "exclude_comparison": false,
+    "cont_id": "",
+    "pingo_id": "54677",
+    "conversion_factor": 1.0
+  },
+  "394": {
+    "global_id": 394,
+    "cont_name": "",
+    "pingo_name": "Cápsulas de Café Nespresso Buondi Original",
+    "receipt_string": "",
+    "category": "🥫 Despensa",
+    "exclude_comparison": false,
+    "cont_id": "",
+    "pingo_id": "901449",
+    "conversion_factor": 1.0
+  },
+  "395": {
+    "global_id": 395,
+    "cont_name": "",
+    "pingo_name": "Preparado de Carne Picada de Vitelão",
+    "receipt_string": "",
+    "category": "🧀 Frigorífico",
+    "exclude_comparison": false,
+    "cont_id": "",
+    "pingo_id": "622075",
+    "conversion_factor": 1.0
+  },
+  "396": {
+    "global_id": 396,
+    "cont_name": "",
+    "pingo_name": "Pera Rocha DOP Oeste",
+    "receipt_string": "",
+    "category": "🥬 Frescos",
+    "exclude_comparison": false,
+    "cont_id": "",
+    "pingo_id": "369927",
+    "conversion_factor": 1.0
+  },
+  "397": {
+    "global_id": 397,
+    "cont_name": "",
+    "pingo_name": "Preparado de Carne Picada de Vitela",
+    "receipt_string": "",
+    "category": "🧀 Frigorífico",
+    "exclude_comparison": false,
+    "cont_id": "",
+    "pingo_id": "253998",
+    "conversion_factor": 1.0
+  },
+  "398": {
+    "global_id": 398,
+    "cont_name": "",
+    "pingo_name": "Queijo Flamengo Fatiado",
+    "receipt_string": "",
+    "category": "🧀 Frigorífico",
+    "exclude_comparison": false,
+    "cont_id": "",
+    "pingo_id": "879712",
+    "conversion_factor": 1.0
+  },
+  "399": {
+    "global_id": 399,
+    "cont_name": "",
+    "pingo_name": "Queijo Flamengo Fatiado",
+    "receipt_string": "",
+    "category": "🧀 Frigorífico",
+    "exclude_comparison": false,
+    "cont_id": "",
+    "pingo_id": "879922",
+    "conversion_factor": 1.0
+  },
+  "400": {
+    "global_id": 400,
+    "cont_name": "",
+    "pingo_name": "Queijo Flamengo Fatiado",
+    "receipt_string": "",
+    "category": "🧀 Frigorífico",
+    "exclude_comparison": false,
+    "cont_id": "",
+    "pingo_id": "846659",
+    "conversion_factor": 1.0
+  },
+  "401": {
+    "global_id": 401,
+    "cont_name": "",
+    "pingo_name": "Queijo Flamengo Fatiado",
+    "receipt_string": "",
+    "category": "🧀 Frigorífico",
+    "exclude_comparison": false,
+    "cont_id": "",
+    "pingo_id": "846658",
+    "conversion_factor": 1.0
+  },
+  "402": {
+    "global_id": 402,
+    "cont_name": "",
+    "pingo_name": "Queijo Flamengo Fatiado",
+    "receipt_string": "",
+    "category": "🧀 Frigorífico",
+    "exclude_comparison": false,
+    "cont_id": "",
+    "pingo_id": "900685",
+    "conversion_factor": 1.0
+  },
+  "403": {
+    "global_id": 403,
+    "cont_name": "",
+    "pingo_name": "Sacos do Lixo Lavanda Fecho Fácil 30L",
+    "receipt_string": "",
+    "category": "🥫 Despensa",
+    "exclude_comparison": false,
+    "cont_id": "",
+    "pingo_id": "1002325",
+    "conversion_factor": 1.0
+  },
+  "404": {
+    "global_id": 404,
+    "cont_name": "",
+    "pingo_name": "Fraldas Cueca Pants Activity Extra T7 +15kg",
+    "receipt_string": "",
+    "category": "🧴 Higiene e Limpeza",
+    "exclude_comparison": false,
+    "cont_id": "",
+    "pingo_id": "965896",
+    "conversion_factor": 1.0
+  },
+  "405": {
+    "global_id": 405,
+    "cont_name": "",
+    "pingo_name": "Cenoura",
+    "receipt_string": "",
+    "category": "🥫 Despensa",
+    "exclude_comparison": false,
+    "cont_id": "",
+    "pingo_id": "638809",
     "conversion_factor": 1.0
   }
 }
