@@ -3579,245 +3579,267 @@
   },
   "450": {
     "global_id": 450,
-    "cont_name": "",
+    "cont_name": "Cereais Estrelas de Mel Continente",
     "pingo_name": "Cereais Estrelinhas",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "3675268",
     "pingo_id": "402322",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "451": {
     "global_id": 451,
-    "cont_name": "",
+    "cont_name": "Sal Máquina Loiça Continente",
     "pingo_name": "Sal para Máquina da Loiça",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "4757898",
     "pingo_id": "752916",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "452": {
     "global_id": 452,
-    "cont_name": "",
+    "cont_name": "Pano Multiusos Suave Ultra Fresh  Vileda",
     "pingo_name": "Pano Suave Multiusos 2un",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "2054670",
     "pingo_id": "690570",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "453": {
     "global_id": 453,
-    "cont_name": "",
+    "cont_name": "Detergente Máquina Loiça Pastilhas Power Limão Finish",
     "pingo_name": "Cápsulas para Máquina Loiça Quantum Limão",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "7816822",
     "pingo_id": "1000190",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "454": {
     "global_id": 454,
-    "cont_name": "",
+    "cont_name": "Esfregão Salva Unhas Verde Antibactérias Vileda",
     "pingo_name": "Esponja com Esfregão Ultra Fresh",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "5018396",
     "pingo_id": "851936",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "455": {
     "global_id": 455,
-    "cont_name": "",
+    "cont_name": "Papel de Alumínio 30m Continente",
     "pingo_name": "Papel de Alumínio 30m",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "7520071",
     "pingo_id": "724556",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "456": {
     "global_id": 456,
-    "cont_name": "",
+    "cont_name": "Sacos para Congelar com Zip 1lt Continente",
     "pingo_name": "Sacos para Congelação com ZIP 1 L",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "7520128",
     "pingo_id": "827073",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "457": {
     "global_id": 457,
-    "cont_name": "",
+    "cont_name": "Tira Nódoas Pó Oxi Power+ Continente",
     "pingo_name": "Tira Nódoas em Pó Roupa de Cor Oxy Plus",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "7424126",
     "pingo_id": "884556",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "458": {
     "global_id": 458,
-    "cont_name": "",
+    "cont_name": "Batata Frita Ondulada Continente",
     "pingo_name": "Batatas Fritas Onduladas Pack 4",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "8427171",
     "pingo_id": "928824",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "459": {
     "global_id": 459,
-    "cont_name": "",
+    "cont_name": "Bolachas Maria Continente",
     "pingo_name": "Bolacha Maria Pack 4",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "6715842",
     "pingo_id": "673345",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "460": {
     "global_id": 460,
-    "cont_name": "",
+    "cont_name": "Bloco Sanitário Multiativo Marinho Continente",
     "pingo_name": "Bloco Sanitário Espuma Ativa Aqua",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "8024463",
     "pingo_id": "816928",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "461": {
     "global_id": 461,
-    "cont_name": "",
+    "cont_name": "Limpa Vidros Spray Power+ Continente",
     "pingo_name": "Spray Limpa Vidros",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "8239768",
     "pingo_id": "915116",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "462": {
     "global_id": 462,
-    "cont_name": "",
+    "cont_name": "Tira Nódoas Spray Oxi Action Roupa Branca Vanish",
     "pingo_name": "Spray Pré-Lavagem Roupa Branca Oxi-Action",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "7365581",
     "pingo_id": "925033",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "463": {
     "global_id": 463,
-    "cont_name": "",
+    "cont_name": "Tira Nódoas Spray Oxi Action Desengordurante Vanish",
     "pingo_name": "Spray Pré-Lavagem Oxi-Action",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "7431564",
     "pingo_id": "894109",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "464": {
     "global_id": 464,
-    "cont_name": "",
+    "cont_name": "Creme de Limpeza com Lixívia Continente",
     "pingo_name": "Abrasivo Creme Lixívia",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "4302667",
     "pingo_id": "750669",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "465": {
     "global_id": 465,
-    "cont_name": "",
+    "cont_name": "Bolachas Torradas Nacional",
     "pingo_name": "Bolachas Torradas",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "5762459",
     "pingo_id": "808018",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "466": {
     "global_id": 466,
-    "cont_name": "",
+    "cont_name": "Detergente Máquina Loiça Pastilhas Ultimate Plus Finish",
     "pingo_name": "Cápsulas para Máquina Loiça Ultimate Plus",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "8211026",
     "pingo_id": "985531",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "467": {
     "global_id": 467,
-    "cont_name": "",
+    "cont_name": "Anti-Calcário Pastilhas Power+ 3 em 1 Continente",
     "pingo_name": "Anticalcário em Pastilhas para Máquina da Roupa",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "8115395",
     "pingo_id": "931458",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "468": {
     "global_id": 468,
-    "cont_name": "",
+    "cont_name": "Spray Desengordurante Continente",
     "pingo_name": "Spray Tira Gorduras Extra Forte",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "5356292",
     "pingo_id": "996386",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "469": {
     "global_id": 469,
-    "cont_name": "",
+    "cont_name": "Limpa Pratas Algodão Duraglit",
     "pingo_name": "Algodão Limpa Pratas",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "2053320",
     "pingo_id": "23615",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "470": {
     "global_id": 470,
-    "cont_name": "",
+    "cont_name": "Abrasivo Sanitário Gel Marinho Continente",
     "pingo_name": "Gel Sanitário Anticalcário",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "5005049",
     "pingo_id": "662457",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "471": {
     "global_id": 471,
-    "cont_name": "",
+    "cont_name": "Guardanapos 3 Folhas Continente",
     "pingo_name": "Guardanapos 3 Folhas - 70un",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "7201733",
     "pingo_id": "868387",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "472": {
     "global_id": 472,
@@ -3832,14 +3854,15 @@
   },
   "473": {
     "global_id": 473,
-    "cont_name": "",
+    "cont_name": "Muesli Crunchy Frutos Secos Continente",
     "pingo_name": "Muesli Crunchy com Frutos Secos",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "5734815",
     "pingo_id": "968014",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "474": {
     "global_id": 474,
@@ -3854,35 +3877,38 @@
   },
   "475": {
     "global_id": 475,
-    "cont_name": "",
+    "cont_name": "Bolachas Mini Dinossauros Chocolate Artiach",
     "pingo_name": "Bolachas com Cacau Mini Dinosaurus Pack 3",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "4951644",
     "pingo_id": "701839",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "476": {
     "global_id": 476,
-    "cont_name": "",
+    "cont_name": "Bolachas Mini Dinossauros Cereais Artiach",
     "pingo_name": "Bolachas Mini com Cereais Dinosaurus Pack 3",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "4951641",
     "pingo_id": "701840",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "477": {
     "global_id": 477,
-    "cont_name": "",
+    "cont_name": "Bolo Planetus Manhãzitos",
     "pingo_name": "Bolo Planetus",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "4906498",
     "pingo_id": "700832",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   }
 }
