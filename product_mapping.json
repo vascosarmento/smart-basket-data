@@ -2250,11 +2250,12 @@
     "cont_name": "",
     "pingo_name": "Cachaço de Porco sem Osso Embalado",
     "receipt_string": "",
-    "category": "🥫 Despensa",
+    "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "981746",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "314": {
     "global_id": 314,
@@ -3007,19 +3008,6 @@
     "cont_id": "2885107",
     "pingo_id": "377340",
     "conversion_factor": 1.0,
-    "solo": false
-  },
-  "405": {
-    "global_id": 405,
-    "cont_name": "Cenoura Continente",
-    "pingo_name": "Cenoura",
-    "receipt_string": "",
-    "category": "🥬 Frescos",
-    "exclude_comparison": false,
-    "cont_id": "5063155",
-    "pingo_id": "638809",
-    "conversion_factor": 1.0,
-    "category_manual": true,
     "solo": false
   }
 }
