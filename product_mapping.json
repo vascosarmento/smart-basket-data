@@ -2136,36 +2136,39 @@
   },
   "288": {
     "global_id": 288,
-    "cont_name": "",
+    "cont_name": "Cenoura Continente",
     "pingo_name": "Cenouras Embaladas",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "5063155",
     "pingo_id": "377340",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "289": {
     "global_id": 289,
-    "cont_name": "",
+    "cont_name": "Nabo sem Rama Continente",
     "pingo_name": "Nabos sem Rama",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "2076812",
     "pingo_id": "46421",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "290": {
     "global_id": 290,
-    "cont_name": "",
+    "cont_name": "Gelatina em Pó de Morango Royal",
     "pingo_name": "Gelatina em Pó de Morango  0% Açúcar",
     "receipt_string": "",
     "category": "🥬 Frescos",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "5491891",
     "pingo_id": "550171",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "291": {
     "global_id": 291,
@@ -2292,14 +2295,15 @@
   },
   "302": {
     "global_id": 302,
-    "cont_name": "",
+    "cont_name": "Bolachas Aventura Continente",
     "pingo_name": "Bolachas de Cereais Animais Pack 3",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "8142811",
     "pingo_id": "1002648",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "303": {
     "global_id": 303,
@@ -2380,14 +2384,15 @@
   },
   "310": {
     "global_id": 310,
-    "cont_name": "",
+    "cont_name": "Coentros Frescos Continente",
     "pingo_name": "Coentros Embalados",
     "receipt_string": "",
     "category": "🥬 Frescos",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "6690953",
     "pingo_id": "953132",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "311": {
     "global_id": 311,
@@ -2413,14 +2418,15 @@
   },
   "313": {
     "global_id": 313,
-    "cont_name": "",
+    "cont_name": "Manga Palmer de Avião Continente",
     "pingo_name": "Manga Pronta a Comer",
     "receipt_string": "",
     "category": "🥬 Frescos",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "2504465",
     "pingo_id": "46514",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "314": {
     "global_id": 314,
@@ -2435,14 +2441,15 @@
   },
   "315": {
     "global_id": 315,
-    "cont_name": "",
+    "cont_name": "Maçã Fuji IGP Alcobaça",
     "pingo_name": "Maçã Gala Embalada",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "5983000",
     "pingo_id": "952933",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "316": {
     "global_id": 316,
@@ -2468,14 +2475,15 @@
   },
   "318": {
     "global_id": 318,
-    "cont_name": "",
+    "cont_name": "Croquetes de Carne Forno Pack Poupança Continente",
     "pingo_name": "Croquetes de Carne Pré-Frito Congelados",
     "receipt_string": "",
     "category": "❄️ Congelados",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "8368738",
     "pingo_id": "865482",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "319": {
     "global_id": 319,
@@ -2490,14 +2498,15 @@
   },
   "320": {
     "global_id": 320,
-    "cont_name": "",
+    "cont_name": "Cápsulas de Descafeinado Int 8 Buondi",
     "pingo_name": "Cápsulas de Café Nespresso Descafeinado",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "7612057",
     "pingo_id": "944333",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "321": {
     "global_id": 321,
@@ -2523,14 +2532,15 @@
   },
   "323": {
     "global_id": 323,
-    "cont_name": "",
+    "cont_name": "Bola de Mistura",
     "pingo_name": "Carcaça da Aldeia",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "5196284",
     "pingo_id": "697080",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "324": {
     "global_id": 324,
@@ -2677,14 +2687,15 @@
   },
   "337": {
     "global_id": 337,
-    "cont_name": "",
+    "cont_name": "Champô Suave Bebé Johnsons Baby",
     "pingo_name": "Champô Gold",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "6862752",
     "pingo_id": "911831",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "338": {
     "global_id": 338,
@@ -3232,14 +3243,15 @@
   },
   "387": {
     "global_id": 387,
-    "cont_name": "",
+    "cont_name": "Gelatina em Pó de Frutos Tropicais Royal",
     "pingo_name": "Gelatina em Pó de Frutas Tropicais  0% Açúcar",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "5491864",
     "pingo_id": "729225",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "388": {
     "global_id": 388,
@@ -3265,14 +3277,15 @@
   },
   "390": {
     "global_id": 390,
-    "cont_name": "",
+    "cont_name": "Gelatina em Pó de Ananás Royal",
     "pingo_name": "Gelatina em Pó de Ananás  0% Açúcar",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "5491876",
     "pingo_id": "544170",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "391": {
     "global_id": 391,
