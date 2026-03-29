@@ -779,11 +779,12 @@
     "cont_name": "Pão de Leite Continente",
     "pingo_name": "Pão de Leite",
     "receipt_string": "",
-    "category": "🥬 Frescos",
+    "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "6367767",
     "pingo_id": "745605",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "172": {
     "global_id": 172,
@@ -889,11 +890,12 @@
     "cont_name": "Ovos de Solo Classe M Continente",
     "pingo_name": "Ovos de Solo Classe M",
     "receipt_string": "",
-    "category": "🧀 Frigorífico",
+    "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "6455524",
     "pingo_id": "889027",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "182": {
     "global_id": 182,
@@ -944,11 +946,12 @@
     "cont_name": "Iogurte Proteína Mirtilo Yopro Danone",
     "pingo_name": "Iogurte Proteína Mirtilo Pack 4",
     "receipt_string": "",
-    "category": "🥬 Frescos",
+    "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "8174349",
     "pingo_id": "982571",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "187": {
     "global_id": 187,
