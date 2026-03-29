@@ -2,12 +2,12 @@
   "101": {
     "global_id": 101,
     "cont_name": "Fraldas Cueca Pants +15kg T7 Dodot",
-    "pingo_name": "",
+    "pingo_name": "Fraldas Cueca Pants Activity Extra T7 +15kg",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "8191540",
-    "pingo_id": "",
+    "pingo_id": "965896",
     "conversion_factor": 1.0,
     "solo": false
   },
@@ -146,24 +146,26 @@
   "114": {
     "global_id": 114,
     "cont_name": "Champô Suave Bebé Johnsons Baby",
-    "pingo_name": "",
+    "pingo_name": "Champô Gold",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "6862752",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "911831",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "115": {
     "global_id": 115,
     "cont_name": "Soro Fisiológico Continente",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥫 Despensa",
+    "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "7932003",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "116": {
     "global_id": 116,
@@ -192,22 +194,24 @@
     "cont_name": "Escova de Dentes Triple Action Média Colgate",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥫 Despensa",
+    "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "5526195",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "119": {
     "global_id": 119,
     "cont_name": "Cotonetes Continente",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥫 Despensa",
+    "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "7643709",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "120": {
     "global_id": 120,
@@ -238,11 +242,12 @@
     "cont_name": "Mistura de Legumes Estilo Italiano Continente",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥫 Despensa",
+    "category": "❄️ Congelados",
     "exclude_comparison": false,
     "cont_id": "6813890",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "123": {
     "global_id": 123,
@@ -260,11 +265,12 @@
     "cont_name": "Mistura de Cogumelos Continente",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥫 Despensa",
+    "category": "❄️ Congelados",
     "exclude_comparison": false,
     "cont_id": "6759678",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "125": {
     "global_id": 125,
@@ -282,11 +288,12 @@
     "cont_name": "Mistura de Legumes Estilo Francês Continente",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥫 Despensa",
+    "category": "❄️ Congelados",
     "exclude_comparison": false,
     "cont_id": "6813891",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "127": {
     "global_id": 127,
@@ -302,13 +309,14 @@
   "128": {
     "global_id": 128,
     "cont_name": "Croquetes de Carne Forno Pack Poupança Continente",
-    "pingo_name": "",
+    "pingo_name": "Croquetes de Carne Pré-Frito Congelados",
     "receipt_string": "",
     "category": "❄️ Congelados",
     "exclude_comparison": false,
     "cont_id": "8368738",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "865482",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "129": {
     "global_id": 129,
@@ -359,11 +367,12 @@
     "cont_name": "Lasanha Bolonhesa Continente",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "❄️ Congelados",
+    "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "6817300",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "134": {
     "global_id": 134,
@@ -448,11 +457,12 @@
     "cont_name": "Jardineira de Novilho Continente",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥫 Despensa",
+    "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "7363668",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "142": {
     "global_id": 142,
@@ -470,22 +480,24 @@
     "cont_name": "Mamão Continente",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥫 Despensa",
+    "category": "🥬 Frescos",
     "exclude_comparison": false,
     "cont_id": "2216170",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "144": {
     "global_id": 144,
     "cont_name": "Croquetes 100% Carne de Bovino Cozinha Continente",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "❄️ Congelados",
+    "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "6936891",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "145": {
     "global_id": 145,
@@ -525,11 +537,12 @@
     "cont_name": "Entrecôte de Novilho Continente",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥫 Despensa",
+    "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "7302889",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "149": {
     "global_id": 149,
@@ -547,11 +560,12 @@
     "cont_name": "Lasanha Bolonhesa Continente",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "❄️ Congelados",
+    "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "7414651",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "151": {
     "global_id": 151,
@@ -569,11 +583,12 @@
     "cont_name": "Bifes de Frango Continente",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥫 Despensa",
+    "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "7068833",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "153": {
     "global_id": 153,
@@ -913,11 +928,12 @@
     "cont_name": "Iogurte Pedaços Magro Amora e Framboesa sem Açúcar Continente Equilíbrio",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥬 Frescos",
+    "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "7625842",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "184": {
     "global_id": 184,
@@ -958,55 +974,60 @@
     "cont_name": "Leite Achocolatado Continente Equilíbrio",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🧀 Frigorífico",
+    "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "8513650",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "188": {
     "global_id": 188,
     "cont_name": "Iogurte Skyr Mirtilo Continente Equilíbrio",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥬 Frescos",
+    "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "7450116",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "189": {
     "global_id": 189,
     "cont_name": "Iogurte Líquido Manga e Papaia sem Açúcar Continente Equilíbrio",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥬 Frescos",
+    "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "7634950",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "190": {
     "global_id": 190,
     "cont_name": "Iogurte Líquido Magro Manga, Laranja e Cenoura Continente Equilíbrio",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥬 Frescos",
+    "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "8022987",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "191": {
     "global_id": 191,
     "cont_name": "Iogurte Magro Aroma Manga e Framboesa Continente Equilíbrio",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥬 Frescos",
+    "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "7128711",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "192": {
     "global_id": 192,
@@ -1059,33 +1080,36 @@
     "cont_name": "Limpa Pratas Algodão Duraglit",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥫 Despensa",
+    "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "2053320",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "197": {
     "global_id": 197,
     "cont_name": "Limpa Vidros Spray Power+ Continente",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥫 Despensa",
+    "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "8239768",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "198": {
     "global_id": 198,
     "cont_name": "Lava Tudo Perfumado Bosque Continente",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥫 Despensa",
+    "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "5780868",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "199": {
     "global_id": 199,
@@ -1125,11 +1149,12 @@
     "cont_name": "Spray Casa de Banho Power+ Continente",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥫 Despensa",
+    "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "8241596",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "203": {
     "global_id": 203,
@@ -1202,11 +1227,12 @@
     "cont_name": "Luvas Acetinadas M/L Continente",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥫 Despensa",
+    "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "6607572",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "210": {
     "global_id": 210,
@@ -1279,66 +1305,72 @@
     "cont_name": "Anti-Calcário Pastilhas Power+ 3 em 1 Continente",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥫 Despensa",
+    "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "8115395",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "217": {
     "global_id": 217,
     "cont_name": "Película Aderente 60m Continente",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥫 Despensa",
+    "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "7520087",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "218": {
     "global_id": 218,
     "cont_name": "Sacos para Congelar com Zip 1lt Continente",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥫 Despensa",
+    "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "7520128",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "219": {
     "global_id": 219,
     "cont_name": "Rolo de Cozinha Compacto Continente",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥫 Despensa",
+    "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "7061584",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "220": {
     "global_id": 220,
     "cont_name": "Rolo de Cozinha Compacto Plus Continente",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥫 Despensa",
+    "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "6227493",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "221": {
     "global_id": 221,
     "cont_name": "Papel de Alumínio 30m Continente",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥫 Despensa",
+    "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "7520071",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "222": {
     "global_id": 222,
@@ -1411,11 +1443,12 @@
     "cont_name": "Guardanapos 3 Folhas Continente",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥫 Despensa",
+    "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "7201733",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "229": {
     "global_id": 229,
@@ -1455,11 +1488,12 @@
     "cont_name": "Gelatina em Pó Mirtilo sem Açúcar Continente",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥬 Frescos",
+    "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "8422482",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "233": {
     "global_id": 233,
@@ -1544,11 +1578,12 @@
     "cont_name": "Gelatina em Pó Manga sem Açúcar Continente",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥬 Frescos",
+    "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "8422478",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "241": {
     "global_id": 241,
@@ -1655,11 +1690,12 @@
     "cont_name": "Gelatina em Pó de Morango Royal",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥬 Frescos",
+    "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "5491891",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "251": {
     "global_id": 251,
@@ -1699,11 +1735,12 @@
     "cont_name": "Massa Ninhos com Ovos Continente",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🧀 Frigorífico",
+    "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "5633007",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "255": {
     "global_id": 255,
@@ -1820,11 +1857,12 @@
     "cont_name": "Pack  Saquetas de  Maçã e Banana +8M Continente",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥬 Frescos",
+    "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "7559347",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "266": {
     "global_id": 266,
@@ -1909,11 +1947,12 @@
     "cont_name": "Gelatina em Pó de Mirtilo Royal",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥬 Frescos",
+    "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "5666328",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "274": {
     "global_id": 274,
@@ -1931,11 +1970,12 @@
     "cont_name": "Saqueta de Fruta Maçã e Banana +8M Continente",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥬 Frescos",
+    "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "7273629",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "276": {
     "global_id": 276,
@@ -1964,11 +2004,12 @@
     "cont_name": "Gelatina em Pó de Melancia Royal",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥬 Frescos",
+    "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "5491853",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "279": {
     "global_id": 279,
