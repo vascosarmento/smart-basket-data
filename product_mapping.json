@@ -260,18 +260,6 @@
     "pingo_id": "",
     "conversion_factor": 1.0
   },
-  "124": {
-    "global_id": 124,
-    "cont_name": "Mistura de Cogumelos Continente",
-    "pingo_name": "",
-    "receipt_string": "",
-    "category": "❄️ Congelados",
-    "exclude_comparison": false,
-    "cont_id": "6759678",
-    "pingo_id": "",
-    "conversion_factor": 1.0,
-    "category_manual": true
-  },
   "125": {
     "global_id": 125,
     "cont_name": "Hambúrgueres de Vaca sem Glúten Capitão Iglo",
@@ -575,17 +563,6 @@
     "conversion_factor": 1.0,
     "category_manual": true
   },
-  "151": {
-    "global_id": 151,
-    "cont_name": "Queijo Flamengo dos Açores Fatiado Continente",
-    "pingo_name": "",
-    "receipt_string": "",
-    "category": "🧀 Frigorífico",
-    "exclude_comparison": false,
-    "cont_id": "5126086",
-    "pingo_id": "",
-    "conversion_factor": 1.0
-  },
   "152": {
     "global_id": 152,
     "cont_name": "Bifes de Frango Continente",
@@ -652,18 +629,6 @@
     "cont_id": "7993967",
     "pingo_id": "",
     "conversion_factor": 1.0
-  },
-  "158": {
-    "global_id": 158,
-    "cont_name": "Cenoura Continente",
-    "pingo_name": "Cenouras Embaladas",
-    "receipt_string": "",
-    "category": "🥬 Frescos",
-    "exclude_comparison": false,
-    "cont_id": "2885107",
-    "pingo_id": "377340",
-    "conversion_factor": 1.0,
-    "solo": false
   },
   "159": {
     "global_id": 159,
@@ -1262,17 +1227,6 @@
     "pingo_id": "",
     "conversion_factor": 1.0
   },
-  "211": {
-    "global_id": 211,
-    "cont_name": "Percarbonato de Sódio Continente",
-    "pingo_name": "",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "7929728",
-    "pingo_id": "",
-    "conversion_factor": 1.0
-  },
   "212": {
     "global_id": 212,
     "cont_name": "Esfregão Salva Unhas Verde Antibactérias Vileda",
@@ -1557,17 +1511,6 @@
     "pingo_id": "1004487",
     "conversion_factor": 1.0,
     "category_manual": true
-  },
-  "237": {
-    "global_id": 237,
-    "cont_name": "Salsichas Bockwurst Frasco 5 un Continente",
-    "pingo_name": "",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "5508727",
-    "pingo_id": "",
-    "conversion_factor": 1.0
   },
   "238": {
     "global_id": 238,
@@ -2147,30 +2090,6 @@
     "solo": false,
     "category_manual": true
   },
-  "289": {
-    "global_id": 289,
-    "cont_name": "Nabo sem Rama Continente",
-    "pingo_name": "Nabos sem Rama",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "2076812",
-    "pingo_id": "46421",
-    "conversion_factor": 1.0,
-    "solo": false
-  },
-  "290": {
-    "global_id": 290,
-    "cont_name": "Gelatina em Pó de Morango Royal",
-    "pingo_name": "Gelatina em Pó de Morango  0% Açúcar",
-    "receipt_string": "",
-    "category": "🥬 Frescos",
-    "exclude_comparison": false,
-    "cont_id": "5491891",
-    "pingo_id": "550171",
-    "conversion_factor": 1.0,
-    "solo": false
-  },
   "291": {
     "global_id": 291,
     "cont_name": "",
@@ -2238,18 +2157,6 @@
     "conversion_factor": 1.0,
     "solo": false
   },
-  "297": {
-    "global_id": 297,
-    "cont_name": "Mistura de Legumes Orientais Continente",
-    "pingo_name": "Mistura Legumes Oriental Congelados",
-    "receipt_string": "",
-    "category": "❄️ Congelados",
-    "exclude_comparison": false,
-    "cont_id": "6781813",
-    "pingo_id": "945223",
-    "conversion_factor": 1.0,
-    "solo": false
-  },
   "298": {
     "global_id": 298,
     "cont_name": "",
@@ -2259,17 +2166,6 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "925034",
-    "conversion_factor": 1.0
-  },
-  "299": {
-    "global_id": 299,
-    "cont_name": "",
-    "pingo_name": "Toalhitas Antitransferência de Cor",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "971693",
     "conversion_factor": 1.0
   },
   "300": {
@@ -2293,18 +2189,6 @@
     "cont_id": "",
     "pingo_id": "808838",
     "conversion_factor": 1.0
-  },
-  "302": {
-    "global_id": 302,
-    "cont_name": "Bolachas Aventura Continente",
-    "pingo_name": "Bolachas de Cereais Animais Pack 3",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "8142811",
-    "pingo_id": "1002648",
-    "conversion_factor": 1.0,
-    "solo": false
   },
   "303": {
     "global_id": 303,
@@ -2361,51 +2245,6 @@
     "pingo_id": "952433",
     "conversion_factor": 1.0
   },
-  "308": {
-    "global_id": 308,
-    "cont_name": "",
-    "pingo_name": "Lava Tudo Brilhante Madeira",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "936913",
-    "conversion_factor": 1.0
-  },
-  "309": {
-    "global_id": 309,
-    "cont_name": "",
-    "pingo_name": "Lava Tudo Herbal",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "906970",
-    "conversion_factor": 1.0
-  },
-  "310": {
-    "global_id": 310,
-    "cont_name": "Coentros Frescos Continente",
-    "pingo_name": "Coentros Embalados",
-    "receipt_string": "",
-    "category": "🥬 Frescos",
-    "exclude_comparison": false,
-    "cont_id": "6690953",
-    "pingo_id": "953132",
-    "conversion_factor": 1.0,
-    "solo": false
-  },
-  "311": {
-    "global_id": 311,
-    "cont_name": "",
-    "pingo_name": "Jardineira de Vitelão",
-    "receipt_string": "",
-    "category": "🧀 Frigorífico",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "999077",
-    "conversion_factor": 1.0
-  },
   "312": {
     "global_id": 312,
     "cont_name": "",
@@ -2417,18 +2256,6 @@
     "pingo_id": "981746",
     "conversion_factor": 1.0
   },
-  "313": {
-    "global_id": 313,
-    "cont_name": "Manga Palmer de Avião Continente",
-    "pingo_name": "Manga Pronta a Comer",
-    "receipt_string": "",
-    "category": "🥬 Frescos",
-    "exclude_comparison": false,
-    "cont_id": "2504465",
-    "pingo_id": "46514",
-    "conversion_factor": 1.0,
-    "solo": false
-  },
   "314": {
     "global_id": 314,
     "cont_name": "",
@@ -2439,18 +2266,6 @@
     "cont_id": "",
     "pingo_id": "30717",
     "conversion_factor": 1.0
-  },
-  "315": {
-    "global_id": 315,
-    "cont_name": "Maçã Fuji IGP Alcobaça",
-    "pingo_name": "Maçã Gala Embalada",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "5983000",
-    "pingo_id": "952933",
-    "conversion_factor": 1.0,
-    "solo": false
   },
   "316": {
     "global_id": 316,
@@ -2474,41 +2289,6 @@
     "pingo_id": "739880",
     "conversion_factor": 1.0
   },
-  "318": {
-    "global_id": 318,
-    "cont_name": "Croquetes de Carne Forno Pack Poupança Continente",
-    "pingo_name": "Croquetes de Carne Pré-Frito Congelados",
-    "receipt_string": "",
-    "category": "❄️ Congelados",
-    "exclude_comparison": false,
-    "cont_id": "8368738",
-    "pingo_id": "865482",
-    "conversion_factor": 1.0,
-    "solo": false
-  },
-  "319": {
-    "global_id": 319,
-    "cont_name": "",
-    "pingo_name": "Lombos de Pescada Congelados",
-    "receipt_string": "",
-    "category": "❄️ Congelados",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "38365",
-    "conversion_factor": 1.0
-  },
-  "320": {
-    "global_id": 320,
-    "cont_name": "Cápsulas de Descafeinado Int 8 Buondi",
-    "pingo_name": "Cápsulas de Café Nespresso Descafeinado",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "7612057",
-    "pingo_id": "944333",
-    "conversion_factor": 1.0,
-    "solo": false
-  },
   "321": {
     "global_id": 321,
     "cont_name": "",
@@ -2530,18 +2310,6 @@
     "cont_id": "",
     "pingo_id": "465791",
     "conversion_factor": 1.0
-  },
-  "323": {
-    "global_id": 323,
-    "cont_name": "Bola de Mistura",
-    "pingo_name": "Carcaça da Aldeia",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "5196284",
-    "pingo_id": "697080",
-    "conversion_factor": 1.0,
-    "solo": false
   },
   "324": {
     "global_id": 324,
@@ -2664,17 +2432,6 @@
     "pingo_id": "650222",
     "conversion_factor": 1.0
   },
-  "335": {
-    "global_id": 335,
-    "cont_name": "",
-    "pingo_name": "",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "",
-    "conversion_factor": 1.0
-  },
   "336": {
     "global_id": 336,
     "cont_name": "",
@@ -2686,18 +2443,6 @@
     "pingo_id": "985530",
     "conversion_factor": 1.0
   },
-  "337": {
-    "global_id": 337,
-    "cont_name": "Champô Suave Bebé Johnsons Baby",
-    "pingo_name": "Champô Gold",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "6862752",
-    "pingo_id": "911831",
-    "conversion_factor": 1.0,
-    "solo": false
-  },
   "338": {
     "global_id": 338,
     "cont_name": "",
@@ -2707,72 +2452,6 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "901542",
-    "conversion_factor": 1.0
-  },
-  "339": {
-    "global_id": 339,
-    "cont_name": "",
-    "pingo_name": "Leite Achocolatado Pack 4",
-    "receipt_string": "",
-    "category": "🧀 Frigorífico",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "885432",
-    "conversion_factor": 1.0
-  },
-  "340": {
-    "global_id": 340,
-    "cont_name": "",
-    "pingo_name": "Croquete de Carne",
-    "receipt_string": "",
-    "category": "❄️ Congelados",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "935776",
-    "conversion_factor": 1.0
-  },
-  "341": {
-    "global_id": 341,
-    "cont_name": "",
-    "pingo_name": "Cereais Chocolocos",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "931788",
-    "conversion_factor": 1.0
-  },
-  "342": {
-    "global_id": 342,
-    "cont_name": "",
-    "pingo_name": "",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "",
-    "conversion_factor": 1.0
-  },
-  "343": {
-    "global_id": 343,
-    "cont_name": "",
-    "pingo_name": "Abóbora Manteiga Metades",
-    "receipt_string": "",
-    "category": "🥬 Frescos",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "691230",
-    "conversion_factor": 1.0
-  },
-  "344": {
-    "global_id": 344,
-    "cont_name": "",
-    "pingo_name": "Pera Rocha DOP Oeste Embalada",
-    "receipt_string": "",
-    "category": "🥬 Frescos",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "949756",
     "conversion_factor": 1.0
   },
   "345": {
@@ -2797,17 +2476,6 @@
     "pingo_id": "921121",
     "conversion_factor": 1.0
   },
-  "347": {
-    "global_id": 347,
-    "cont_name": "",
-    "pingo_name": "",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "",
-    "conversion_factor": 1.0
-  },
   "348": {
     "global_id": 348,
     "cont_name": "",
@@ -2817,29 +2485,6 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "955140",
-    "conversion_factor": 1.0
-  },
-  "349": {
-    "global_id": 349,
-    "cont_name": "",
-    "pingo_name": "",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "",
-    "conversion_factor": 1.0,
-    "solo": false
-  },
-  "350": {
-    "global_id": 350,
-    "cont_name": "",
-    "pingo_name": "",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "",
     "conversion_factor": 1.0
   },
   "351": {
@@ -3163,18 +2808,6 @@
     "pingo_id": "",
     "conversion_factor": 1.0
   },
-  "380": {
-    "global_id": 380,
-    "cont_name": "Cenoura Continente",
-    "pingo_name": "Cenoura",
-    "receipt_string": "",
-    "category": "🥬 Frescos",
-    "exclude_comparison": false,
-    "cont_id": "5063155",
-    "pingo_id": "638809",
-    "conversion_factor": 1.0,
-    "solo": false
-  },
   "381": {
     "global_id": 381,
     "cont_name": "Coxas de Frango Continente",
@@ -3242,18 +2875,6 @@
     "pingo_id": "261946",
     "conversion_factor": 1.0
   },
-  "387": {
-    "global_id": 387,
-    "cont_name": "Gelatina em Pó de Frutos Tropicais Royal",
-    "pingo_name": "Gelatina em Pó de Frutas Tropicais  0% Açúcar",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "5491864",
-    "pingo_id": "729225",
-    "conversion_factor": 1.0,
-    "solo": false
-  },
   "388": {
     "global_id": 388,
     "cont_name": "",
@@ -3275,18 +2896,6 @@
     "cont_id": "",
     "pingo_id": "962770",
     "conversion_factor": 1.0
-  },
-  "390": {
-    "global_id": 390,
-    "cont_name": "Gelatina em Pó de Ananás Royal",
-    "pingo_name": "Gelatina em Pó de Ananás  0% Açúcar",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "5491876",
-    "pingo_id": "544170",
-    "conversion_factor": 1.0,
-    "solo": false
   },
   "391": {
     "global_id": 391,
@@ -3319,17 +2928,6 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "54677",
-    "conversion_factor": 1.0
-  },
-  "394": {
-    "global_id": 394,
-    "cont_name": "",
-    "pingo_name": "Cápsulas de Café Nespresso Buondi Original",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "901449",
     "conversion_factor": 1.0
   },
   "395": {
@@ -3376,42 +2974,6 @@
     "pingo_id": "879712",
     "conversion_factor": 1.0
   },
-  "399": {
-    "global_id": 399,
-    "cont_name": "Queijo Flamengo sem Lactose Fatiado Terra Nostra",
-    "pingo_name": "Queijo Flamengo Fatiado",
-    "receipt_string": "",
-    "category": "🧀 Frigorífico",
-    "exclude_comparison": false,
-    "cont_id": "5125010",
-    "pingo_id": "879922",
-    "conversion_factor": 1.0,
-    "solo": false
-  },
-  "400": {
-    "global_id": 400,
-    "cont_name": "Queijo Flamengo sem Lactose Fatiado Limiano",
-    "pingo_name": "Queijo Flamengo Fatiado",
-    "receipt_string": "",
-    "category": "🧀 Frigorífico",
-    "exclude_comparison": false,
-    "cont_id": "4863936",
-    "pingo_id": "846659",
-    "conversion_factor": 1.0,
-    "solo": false
-  },
-  "401": {
-    "global_id": 401,
-    "cont_name": "Queijo Flamengo sem Lactose Fatiado Limiano",
-    "pingo_name": "Queijo Flamengo Fatiado",
-    "receipt_string": "",
-    "category": "🧀 Frigorífico",
-    "exclude_comparison": false,
-    "cont_id": "2543571",
-    "pingo_id": "846658",
-    "conversion_factor": 1.0,
-    "solo": false
-  },
   "402": {
     "global_id": 402,
     "cont_name": "Queijo Flamengo dos Açores Fatiado Continente",
@@ -3434,30 +2996,5 @@
     "cont_id": "",
     "pingo_id": "1002325",
     "conversion_factor": 1.0
-  },
-  "404": {
-    "global_id": 404,
-    "cont_name": "Fraldas Cueca Pants +15kg T7 Dodot",
-    "pingo_name": "Fraldas Cueca Pants Activity Extra T7 +15kg",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "8191540",
-    "pingo_id": "965896",
-    "conversion_factor": 1.0,
-    "solo": false
-  },
-  "405": {
-    "global_id": 405,
-    "cont_name": "Cenoura Continente",
-    "pingo_name": "Cenoura",
-    "receipt_string": "",
-    "category": "🥬 Frescos",
-    "exclude_comparison": false,
-    "cont_id": "5063155",
-    "pingo_id": "638809",
-    "conversion_factor": 1.0,
-    "solo": false,
-    "category_manual": true
   }
 }
