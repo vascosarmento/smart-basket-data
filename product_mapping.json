@@ -2139,12 +2139,13 @@
     "cont_name": "Cenoura Continente",
     "pingo_name": "Cenouras Embaladas",
     "receipt_string": "",
-    "category": "🥫 Despensa",
+    "category": "🥬 Frescos",
     "exclude_comparison": false,
     "cont_id": "5063155",
     "pingo_id": "377340",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "category_manual": true
   },
   "289": {
     "global_id": 289,
@@ -3451,11 +3452,12 @@
     "cont_name": "Cenoura Continente",
     "pingo_name": "Cenoura",
     "receipt_string": "",
-    "category": "🥫 Despensa",
+    "category": "🥬 Frescos",
     "exclude_comparison": false,
     "cont_id": "5063155",
     "pingo_id": "638809",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "category_manual": true
   }
 }
