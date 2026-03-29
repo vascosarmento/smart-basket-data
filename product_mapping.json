@@ -3364,36 +3364,39 @@
   },
   "399": {
     "global_id": 399,
-    "cont_name": "",
+    "cont_name": "Queijo Flamengo sem Lactose Fatiado Terra Nostra",
     "pingo_name": "Queijo Flamengo Fatiado",
     "receipt_string": "",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "5125010",
     "pingo_id": "879922",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "400": {
     "global_id": 400,
-    "cont_name": "",
+    "cont_name": "Queijo Flamengo sem Lactose Fatiado Limiano",
     "pingo_name": "Queijo Flamengo Fatiado",
     "receipt_string": "",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "4863936",
     "pingo_id": "846659",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "401": {
     "global_id": 401,
-    "cont_name": "",
+    "cont_name": "Queijo Flamengo sem Lactose Fatiado Limiano",
     "pingo_name": "Queijo Flamengo Fatiado",
     "receipt_string": "",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "2543571",
     "pingo_id": "846658",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "402": {
     "global_id": 402,
@@ -3432,13 +3435,14 @@
   },
   "405": {
     "global_id": 405,
-    "cont_name": "",
+    "cont_name": "Cenoura Continente",
     "pingo_name": "Cenoura",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "5063155",
     "pingo_id": "638809",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   }
 }
