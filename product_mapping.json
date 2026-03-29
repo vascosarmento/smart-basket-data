@@ -2080,12 +2080,12 @@
   "288": {
     "global_id": 288,
     "cont_name": "Cenoura Continente",
-    "pingo_name": "Cenouras Embaladas",
+    "pingo_name": "Cenoura",
     "receipt_string": "",
     "category": "🥬 Frescos",
     "exclude_comparison": false,
     "cont_id": "5063155",
-    "pingo_id": "377340",
+    "pingo_id": "638809",
     "conversion_factor": 1.0,
     "solo": false,
     "category_manual": true
@@ -2996,5 +2996,30 @@
     "cont_id": "",
     "pingo_id": "1002325",
     "conversion_factor": 1.0
+  },
+  "404": {
+    "global_id": 404,
+    "cont_name": "Cenoura Continente",
+    "pingo_name": "Cenouras Embaladas",
+    "receipt_string": "",
+    "category": "🥬 Frescos",
+    "exclude_comparison": false,
+    "cont_id": "2885107",
+    "pingo_id": "377340",
+    "conversion_factor": 1.0,
+    "solo": false
+  },
+  "405": {
+    "global_id": 405,
+    "cont_name": "Cenoura Continente",
+    "pingo_name": "Cenoura",
+    "receipt_string": "",
+    "category": "🥬 Frescos",
+    "exclude_comparison": false,
+    "cont_id": "5063155",
+    "pingo_id": "638809",
+    "conversion_factor": 1.0,
+    "category_manual": true,
+    "solo": false
   }
 }
