@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-28T23:30:24.834964+00:00",
+  "updatedAt": "2026-03-29T10:39:12.631892+00:00",
   "continente": {
     "status": "ok",
     "count": 186
@@ -2260,7 +2260,7 @@
       "pingo_unit_label": "1,05 €/Kg",
       "pingo_qty_label": "1 Kg",
       "pingo_brand": "Pingo Doce",
-      "pingo_image": "https://www.pingodoce.pt/dw/image/v2/BLJJ_PRD/on/demandware.static/-/Sites-pingo-doce-master/default/dw0e1ab185/images/small/377340_0923618c61cc4898d31bf8266cff2f7e.png?sw=300",
+      "pingo_image": "https://www.pingodoce.pt/dw/image/v2/BLJJ_PRD/on/demandware.static/-/Sites-pingo-doce-master/default/dwf1f97212/images/small/377340_0923618c61cc4898d31bf8266cff2f7e.png?sw=300",
       "pingo_available": true,
       "pingo_promo_end": "",
       "best_store": "pingodoce",
@@ -6577,7 +6577,7 @@
       "cont_unit_label": "1,45€/kg",
       "cont_qty_label": "emb. 750 gr (6 un)",
       "cont_brand": "Continente Equilíbrio",
-      "cont_image": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwa4a327d2/images/col/712/7128711-frente.jpg?sw=280&sh=280",
+      "cont_image": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw4b39866f/images/col/712/7128711-frente.jpg?sw=280&sh=280",
       "cont_available": true,
       "pingo_id": "",
       "pingo_price": null,
