@@ -400,7 +400,7 @@
     "category": "🥬 Frescos",
     "exclude_comparison": false,
     "cont_id": "4618134",
-    "pingo_id": "702665",
+    "pingo_id": "287288",
     "conversion_factor": 1.0
   },
   "136": {
@@ -3948,5 +3948,16 @@
     "pingo_id": "700832",
     "conversion_factor": 1.0,
     "solo": false
+  },
+  "478": {
+    "global_id": 478,
+    "cont_name": "",
+    "pingo_name": "Abrasivo Creme Limão",
+    "receipt_string": "",
+    "category": "🥫 Despensa",
+    "exclude_comparison": false,
+    "cont_id": "",
+    "pingo_id": "750668",
+    "conversion_factor": 1.0
   }
 }
