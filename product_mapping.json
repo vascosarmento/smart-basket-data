@@ -118,35 +118,38 @@
   "111": {
     "global_id": 111,
     "cont_name": "Champô Camomila Garnier Ultra Suave",
-    "pingo_name": "",
+    "pingo_name": "Champô Ultra Suave Camomila",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "2930122",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "937120",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "112": {
     "global_id": 112,
     "cont_name": "Pasta de Dentes Sensibilidade e Branqueadora Sensodyne",
-    "pingo_name": "",
+    "pingo_name": "Pasta de Dentes Multicare",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "7114816",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "815887",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "113": {
     "global_id": 113,
     "cont_name": "Pasta de Dentes Sensibilidade e Branqueadora Sensodyne",
-    "pingo_name": "",
+    "pingo_name": "Pasta de Dentes Branqueadora",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "3054336",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "557642",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "114": {
     "global_id": 114,
@@ -187,13 +190,14 @@
   "117": {
     "global_id": 117,
     "cont_name": "Champô Suave Bebé Johnsons Baby",
-    "pingo_name": "",
+    "pingo_name": "Champô Gold",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "6862752",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "911831",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "118": {
     "global_id": 118,
@@ -211,13 +215,14 @@
   "119": {
     "global_id": 119,
     "cont_name": "Condicionador Camomila Garnier Ultra Suave",
-    "pingo_name": "",
+    "pingo_name": "Condicionador Ultra Suave Camomila",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "5813476",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "823050",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "120": {
     "global_id": 120,
@@ -387,13 +392,14 @@
   "134": {
     "global_id": 134,
     "cont_name": "Coxas de Frango Continente",
-    "pingo_name": "",
+    "pingo_name": "Coxas de Frango Embaladas",
     "receipt_string": "",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "7069743",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "465643",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "135": {
     "global_id": 135,
@@ -518,13 +524,14 @@
   "145": {
     "global_id": 145,
     "cont_name": "Preparado de Carne Picada Mista Continente",
-    "pingo_name": "",
+    "pingo_name": "Preparado de Carne Picada de Vitela",
     "receipt_string": "",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "8442977",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "253998",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "146": {
     "global_id": 146,
@@ -668,13 +675,14 @@
   "158": {
     "global_id": 158,
     "cont_name": "Queijo Fundido Light Palitos A Vaca que ri",
-    "pingo_name": "",
+    "pingo_name": "Queijo Fundido Palitos",
     "receipt_string": "",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "6372252",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "748681",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "159": {
     "global_id": 159,
@@ -727,13 +735,14 @@
   "163": {
     "global_id": 163,
     "cont_name": "Coentros Frescos Continente",
-    "pingo_name": "",
+    "pingo_name": "Coentros Embalados",
     "receipt_string": "",
     "category": "🥬 Frescos",
     "exclude_comparison": false,
     "cont_id": "6690953",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "953132",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "164": {
     "global_id": 164,
@@ -761,13 +770,14 @@
   "166": {
     "global_id": 166,
     "cont_name": "Pera Rocha DOP Oeste Continente",
-    "pingo_name": "",
+    "pingo_name": "Pera Rocha DOP Oeste Embalada",
     "receipt_string": "",
     "category": "🥬 Frescos",
     "exclude_comparison": false,
     "cont_id": "7036485",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "949756",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "167": {
     "global_id": 167,
@@ -819,13 +829,14 @@
   "171": {
     "global_id": 171,
     "cont_name": "Queijo Flamengo sem Lactose Fatiado Limiano",
-    "pingo_name": "",
+    "pingo_name": "Queijo Flamengo Fatiado",
     "receipt_string": "",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "2543571",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "846658",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "172": {
     "global_id": 172,
@@ -889,13 +900,14 @@
   "177": {
     "global_id": 177,
     "cont_name": "Lombinhos de Porco Continente",
-    "pingo_name": "",
+    "pingo_name": "Lombinhos de Porco Embalados",
     "receipt_string": "",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "2588815",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "981747",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "178": {
     "global_id": 178,
@@ -959,14 +971,15 @@
   "183": {
     "global_id": 183,
     "cont_name": "Mamão Continente",
-    "pingo_name": "",
+    "pingo_name": "Mamão Avião",
     "receipt_string": "",
     "category": "🥬 Frescos",
     "exclude_comparison": false,
     "cont_id": "2216170",
-    "pingo_id": "",
+    "pingo_id": "54753",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "solo": false
   },
   "184": {
     "global_id": 184,
@@ -983,49 +996,53 @@
   "185": {
     "global_id": 185,
     "cont_name": "Alho Seco Continente",
-    "pingo_name": "",
+    "pingo_name": "Alho Seco",
     "receipt_string": "",
     "category": "🥬 Frescos",
     "exclude_comparison": false,
     "cont_id": "5104239",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "906848",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "186": {
     "global_id": 186,
     "cont_name": "Iogurte Proteína Mirtilo Yopro Danone",
-    "pingo_name": "",
+    "pingo_name": "Iogurte Proteína Mirtilo Pack 4",
     "receipt_string": "",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "8174349",
-    "pingo_id": "",
+    "pingo_id": "982571",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "solo": false
   },
   "187": {
     "global_id": 187,
     "cont_name": "Leite Achocolatado Continente Equilíbrio",
-    "pingo_name": "",
+    "pingo_name": "Leite Achocolatado Pack 4",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "8513650",
-    "pingo_id": "",
+    "pingo_id": "885432",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "solo": false
   },
   "188": {
     "global_id": 188,
     "cont_name": "Ovos de Solo Classe M Continente",
-    "pingo_name": "",
+    "pingo_name": "Ovos de Solo Classe M",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "6455524",
-    "pingo_id": "",
+    "pingo_id": "889027",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "solo": false
   },
   "189": {
     "global_id": 189,
@@ -1041,14 +1058,15 @@
   "190": {
     "global_id": 190,
     "cont_name": "Leite UHT Meio Gordo Continente",
-    "pingo_name": "",
+    "pingo_name": "Leite UHT Meio Gordo Pack 4",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "7062996",
-    "pingo_id": "",
+    "pingo_id": "876574",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "solo": false
   },
   "191": {
     "global_id": 191,
@@ -1077,25 +1095,27 @@
   "193": {
     "global_id": 193,
     "cont_name": "Leite UHT Meio Gordo Continente",
-    "pingo_name": "",
+    "pingo_name": "Leite UHT Meio Gordo",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "6879912",
-    "pingo_id": "",
+    "pingo_id": "48150",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "solo": false
   },
   "194": {
     "global_id": 194,
     "cont_name": "Iogurte Proteína Stracciatella Yopro Danone",
-    "pingo_name": "",
+    "pingo_name": "Iogurte Proteína Stracciatella Pack 4",
     "receipt_string": "",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "8447953",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "991078",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "195": {
     "global_id": 195,
@@ -1112,13 +1132,14 @@
   "196": {
     "global_id": 196,
     "cont_name": "Iogurte Proteína Baunilha Yopro Danone",
-    "pingo_name": "",
+    "pingo_name": "Iogurte Proteína Baunilha Pack 4",
     "receipt_string": "",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "8174334",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "982570",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "197": {
     "global_id": 197,
@@ -1146,13 +1167,14 @@
   "199": {
     "global_id": 199,
     "cont_name": "Iogurte Natural Continente",
-    "pingo_name": "",
+    "pingo_name": "Iogurte Natural Pack 8",
     "receipt_string": "",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "6804954",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "969872",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "200": {
     "global_id": 200,
@@ -1180,13 +1202,14 @@
   "202": {
     "global_id": 202,
     "cont_name": "Abrasivo Sanitário Gel Marinho Continente",
-    "pingo_name": "",
+    "pingo_name": "Gel Sanitário Anticalcário",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "5005049",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "662457",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "203": {
     "global_id": 203,
@@ -2244,17 +2267,6 @@
     "pingo_id": "465789",
     "conversion_factor": 1.0
   },
-  "309": {
-    "global_id": 309,
-    "cont_name": "",
-    "pingo_name": "Coxas de Frango Embaladas",
-    "receipt_string": "",
-    "category": "🧀 Frigorífico",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "465643",
-    "conversion_factor": 1.0
-  },
   "310": {
     "global_id": 310,
     "cont_name": "",
@@ -2332,17 +2344,6 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "971693",
-    "conversion_factor": 1.0
-  },
-  "318": {
-    "global_id": 318,
-    "cont_name": "",
-    "pingo_name": "Condicionador Ultra Suave Camomila",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "823050",
     "conversion_factor": 1.0
   },
   "319": {
@@ -2513,28 +2514,6 @@
     "pingo_id": "969556",
     "conversion_factor": 1.0
   },
-  "334": {
-    "global_id": 334,
-    "cont_name": "",
-    "pingo_name": "Champô Ultra Suave Camomila",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "937120",
-    "conversion_factor": 1.0
-  },
-  "335": {
-    "global_id": 335,
-    "cont_name": "",
-    "pingo_name": "Coentros Embalados",
-    "receipt_string": "",
-    "category": "🥬 Frescos",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "953132",
-    "conversion_factor": 1.0
-  },
   "336": {
     "global_id": 336,
     "cont_name": "",
@@ -2557,17 +2536,6 @@
     "pingo_id": "981746",
     "conversion_factor": 1.0,
     "category_manual": true
-  },
-  "338": {
-    "global_id": 338,
-    "cont_name": "",
-    "pingo_name": "Lombinhos de Porco Embalados",
-    "receipt_string": "",
-    "category": "🧀 Frigorífico",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "981747",
-    "conversion_factor": 1.0
   },
   "339": {
     "global_id": 339,
@@ -2628,17 +2596,6 @@
     "pingo_id": "262753",
     "conversion_factor": 1.0
   },
-  "346": {
-    "global_id": 346,
-    "cont_name": "",
-    "pingo_name": "Alho Seco",
-    "receipt_string": "",
-    "category": "🥬 Frescos",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "906848",
-    "conversion_factor": 1.0
-  },
   "347": {
     "global_id": 347,
     "cont_name": "",
@@ -2648,17 +2605,6 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "739880",
-    "conversion_factor": 1.0
-  },
-  "349": {
-    "global_id": 349,
-    "cont_name": "",
-    "pingo_name": "Iogurte Natural Pack 8",
-    "receipt_string": "",
-    "category": "🧀 Frigorífico",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "969872",
     "conversion_factor": 1.0
   },
   "350": {
@@ -2749,29 +2695,6 @@
     "pingo_id": "465791",
     "conversion_factor": 1.0
   },
-  "363": {
-    "global_id": 363,
-    "cont_name": "",
-    "pingo_name": "Queijo Fundido Palitos",
-    "receipt_string": "",
-    "category": "🧀 Frigorífico",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "748681",
-    "conversion_factor": 1.0
-  },
-  "364": {
-    "global_id": 364,
-    "cont_name": "",
-    "pingo_name": "Ovos de Solo Classe M",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "889027",
-    "conversion_factor": 1.0,
-    "category_manual": true
-  },
   "365": {
     "global_id": 365,
     "cont_name": "",
@@ -2806,29 +2729,6 @@
     "conversion_factor": 1.0,
     "category_manual": true
   },
-  "368": {
-    "global_id": 368,
-    "cont_name": "",
-    "pingo_name": "Iogurte Proteína Baunilha Pack 4",
-    "receipt_string": "",
-    "category": "🧀 Frigorífico",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "982570",
-    "conversion_factor": 1.0
-  },
-  "369": {
-    "global_id": 369,
-    "cont_name": "",
-    "pingo_name": "Iogurte Proteína Mirtilo Pack 4",
-    "receipt_string": "",
-    "category": "🧀 Frigorífico",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "982571",
-    "conversion_factor": 1.0,
-    "category_manual": true
-  },
   "370": {
     "global_id": 370,
     "cont_name": "",
@@ -2838,18 +2738,6 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "746865001",
-    "conversion_factor": 1.0,
-    "category_manual": true
-  },
-  "371": {
-    "global_id": 371,
-    "cont_name": "",
-    "pingo_name": "Leite UHT Meio Gordo",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "48150",
     "conversion_factor": 1.0,
     "category_manual": true
   },
@@ -3034,17 +2922,6 @@
     "conversion_factor": 1.0,
     "category_manual": true
   },
-  "389": {
-    "global_id": 389,
-    "cont_name": "",
-    "pingo_name": "Champô Gold",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "911831",
-    "conversion_factor": 1.0
-  },
   "390": {
     "global_id": 390,
     "cont_name": "",
@@ -3055,30 +2932,6 @@
     "cont_id": "",
     "pingo_id": "805491",
     "conversion_factor": 1.0
-  },
-  "391": {
-    "global_id": 391,
-    "cont_name": "",
-    "pingo_name": "Leite Achocolatado Pack 4",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "885432",
-    "conversion_factor": 1.0,
-    "category_manual": true
-  },
-  "392": {
-    "global_id": 392,
-    "cont_name": "",
-    "pingo_name": "Leite UHT Meio Gordo Pack 4",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "876574",
-    "conversion_factor": 1.0,
-    "category_manual": true
   },
   "394": {
     "global_id": 394,
@@ -3124,17 +2977,6 @@
     "pingo_id": "369927",
     "conversion_factor": 1.0
   },
-  "399": {
-    "global_id": 399,
-    "cont_name": "",
-    "pingo_name": "Pera Rocha DOP Oeste Embalada",
-    "receipt_string": "",
-    "category": "🥬 Frescos",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "949756",
-    "conversion_factor": 1.0
-  },
   "400": {
     "global_id": 400,
     "cont_name": "",
@@ -3166,17 +3008,6 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "921121",
-    "conversion_factor": 1.0
-  },
-  "403": {
-    "global_id": 403,
-    "cont_name": "",
-    "pingo_name": "Preparado de Carne Picada de Vitela",
-    "receipt_string": "",
-    "category": "🧀 Frigorífico",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "253998",
     "conversion_factor": 1.0
   },
   "405": {
@@ -3292,17 +3123,6 @@
     "pingo_id": "846659",
     "conversion_factor": 1.0
   },
-  "418": {
-    "global_id": 418,
-    "cont_name": "",
-    "pingo_name": "Queijo Flamengo Fatiado",
-    "receipt_string": "",
-    "category": "🧀 Frigorífico",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "846658",
-    "conversion_factor": 1.0
-  },
   "419": {
     "global_id": 419,
     "cont_name": "",
@@ -3335,17 +3155,6 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "1002474",
-    "conversion_factor": 1.0
-  },
-  "422": {
-    "global_id": 422,
-    "cont_name": "",
-    "pingo_name": "Iogurte Proteína Stracciatella Pack 4",
-    "receipt_string": "",
-    "category": "🧀 Frigorífico",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "991078",
     "conversion_factor": 1.0
   },
   "423": {
@@ -3728,28 +3537,6 @@
     "pingo_id": "995629",
     "conversion_factor": 1.0
   },
-  "469": {
-    "global_id": 469,
-    "cont_name": "",
-    "pingo_name": "Pasta de Dentes Branqueadora",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "557642",
-    "conversion_factor": 1.0
-  },
-  "470": {
-    "global_id": 470,
-    "cont_name": "",
-    "pingo_name": "Pasta de Dentes Multicare",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "815887",
-    "conversion_factor": 1.0
-  },
   "472": {
     "global_id": 472,
     "cont_name": "",
@@ -3760,18 +3547,6 @@
     "cont_id": "",
     "pingo_id": "812807",
     "conversion_factor": 1.0
-  },
-  "475": {
-    "global_id": 475,
-    "cont_name": "",
-    "pingo_name": "Mamão Avião",
-    "receipt_string": "",
-    "category": "🥬 Frescos",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "54753",
-    "conversion_factor": 1.0,
-    "category_manual": true
   },
   "476": {
     "global_id": 476,
@@ -4192,17 +3967,6 @@
     "pingo_id": "23615",
     "conversion_factor": 1.0,
     "category_manual": true
-  },
-  "516": {
-    "global_id": 516,
-    "cont_name": "",
-    "pingo_name": "Gel Sanitário Anticalcário",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "662457",
-    "conversion_factor": 1.0
   },
   "517": {
     "global_id": 517,
