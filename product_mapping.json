@@ -2006,13 +2006,14 @@
   "283": {
     "global_id": 283,
     "cont_name": "Bolo Planetus Manhãzitos",
-    "pingo_name": "",
+    "pingo_name": "Bolo Planetus",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "4906498",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "700832",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "284": {
     "global_id": 284,
@@ -3928,17 +3929,6 @@
     "pingo_id": "964376",
     "conversion_factor": 1.0
   },
-  "458": {
-    "global_id": 458,
-    "cont_name": "",
-    "pingo_name": "Cotonetes",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "878203",
-    "conversion_factor": 1.0
-  },
   "459": {
     "global_id": 459,
     "cont_name": "",
@@ -4653,17 +4643,5 @@
     "cont_id": "",
     "pingo_id": "701840",
     "conversion_factor": 1.0
-  },
-  "524": {
-    "global_id": 524,
-    "cont_name": "Bolo Planetus Manhãzitos",
-    "pingo_name": "Bolo Planetus",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "4906498",
-    "pingo_id": "700832",
-    "conversion_factor": 1.0,
-    "solo": false
   }
 }
