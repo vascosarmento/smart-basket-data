@@ -57,13 +57,15 @@
   "106": {
     "global_id": 106,
     "cont_name": "Cotonetes Continente",
-    "pingo_name": "",
+    "pingo_name": "Cotonetes",
     "receipt_string": "",
-    "category": "🥫 Despensa",
+    "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "7643709",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "878203",
+    "conversion_factor": 1.0,
+    "solo": false,
+    "category_manual": true
   },
   "107": {
     "global_id": 107,
