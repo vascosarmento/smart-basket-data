@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-10T16:52:06.323332+00:00",
+  "updatedAt": "2026-04-10T20:31:53.644346+00:00",
   "continente": {
     "status": "ok",
     "count": 186
@@ -198,7 +198,7 @@
       "solo": true
     },
     {
-      "global_id": 135,
+      "global_id": 180,
       "name": "Croquetes 100% Carne de Bovino Cozinha Continente",
       "cont_name": "Croquetes 100% Carne de Bovino Cozinha Continente",
       "pingo_name": "",
@@ -245,7 +245,7 @@
       "solo": true
     },
     {
-      "global_id": 126,
+      "global_id": 125,
       "name": "Croquetes de Carne Forno Pack Poupança Continente",
       "cont_name": "Croquetes de Carne Forno Pack Poupança Continente",
       "pingo_name": "",
@@ -339,7 +339,7 @@
       "solo": true
     },
     {
-      "global_id": 122,
+      "global_id": 121,
       "name": "Douradinhos de Pescada Continente",
       "cont_name": "Douradinhos de Pescada Continente",
       "pingo_name": "",
@@ -527,7 +527,7 @@
       "solo": true
     },
     {
-      "global_id": 128,
+      "global_id": 127,
       "name": "Hambúrguer de Frango Continente",
       "cont_name": "Hambúrguer de Frango Continente",
       "pingo_name": "",
@@ -574,7 +574,7 @@
       "solo": true
     },
     {
-      "global_id": 123,
+      "global_id": 122,
       "name": "Hambúrguer de Frango sem Glúten Capitão Iglo",
       "cont_name": "Hambúrguer de Frango sem Glúten Capitão Iglo",
       "pingo_name": "",
@@ -715,7 +715,7 @@
       "solo": true
     },
     {
-      "global_id": 124,
+      "global_id": 123,
       "name": "Hambúrgueres de Vaca sem Glúten Capitão Iglo",
       "cont_name": "Hambúrgueres de Vaca sem Glúten Capitão Iglo",
       "pingo_name": "",
@@ -809,54 +809,7 @@
       "solo": true
     },
     {
-      "global_id": 172,
-      "name": "Lasanha Bolonhesa Continente",
-      "cont_name": "Lasanha Bolonhesa Continente",
-      "pingo_name": "",
-      "receipt_string": "",
-      "category": "❄️ Congelados",
-      "exclude_comparison": false,
-      "conversion_factor": 1.0,
-      "pricing_type": "pack",
-      "std_qty_g": 1000,
-      "cont_id": "6817300",
-      "cont_price": 4.49,
-      "cont_base_price": null,
-      "cont_discount_pct": null,
-      "cont_in_promo": false,
-      "cont_unit": "g",
-      "cont_norm_price": 0.00449,
-      "cont_unit_label": "4,49€/kg",
-      "cont_qty_label": "emb. 1 kg",
-      "cont_brand": "Continente",
-      "cont_image": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw4bc24985/images/col/681/6817300-topshot.jpg?sw=280&sh=280",
-      "cont_available": true,
-      "cont_qty_g": 1000.0,
-      "cont_per_kg": 4.49,
-      "cont_pkg_price": 4.49,
-      "cont_std_price": 4.49,
-      "pingo_id": "",
-      "pingo_price": null,
-      "pingo_base_price": null,
-      "pingo_discount_pct": null,
-      "pingo_in_promo": false,
-      "pingo_unit": null,
-      "pingo_norm_price": null,
-      "pingo_unit_label": "",
-      "pingo_qty_label": "",
-      "pingo_brand": "",
-      "pingo_image": "",
-      "pingo_available": false,
-      "pingo_promo_end": "",
-      "pingo_qty_g": null,
-      "pingo_per_kg": null,
-      "pingo_pkg_price": null,
-      "pingo_std_price": null,
-      "best_store": "continente",
-      "solo": true
-    },
-    {
-      "global_id": 182,
+      "global_id": 142,
       "name": "Lasanha Bolonhesa Continente",
       "cont_name": "Lasanha Bolonhesa Continente",
       "pingo_name": "",
@@ -882,6 +835,53 @@
       "cont_per_kg": 6.23,
       "cont_pkg_price": 2.49,
       "cont_std_price": 2.49,
+      "pingo_id": "",
+      "pingo_price": null,
+      "pingo_base_price": null,
+      "pingo_discount_pct": null,
+      "pingo_in_promo": false,
+      "pingo_unit": null,
+      "pingo_norm_price": null,
+      "pingo_unit_label": "",
+      "pingo_qty_label": "",
+      "pingo_brand": "",
+      "pingo_image": "",
+      "pingo_available": false,
+      "pingo_promo_end": "",
+      "pingo_qty_g": null,
+      "pingo_per_kg": null,
+      "pingo_pkg_price": null,
+      "pingo_std_price": null,
+      "best_store": "continente",
+      "solo": true
+    },
+    {
+      "global_id": 173,
+      "name": "Lasanha Bolonhesa Continente",
+      "cont_name": "Lasanha Bolonhesa Continente",
+      "pingo_name": "",
+      "receipt_string": "",
+      "category": "❄️ Congelados",
+      "exclude_comparison": false,
+      "conversion_factor": 1.0,
+      "pricing_type": "pack",
+      "std_qty_g": 1000,
+      "cont_id": "6817300",
+      "cont_price": 4.49,
+      "cont_base_price": null,
+      "cont_discount_pct": null,
+      "cont_in_promo": false,
+      "cont_unit": "g",
+      "cont_norm_price": 0.00449,
+      "cont_unit_label": "4,49€/kg",
+      "cont_qty_label": "emb. 1 kg",
+      "cont_brand": "Continente",
+      "cont_image": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw4bc24985/images/col/681/6817300-topshot.jpg?sw=280&sh=280",
+      "cont_available": true,
+      "cont_qty_g": 1000.0,
+      "cont_per_kg": 4.49,
+      "cont_pkg_price": 4.49,
+      "cont_std_price": 4.49,
       "pingo_id": "",
       "pingo_price": null,
       "pingo_base_price": null,
@@ -1044,7 +1044,7 @@
       "solo": true
     },
     {
-      "global_id": 159,
+      "global_id": 161,
       "name": "Lombos de Pescada do Cabo Ultracongelada Continente",
       "cont_name": "Lombos de Pescada do Cabo Ultracongelada Continente",
       "pingo_name": "",
@@ -1749,7 +1749,7 @@
       "solo": true
     },
     {
-      "global_id": 261,
+      "global_id": 246,
       "name": "Arroz Vaporizado Carolino Caçarola",
       "cont_name": "Arroz Vaporizado Carolino Caçarola",
       "pingo_name": "",
@@ -1796,7 +1796,7 @@
       "solo": true
     },
     {
-      "global_id": 265,
+      "global_id": 249,
       "name": "Arroz Vaporizado Continente",
       "cont_name": "Arroz Vaporizado Continente",
       "pingo_name": "",
@@ -1984,7 +1984,7 @@
       "solo": true
     },
     {
-      "global_id": 147,
+      "global_id": 149,
       "name": "Azeitona Preta Descaroçada Oxidada Continente",
       "cont_name": "Azeitona Preta Descaroçada Oxidada Continente",
       "pingo_name": "",
@@ -2031,7 +2031,7 @@
       "solo": true
     },
     {
-      "global_id": 176,
+      "global_id": 136,
       "name": "Azeitona Verde Descaroçada Continente",
       "cont_name": "Azeitona Verde Descaroçada Continente",
       "pingo_name": "",
@@ -2219,7 +2219,7 @@
       "solo": true
     },
     {
-      "global_id": 240,
+      "global_id": 263,
       "name": "Barras de Cereais Chocolate Negro Shape & Go Continente",
       "cont_name": "Barras de Cereais Chocolate Negro Shape & Go Continente",
       "pingo_name": "",
@@ -2266,7 +2266,7 @@
       "solo": true
     },
     {
-      "global_id": 247,
+      "global_id": 255,
       "name": "Barras de Cereais Chocolate Negro e Amendoim Continente",
       "cont_name": "Barras de Cereais Chocolate Negro e Amendoim Continente",
       "pingo_name": "",
@@ -2490,7 +2490,7 @@
       "pingo_unit_label": "14,08 €/Kg",
       "pingo_qty_label": "0.39 Kg",
       "pingo_brand": "Nesquik",
-      "pingo_image": "https://www.pingodoce.pt/dw/image/v2/BLJJ_PRD/on/demandware.static/-/Sites-pingo-doce-master/default/dwd75b214b/images/small/941233_b354ed3309d6bcd6e056444b5b02ff2a.jpg?sw=300",
+      "pingo_image": "https://www.pingodoce.pt/dw/image/v2/BLJJ_PRD/on/demandware.static/-/Sites-pingo-doce-master/default/dw313734a8/images/small/941233_b354ed3309d6bcd6e056444b5b02ff2a.jpg?sw=300",
       "pingo_available": true,
       "pingo_promo_end": "",
       "pingo_qty_g": 390.0,
@@ -2548,7 +2548,7 @@
       "solo": true
     },
     {
-      "global_id": 168,
+      "global_id": 170,
       "name": "Bifes de Frango Continente",
       "cont_name": "Bifes de Frango Continente",
       "pingo_name": "",
@@ -2678,7 +2678,7 @@
       "pingo_unit_label": "1,99 €/Kg",
       "pingo_qty_label": "0.8 Kg",
       "pingo_brand": "Pingo Doce",
-      "pingo_image": "https://www.pingodoce.pt/dw/image/v2/BLJJ_PRD/on/demandware.static/-/Sites-pingo-doce-master/default/dw185aab6a/images/small/673345_5b7369b40bb848837d5da4ec3e74b585.png?sw=300",
+      "pingo_image": "https://www.pingodoce.pt/dw/image/v2/BLJJ_PRD/on/demandware.static/-/Sites-pingo-doce-master/default/dwa0b4a2c3/images/small/673345_5b7369b40bb848837d5da4ec3e74b585.png?sw=300",
       "pingo_available": true,
       "pingo_promo_end": "",
       "pingo_qty_g": 800.0,
@@ -2689,7 +2689,7 @@
       "solo": true
     },
     {
-      "global_id": 262,
+      "global_id": 247,
       "name": "Bolachas Aventura Continente",
       "cont_name": "Bolachas Aventura Continente",
       "pingo_name": "",
@@ -2783,7 +2783,7 @@
       "solo": true
     },
     {
-      "global_id": 259,
+      "global_id": 244,
       "name": "Bolachas Crackers sem Sal na Superfície Continente",
       "cont_name": "Bolachas Crackers sem Sal na Superfície Continente",
       "pingo_name": "",
@@ -2877,7 +2877,7 @@
       "solo": true
     },
     {
-      "global_id": 241,
+      "global_id": 264,
       "name": "Bolachas Digestivas de Aveia Continente",
       "cont_name": "Bolachas Digestivas de Aveia Continente",
       "pingo_name": "",
@@ -2924,7 +2924,7 @@
       "solo": true
     },
     {
-      "global_id": 253,
+      "global_id": 261,
       "name": "Bolachas Maria Continente",
       "cont_name": "Bolachas Maria Continente",
       "pingo_name": "",
@@ -3018,7 +3018,7 @@
       "solo": true
     },
     {
-      "global_id": 266,
+      "global_id": 250,
       "name": "Bolachas Mini Dinossauros Chocolate Artiach",
       "cont_name": "Bolachas Mini Dinossauros Chocolate Artiach",
       "pingo_name": "",
@@ -4146,7 +4146,7 @@
       "solo": true
     },
     {
-      "global_id": 254,
+      "global_id": 239,
       "name": "Cereais Estrelas de Mel Continente",
       "cont_name": "Cereais Estrelas de Mel Continente",
       "pingo_name": "",
@@ -4381,7 +4381,7 @@
       "solo": true
     },
     {
-      "global_id": 111,
+      "global_id": 106,
       "name": "Cotonetes Continente",
       "cont_name": "Cotonetes Continente",
       "pingo_name": "",
@@ -4511,7 +4511,7 @@
       "pingo_unit_label": "0,32 €/Un",
       "pingo_qty_label": "10 Un",
       "pingo_brand": "Buondi",
-      "pingo_image": "https://www.pingodoce.pt/dw/image/v2/BLJJ_PRD/on/demandware.static/-/Sites-pingo-doce-master/default/dw5577cdf1/images/small/901449_9a47fb0313635bebf13c129e2db49ce5.jpg?sw=300",
+      "pingo_image": "https://www.pingodoce.pt/dw/image/v2/BLJJ_PRD/on/demandware.static/-/Sites-pingo-doce-master/default/dwfa1ba377/images/small/901449_9a47fb0313635bebf13c129e2db49ce5.jpg?sw=300",
       "pingo_available": true,
       "pingo_promo_end": "Promoção até 13/04",
       "pingo_qty_g": 10,
@@ -4558,7 +4558,7 @@
       "pingo_unit_label": "0,32 €/Un",
       "pingo_qty_label": "10 Un",
       "pingo_brand": "Buondi",
-      "pingo_image": "https://www.pingodoce.pt/dw/image/v2/BLJJ_PRD/on/demandware.static/-/Sites-pingo-doce-master/default/dwd9a9dec8/images/small/944333_5f2a2740f5d1e340281a295de01a2d1a.jpg?sw=300",
+      "pingo_image": "https://www.pingodoce.pt/dw/image/v2/BLJJ_PRD/on/demandware.static/-/Sites-pingo-doce-master/default/dwf2c69871/images/small/944333_5f2a2740f5d1e340281a295de01a2d1a.jpg?sw=300",
       "pingo_available": true,
       "pingo_promo_end": "Promoção até 13/04",
       "pingo_qty_g": 10,
@@ -4605,7 +4605,7 @@
       "pingo_unit_label": "0,32 €/Un",
       "pingo_qty_label": "10 Un",
       "pingo_brand": "Buondi",
-      "pingo_image": "https://www.pingodoce.pt/dw/image/v2/BLJJ_PRD/on/demandware.static/-/Sites-pingo-doce-master/default/dw6e47bbe1/images/small/963256_01a9a4d164c0d60a0ada6fc039da7c2f.jpg?sw=300",
+      "pingo_image": "https://www.pingodoce.pt/dw/image/v2/BLJJ_PRD/on/demandware.static/-/Sites-pingo-doce-master/default/dw6b36c037/images/small/963256_01a9a4d164c0d60a0ada6fc039da7c2f.jpg?sw=300",
       "pingo_available": true,
       "pingo_promo_end": "Promoção até 13/04",
       "pingo_qty_g": 10,
@@ -4710,7 +4710,7 @@
       "solo": true
     },
     {
-      "global_id": 250,
+      "global_id": 258,
       "name": "Cápsulas de Café Ristretto Int 13 Buondi",
       "cont_name": "Cápsulas de Café Ristretto Int 13 Buondi",
       "pingo_name": "",
@@ -4757,7 +4757,7 @@
       "solo": true
     },
     {
-      "global_id": 242,
+      "global_id": 265,
       "name": "Cápsulas de Descafeinado Int 8 Buondi",
       "cont_name": "Cápsulas de Descafeinado Int 8 Buondi",
       "pingo_name": "",
@@ -4851,7 +4851,7 @@
       "solo": true
     },
     {
-      "global_id": 140,
+      "global_id": 184,
       "name": "Entrecôte de Novilho Continente",
       "cont_name": "Entrecôte de Novilho Continente",
       "pingo_name": "",
@@ -4945,7 +4945,7 @@
       "solo": true
     },
     {
-      "global_id": 110,
+      "global_id": 118,
       "name": "Escova de Dentes Triple Action Média Colgate",
       "cont_name": "Escova de Dentes Triple Action Média Colgate",
       "pingo_name": "",
@@ -4992,7 +4992,7 @@
       "solo": true
     },
     {
-      "global_id": 120,
+      "global_id": 130,
       "name": "Esparregado de Espinafres Continente",
       "cont_name": "Esparregado de Espinafres Continente",
       "pingo_name": "",
@@ -5039,7 +5039,7 @@
       "solo": true
     },
     {
-      "global_id": 121,
+      "global_id": 120,
       "name": "Esparregado de Grelos Continente Seleção",
       "cont_name": "Esparregado de Grelos Continente Seleção",
       "pingo_name": "",
@@ -5227,7 +5227,7 @@
       "solo": true
     },
     {
-      "global_id": 256,
+      "global_id": 241,
       "name": "Gelatina em Pó Ananás sem Açúcar Continente",
       "cont_name": "Gelatina em Pó Ananás sem Açúcar Continente",
       "pingo_name": "",
@@ -5415,7 +5415,7 @@
       "solo": true
     },
     {
-      "global_id": 260,
+      "global_id": 245,
       "name": "Gelatina em Pó de Ananás Royal",
       "cont_name": "Gelatina em Pó de Ananás Royal",
       "pingo_name": "",
@@ -5509,7 +5509,7 @@
       "solo": true
     },
     {
-      "global_id": 252,
+      "global_id": 260,
       "name": "Gelatina em Pó de Frutos Tropicais Royal",
       "cont_name": "Gelatina em Pó de Frutos Tropicais Royal",
       "pingo_name": "",
@@ -5650,7 +5650,7 @@
       "solo": true
     },
     {
-      "global_id": 257,
+      "global_id": 242,
       "name": "Gelatina em Pó de Frutos do Bosque Royal",
       "cont_name": "Gelatina em Pó de Frutos do Bosque Royal",
       "pingo_name": "",
@@ -5744,7 +5744,7 @@
       "solo": true
     },
     {
-      "global_id": 245,
+      "global_id": 253,
       "name": "Gelatina em Pó de Limão Royal",
       "cont_name": "Gelatina em Pó de Limão Royal",
       "pingo_name": "",
@@ -5885,7 +5885,7 @@
       "solo": true
     },
     {
-      "global_id": 131,
+      "global_id": 176,
       "name": "Jardineira de Novilho Continente",
       "cont_name": "Jardineira de Novilho Continente",
       "pingo_name": "",
@@ -6449,7 +6449,7 @@
       "solo": true
     },
     {
-      "global_id": 139,
+      "global_id": 183,
       "name": "Mamão Continente",
       "cont_name": "Mamão Continente",
       "pingo_name": "",
@@ -7201,7 +7201,7 @@
       "solo": true
     },
     {
-      "global_id": 130,
+      "global_id": 129,
       "name": "Mistura de Cogumelos Continente",
       "cont_name": "Mistura de Cogumelos Continente",
       "pingo_name": "",
@@ -7248,7 +7248,7 @@
       "solo": true
     },
     {
-      "global_id": 125,
+      "global_id": 124,
       "name": "Mistura de Legumes Estilo Francês Continente",
       "cont_name": "Mistura de Legumes Estilo Francês Continente",
       "pingo_name": "",
@@ -7295,7 +7295,7 @@
       "solo": true
     },
     {
-      "global_id": 127,
+      "global_id": 126,
       "name": "Mistura de Legumes Estilo Italiano Continente",
       "cont_name": "Mistura de Legumes Estilo Italiano Continente",
       "pingo_name": "",
@@ -7342,7 +7342,7 @@
       "solo": true
     },
     {
-      "global_id": 129,
+      "global_id": 128,
       "name": "Mistura de Legumes Orientais Continente",
       "cont_name": "Mistura de Legumes Orientais Continente",
       "pingo_name": "",
@@ -7483,7 +7483,7 @@
       "solo": true
     },
     {
-      "global_id": 249,
+      "global_id": 257,
       "name": "Muesli Crunchy Frutos Secos Continente",
       "cont_name": "Muesli Crunchy Frutos Secos Continente",
       "pingo_name": "",
@@ -7624,7 +7624,7 @@
       "solo": true
     },
     {
-      "global_id": 258,
+      "global_id": 243,
       "name": "Pack  Saquetas Multifrutos +8M Continente",
       "cont_name": "Pack  Saquetas Multifrutos +8M Continente",
       "pingo_name": "",
@@ -7859,7 +7859,7 @@
       "solo": true
     },
     {
-      "global_id": 230,
+      "global_id": 229,
       "name": "Película Aderente 60m Continente",
       "cont_name": "Película Aderente 60m Continente",
       "pingo_name": "",
@@ -7906,7 +7906,7 @@
       "solo": true
     },
     {
-      "global_id": 173,
+      "global_id": 174,
       "name": "Pera Packhams Continente",
       "cont_name": "Pera Packhams Continente",
       "pingo_name": "",
@@ -8036,7 +8036,7 @@
       "pingo_unit_label": "5,99 €/L",
       "pingo_qty_label": "0.75 L",
       "pingo_brand": "Vanish",
-      "pingo_image": "https://www.pingodoce.pt/dw/image/v2/BLJJ_PRD/on/demandware.static/-/Sites-pingo-doce-master/default/dwee57702c/images/small/925034_ff0ad1fd9d7d2329881eb6a491f5e25d.jpg?sw=300",
+      "pingo_image": "https://www.pingodoce.pt/dw/image/v2/BLJJ_PRD/on/demandware.static/-/Sites-pingo-doce-master/default/dw4a265631/images/small/925034_ff0ad1fd9d7d2329881eb6a491f5e25d.jpg?sw=300",
       "pingo_available": true,
       "pingo_promo_end": "Promoção até 13/04",
       "pingo_qty_g": 750.0,
@@ -8141,7 +8141,7 @@
       "solo": true
     },
     {
-      "global_id": 150,
+      "global_id": 152,
       "name": "Pão de Forma 12 Cereais e Sementes Continente",
       "cont_name": "Pão de Forma 12 Cereais e Sementes Continente",
       "pingo_name": "",
@@ -8282,7 +8282,7 @@
       "solo": true
     },
     {
-      "global_id": 144,
+      "global_id": 146,
       "name": "Pão de Forma Brioche Continente",
       "cont_name": "Pão de Forma Brioche Continente",
       "pingo_name": "",
@@ -8329,7 +8329,7 @@
       "solo": true
     },
     {
-      "global_id": 165,
+      "global_id": 167,
       "name": "Pão de Forma sem Côdea Continente",
       "cont_name": "Pão de Forma sem Côdea Continente",
       "pingo_name": "",
@@ -8799,7 +8799,7 @@
       "solo": true
     },
     {
-      "global_id": 243,
+      "global_id": 266,
       "name": "Sal Grosso Continente",
       "cont_name": "Sal Grosso Continente",
       "pingo_name": "",
@@ -8940,7 +8940,7 @@
       "solo": true
     },
     {
-      "global_id": 264,
+      "global_id": 248,
       "name": "Salsichas Bockwurst Frasco 5 un Continente",
       "cont_name": "Salsichas Bockwurst Frasco 5 un Continente",
       "pingo_name": "",
@@ -9034,7 +9034,7 @@
       "solo": true
     },
     {
-      "global_id": 248,
+      "global_id": 256,
       "name": "Saqueta de Fruta Maçã e Pera +8M Continente",
       "cont_name": "Saqueta de Fruta Maçã e Pera +8M Continente",
       "pingo_name": "",
@@ -9081,7 +9081,7 @@
       "solo": true
     },
     {
-      "global_id": 239,
+      "global_id": 262,
       "name": "Saqueta de Fruta Multifrutos +8M Continente",
       "cont_name": "Saqueta de Fruta Multifrutos +8M Continente",
       "pingo_name": "",
@@ -9128,7 +9128,7 @@
       "solo": true
     },
     {
-      "global_id": 113,
+      "global_id": 108,
       "name": "Soro Fisiológico Continente",
       "cont_name": "Soro Fisiológico Continente",
       "pingo_name": "",
@@ -9504,7 +9504,7 @@
       "solo": true
     },
     {
-      "global_id": 246,
+      "global_id": 254,
       "name": "Tortitas de Milho com Sal sem Glúten Continente Equilíbrio",
       "cont_name": "Tortitas de Milho com Sal sem Glúten Continente Equilíbrio",
       "pingo_name": "",
@@ -9551,7 +9551,7 @@
       "solo": true
     },
     {
-      "global_id": 149,
+      "global_id": 151,
       "name": "Abóbora Butternut Continente",
       "cont_name": "Abóbora Butternut Continente",
       "pingo_name": "",
@@ -9833,7 +9833,7 @@
       "solo": true
     },
     {
-      "global_id": 145,
+      "global_id": 147,
       "name": "Alho Francês Continente",
       "cont_name": "Alho Francês Continente",
       "pingo_name": "",
@@ -9974,7 +9974,7 @@
       "solo": true
     },
     {
-      "global_id": 137,
+      "global_id": 185,
       "name": "Alho Seco Continente",
       "cont_name": "Alho Seco Continente",
       "pingo_name": "",
@@ -10021,7 +10021,7 @@
       "solo": true
     },
     {
-      "global_id": 181,
+      "global_id": 141,
       "name": "Banana Continente",
       "cont_name": "Banana Continente",
       "pingo_name": "",
@@ -10162,7 +10162,7 @@
       "solo": true
     },
     {
-      "global_id": 146,
+      "global_id": 148,
       "name": "Batata Vermelha Continente",
       "cont_name": "Batata Vermelha Continente",
       "pingo_name": "",
@@ -10209,7 +10209,7 @@
       "solo": true
     },
     {
-      "global_id": 158,
+      "global_id": 160,
       "name": "Bola de Mistura",
       "cont_name": "Bola de Mistura",
       "pingo_name": "",
@@ -10444,7 +10444,7 @@
       "solo": true
     },
     {
-      "global_id": 162,
+      "global_id": 164,
       "name": "Cebola Continente",
       "cont_name": "Cebola Continente",
       "pingo_name": "",
@@ -10538,7 +10538,7 @@
       "solo": true
     },
     {
-      "global_id": 152,
+      "global_id": 154,
       "name": "Cenoura Continente",
       "cont_name": "Cenoura Continente",
       "pingo_name": "",
@@ -10585,7 +10585,7 @@
       "solo": true
     },
     {
-      "global_id": 154,
+      "global_id": 156,
       "name": "Cenoura Continente",
       "cont_name": "Cenoura Continente",
       "pingo_name": "",
@@ -10679,7 +10679,7 @@
       "solo": true
     },
     {
-      "global_id": 160,
+      "global_id": 163,
       "name": "Coentros Frescos Continente",
       "cont_name": "Coentros Frescos Continente",
       "pingo_name": "",
@@ -10820,7 +10820,7 @@
       "solo": true
     },
     {
-      "global_id": 157,
+      "global_id": 159,
       "name": "Curgete Verde Continente",
       "cont_name": "Curgete Verde Continente",
       "pingo_name": "",
@@ -10867,7 +10867,7 @@
       "solo": true
     },
     {
-      "global_id": 151,
+      "global_id": 153,
       "name": "Feijão Verde Continente",
       "cont_name": "Feijão Verde Continente",
       "pingo_name": "",
@@ -10961,7 +10961,7 @@
       "solo": true
     },
     {
-      "global_id": 263,
+      "global_id": 251,
       "name": "Gelatina em Pó Mirtilo sem Açúcar Continente",
       "cont_name": "Gelatina em Pó Mirtilo sem Açúcar Continente",
       "pingo_name": "",
@@ -11149,7 +11149,7 @@
       "solo": true
     },
     {
-      "global_id": 255,
+      "global_id": 240,
       "name": "Gelatina em Pó de Melancia Royal",
       "cont_name": "Gelatina em Pó de Melancia Royal",
       "pingo_name": "",
@@ -11290,7 +11290,7 @@
       "solo": true
     },
     {
-      "global_id": 251,
+      "global_id": 259,
       "name": "Gelatina em Pó de Mirtilo Royal",
       "cont_name": "Gelatina em Pó de Mirtilo Royal",
       "pingo_name": "",
@@ -11514,7 +11514,7 @@
       "pingo_unit_label": "2,04 €/Kg",
       "pingo_qty_label": "4 x0.17 Kg",
       "pingo_brand": "Pingo Doce",
-      "pingo_image": "https://www.pingodoce.pt/dw/image/v2/BLJJ_PRD/on/demandware.static/-/Sites-pingo-doce-master/default/dwd145c384/images/small/1000596_9203764c2c6a7d6ca7f3cd720a6bc758.png?sw=300",
+      "pingo_image": "https://www.pingodoce.pt/dw/image/v2/BLJJ_PRD/on/demandware.static/-/Sites-pingo-doce-master/default/dw8308d304/images/small/1000596_9203764c2c6a7d6ca7f3cd720a6bc758.png?sw=300",
       "pingo_available": true,
       "pingo_promo_end": "",
       "pingo_qty_g": 680.0,
@@ -11525,7 +11525,7 @@
       "solo": true
     },
     {
-      "global_id": 199,
+      "global_id": 192,
       "name": "Iogurte Líquido Magro Manga, Laranja e Cenoura Continente Equilíbrio",
       "cont_name": "Iogurte Líquido Magro Manga, Laranja e Cenoura Continente Equilíbrio",
       "pingo_name": "",
@@ -11572,7 +11572,7 @@
       "solo": true
     },
     {
-      "global_id": 198,
+      "global_id": 191,
       "name": "Iogurte Líquido Manga e Papaia sem Açúcar Continente Equilíbrio",
       "cont_name": "Iogurte Líquido Manga e Papaia sem Açúcar Continente Equilíbrio",
       "pingo_name": "",
@@ -11619,7 +11619,7 @@
       "solo": true
     },
     {
-      "global_id": 186,
+      "global_id": 195,
       "name": "Iogurte Magro Aroma Manga e Framboesa Continente Equilíbrio",
       "cont_name": "Iogurte Magro Aroma Manga e Framboesa Continente Equilíbrio",
       "pingo_name": "",
@@ -11666,7 +11666,7 @@
       "solo": true
     },
     {
-      "global_id": 192,
+      "global_id": 201,
       "name": "Iogurte Pedaços Magro Amora e Framboesa sem Açúcar Continente Equilíbrio",
       "cont_name": "Iogurte Pedaços Magro Amora e Framboesa sem Açúcar Continente Equilíbrio",
       "pingo_name": "",
@@ -11760,7 +11760,7 @@
       "solo": true
     },
     {
-      "global_id": 193,
+      "global_id": 186,
       "name": "Iogurte Proteína Mirtilo Yopro Danone",
       "cont_name": "Iogurte Proteína Mirtilo Yopro Danone",
       "pingo_name": "",
@@ -11807,7 +11807,7 @@
       "solo": true
     },
     {
-      "global_id": 188,
+      "global_id": 197,
       "name": "Iogurte Skyr Mirtilo Continente Equilíbrio",
       "cont_name": "Iogurte Skyr Mirtilo Continente Equilíbrio",
       "pingo_name": "",
@@ -11854,7 +11854,7 @@
       "solo": true
     },
     {
-      "global_id": 133,
+      "global_id": 178,
       "name": "Manga Palmer de Avião Continente",
       "cont_name": "Manga Palmer de Avião Continente",
       "pingo_name": "",
@@ -11948,7 +11948,7 @@
       "solo": true
     },
     {
-      "global_id": 166,
+      "global_id": 168,
       "name": "Metade Abóbora Manteiga (Butternut) Continente",
       "cont_name": "Metade Abóbora Manteiga (Butternut) Continente",
       "pingo_name": "",
@@ -11995,7 +11995,7 @@
       "solo": true
     },
     {
-      "global_id": 153,
+      "global_id": 155,
       "name": "Nabo sem Rama Continente",
       "cont_name": "Nabo sem Rama Continente",
       "pingo_name": "",
@@ -12089,7 +12089,7 @@
       "solo": true
     },
     {
-      "global_id": 163,
+      "global_id": 165,
       "name": "Papaia de Avião Continente",
       "cont_name": "Papaia de Avião Continente",
       "pingo_name": "",
@@ -12183,7 +12183,7 @@
       "solo": true
     },
     {
-      "global_id": 164,
+      "global_id": 166,
       "name": "Pera Rocha DOP Oeste Continente",
       "cont_name": "Pera Rocha DOP Oeste Continente",
       "pingo_name": "",
@@ -12324,7 +12324,7 @@
       "solo": true
     },
     {
-      "global_id": 141,
+      "global_id": 143,
       "name": "Pimento Verde Continente",
       "cont_name": "Pimento Verde Continente",
       "pingo_name": "",
@@ -12465,7 +12465,7 @@
       "solo": true
     },
     {
-      "global_id": 179,
+      "global_id": 139,
       "name": "Pão de Leite Continente",
       "cont_name": "Pão de Leite Continente",
       "pingo_name": "",
@@ -12512,7 +12512,7 @@
       "solo": true
     },
     {
-      "global_id": 185,
+      "global_id": 132,
       "name": "Rúcula Selvagem Continente",
       "cont_name": "Rúcula Selvagem Continente",
       "pingo_name": "",
@@ -12653,7 +12653,7 @@
       "solo": true
     },
     {
-      "global_id": 183,
+      "global_id": 133,
       "name": "Salada Aromática Continente",
       "cont_name": "Salada Aromática Continente",
       "pingo_name": "",
@@ -12841,7 +12841,7 @@
       "solo": true
     },
     {
-      "global_id": 244,
+      "global_id": 252,
       "name": "Saqueta de Fruta Maçã e Banana +8M Continente",
       "cont_name": "Saqueta de Fruta Maçã e Banana +8M Continente",
       "pingo_name": "",
@@ -13076,54 +13076,7 @@
       "solo": true
     },
     {
-      "global_id": 148,
-      "name": "Uva Branca sem Grainha Continente",
-      "cont_name": "Uva Branca sem Grainha Continente",
-      "pingo_name": "",
-      "receipt_string": "",
-      "category": "🥬 Frescos",
-      "exclude_comparison": false,
-      "conversion_factor": 1.0,
-      "pricing_type": "pack",
-      "std_qty_g": 500,
-      "cont_id": "7618292",
-      "cont_price": 2.79,
-      "cont_base_price": null,
-      "cont_discount_pct": null,
-      "cont_in_promo": false,
-      "cont_unit": "g",
-      "cont_norm_price": 0.00558,
-      "cont_unit_label": "5,58€/kg",
-      "cont_qty_label": "emb. 500 gr",
-      "cont_brand": "Continente",
-      "cont_image": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw5c3ca6e6/images/col/761/7618292-frente.jpg?sw=280&sh=280",
-      "cont_available": true,
-      "cont_qty_g": 500.0,
-      "cont_per_kg": 5.58,
-      "cont_pkg_price": 2.79,
-      "cont_std_price": 2.79,
-      "pingo_id": "",
-      "pingo_price": null,
-      "pingo_base_price": null,
-      "pingo_discount_pct": null,
-      "pingo_in_promo": false,
-      "pingo_unit": null,
-      "pingo_norm_price": null,
-      "pingo_unit_label": "",
-      "pingo_qty_label": "",
-      "pingo_brand": "",
-      "pingo_image": "",
-      "pingo_available": false,
-      "pingo_promo_end": "",
-      "pingo_qty_g": null,
-      "pingo_per_kg": null,
-      "pingo_pkg_price": null,
-      "pingo_std_price": null,
-      "best_store": "continente",
-      "solo": true
-    },
-    {
-      "global_id": 184,
+      "global_id": 131,
       "name": "Uva Branca sem Grainha Continente",
       "cont_name": "Uva Branca sem Grainha Continente",
       "pingo_name": "",
@@ -13149,6 +13102,53 @@
       "cont_per_kg": 4.99,
       "cont_pkg_price": 5.99,
       "cont_std_price": 5.99,
+      "pingo_id": "",
+      "pingo_price": null,
+      "pingo_base_price": null,
+      "pingo_discount_pct": null,
+      "pingo_in_promo": false,
+      "pingo_unit": null,
+      "pingo_norm_price": null,
+      "pingo_unit_label": "",
+      "pingo_qty_label": "",
+      "pingo_brand": "",
+      "pingo_image": "",
+      "pingo_available": false,
+      "pingo_promo_end": "",
+      "pingo_qty_g": null,
+      "pingo_per_kg": null,
+      "pingo_pkg_price": null,
+      "pingo_std_price": null,
+      "best_store": "continente",
+      "solo": true
+    },
+    {
+      "global_id": 150,
+      "name": "Uva Branca sem Grainha Continente",
+      "cont_name": "Uva Branca sem Grainha Continente",
+      "pingo_name": "",
+      "receipt_string": "",
+      "category": "🥬 Frescos",
+      "exclude_comparison": false,
+      "conversion_factor": 1.0,
+      "pricing_type": "pack",
+      "std_qty_g": 500,
+      "cont_id": "7618292",
+      "cont_price": 2.79,
+      "cont_base_price": null,
+      "cont_discount_pct": null,
+      "cont_in_promo": false,
+      "cont_unit": "g",
+      "cont_norm_price": 0.00558,
+      "cont_unit_label": "5,58€/kg",
+      "cont_qty_label": "emb. 500 gr",
+      "cont_brand": "Continente",
+      "cont_image": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw5c3ca6e6/images/col/761/7618292-frente.jpg?sw=280&sh=280",
+      "cont_available": true,
+      "cont_qty_g": 500.0,
+      "cont_per_kg": 5.58,
+      "cont_pkg_price": 2.79,
+      "cont_std_price": 2.79,
       "pingo_id": "",
       "pingo_price": null,
       "pingo_base_price": null,
@@ -13452,54 +13452,7 @@
       "solo": true
     },
     {
-      "global_id": 171,
-      "name": "Coxas de Frango Continente",
-      "cont_name": "Coxas de Frango Continente",
-      "pingo_name": "",
-      "receipt_string": "",
-      "category": "🧀 Frigorífico",
-      "exclude_comparison": false,
-      "conversion_factor": 1.0,
-      "pricing_type": "pack",
-      "std_qty_g": 650,
-      "cont_id": "7069742",
-      "cont_price": 2.92,
-      "cont_base_price": null,
-      "cont_discount_pct": null,
-      "cont_in_promo": false,
-      "cont_unit": "g",
-      "cont_norm_price": 0.00449,
-      "cont_unit_label": "4,49€/Kg",
-      "cont_qty_label": "emb. 650 gr (aprox.)",
-      "cont_brand": "Continente",
-      "cont_image": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw1b04ee81/images/col/706/7069742-frente.jpg?sw=280&sh=280",
-      "cont_available": true,
-      "cont_qty_g": 650.0,
-      "cont_per_kg": 4.49,
-      "cont_pkg_price": 2.92,
-      "cont_std_price": 2.92,
-      "pingo_id": "",
-      "pingo_price": null,
-      "pingo_base_price": null,
-      "pingo_discount_pct": null,
-      "pingo_in_promo": false,
-      "pingo_unit": null,
-      "pingo_norm_price": null,
-      "pingo_unit_label": "",
-      "pingo_qty_label": "",
-      "pingo_brand": "",
-      "pingo_image": "",
-      "pingo_available": false,
-      "pingo_promo_end": "",
-      "pingo_qty_g": null,
-      "pingo_per_kg": null,
-      "pingo_pkg_price": null,
-      "pingo_std_price": null,
-      "best_store": "continente",
-      "solo": true
-    },
-    {
-      "global_id": 174,
+      "global_id": 134,
       "name": "Coxas de Frango Continente",
       "cont_name": "Coxas de Frango Continente",
       "pingo_name": "",
@@ -13525,6 +13478,53 @@
       "cont_per_kg": 4.39,
       "cont_pkg_price": 4.83,
       "cont_std_price": 4.83,
+      "pingo_id": "",
+      "pingo_price": null,
+      "pingo_base_price": null,
+      "pingo_discount_pct": null,
+      "pingo_in_promo": false,
+      "pingo_unit": null,
+      "pingo_norm_price": null,
+      "pingo_unit_label": "",
+      "pingo_qty_label": "",
+      "pingo_brand": "",
+      "pingo_image": "",
+      "pingo_available": false,
+      "pingo_promo_end": "",
+      "pingo_qty_g": null,
+      "pingo_per_kg": null,
+      "pingo_pkg_price": null,
+      "pingo_std_price": null,
+      "best_store": "continente",
+      "solo": true
+    },
+    {
+      "global_id": 172,
+      "name": "Coxas de Frango Continente",
+      "cont_name": "Coxas de Frango Continente",
+      "pingo_name": "",
+      "receipt_string": "",
+      "category": "🧀 Frigorífico",
+      "exclude_comparison": false,
+      "conversion_factor": 1.0,
+      "pricing_type": "pack",
+      "std_qty_g": 650,
+      "cont_id": "7069742",
+      "cont_price": 2.92,
+      "cont_base_price": null,
+      "cont_discount_pct": null,
+      "cont_in_promo": false,
+      "cont_unit": "g",
+      "cont_norm_price": 0.00449,
+      "cont_unit_label": "4,49€/Kg",
+      "cont_qty_label": "emb. 650 gr (aprox.)",
+      "cont_brand": "Continente",
+      "cont_image": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw1b04ee81/images/col/706/7069742-frente.jpg?sw=280&sh=280",
+      "cont_available": true,
+      "cont_qty_g": 650.0,
+      "cont_per_kg": 4.49,
+      "cont_pkg_price": 2.92,
+      "cont_std_price": 2.92,
       "pingo_id": "",
       "pingo_price": null,
       "pingo_base_price": null,
@@ -13734,7 +13734,7 @@
       "solo": true
     },
     {
-      "global_id": 161,
+      "global_id": 162,
       "name": "Fiambre da Perna Extra Fatias Finíssimas Continente",
       "cont_name": "Fiambre da Perna Extra Fatias Finíssimas Continente",
       "pingo_name": "",
@@ -13875,7 +13875,7 @@
       "solo": true
     },
     {
-      "global_id": 191,
+      "global_id": 200,
       "name": "Iogurte Líquido Magro Frutos Tropicais sem Açúcar Continente Equilíbrio",
       "cont_name": "Iogurte Líquido Magro Frutos Tropicais sem Açúcar Continente Equilíbrio",
       "pingo_name": "",
@@ -13922,7 +13922,7 @@
       "solo": true
     },
     {
-      "global_id": 189,
+      "global_id": 198,
       "name": "Iogurte Líquido Magro Frutos Vermelhos Pack Poupança Continente Equilíbrio",
       "cont_name": "Iogurte Líquido Magro Frutos Vermelhos Pack Poupança Continente Equilíbrio",
       "pingo_name": "",
@@ -13969,7 +13969,7 @@
       "solo": true
     },
     {
-      "global_id": 196,
+      "global_id": 189,
       "name": "Iogurte Líquido Magro Limão Continente Equilíbrio",
       "cont_name": "Iogurte Líquido Magro Limão Continente Equilíbrio",
       "pingo_name": "",
@@ -14063,7 +14063,7 @@
       "solo": true
     },
     {
-      "global_id": 190,
+      "global_id": 199,
       "name": "Iogurte Natural Continente",
       "cont_name": "Iogurte Natural Continente",
       "pingo_name": "",
@@ -14204,7 +14204,7 @@
       "solo": true
     },
     {
-      "global_id": 187,
+      "global_id": 196,
       "name": "Iogurte Proteína Baunilha Yopro Danone",
       "cont_name": "Iogurte Proteína Baunilha Yopro Danone",
       "pingo_name": "",
@@ -14345,7 +14345,7 @@
       "solo": true
     },
     {
-      "global_id": 201,
+      "global_id": 194,
       "name": "Iogurte Proteína Stracciatella Yopro Danone",
       "cont_name": "Iogurte Proteína Stracciatella Yopro Danone",
       "pingo_name": "",
@@ -14486,7 +14486,7 @@
       "solo": true
     },
     {
-      "global_id": 194,
+      "global_id": 187,
       "name": "Leite Achocolatado Continente Equilíbrio",
       "cont_name": "Leite Achocolatado Continente Equilíbrio",
       "pingo_name": "",
@@ -14627,7 +14627,7 @@
       "solo": true
     },
     {
-      "global_id": 197,
+      "global_id": 190,
       "name": "Leite UHT Meio Gordo Continente",
       "cont_name": "Leite UHT Meio Gordo Continente",
       "pingo_name": "",
@@ -14674,7 +14674,7 @@
       "solo": true
     },
     {
-      "global_id": 200,
+      "global_id": 193,
       "name": "Leite UHT Meio Gordo Continente",
       "cont_name": "Leite UHT Meio Gordo Continente",
       "pingo_name": "",
@@ -14815,7 +14815,7 @@
       "solo": true
     },
     {
-      "global_id": 132,
+      "global_id": 177,
       "name": "Lombinhos de Porco Continente",
       "cont_name": "Lombinhos de Porco Continente",
       "pingo_name": "",
@@ -14909,7 +14909,7 @@
       "solo": true
     },
     {
-      "global_id": 136,
+      "global_id": 181,
       "name": "Lombo de Porco sem Osso para Assar Continente",
       "cont_name": "Lombo de Porco sem Osso para Assar Continente",
       "pingo_name": "",
@@ -15050,7 +15050,7 @@
       "solo": true
     },
     {
-      "global_id": 195,
+      "global_id": 188,
       "name": "Ovos de Solo Classe M Continente",
       "cont_name": "Ovos de Solo Classe M Continente",
       "pingo_name": "",
@@ -15144,7 +15144,7 @@
       "solo": true
     },
     {
-      "global_id": 134,
+      "global_id": 179,
       "name": "Peito de Peru Continente",
       "cont_name": "Peito de Peru Continente",
       "pingo_name": "",
@@ -15285,7 +15285,7 @@
       "solo": true
     },
     {
-      "global_id": 142,
+      "global_id": 144,
       "name": "Preparado de Carne Picada Mista Continente",
       "cont_name": "Preparado de Carne Picada Mista Continente",
       "pingo_name": "",
@@ -15332,7 +15332,7 @@
       "solo": true
     },
     {
-      "global_id": 143,
+      "global_id": 145,
       "name": "Preparado de Carne Picada Mista Continente",
       "cont_name": "Preparado de Carne Picada Mista Continente",
       "pingo_name": "",
@@ -15379,7 +15379,7 @@
       "solo": true
     },
     {
-      "global_id": 170,
+      "global_id": 175,
       "name": "Preparado de Carne Picada de Bovino Continente",
       "cont_name": "Preparado de Carne Picada de Bovino Continente",
       "pingo_name": "",
@@ -15849,7 +15849,7 @@
       "solo": true
     },
     {
-      "global_id": 155,
+      "global_id": 157,
       "name": "Queijo Flamengo Fatiado Continente",
       "cont_name": "Queijo Flamengo Fatiado Continente",
       "pingo_name": "",
@@ -15896,7 +15896,7 @@
       "solo": true
     },
     {
-      "global_id": 180,
+      "global_id": 140,
       "name": "Queijo Flamengo dos Açores Fatiado Continente",
       "cont_name": "Queijo Flamengo dos Açores Fatiado Continente",
       "pingo_name": "",
@@ -15943,54 +15943,7 @@
       "solo": true
     },
     {
-      "global_id": 138,
-      "name": "Queijo Flamengo sem Lactose Fatiado Limiano",
-      "cont_name": "Queijo Flamengo sem Lactose Fatiado Limiano",
-      "pingo_name": "",
-      "receipt_string": "",
-      "category": "🧀 Frigorífico",
-      "exclude_comparison": false,
-      "conversion_factor": 1.0,
-      "pricing_type": "pack",
-      "std_qty_g": 200,
-      "cont_id": "4863936",
-      "cont_price": 4.29,
-      "cont_base_price": null,
-      "cont_discount_pct": 15,
-      "cont_in_promo": true,
-      "cont_unit": "un",
-      "cont_norm_price": 0.01072,
-      "cont_unit_label": "10,72€/kg",
-      "cont_qty_label": "2 un x 200 gr (400 gr)",
-      "cont_brand": "Limiano",
-      "cont_image": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw0fb84298/images/col/486/4863936-frente.jpg?sw=280&sh=280",
-      "cont_available": true,
-      "cont_qty_g": 200.0,
-      "cont_per_kg": 10.72,
-      "cont_pkg_price": 4.29,
-      "cont_std_price": 2.14,
-      "pingo_id": "",
-      "pingo_price": null,
-      "pingo_base_price": null,
-      "pingo_discount_pct": null,
-      "pingo_in_promo": false,
-      "pingo_unit": null,
-      "pingo_norm_price": null,
-      "pingo_unit_label": "",
-      "pingo_qty_label": "",
-      "pingo_brand": "",
-      "pingo_image": "",
-      "pingo_available": false,
-      "pingo_promo_end": "",
-      "pingo_qty_g": null,
-      "pingo_per_kg": null,
-      "pingo_pkg_price": null,
-      "pingo_std_price": null,
-      "best_store": "continente",
-      "solo": true
-    },
-    {
-      "global_id": 169,
+      "global_id": 171,
       "name": "Queijo Flamengo sem Lactose Fatiado Limiano",
       "cont_name": "Queijo Flamengo sem Lactose Fatiado Limiano",
       "pingo_name": "",
@@ -16037,7 +15990,54 @@
       "solo": true
     },
     {
-      "global_id": 175,
+      "global_id": 182,
+      "name": "Queijo Flamengo sem Lactose Fatiado Limiano",
+      "cont_name": "Queijo Flamengo sem Lactose Fatiado Limiano",
+      "pingo_name": "",
+      "receipt_string": "",
+      "category": "🧀 Frigorífico",
+      "exclude_comparison": false,
+      "conversion_factor": 1.0,
+      "pricing_type": "pack",
+      "std_qty_g": 200,
+      "cont_id": "4863936",
+      "cont_price": 4.29,
+      "cont_base_price": null,
+      "cont_discount_pct": 15,
+      "cont_in_promo": true,
+      "cont_unit": "un",
+      "cont_norm_price": 0.01072,
+      "cont_unit_label": "10,72€/kg",
+      "cont_qty_label": "2 un x 200 gr (400 gr)",
+      "cont_brand": "Limiano",
+      "cont_image": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw0fb84298/images/col/486/4863936-frente.jpg?sw=280&sh=280",
+      "cont_available": true,
+      "cont_qty_g": 200.0,
+      "cont_per_kg": 10.72,
+      "cont_pkg_price": 4.29,
+      "cont_std_price": 2.14,
+      "pingo_id": "",
+      "pingo_price": null,
+      "pingo_base_price": null,
+      "pingo_discount_pct": null,
+      "pingo_in_promo": false,
+      "pingo_unit": null,
+      "pingo_norm_price": null,
+      "pingo_unit_label": "",
+      "pingo_qty_label": "",
+      "pingo_brand": "",
+      "pingo_image": "",
+      "pingo_available": false,
+      "pingo_promo_end": "",
+      "pingo_qty_g": null,
+      "pingo_per_kg": null,
+      "pingo_pkg_price": null,
+      "pingo_std_price": null,
+      "best_store": "continente",
+      "solo": true
+    },
+    {
+      "global_id": 135,
       "name": "Queijo Flamengo sem Lactose Fatiado Terra Nostra",
       "cont_name": "Queijo Flamengo sem Lactose Fatiado Terra Nostra",
       "pingo_name": "",
@@ -16084,7 +16084,7 @@
       "solo": true
     },
     {
-      "global_id": 156,
+      "global_id": 158,
       "name": "Queijo Fundido Light Palitos A Vaca que ri",
       "cont_name": "Queijo Fundido Light Palitos A Vaca que ri",
       "pingo_name": "",
@@ -16272,54 +16272,7 @@
       "solo": true
     },
     {
-      "global_id": 167,
-      "name": "Queijo Fundido Light Porções A Vaca que ri",
-      "cont_name": "Queijo Fundido Light Porções A Vaca que ri",
-      "pingo_name": "",
-      "receipt_string": "",
-      "category": "🧀 Frigorífico",
-      "exclude_comparison": false,
-      "conversion_factor": 1.0,
-      "pricing_type": "pack",
-      "std_qty_g": 100,
-      "cont_id": "7708138",
-      "cont_price": 1.99,
-      "cont_base_price": null,
-      "cont_discount_pct": null,
-      "cont_in_promo": false,
-      "cont_unit": "un",
-      "cont_norm_price": 0.01592,
-      "cont_unit_label": "15,92€/kg",
-      "cont_qty_label": "8 un (125 gr)",
-      "cont_brand": "A Vaca que ri",
-      "cont_image": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwc2f276dd/images/col/770/7708138-frente.png?sw=280&sh=280",
-      "cont_available": true,
-      "cont_qty_g": 125.0,
-      "cont_per_kg": 15.92,
-      "cont_pkg_price": 1.99,
-      "cont_std_price": 1.59,
-      "pingo_id": "",
-      "pingo_price": null,
-      "pingo_base_price": null,
-      "pingo_discount_pct": null,
-      "pingo_in_promo": false,
-      "pingo_unit": null,
-      "pingo_norm_price": null,
-      "pingo_unit_label": "",
-      "pingo_qty_label": "",
-      "pingo_brand": "",
-      "pingo_image": "",
-      "pingo_available": false,
-      "pingo_promo_end": "",
-      "pingo_qty_g": null,
-      "pingo_per_kg": null,
-      "pingo_pkg_price": null,
-      "pingo_std_price": null,
-      "best_store": "continente",
-      "solo": true
-    },
-    {
-      "global_id": 177,
+      "global_id": 137,
       "name": "Queijo Fundido Light Porções A Vaca que ri",
       "cont_name": "Queijo Fundido Light Porções A Vaca que ri",
       "pingo_name": "",
@@ -16366,7 +16319,7 @@
       "solo": true
     },
     {
-      "global_id": 178,
+      "global_id": 138,
       "name": "Queijo Fundido Light Porções A Vaca que ri",
       "cont_name": "Queijo Fundido Light Porções A Vaca que ri",
       "pingo_name": "",
@@ -16392,6 +16345,53 @@
       "cont_per_kg": 11.8,
       "cont_pkg_price": 2.95,
       "cont_std_price": 2.95,
+      "pingo_id": "",
+      "pingo_price": null,
+      "pingo_base_price": null,
+      "pingo_discount_pct": null,
+      "pingo_in_promo": false,
+      "pingo_unit": null,
+      "pingo_norm_price": null,
+      "pingo_unit_label": "",
+      "pingo_qty_label": "",
+      "pingo_brand": "",
+      "pingo_image": "",
+      "pingo_available": false,
+      "pingo_promo_end": "",
+      "pingo_qty_g": null,
+      "pingo_per_kg": null,
+      "pingo_pkg_price": null,
+      "pingo_std_price": null,
+      "best_store": "continente",
+      "solo": true
+    },
+    {
+      "global_id": 169,
+      "name": "Queijo Fundido Light Porções A Vaca que ri",
+      "cont_name": "Queijo Fundido Light Porções A Vaca que ri",
+      "pingo_name": "",
+      "receipt_string": "",
+      "category": "🧀 Frigorífico",
+      "exclude_comparison": false,
+      "conversion_factor": 1.0,
+      "pricing_type": "pack",
+      "std_qty_g": 100,
+      "cont_id": "7708138",
+      "cont_price": 1.99,
+      "cont_base_price": null,
+      "cont_discount_pct": null,
+      "cont_in_promo": false,
+      "cont_unit": "un",
+      "cont_norm_price": 0.01592,
+      "cont_unit_label": "15,92€/kg",
+      "cont_qty_label": "8 un (125 gr)",
+      "cont_brand": "A Vaca que ri",
+      "cont_image": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwc2f276dd/images/col/770/7708138-frente.png?sw=280&sh=280",
+      "cont_available": true,
+      "cont_qty_g": 125.0,
+      "cont_per_kg": 15.92,
+      "cont_pkg_price": 1.99,
+      "cont_std_price": 1.59,
       "pingo_id": "",
       "pingo_price": null,
       "pingo_base_price": null,
@@ -16684,7 +16684,7 @@
       "pingo_unit_label": "0,05 €/Dos",
       "pingo_qty_label": "55 Dos",
       "pingo_brand": "Vernel",
-      "pingo_image": "https://www.pingodoce.pt/dw/image/v2/BLJJ_PRD/on/demandware.static/-/Sites-pingo-doce-master/default/dw5d9981f2/images/small/999988_1_fe7af13e063af30b2ca0b7d967029378.jpg?sw=300",
+      "pingo_image": "https://www.pingodoce.pt/dw/image/v2/BLJJ_PRD/on/demandware.static/-/Sites-pingo-doce-master/default/dwa74df7de/images/small/999988_1_fe7af13e063af30b2ca0b7d967029378.jpg?sw=300",
       "pingo_available": true,
       "pingo_promo_end": "",
       "pingo_qty_g": 55,
@@ -16883,7 +16883,7 @@
       "solo": true
     },
     {
-      "global_id": 116,
+      "global_id": 111,
       "name": "Champô Camomila Garnier Ultra Suave",
       "cont_name": "Champô Camomila Garnier Ultra Suave",
       "pingo_name": "",
@@ -17024,54 +17024,7 @@
       "solo": true
     },
     {
-      "global_id": 109,
-      "name": "Champô Suave Bebé Johnsons Baby",
-      "cont_name": "Champô Suave Bebé Johnsons Baby",
-      "pingo_name": "",
-      "receipt_string": "",
-      "category": "🧴 Higiene e Limpeza",
-      "exclude_comparison": false,
-      "conversion_factor": 1.0,
-      "pricing_type": "pack",
-      "std_qty_g": 750,
-      "cont_id": "6862752",
-      "cont_price": 6.21,
-      "cont_base_price": null,
-      "cont_discount_pct": 25,
-      "cont_in_promo": true,
-      "cont_unit": "ml",
-      "cont_norm_price": 0.00828,
-      "cont_unit_label": "8,28€/lt",
-      "cont_qty_label": "emb. 750 ml",
-      "cont_brand": "Johnsons Baby",
-      "cont_image": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwe73e2d21/images/col/686/6862752-frente.jpg?sw=280&sh=280",
-      "cont_available": true,
-      "cont_qty_g": 750.0,
-      "cont_per_kg": 8.28,
-      "cont_pkg_price": 6.21,
-      "cont_std_price": 6.21,
-      "pingo_id": "",
-      "pingo_price": null,
-      "pingo_base_price": null,
-      "pingo_discount_pct": null,
-      "pingo_in_promo": false,
-      "pingo_unit": null,
-      "pingo_norm_price": null,
-      "pingo_unit_label": "",
-      "pingo_qty_label": "",
-      "pingo_brand": "",
-      "pingo_image": "",
-      "pingo_available": false,
-      "pingo_promo_end": "",
-      "pingo_qty_g": null,
-      "pingo_per_kg": null,
-      "pingo_pkg_price": null,
-      "pingo_std_price": null,
-      "best_store": "continente",
-      "solo": true
-    },
-    {
-      "global_id": 115,
+      "global_id": 110,
       "name": "Champô Suave Bebé Johnsons Baby",
       "cont_name": "Champô Suave Bebé Johnsons Baby",
       "pingo_name": "",
@@ -17097,6 +17050,53 @@
       "cont_per_kg": 11.98,
       "cont_pkg_price": 5.99,
       "cont_std_price": 5.99,
+      "pingo_id": "",
+      "pingo_price": null,
+      "pingo_base_price": null,
+      "pingo_discount_pct": null,
+      "pingo_in_promo": false,
+      "pingo_unit": null,
+      "pingo_norm_price": null,
+      "pingo_unit_label": "",
+      "pingo_qty_label": "",
+      "pingo_brand": "",
+      "pingo_image": "",
+      "pingo_available": false,
+      "pingo_promo_end": "",
+      "pingo_qty_g": null,
+      "pingo_per_kg": null,
+      "pingo_pkg_price": null,
+      "pingo_std_price": null,
+      "best_store": "continente",
+      "solo": true
+    },
+    {
+      "global_id": 117,
+      "name": "Champô Suave Bebé Johnsons Baby",
+      "cont_name": "Champô Suave Bebé Johnsons Baby",
+      "pingo_name": "",
+      "receipt_string": "",
+      "category": "🧴 Higiene e Limpeza",
+      "exclude_comparison": false,
+      "conversion_factor": 1.0,
+      "pricing_type": "pack",
+      "std_qty_g": 750,
+      "cont_id": "6862752",
+      "cont_price": 6.21,
+      "cont_base_price": null,
+      "cont_discount_pct": 25,
+      "cont_in_promo": true,
+      "cont_unit": "ml",
+      "cont_norm_price": 0.00828,
+      "cont_unit_label": "8,28€/lt",
+      "cont_qty_label": "emb. 750 ml",
+      "cont_brand": "Johnsons Baby",
+      "cont_image": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwe73e2d21/images/col/686/6862752-frente.jpg?sw=280&sh=280",
+      "cont_available": true,
+      "cont_qty_g": 750.0,
+      "cont_per_kg": 8.28,
+      "cont_pkg_price": 6.21,
+      "cont_std_price": 6.21,
       "pingo_id": "",
       "pingo_price": null,
       "pingo_base_price": null,
@@ -17165,7 +17165,7 @@
       "solo": true
     },
     {
-      "global_id": 107,
+      "global_id": 119,
       "name": "Condicionador Camomila Garnier Ultra Suave",
       "cont_name": "Condicionador Camomila Garnier Ultra Suave",
       "pingo_name": "",
@@ -17447,7 +17447,7 @@
       "solo": true
     },
     {
-      "global_id": 108,
+      "global_id": 116,
       "name": "Desodorizante Roll On Dermo+ Invisible 72H Sanex",
       "cont_name": "Desodorizante Roll On Dermo+ Invisible 72H Sanex",
       "pingo_name": "",
@@ -17494,7 +17494,7 @@
       "solo": true
     },
     {
-      "global_id": 117,
+      "global_id": 114,
       "name": "Desodorizante Roll On Dermo+ Sensitive 72H Sanex",
       "cont_name": "Desodorizante Roll On Dermo+ Sensitive 72H Sanex",
       "pingo_name": "",
@@ -17671,7 +17671,7 @@
       "pingo_unit_label": "3,99 €/L",
       "pingo_qty_label": "1.25 L",
       "pingo_brand": "Fairy",
-      "pingo_image": "https://www.pingodoce.pt/dw/image/v2/BLJJ_PRD/on/demandware.static/-/Sites-pingo-doce-master/default/dwf305bd9a/images/small/952429_1_9d998f05dd04140c23b0c292d5b6696f.png?sw=300",
+      "pingo_image": "https://www.pingodoce.pt/dw/image/v2/BLJJ_PRD/on/demandware.static/-/Sites-pingo-doce-master/default/dw59c2e121/images/small/952429_1_9d998f05dd04140c23b0c292d5b6696f.png?sw=300",
       "pingo_available": true,
       "pingo_promo_end": "Promoção até 13/04",
       "pingo_qty_g": 1250.0,
@@ -17765,7 +17765,7 @@
       "pingo_unit_label": "5,17 €/L",
       "pingo_qty_label": "0.52 L",
       "pingo_brand": "Fairy",
-      "pingo_image": "https://www.pingodoce.pt/dw/image/v2/BLJJ_PRD/on/demandware.static/-/Sites-pingo-doce-master/default/dwd7820a8d/images/small/1004042_1_c272f354dd826242ed37260237f6164c.png?sw=300",
+      "pingo_image": "https://www.pingodoce.pt/dw/image/v2/BLJJ_PRD/on/demandware.static/-/Sites-pingo-doce-master/default/dwaad99728/images/small/1004042_1_c272f354dd826242ed37260237f6164c.png?sw=300",
       "pingo_available": true,
       "pingo_promo_end": "Promoção até 13/04",
       "pingo_qty_g": 520.0,
@@ -18282,7 +18282,7 @@
       "pingo_unit_label": "0,18 €/Un",
       "pingo_qty_label": "70 Un",
       "pingo_brand": "Cuida Bebé",
-      "pingo_image": "https://www.pingodoce.pt/dw/image/v2/BLJJ_PRD/on/demandware.static/-/Sites-pingo-doce-master/default/dwfac87b11/images/small/995618_17d147fbaeeb6bf8e74833653c3b3478.png?sw=300",
+      "pingo_image": "https://www.pingodoce.pt/dw/image/v2/BLJJ_PRD/on/demandware.static/-/Sites-pingo-doce-master/default/dwa0317dbc/images/small/995618_17d147fbaeeb6bf8e74833653c3b3478.png?sw=300",
       "pingo_available": true,
       "pingo_promo_end": "Promoção até 13/04",
       "pingo_qty_g": 70,
@@ -18575,7 +18575,7 @@
       "solo": true
     },
     {
-      "global_id": 114,
+      "global_id": 109,
       "name": "Gel de Banho Hidratante Natural Honey",
       "cont_name": "Gel de Banho Hidratante Natural Honey",
       "pingo_name": "",
@@ -18716,7 +18716,7 @@
       "solo": true
     },
     {
-      "global_id": 229,
+      "global_id": 230,
       "name": "Pano Multiusos Suave Ultra Fresh  Vileda",
       "cont_name": "Pano Multiusos Suave Ultra Fresh  Vileda",
       "pingo_name": "",
@@ -18810,7 +18810,7 @@
       "solo": true
     },
     {
-      "global_id": 112,
+      "global_id": 107,
       "name": "Papel Higiénico 3 Folhas Decor Continente",
       "cont_name": "Papel Higiénico 3 Folhas Decor Continente",
       "pingo_name": "",
@@ -18904,7 +18904,7 @@
       "solo": true
     },
     {
-      "global_id": 106,
+      "global_id": 115,
       "name": "Papel Higiénico Húmido Biodegradável Continente",
       "cont_name": "Papel Higiénico Húmido Biodegradável Continente",
       "pingo_name": "",
@@ -19092,7 +19092,7 @@
       "solo": true
     },
     {
-      "global_id": 118,
+      "global_id": 112,
       "name": "Pasta de Dentes Sensibilidade e Branqueadora Sensodyne",
       "cont_name": "Pasta de Dentes Sensibilidade e Branqueadora Sensodyne",
       "pingo_name": "",
@@ -19139,7 +19139,7 @@
       "solo": true
     },
     {
-      "global_id": 119,
+      "global_id": 113,
       "name": "Pasta de Dentes Sensibilidade e Branqueadora Sensodyne",
       "cont_name": "Pasta de Dentes Sensibilidade e Branqueadora Sensodyne",
       "pingo_name": "",
