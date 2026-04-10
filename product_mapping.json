@@ -1248,58 +1248,63 @@
   "206": {
     "global_id": 206,
     "cont_name": "Creme de Limpeza com Lixívia Continente",
-    "pingo_name": "",
+    "pingo_name": "Abrasivo Creme Lixívia",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "4302667",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "750669",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "207": {
     "global_id": 207,
     "cont_name": "Sacos Lixo Fecho Fácil 30 lt Continente",
-    "pingo_name": "",
+    "pingo_name": "Sacos do Lixo com Fecho Fácil 30L",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "7536679",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "1002199",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "208": {
     "global_id": 208,
     "cont_name": "Guardanapos 3 Folhas Continente",
-    "pingo_name": "",
+    "pingo_name": "Guardanapos 3 Folhas - 70un",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "7201733",
-    "pingo_id": "",
+    "pingo_id": "868387",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "solo": false
   },
   "209": {
     "global_id": 209,
     "cont_name": "Esfregão Salva Unhas Verde Antibactérias Vileda",
-    "pingo_name": "",
+    "pingo_name": "Esponja com Esfregão Ultra Fresh",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "5018396",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "851936",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "210": {
     "global_id": 210,
     "cont_name": "Detergente Manual Loiça Ultra Limão Fairy",
-    "pingo_name": "",
+    "pingo_name": "Detergente Loiça Manual Ultra Limão",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "7654326",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "952429",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "211": {
     "global_id": 211,
@@ -1312,28 +1317,18 @@
     "pingo_id": "",
     "conversion_factor": 1.0
   },
-  "212": {
-    "global_id": 212,
-    "cont_name": "Sacos Lixo Fecho Fácil 30 lt Continente",
-    "pingo_name": "",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "7519982",
-    "pingo_id": "",
-    "conversion_factor": 1.0
-  },
   "213": {
     "global_id": 213,
     "cont_name": "Rolo de Cozinha Compacto Plus Continente",
-    "pingo_name": "",
+    "pingo_name": "Rolo de Cozinha 2 Folhas Compacto 2=4 Rolos",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "6227493",
-    "pingo_id": "",
+    "pingo_id": "908052",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "solo": false
   },
   "214": {
     "global_id": 214,
@@ -1349,36 +1344,39 @@
   "215": {
     "global_id": 215,
     "cont_name": "Abrilhantador Máquina Loiça Limão Continente",
-    "pingo_name": "",
+    "pingo_name": "Abrilhantador Máquina da Loiça",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "7486410",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "558685",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "216": {
     "global_id": 216,
     "cont_name": "Limpa Madeiras com Sabão Continente",
-    "pingo_name": "",
+    "pingo_name": "Lava Tudo Brilhante Madeira",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "7395939",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "936913",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "217": {
     "global_id": 217,
     "cont_name": "Lava Tudo Perfumado Bosque Continente",
-    "pingo_name": "",
+    "pingo_name": "Lava Tudo Herbal",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "5780868",
-    "pingo_id": "",
+    "pingo_id": "906970",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "solo": false
   },
   "218": {
     "global_id": 218,
@@ -1394,14 +1392,15 @@
   "219": {
     "global_id": 219,
     "cont_name": "Luvas Acetinadas M/L Continente",
-    "pingo_name": "",
+    "pingo_name": "Luvas Sensíveis Médias/Grandes",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "6607572",
-    "pingo_id": "",
+    "pingo_id": "777261",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "solo": false
   },
   "220": {
     "global_id": 220,
@@ -1428,36 +1427,39 @@
   "222": {
     "global_id": 222,
     "cont_name": "Anti-Calcário Pastilhas Power+ 3 em 1 Continente",
-    "pingo_name": "",
+    "pingo_name": "Anticalcário em Pastilhas para Máquina da Roupa",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "8115395",
-    "pingo_id": "",
+    "pingo_id": "931458",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "solo": false
   },
   "224": {
     "global_id": 224,
     "cont_name": "Creme de Limpeza Frescura Limão Continente",
-    "pingo_name": "",
+    "pingo_name": "Abrasivo Creme Limão",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "4302665",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "750668",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "225": {
     "global_id": 225,
     "cont_name": "Percarbonato de Sódio Continente",
-    "pingo_name": "",
+    "pingo_name": "Percabonato de Sódio",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "7929728",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "983819",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "226": {
     "global_id": 226,
@@ -1473,13 +1475,14 @@
   "227": {
     "global_id": 227,
     "cont_name": "Tira Nódoas Spray Oxi Action Desengordurante Vanish",
-    "pingo_name": "",
+    "pingo_name": "Spray Pré-Lavagem Oxi-Action",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "7431564",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "894109",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "228": {
     "global_id": 228,
@@ -1495,37 +1498,40 @@
   "231": {
     "global_id": 231,
     "cont_name": "Limpa Pratas Algodão Duraglit",
-    "pingo_name": "",
+    "pingo_name": "Algodão Limpa Pratas",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "2053320",
-    "pingo_id": "",
+    "pingo_id": "23615",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "solo": false
   },
   "232": {
     "global_id": 232,
     "cont_name": "Limpa Vidros Spray Power+ Continente",
-    "pingo_name": "",
+    "pingo_name": "Spray Limpa Vidros",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "8239768",
-    "pingo_id": "",
+    "pingo_id": "915116",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "solo": false
   },
   "234": {
     "global_id": 234,
     "cont_name": "Amaciador Roupa Concentrado Aromaterapia Gold Vernel",
-    "pingo_name": "",
+    "pingo_name": "Amaciador Roupa Concentrado Gold",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "8190857",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "999988",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "235": {
     "global_id": 235,
@@ -1564,26 +1570,28 @@
   "238": {
     "global_id": 238,
     "cont_name": "Spray Casa de Banho Power+ Continente",
-    "pingo_name": "",
+    "pingo_name": "Spray Anti-Cálcario",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "8241596",
-    "pingo_id": "",
+    "pingo_id": "1000785",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "solo": false
   },
   "240": {
     "global_id": 240,
     "cont_name": "Gelatina em Pó de Melancia Royal",
-    "pingo_name": "",
+    "pingo_name": "Gelatina em Pó de Melancia 0% Açúcar",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "5491853",
-    "pingo_id": "",
+    "pingo_id": "767777",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "solo": false
   },
   "241": {
     "global_id": 241,
@@ -1599,13 +1607,14 @@
   "242": {
     "global_id": 242,
     "cont_name": "Gelatina em Pó de Frutos do Bosque Royal",
-    "pingo_name": "",
+    "pingo_name": "Gelatina em Pó de Frutos do Bosque  0% Açúcar",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "6433393",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "856735",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "243": {
     "global_id": 243,
@@ -1621,80 +1630,87 @@
   "244": {
     "global_id": 244,
     "cont_name": "Bolachas Crackers sem Sal na Superfície Continente",
-    "pingo_name": "",
+    "pingo_name": "Bolachas Crackers sem Sal na Superfície",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "4773581",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "692922",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "245": {
     "global_id": 245,
     "cont_name": "Gelatina em Pó de Ananás Royal",
-    "pingo_name": "",
+    "pingo_name": "Gelatina em Pó de Ananás  0% Açúcar",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "5491876",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "544170",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "247": {
     "global_id": 247,
     "cont_name": "Bolachas Aventura Continente",
-    "pingo_name": "",
+    "pingo_name": "Bolachas de Cereais Animais Pack 3",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "8142811",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "1002648",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "248": {
     "global_id": 248,
     "cont_name": "Salsichas Bockwurst Frasco 5 un Continente",
-    "pingo_name": "",
+    "pingo_name": "Salsichas Hot Dog em Frasco",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "5508727",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "322239",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "249": {
     "global_id": 249,
     "cont_name": "Arroz Vaporizado Continente",
-    "pingo_name": "",
+    "pingo_name": "Arroz Vaporizado",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "4954144",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "651179",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "250": {
     "global_id": 250,
     "cont_name": "Bolachas Mini Dinossauros Chocolate Artiach",
-    "pingo_name": "",
+    "pingo_name": "Bolachas com Cacau Mini Dinosaurus Pack 3",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "4951644",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "701839",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "251": {
     "global_id": 251,
     "cont_name": "Gelatina em Pó Mirtilo sem Açúcar Continente",
-    "pingo_name": "",
+    "pingo_name": "Gelatina em Pó de Mirtilo 0% Açúcar",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "8422482",
-    "pingo_id": "",
+    "pingo_id": "940089",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "solo": false
   },
   "252": {
     "global_id": 252,
@@ -1711,24 +1727,26 @@
   "253": {
     "global_id": 253,
     "cont_name": "Gelatina em Pó de Limão Royal",
-    "pingo_name": "",
+    "pingo_name": "Gelatina em Pó de Limão 0% Açúcar",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "5491726",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "767798",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "254": {
     "global_id": 254,
     "cont_name": "Tortitas de Milho com Sal sem Glúten Continente Equilíbrio",
-    "pingo_name": "",
+    "pingo_name": "Tortitas de Milho Sem Glúten",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "5968600",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "694396",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "255": {
     "global_id": 255,
@@ -1803,13 +1821,14 @@
   "261": {
     "global_id": 261,
     "cont_name": "Bolachas Maria Continente",
-    "pingo_name": "",
+    "pingo_name": "Bolacha Maria Pack 4",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "6715842",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "673345",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "262": {
     "global_id": 262,
@@ -1836,46 +1855,50 @@
   "264": {
     "global_id": 264,
     "cont_name": "Bolachas Digestivas de Aveia Continente",
-    "pingo_name": "",
+    "pingo_name": "Bolachas Digestivas de Aveia",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "7447101",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "869881",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "265": {
     "global_id": 265,
     "cont_name": "Cápsulas de Descafeinado Int 8 Buondi",
-    "pingo_name": "",
+    "pingo_name": "Cápsulas de Café Nespresso Descafeinado",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "7612057",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "944333",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "266": {
     "global_id": 266,
     "cont_name": "Sal Grosso Continente",
-    "pingo_name": "",
+    "pingo_name": "Sal Grosso",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "5621031",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "1960",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "267": {
     "global_id": 267,
     "cont_name": "Caldo de Galinha Cubos Continente",
-    "pingo_name": "",
+    "pingo_name": "Caldo de Galinha 24 Cubos",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "6896865",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "660081",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "268": {
     "global_id": 268,
@@ -1986,13 +2009,14 @@
   "277": {
     "global_id": 277,
     "cont_name": "Atum em Azeite Continente",
-    "pingo_name": "",
+    "pingo_name": "Atum Posta em Azeite",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "3697794",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "559259",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "279": {
     "global_id": 279,
@@ -2079,13 +2103,14 @@
   "286": {
     "global_id": 286,
     "cont_name": "Arroz Basmati Continente",
-    "pingo_name": "",
+    "pingo_name": "Arroz Basmati",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "4949515",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "651101",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "287": {
     "global_id": 287,
@@ -2188,17 +2213,6 @@
     "pingo_id": "906395",
     "conversion_factor": 1.0
   },
-  "297": {
-    "global_id": 297,
-    "cont_name": "",
-    "pingo_name": "Gelatina em Pó de Frutos do Bosque  0% Açúcar",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "856735",
-    "conversion_factor": 1.0
-  },
   "298": {
     "global_id": 298,
     "cont_name": "",
@@ -2232,17 +2246,6 @@
     "pingo_id": "42856",
     "conversion_factor": 1.0,
     "category_manual": true
-  },
-  "305": {
-    "global_id": 305,
-    "cont_name": "",
-    "pingo_name": "Gelatina em Pó de Ananás  0% Açúcar",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "544170",
-    "conversion_factor": 1.0
   },
   "307": {
     "global_id": 307,
@@ -2368,28 +2371,6 @@
     "pingo_id": "808838",
     "conversion_factor": 1.0
   },
-  "321": {
-    "global_id": 321,
-    "cont_name": "",
-    "pingo_name": "Bolachas Crackers sem Sal na Superfície",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "692922",
-    "conversion_factor": 1.0
-  },
-  "322": {
-    "global_id": 322,
-    "cont_name": "",
-    "pingo_name": "Bolachas de Cereais Animais Pack 3",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "1002648",
-    "conversion_factor": 1.0
-  },
   "323": {
     "global_id": 323,
     "cont_name": "",
@@ -2457,17 +2438,6 @@
     "conversion_factor": 1.0,
     "category_manual": true
   },
-  "329": {
-    "global_id": 329,
-    "cont_name": "",
-    "pingo_name": "Detergente Loiça Manual Ultra Limão",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "952429",
-    "conversion_factor": 1.0
-  },
   "330": {
     "global_id": 330,
     "cont_name": "",
@@ -2478,30 +2448,6 @@
     "cont_id": "",
     "pingo_id": "952433",
     "conversion_factor": 1.0
-  },
-  "331": {
-    "global_id": 331,
-    "cont_name": "",
-    "pingo_name": "Lava Tudo Brilhante Madeira",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "936913",
-    "conversion_factor": 1.0,
-    "category_manual": true
-  },
-  "332": {
-    "global_id": 332,
-    "cont_name": "",
-    "pingo_name": "Lava Tudo Herbal",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "906970",
-    "conversion_factor": 1.0,
-    "category_manual": true
   },
   "333": {
     "global_id": 333,
@@ -2640,17 +2586,6 @@
     "pingo_id": "963256",
     "conversion_factor": 1.0
   },
-  "353": {
-    "global_id": 353,
-    "cont_name": "",
-    "pingo_name": "Cápsulas de Café Nespresso Descafeinado",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "944333",
-    "conversion_factor": 1.0
-  },
   "355": {
     "global_id": 355,
     "cont_name": "",
@@ -2787,17 +2722,6 @@
     "conversion_factor": 1.0,
     "category_manual": true
   },
-  "376": {
-    "global_id": 376,
-    "cont_name": "",
-    "pingo_name": "Arroz Basmati",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "651101",
-    "conversion_factor": 1.0
-  },
   "377": {
     "global_id": 377,
     "cont_name": "",
@@ -2831,17 +2755,6 @@
     "pingo_id": "986050",
     "conversion_factor": 1.0
   },
-  "381": {
-    "global_id": 381,
-    "cont_name": "",
-    "pingo_name": "Caldo de Galinha 24 Cubos",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "660081",
-    "conversion_factor": 1.0
-  },
   "382": {
     "global_id": 382,
     "cont_name": "",
@@ -2865,17 +2778,6 @@
     "pingo_id": "104376",
     "conversion_factor": 1.0,
     "category_manual": true
-  },
-  "384": {
-    "global_id": 384,
-    "cont_name": "",
-    "pingo_name": "Atum Posta em Azeite",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "559259",
-    "conversion_factor": 1.0
   },
   "385": {
     "global_id": 385,
@@ -2942,17 +2844,6 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "901542",
-    "conversion_factor": 1.0
-  },
-  "396": {
-    "global_id": 396,
-    "cont_name": "",
-    "pingo_name": "Arroz Vaporizado",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "651179",
     "conversion_factor": 1.0
   },
   "397": {
@@ -3313,17 +3204,6 @@
     "pingo_id": "654603",
     "conversion_factor": 1.0
   },
-  "438": {
-    "global_id": 438,
-    "cont_name": "",
-    "pingo_name": "Sal Grosso",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "1960",
-    "conversion_factor": 1.0
-  },
   "439": {
     "global_id": 439,
     "cont_name": "",
@@ -3333,40 +3213,6 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "923707",
-    "conversion_factor": 1.0,
-    "category_manual": true
-  },
-  "440": {
-    "global_id": 440,
-    "cont_name": "",
-    "pingo_name": "Salsichas Hot Dog em Frasco",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "322239",
-    "conversion_factor": 1.0
-  },
-  "441": {
-    "global_id": 441,
-    "cont_name": "",
-    "pingo_name": "Amaciador Roupa Concentrado Gold",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "999988",
-    "conversion_factor": 1.0
-  },
-  "442": {
-    "global_id": 442,
-    "cont_name": "",
-    "pingo_name": "Percabonato de Sódio",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "983819",
     "conversion_factor": 1.0,
     "category_manual": true
   },
@@ -3448,18 +3294,6 @@
     "pingo_id": "996980",
     "conversion_factor": 1.0
   },
-  "453": {
-    "global_id": 453,
-    "cont_name": "",
-    "pingo_name": "Gelatina em Pó de Melancia 0% Açúcar",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "767777",
-    "conversion_factor": 1.0,
-    "category_manual": true
-  },
   "454": {
     "global_id": 454,
     "cont_name": "",
@@ -3515,17 +3349,6 @@
     "pingo_id": "893466",
     "conversion_factor": 1.0
   },
-  "464": {
-    "global_id": 464,
-    "cont_name": "",
-    "pingo_name": "Gelatina em Pó de Limão 0% Açúcar",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "767798",
-    "conversion_factor": 1.0
-  },
   "466": {
     "global_id": 466,
     "cont_name": "",
@@ -3559,42 +3382,6 @@
     "pingo_id": "850376",
     "conversion_factor": 1.0
   },
-  "477": {
-    "global_id": 477,
-    "cont_name": "",
-    "pingo_name": "Abrilhantador Máquina da Loiça",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "558685",
-    "conversion_factor": 1.0,
-    "category_manual": true
-  },
-  "478": {
-    "global_id": 478,
-    "cont_name": "",
-    "pingo_name": "Spray Anti-Cálcario",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "1000785",
-    "conversion_factor": 1.0,
-    "category_manual": true
-  },
-  "479": {
-    "global_id": 479,
-    "cont_name": "",
-    "pingo_name": "Sacos do Lixo com Fecho Fácil 30L",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "1002199",
-    "conversion_factor": 1.0,
-    "category_manual": true
-  },
   "480": {
     "global_id": 480,
     "cont_name": "",
@@ -3606,18 +3393,6 @@
     "pingo_id": "777938",
     "conversion_factor": 1.0
   },
-  "481": {
-    "global_id": 481,
-    "cont_name": "",
-    "pingo_name": "Luvas Sensíveis Médias/Grandes",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "777261",
-    "conversion_factor": 1.0,
-    "category_manual": true
-  },
   "482": {
     "global_id": 482,
     "cont_name": "",
@@ -3627,18 +3402,6 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "921733",
-    "conversion_factor": 1.0,
-    "category_manual": true
-  },
-  "483": {
-    "global_id": 483,
-    "cont_name": "",
-    "pingo_name": "Rolo de Cozinha 2 Folhas Compacto 2=4 Rolos",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "908052",
     "conversion_factor": 1.0,
     "category_manual": true
   },
@@ -3676,29 +3439,6 @@
     "pingo_id": "940841",
     "conversion_factor": 1.0
   },
-  "487": {
-    "global_id": 487,
-    "cont_name": "",
-    "pingo_name": "Gelatina em Pó de Mirtilo 0% Açúcar",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "940089",
-    "conversion_factor": 1.0,
-    "category_manual": true
-  },
-  "488": {
-    "global_id": 488,
-    "cont_name": "",
-    "pingo_name": "Tortitas de Milho Sem Glúten",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "694396",
-    "conversion_factor": 1.0
-  },
   "489": {
     "global_id": 489,
     "cont_name": "",
@@ -3708,17 +3448,6 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "986428",
-    "conversion_factor": 1.0
-  },
-  "490": {
-    "global_id": 490,
-    "cont_name": "",
-    "pingo_name": "Bolachas Digestivas de Aveia",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "869881",
     "conversion_factor": 1.0
   },
   "494": {
@@ -3744,18 +3473,6 @@
     "pingo_id": "865298",
     "conversion_factor": 1.0,
     "solo": false
-  },
-  "496": {
-    "global_id": 496,
-    "cont_name": "",
-    "pingo_name": "Abrasivo Creme Limão",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "750668",
-    "conversion_factor": 1.0,
-    "category_manual": true
   },
   "497": {
     "global_id": 497,
@@ -3803,17 +3520,6 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "1000190",
-    "conversion_factor": 1.0
-  },
-  "501": {
-    "global_id": 501,
-    "cont_name": "",
-    "pingo_name": "Esponja com Esfregão Ultra Fresh",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "851936",
     "conversion_factor": 1.0
   },
   "502": {
@@ -3865,29 +3571,6 @@
     "pingo_id": "884556",
     "conversion_factor": 1.0
   },
-  "507": {
-    "global_id": 507,
-    "cont_name": "",
-    "pingo_name": "Bolacha Maria Pack 4",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "673345",
-    "conversion_factor": 1.0
-  },
-  "508": {
-    "global_id": 508,
-    "cont_name": "",
-    "pingo_name": "Spray Limpa Vidros",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "915116",
-    "conversion_factor": 1.0,
-    "category_manual": true
-  },
   "509": {
     "global_id": 509,
     "cont_name": "",
@@ -3900,18 +3583,6 @@
     "conversion_factor": 1.0,
     "category_manual": true
   },
-  "510": {
-    "global_id": 510,
-    "cont_name": "",
-    "pingo_name": "Spray Pré-Lavagem Oxi-Action",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "894109",
-    "conversion_factor": 1.0,
-    "category_manual": true
-  },
   "511": {
     "global_id": 511,
     "cont_name": "",
@@ -3921,17 +3592,6 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "816928",
-    "conversion_factor": 1.0
-  },
-  "512": {
-    "global_id": 512,
-    "cont_name": "",
-    "pingo_name": "Abrasivo Creme Lixívia",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "750669",
     "conversion_factor": 1.0
   },
   "513": {
@@ -3956,42 +3616,6 @@
     "pingo_id": "985531",
     "conversion_factor": 1.0
   },
-  "515": {
-    "global_id": 515,
-    "cont_name": "",
-    "pingo_name": "Algodão Limpa Pratas",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "23615",
-    "conversion_factor": 1.0,
-    "category_manual": true
-  },
-  "517": {
-    "global_id": 517,
-    "cont_name": "",
-    "pingo_name": "Anticalcário em Pastilhas para Máquina da Roupa",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "931458",
-    "conversion_factor": 1.0,
-    "category_manual": true
-  },
-  "518": {
-    "global_id": 518,
-    "cont_name": "",
-    "pingo_name": "Guardanapos 3 Folhas - 70un",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "868387",
-    "conversion_factor": 1.0,
-    "category_manual": true
-  },
   "519": {
     "global_id": 519,
     "cont_name": "",
@@ -4015,16 +3639,5 @@
     "pingo_id": "773757",
     "conversion_factor": 1.0,
     "category_manual": true
-  },
-  "522": {
-    "global_id": 522,
-    "cont_name": "",
-    "pingo_name": "Bolachas com Cacau Mini Dinosaurus Pack 3",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "701839",
-    "conversion_factor": 1.0
   }
 }
