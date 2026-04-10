@@ -4656,13 +4656,14 @@
   },
   "524": {
     "global_id": 524,
-    "cont_name": "",
+    "cont_name": "Bolo Planetus Manhãzitos",
     "pingo_name": "Bolo Planetus",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "4906498",
     "pingo_id": "700832",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   }
 }
