@@ -242,13 +242,14 @@
   "121": {
     "global_id": 121,
     "cont_name": "Hambúrguer de Frango sem Glúten Capitão Iglo",
-    "pingo_name": "",
+    "pingo_name": "Hambúrgueres de Frango Congelados",
     "receipt_string": "",
     "category": "❄️ Congelados",
     "exclude_comparison": false,
     "cont_id": "5696985",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "813444",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "122": {
     "global_id": 122,
@@ -1082,7 +1083,7 @@
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "5356292",
-    "pingo_id": "996386",
+    "pingo_id": "925034",
     "conversion_factor": 1.0,
     "solo": false
   },
@@ -3959,5 +3960,75 @@
     "cont_id": "",
     "pingo_id": "750668",
     "conversion_factor": 1.0
+  },
+  "479": {
+    "global_id": 479,
+    "cont_name": "Esparregado de Espinafres Continente",
+    "pingo_name": "Esparregado Congelado",
+    "receipt_string": "",
+    "category": "🥫 Despensa",
+    "exclude_comparison": false,
+    "cont_id": "5497688",
+    "pingo_id": "896455",
+    "conversion_factor": 1.0,
+    "solo": false
+  },
+  "480": {
+    "global_id": 480,
+    "cont_name": "Esparregado de Grelos Continente Seleção",
+    "pingo_name": "",
+    "receipt_string": "",
+    "category": "🥫 Despensa",
+    "exclude_comparison": false,
+    "cont_id": "6392921",
+    "pingo_id": "",
+    "conversion_factor": 1.0
+  },
+  "481": {
+    "global_id": 481,
+    "cont_name": "Queijo Fundido Light Porções A Vaca que ri",
+    "pingo_name": "Queijo Fundido Light Porções",
+    "receipt_string": "",
+    "category": "🧀 Frigorífico",
+    "exclude_comparison": false,
+    "cont_id": "7708138",
+    "pingo_id": "956515",
+    "conversion_factor": 1.0,
+    "solo": false
+  },
+  "482": {
+    "global_id": 482,
+    "cont_name": "Queijo Fundido Light Palitos A Vaca que ri",
+    "pingo_name": "",
+    "receipt_string": "",
+    "category": "🧀 Frigorífico",
+    "exclude_comparison": false,
+    "cont_id": "6372252",
+    "pingo_id": "",
+    "conversion_factor": 1.0
+  },
+  "483": {
+    "global_id": 483,
+    "cont_name": "Queijo Fundido Light Porções A Vaca que ri",
+    "pingo_name": "Queijo Fundido Light Porções",
+    "receipt_string": "",
+    "category": "🧀 Frigorífico",
+    "exclude_comparison": false,
+    "cont_id": "7708156",
+    "pingo_id": "955261",
+    "conversion_factor": 1.0,
+    "solo": false
+  },
+  "484": {
+    "global_id": 484,
+    "cont_name": "Queijo Fundido Light Porções A Vaca que ri",
+    "pingo_name": "Queijo Fundido Light Porções",
+    "receipt_string": "",
+    "category": "🧀 Frigorífico",
+    "exclude_comparison": false,
+    "cont_id": "7708154",
+    "pingo_id": "955140",
+    "conversion_factor": 1.0,
+    "solo": false
   }
 }
