@@ -2056,13 +2056,14 @@
   "282": {
     "global_id": 282,
     "cont_name": "Bolachas Torradas Nacional",
-    "pingo_name": "",
+    "pingo_name": "Bolachas Torradas",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "5762459",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "808018",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "283": {
     "global_id": 283,
@@ -3592,17 +3593,6 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "816928",
-    "conversion_factor": 1.0
-  },
-  "513": {
-    "global_id": 513,
-    "cont_name": "",
-    "pingo_name": "Bolachas Torradas",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "808018",
     "conversion_factor": 1.0
   },
   "514": {
