@@ -3629,5 +3629,16 @@
     "pingo_id": "773757",
     "conversion_factor": 1.0,
     "category_manual": true
+  },
+  "522": {
+    "global_id": 522,
+    "cont_name": "Sacos Lixo Fecho Fácil 30 lt Continente",
+    "pingo_name": "",
+    "receipt_string": "",
+    "category": "🧴 Higiene e Limpeza",
+    "exclude_comparison": false,
+    "cont_id": "7519982",
+    "pingo_id": "",
+    "conversion_factor": 1.0
   }
 }
