@@ -286,13 +286,14 @@
   "125": {
     "global_id": 125,
     "cont_name": "Croquetes de Carne Forno Pack Poupança Continente",
-    "pingo_name": "",
+    "pingo_name": "Croquetes de Carne Pré-Frito Congelados",
     "receipt_string": "",
     "category": "❄️ Congelados",
     "exclude_comparison": false,
     "cont_id": "8368738",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "865482",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "126": {
     "global_id": 126,
@@ -712,13 +713,14 @@
   "161": {
     "global_id": 161,
     "cont_name": "Lombos de Pescada do Cabo Ultracongelada Continente",
-    "pingo_name": "",
+    "pingo_name": "Lombos de Pescada Congelados",
     "receipt_string": "",
     "category": "❄️ Congelados",
     "exclude_comparison": false,
     "cont_id": "4952133",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "38365",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "162": {
     "global_id": 162,
@@ -2554,28 +2556,6 @@
     "pingo_id": "739880",
     "conversion_factor": 1.0
   },
-  "350": {
-    "global_id": 350,
-    "cont_name": "",
-    "pingo_name": "Croquetes de Carne Pré-Frito Congelados",
-    "receipt_string": "",
-    "category": "❄️ Congelados",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "865482",
-    "conversion_factor": 1.0
-  },
-  "351": {
-    "global_id": 351,
-    "cont_name": "",
-    "pingo_name": "Lombos de Pescada Congelados",
-    "receipt_string": "",
-    "category": "❄️ Congelados",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "38365",
-    "conversion_factor": 1.0
-  },
   "352": {
     "global_id": 352,
     "cont_name": "",
@@ -2834,17 +2814,6 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "805491",
-    "conversion_factor": 1.0
-  },
-  "394": {
-    "global_id": 394,
-    "cont_name": "",
-    "pingo_name": "Batatas Noisettes",
-    "receipt_string": "",
-    "category": "❄️ Congelados",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "901542",
     "conversion_factor": 1.0
   },
   "397": {
@@ -3630,15 +3599,16 @@
     "conversion_factor": 1.0,
     "category_manual": true
   },
-  "522": {
-    "global_id": 522,
-    "cont_name": "Sacos Lixo Fecho Fácil 30 lt Continente",
-    "pingo_name": "",
+  "523": {
+    "global_id": 523,
+    "cont_name": "Batata Noisette Continente",
+    "pingo_name": "Batatas Noisettes",
     "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
+    "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "7519982",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "cont_id": "8172848",
+    "pingo_id": "901542",
+    "conversion_factor": 1.0,
+    "solo": false
   }
 }
