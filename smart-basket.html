@@ -347,6 +347,10 @@ main{padding:16px;max-width:700px;margin:0 auto;width:100%;padding-bottom:90px}
     <svg viewBox="0 0 24 24"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
     <span>Análise</span>
   </button>
+  <button class="tab-btn" id="tab-gasolina" onclick="goTab('gasolina')">
+    <svg viewBox="0 0 24 24"><path d="M3 22V8l7-6 7 6v14"/><path d="M10 22V16h4v6"/><path d="M14 8h3l1 4v4h-4"/><line x1="17" y1="12" x2="20" y2="12"/></svg>
+    <span>Gasolina</span>
+  </button>
   <button class="tab-btn" id="tab-settings" onclick="goTab('settings')">
     <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
     <span>Definições</span>
@@ -487,6 +491,77 @@ main{padding:16px;max-width:700px;margin:0 auto;width:100%;padding-bottom:90px}
 
 </div>
 
+<!-- ══ GASOLINA TAB ════════════════════════════════════ -->
+<div class="panel" id="tab-gasolina-panel">
+
+<div style="margin-bottom:14px">
+  <div style="font-size:18px;font-weight:700;margin-bottom:2px">Gasolina</div>
+  <div style="font-size:13px;color:var(--muted)" id="gas-subtitle">Padre Cruz · Telheiras</div>
+</div>
+
+<!-- Calculator -->
+<div class="card" style="margin-bottom:10px">
+  <div class="card-title">Calculadora</div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px">
+    <div>
+      <div style="font-size:11px;color:var(--muted);margin-bottom:4px">Quanto quero gastar</div>
+      <div style="position:relative">
+        <input type="number" id="gas-eur" value="50" min="1" step="1"
+          style="width:100%;padding:8px 28px 8px 10px;background:var(--s2);border:1px solid var(--border);border-radius:var(--r-sm);font-family:var(--font);font-size:14px;font-weight:600;color:var(--text);outline:none"
+          oninput="gasCalc()">
+        <span style="position:absolute;right:9px;top:50%;transform:translateY(-50%);font-size:12px;color:var(--muted);pointer-events:none">€</span>
+      </div>
+    </div>
+    <div>
+      <div style="font-size:11px;color:var(--muted);margin-bottom:4px">Combustível</div>
+      <select id="gas-fuel" onchange="gasCalc()"
+        style="width:100%;padding:8px 10px;background:var(--s2);border:1px solid var(--border);border-radius:var(--r-sm);font-family:var(--font);font-size:13px;color:var(--text);outline:none">
+        <option>Gasolina simples 95</option>
+        <option>Gasolina especial 95</option>
+        <option>Gasóleo simples</option>
+        <option>Gasóleo especial</option>
+        <option>Gasolina especial 98</option>
+      </select>
+    </div>
+    <div>
+      <div style="font-size:11px;color:var(--muted);margin-bottom:4px">Desconto GALP (€/L)</div>
+      <div style="position:relative">
+        <input type="number" id="gas-gd" value="0.060" min="0" max="0.30" step="0.001"
+          style="width:100%;padding:8px 36px 8px 10px;background:var(--s2);border:1px solid var(--border);border-radius:var(--r-sm);font-family:var(--font);font-size:13px;color:var(--text);outline:none"
+          oninput="gasCalc()">
+        <span style="position:absolute;right:9px;top:50%;transform:translateY(-50%);font-size:11px;color:var(--muted);pointer-events:none">€/L</span>
+      </div>
+    </div>
+    <div>
+      <div style="font-size:11px;color:var(--muted);margin-bottom:4px">GALP mín. litros</div>
+      <input type="number" id="gas-gml" value="16" min="1" step="1"
+        style="width:100%;padding:8px 10px;background:var(--s2);border:1px solid var(--border);border-radius:var(--r-sm);font-family:var(--font);font-size:13px;color:var(--text);outline:none"
+        oninput="gasCalc()">
+    </div>
+  </div>
+  <div style="font-size:11px;color:var(--muted)">BP: desconto escalonado €/abastecimento · GALP: cêntimos por litro</div>
+</div>
+
+<!-- Results -->
+<div class="card" id="gas-results-card">
+  <div class="card-title" style="margin-bottom:10px">Melhor opção — €/litro efectivo</div>
+  <div id="gas-results"><div style="font-size:13px;color:var(--muted)">A carregar preços…</div></div>
+</div>
+
+<!-- ENSE outlook — compact -->
+<div style="background:var(--s1);border:1px solid var(--border);border-radius:var(--r);padding:12px 14px;margin-bottom:12px">
+  <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);margin-bottom:6px">Tendência ENSE — próxima semana</div>
+  <div id="gas-ense-out" style="font-size:13px;color:var(--muted)">A carregar…</div>
+  <div style="font-size:10px;color:var(--muted);margin-top:6px;line-height:1.5">ENSE publica sexta à tarde → marcas anunciam domingo → DGEG actualiza segunda 00:00</div>
+</div>
+
+<!-- Refresh -->
+<button class="btn btn-ghost" style="width:100%;font-size:12px" id="gas-refresh-btn" onclick="gasLoadAll()">↻ Actualizar preços DGEG</button>
+<div style="font-size:10px;color:var(--muted);text-align:center;margin-top:6px" id="gas-refresh-status"></div>
+
+</div>
+
 <!-- ══ SETTINGS TAB ════════════════════════════════════ -->
 <div class="panel" id="tab-settings-panel">
 <!-- Sync status -->
@@ -612,6 +687,7 @@ async function init(){
   await loadData();
   updateSyncPill();
   renderAll();
+  gasInit();
   document.getElementById('ghost-inp-sl')?.addEventListener('keydown',e=>{if(e.key==='Enter')addGhostFromList();});
   document.querySelectorAll('#rev-chips .chip').forEach(c=>c.addEventListener('click',()=>{
     document.querySelectorAll('#rev-chips .chip').forEach(x=>x.classList.remove('active'));
@@ -714,6 +790,7 @@ function goTab(tab){
   if(tab==='list'){renderShoppingList();renderGhostList();}
   if(tab==='report'){renderAnalytics();}
   if(tab==='settings'){renderReview();renderReceiptHistory();}
+  if(tab==='gasolina'){gasCalc();if(!GAS_LOADED){GAS_LOADED=true;gasLoadAll();}}
 }
 
 // Keep goStep as alias for backwards compatibility (some buttons still call it)
@@ -1233,7 +1310,7 @@ function prodCardHTML(p){
       </div>
     </div>
     <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;min-width:86px">
-      ${inB?`<div style="font-size:12px;font-weight:600;color:#111">${fmt((Math.min(p.cont_std_price!=null?p.cont_std_price:(p.cont_price||Infinity),p.pingo_std_price!=null?p.pingo_std_price:(p.pingo_price||Infinity))||0)*qty)}</div>`:''}
+      ${inB?`<div style="font-size:12px;font-weight:600;color:#111">${(()=>{const{cCmp,pCmp,cPkg,pPkg}=_safeCompare(p);const cD=cCmp??p.cont_price??Infinity,pD=pCmp??p.pingo_price??Infinity;const pkg=cD<=pD?(cPkg??p.cont_price??0):(pPkg??p.pingo_price??0);return fmt((pkg||0)*qty);})()}</div>`:''}
       ${qtyHTML}
     </div>
   </div>`;
@@ -1265,9 +1342,11 @@ function setQty(gid,delta,event){
     const p=S.products.find(p=>p.global_id===parseInt(gid));
     const totalEl=card.querySelector('[style*="font-size:12px;font-weight:600"]');
     if(p&&nxt>0){
-      const cCmp=p.cont_std_price!=null?p.cont_std_price:(p.cont_price||Infinity);
-      const pCmp=p.pingo_std_price!=null?p.pingo_std_price:(p.pingo_price||Infinity);
-      const best=(Math.min(cCmp,pCmp)||0)*nxt;
+      const{cCmp:_cC,pCmp:_pC,cPkg:_cP,pPkg:_pP}=_safeCompare(p);
+      const cCmp=_cC!=null?_cC:(p.cont_price||Infinity);
+      const pCmp=_pC!=null?_pC:(p.pingo_price||Infinity);
+      const _bestPkg=cCmp<=pCmp?(_cP??p.cont_price??0):(_pP??p.pingo_price??0);
+      const best=_bestPkg*nxt;
       if(totalEl) totalEl.textContent=fmt(best);
       else{const wrap=card.querySelector('.qty-wrap');if(wrap)wrap.insertAdjacentHTML('beforebegin',`<div style="font-size:12px;font-weight:600;color:#111">${fmt(best)}</div>`);}
     } else if(totalEl) totalEl.remove();
@@ -1283,11 +1362,9 @@ function updateBasketBar(){
   // Compute 3 totals
   let rawC=0,rawP=0;
   items.forEach(({product:p,qty})=>{
-    // Use std_price (at standard quantity) for fair cross-store comparison
-    const cTotal=p.cont_std_price!=null?p.cont_std_price:p.cont_price;
-    const pTotal=p.pingo_std_price!=null?p.pingo_std_price:p.pingo_price;
-    if(cTotal!=null) rawC+=cTotal*qty;
-    if(pTotal!=null) rawP+=pTotal*qty;
+    const{cPkg,pPkg}=_safeCompare(p);
+    if(cPkg!=null) rawC+=cPkg*qty;
+    if(pPkg!=null) rawP+=pPkg*qty;
   });
   const contFinal=applyVoucher(rawC,vc);
   const pingoFinal=applyVoucher(rawP,vp);
@@ -1298,11 +1375,9 @@ function updateBasketBar(){
     if(cp!=null&&pp==null){splitCraw+=cp*qty;return;}
     if(pp!=null&&cp==null){splitPraw+=pp*qty;return;}
     if(cp==null&&pp==null)return;
-    const cf=p.conversion_factor||1;
-    const cs=p.cont_std_price,ps=p.pingo_std_price;
-    const cNorm=cs!=null?cs:(p.cont_per_kg?p.cont_per_kg*cf:(p.cont_norm_price?p.cont_norm_price*cf:cp));
-    const pNorm=ps!=null?ps:(p.pingo_per_kg||(p.pingo_norm_price||pp));
-    if(cNorm<=pNorm){splitCraw+=(cs!=null?cs:cp)*qty;}else{splitPraw+=(ps!=null?ps:pp)*qty;}
+    const{cCmp,pCmp,cPkg,pPkg}=_safeCompare(p);
+    if((cCmp??cp)<=(pCmp??pp)){splitCraw+=(cPkg??cp)*qty;}
+    else{splitPraw+=(pPkg??pp)*qty;}
   });
   const hybridFinal=applyVoucher(splitCraw,vc)+applyVoucher(splitPraw,vp);
   const splitEl=document.getElementById('tot-split-val');
@@ -1391,28 +1466,42 @@ function selectScenario(s){
   if(document.getElementById('step-5')?.classList.contains('active')) renderShoppingList();
 }
 
+function _unitMismatch(p){
+  // Detect when stores use incompatible units (e.g. cont=€/g, pingo=€/un)
+  // Signal: norm_prices differ by >20x — comparison is meaningless
+  const cn=p.cont_norm_price, pn=p.pingo_norm_price;
+  if(!cn||!pn) return false;
+  const ratio=Math.max(cn,pn)/Math.min(cn,pn);
+  return ratio>20;
+}
+function _safeCompare(p){
+  // Returns {cCmp, pCmp} for winner comparison, and {cPkg, pPkg} for basket totals.
+  // cCmp/pCmp: normalised (per-unit) price for picking the cheaper store.
+  // cPkg/pPkg: actual till price (what you pay) for basket total display.
+  const cp=p.cont_price, pp=p.pingo_price;
+  // Guard: if std_price is suspiciously small vs pkg_price (count/weight mismatch),
+  // fall back to pkg_price (e.g. pingo_std=0.13 but pingo_price=2.99 → use 2.99)
+  const cStd=p.cont_std_price;
+  const pStd=p.pingo_std_price;
+  const cStdSafe=(cStd!=null&&cp!=null&&cStd<cp*0.1)?null:cStd;
+  const pStdSafe=(pStd!=null&&pp!=null&&pStd<pp*0.1)?null:pStd;
+  const cPkg=cStdSafe??cp;
+  const pPkg=pStdSafe??pp;
+  const hasMismatch=cp!=null&&pp!=null&&_unitMismatch(p);
+  if(hasMismatch){
+    return{cCmp:cp, pCmp:pp, cPkg:cp, pPkg:pp, usesPkg:true};
+  }
+  const cf=p.conversion_factor||1;
+  const cCmp=p.cont_per_kg?p.cont_per_kg*cf:(p.cont_norm_price?p.cont_norm_price*cf:cp);
+  const pCmp=p.pingo_per_kg||(p.pingo_norm_price||pp);
+  return{cCmp,pCmp,cPkg,pPkg,usesPkg:false};
+}
 function compareUnitPrices(p){
-  // Use std_price (normalised to same quantity) when available
-  const cs=p.cont_std_price,ps=p.pingo_std_price;
-  if(cs!=null&&ps!=null){
-    if(cs<ps-0.001)return{winner:'cont'};
-    if(ps<cs-0.001)return{winner:'pingo'};
-    return{winner:'same'};
-  }
-  // Fallback to per_kg
-  const ck=p.cont_per_kg,pk=p.pingo_per_kg,cf=p.conversion_factor||1;
-  if(ck&&pk){
-    const ca=ck*cf;
-    if(ca<pk-0.0001)return{winner:'cont'};
-    if(pk<ca-0.0001)return{winner:'pingo'};
-    return{winner:'same'};
-  }
-  // Last resort: norm_price
-  const cn=p.cont_norm_price,pn=p.pingo_norm_price;
-  if(!cn||!pn)return{winner:null};
-  const cAdj=cn*cf;
-  if(cAdj<pn-0.0001)return{winner:'cont'};
-  if(pn<cAdj-0.0001)return{winner:'pingo'};
+  if(p.cont_price==null||p.pingo_price==null) return{winner:null};
+  const{cCmp,pCmp}=_safeCompare(p);
+  if(cCmp==null||pCmp==null) return{winner:null};
+  if(cCmp<pCmp-0.001) return{winner:'cont'};
+  if(pCmp<cCmp-0.001) return{winner:'pingo'};
   return{winner:'same'};
 }
 
@@ -1440,15 +1529,12 @@ function calculateOptimum(){
     if(cp!=null&&pp==null){splitC.push({product:p,qty});splitCraw+=cp*qty;return;}
     if(pp!=null&&cp==null){splitP.push({product:p,qty});splitPraw+=pp*qty;return;}
     if(cp==null&&pp==null)return;
-    // Use std_price for comparison (same quantity baseline), fallback to per_kg, then raw
-    const cs=p.cont_std_price,ps=p.pingo_std_price;
-    const cf=p.conversion_factor||1;
-    const cN=cs!=null?cs:(p.cont_per_kg?p.cont_per_kg*cf:(p.cont_norm_price?p.cont_norm_price*cf:cp));
-    const pN=ps!=null?ps:(p.pingo_per_kg||(p.pingo_norm_price||pp));
+    const{cCmp,pCmp,cPkg,pPkg}=_safeCompare(p);
+    const cN=cCmp??cp, pN=pCmp??pp;
     const diff=cN-pN;
     if(Math.abs(diff)<0.0001){ties.push({product:p,qty});return;}
-    if(diff<0){splitC.push({product:p,qty});splitCraw+=cp*qty;}
-    else{splitP.push({product:p,qty});splitPraw+=pp*qty;}
+    if(diff<0){splitC.push({product:p,qty});splitCraw+=(cPkg??cp)*qty;}
+    else{splitP.push({product:p,qty});splitPraw+=(pPkg??pp)*qty;}
   });
   ties.forEach(({product:p,qty})=>{
     const dC=distToThreshold(splitCraw,vc),dP=distToThreshold(splitPraw,vp);
@@ -1529,9 +1615,8 @@ function renderAllocTable(){
     const up=compareUnitPrices(p);
     const winner=up.winner||(p.cont_price!=null&&p.pingo_price!=null?(p.cont_price<p.pingo_price?'cont':p.pingo_price<p.cont_price?'pingo':'same'):p.cont_price!=null?'cont':'pingo');
     // Show actual till price per pack for the price cells, std_price for total
-    const lineStd=winner==='pingo'&&p.pingo_std_price!=null?p.pingo_std_price
-      :winner==='cont'&&p.cont_std_price!=null?p.cont_std_price
-      :(winner==='pingo'&&p.pingo_price!=null?p.pingo_price:p.cont_price||0);
+    const{cCmp:_ac,pCmp:_ap,cPkg:_acp,pPkg:_app}=_safeCompare(p);
+    const lineStd=winner==='pingo'?(_app??p.pingo_price??0):(_acp??p.cont_price??0);
     const lineTotal=lineStd*qty;
     const tag=winner==='cont'?`<span class="store-tag tag-cont-s" style="background:rgba(226,0,26,.08);color:#E2001A">🔴 Cont</span>`
       :winner==='pingo'?`<span class="store-tag tag-pingo-s" style="background:rgba(74,124,47,.08);color:#4A7C2F">🟢 Pingo</span>`
@@ -2007,6 +2092,203 @@ function renderAll(){
   if(badge){badge.style.display=toReview>0?'flex':'none';badge.textContent=toReview>9?'!':toReview;}
 }
 function fmt(n){if(n==null||isNaN(n))return'—';return n.toFixed(2).replace('.',',')+'€';}
+/* ══════════════════════════════════════════════════
+   GASOLINA TAB
+   ══════════════════════════════════════════════════ */
+
+const GAS_STATIONS={
+  gt:{id:65368,label:'GALP Telheiras',brand:'galp'},
+  gp:{id:65371,label:'GALP Padre Cruz',brand:'galp'},
+  bp:{id:65943,label:'BP Padre Cruz',brand:'bp'}
+};
+
+// Prices as of 13-04-2026 (fallback cache)
+const GAS_CACHE={
+  gt:{fuels:[['Gasolina simples 95',1.994],['Gasolina especial 95',2.044],['Gasóleo simples',2.200],['Gasóleo especial',2.250],['Gasolina especial 98',2.204]],ts:'13-04-2026 17:55'},
+  gp:{fuels:[['Gasolina simples 95',1.994],['Gasolina especial 95',2.044],['Gasóleo simples',2.200],['Gasóleo especial',2.250],['Gasolina especial 98',2.204]],ts:'13-04-2026 18:40'},
+  bp:{fuels:[['Gasolina simples 95',2.029],['Gasóleo simples',2.229],['Gasóleo especial',2.359],['Gasolina especial 98',2.239]],ts:'12-04-2026 23:30'}
+};
+
+const GAS_BP_TIERS=[
+  {max:24,d:5},{min:24,max:27,d:6},{min:27,max:31,d:7},{min:31,max:35,d:8},
+  {min:35,max:39,d:9},{min:39,max:43,d:10},{min:43,max:47,d:11},{min:47,max:51,d:12},
+  {min:51,max:55,d:13},{min:55,max:59,d:14},{min:59,max:63,d:15},{min:63,max:67,d:16},
+  {min:67,max:71,d:17},{min:71,max:75,d:18},{min:75,max:79,d:19},{min:79,d:20}
+];
+
+// ENSE reference data as of 13-04-2026 (fallback)
+const GAS_ENSE_CACHE=[
+  {d:'06/04',g:1.746,go:2.083},{d:'07/04',g:1.746,go:2.083},
+  {d:'08/04',g:1.746,go:2.044},{d:'09/04',g:1.651,go:1.807},
+  {d:'10/04',g:1.686,go:1.915},{d:'13/04',g:1.671,go:1.834}
+];
+
+let GAS_LIVE={};
+let GAS_ENSE=GAS_ENSE_CACHE;
+let GAS_LOADED=false;
+
+function _gasP(s){
+  if(typeof s==='number')return s;
+  const v=parseFloat(String(s).replace(',','.').replace(/[^\d.]/g,''));
+  return isNaN(v)?null:v;
+}
+function _gasGet(key,name){
+  const d=GAS_LIVE[key];if(!d)return null;
+  const f=d.fuels.find(x=>x[0]===name);return f?_gasP(f[1]):null;
+}
+function _gasBpDisc(eur){
+  if(eur<16)return 0;
+  for(const t of GAS_BP_TIERS){
+    if(!t.min&&eur<t.max)return t.d;
+    if(!t.max&&eur>=t.min)return t.d;
+    if(eur>=t.min&&eur<t.max)return t.d;
+  }
+  return 0;
+}
+
+function gasCalc(){
+  const eur=parseFloat(document.getElementById('gas-eur')?.value)||0;
+  const fuel=document.getElementById('gas-fuel')?.value||'Gasolina simples 95';
+  const gd=parseFloat(document.getElementById('gas-gd')?.value)||0;
+  const gml=parseFloat(document.getElementById('gas-gml')?.value)||16;
+  const out=document.getElementById('gas-results');
+  if(!out)return;
+
+  const res=[];
+
+  ['gt','gp'].forEach(k=>{
+    const p=_gasGet(k,fuel);if(!p)return;
+    const litres=eur/p;
+    const disc=litres>=gml?gd:0;
+    const effP=p-disc;
+    const effL=eur/effP;
+    res.push({key:k,label:GAS_STATIONS[k].label,rawP:p,disc,effP,effL,
+      discStr:disc>0?`−${(disc*100).toFixed(1)}c/L`:'sem desc. GALP'});
+  });
+
+  const bpP=_gasGet('bp',fuel);
+  if(bpP){
+    const bd=_gasBpDisc(eur);
+    const effL=(eur/bpP)+(bd/bpP);
+    const effP=eur/effL;
+    res.push({key:'bp',label:'BP Padre Cruz',rawP:bpP,disc:bd,effP,effL,
+      discStr:bd>0?`−${bd}€ total`:'sem desc. BP'});
+  }
+
+  if(!res.length){
+    out.innerHTML='<div style="font-size:13px;color:var(--muted)">A carregar preços…</div>';
+    return;
+  }
+
+  res.sort((a,b)=>a.effP-b.effP);
+  const bestL=res[0].effL;
+
+  out.innerHTML=res.map((r,i)=>{
+    const best=i===0;
+    const diffL=(r.effL-bestL).toFixed(2);
+    const bg=best?'background:rgba(26,122,60,.06);border-radius:var(--r-sm);padding:10px;margin:2px -10px':'padding:10px 0;border-bottom:1px solid var(--border)';
+    const nameColor=best?'color:var(--green);font-weight:700':'font-weight:600';
+    const litColor=best?'color:var(--green)':'color:var(--text)';
+    return`<div style="display:flex;align-items:flex-start;justify-content:space-between;${bg}">
+      <div style="flex:1;min-width:0">
+        <div style="font-size:14px;${nameColor}">${best?'✓ ':''}${r.label}</div>
+        <div style="font-size:11px;color:var(--muted);margin-top:2px;line-height:1.5">
+          ${r.rawP.toFixed(3)} €/L · ${r.discStr}${r.disc?` → <b>${r.effP.toFixed(3)} €/L</b>`:''}
+        </div>
+      </div>
+      <div style="text-align:right;flex-shrink:0;margin-left:12px">
+        <div style="font-size:18px;font-weight:700;${litColor}">${r.effL.toFixed(2)} L</div>
+        <div style="font-size:11px;${best?'color:var(--green)':'color:#e06060'}">${best?'melhor opção':diffL+' L a menos'}</div>
+      </div>
+    </div>`;
+  }).join('')+(eur<16?'<div style="font-size:11px;color:#e06060;margin-top:8px">Descontos aplicam-se a partir de 16 L.</div>':'');
+}
+
+function gasRenderEnse(data){
+  const el=document.getElementById('gas-ense-out');
+  if(!el||!data||!data.length)return;
+  const vals=data.slice(-5).map(d=>d.g);
+  const n=vals.length;
+  if(n<2){el.textContent='Dados insuficientes.';return;}
+  const slope=vals.slice(1).reduce((s,v,i)=>s+(v-vals[i]),0)/(n-1);
+  const last=vals[n-1];
+  const lastD=data[data.length-1].d;
+  const est=(last+slope*5).toFixed(3);
+  const rising=slope>0.002,falling=slope<-0.002;
+  const arrow=rising?'↑':falling?'↓':'→';
+  const dir=rising?'a subir':falling?'a descer':'estável';
+  const col=rising?'#E2001A':falling?'var(--green)':'var(--muted)';
+  el.innerHTML=`<span style="font-size:16px;font-weight:700;color:${col}">${arrow} ${dir}</span>
+    <span style="font-size:13px;color:var(--text);margin-left:8px">~${est} €/L segunda</span>
+    <span style="font-size:11px;color:var(--muted);margin-left:6px">(ref. ENSE, não preço bomba)</span>
+    <div style="font-size:11px;color:var(--muted);margin-top:2px">Último: ${lastD} = ${last.toFixed(3)} €/L · tendência ${slope>=0?'+':''}${(slope*100).toFixed(2)}c/dia</div>`;
+}
+
+async function gasFetchStation(id,key){
+  try{
+    const r=await fetch(`https://precoscombustiveis.dgeg.gov.pt/api/PrecoComb/GetDadosPostoMapa?id=${id}&f=json`);
+    if(!r.ok)throw 0;
+    const j=await r.json();
+    if(!j.status)throw 0;
+    GAS_LIVE[key]={fuels:j.resultado.Combustiveis.map(c=>[c.TipoCombustivel,_gasP(c.Preco)]),ts:j.resultado.DataAtualizacao};
+  }catch(e){
+    if(!GAS_LIVE[key])GAS_LIVE[key]={fuels:GAS_CACHE[key].fuels,ts:GAS_CACHE[key].ts+' (cache)'};
+  }
+}
+
+async function gasFetchEnse(){
+  try{
+    const r=await fetch('https://www.ense-epe.pt/precos-de-referencia/');
+    if(!r.ok)throw 0;
+    const txt=await r.text();
+    const rows=[];
+    const re=/<tr[^>]*>([\s\S]*?)<\/tr>/gi;
+    let m;
+    while((m=re.exec(txt))!==null){
+      const cells=[...m[1].matchAll(/<td[^>]*>([\s\S]*?)<\/td>/gi)].map(x=>x[1].replace(/<[^>]+>/g,'').trim());
+      if(cells.length>=3){
+        const d=cells[0];
+        const g=parseFloat(cells[1].replace(',','.').replace('€',''));
+        const go=parseFloat(cells[2].replace(',','.').replace('€',''));
+        if(d.match(/\d{2}\/\d{2}\/\d{4}/)&&!isNaN(g))rows.push({d:d.slice(0,5),g,go:isNaN(go)?0:go});
+      }
+    }
+    if(rows.length)GAS_ENSE=rows;
+  }catch(e){}
+  gasRenderEnse(GAS_ENSE);
+}
+
+function gasApplyCache(){
+  Object.keys(GAS_CACHE).forEach(k=>{
+    if(!GAS_LIVE[k])GAS_LIVE[k]={fuels:GAS_CACHE[k].fuels,ts:GAS_CACHE[k].ts+' (cache)'};
+  });
+}
+
+async function gasLoadAll(){
+  const btn=document.getElementById('gas-refresh-btn');
+  const status=document.getElementById('gas-refresh-status');
+  if(btn){btn.disabled=true;btn.textContent='A actualizar…';}
+  if(status)status.textContent='';
+  await Promise.allSettled([
+    gasFetchStation(65368,'gt'),
+    gasFetchStation(65371,'gp'),
+    gasFetchStation(65943,'bp'),
+    gasFetchEnse()
+  ]);
+  gasCalc();
+  const ts=GAS_LIVE.gt?.ts||'—';
+  if(status)status.textContent='DGEG: '+ts;
+  if(btn){btn.disabled=false;btn.textContent='↻ Actualizar preços DGEG';}
+}
+
+function gasInit(){
+  gasApplyCache();
+  gasRenderEnse(GAS_ENSE);
+  gasCalc();
+}
+
+/* ══ end of gasolina section ══ */
+
 init();
 </script>
 </body>
