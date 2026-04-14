@@ -2092,10 +2092,14 @@ function computeVoucherEfficiency(history){
     const store=r.store||'unknown';
     if(!result[store])result[store]={discount_total:0,voucher_total:0,total_paid:0,total_base:0,receipt_count:0};
     const disc=r.discount_total||0,vou=r.voucher_total||0,paid=r.total||0;
-    result[store].discount_total+=disc;
-    result[store].voucher_total+=vou;
-    result[store].total_paid+=paid;
-    result[store].total_base+=paid+disc+vou;
+    // total_gross is the true base price (before any discounts or vouchers)
+    // For Continente: SUBTOTAL + poupança. For Pingo: TOTAL (before POUPANÇA).
+    // Fall back to derived value if field missing (old receipts in history).
+    const base=r.total_gross||Math.round((paid+disc+vou)*100)/100;
+    result[store].discount_total=Math.round((result[store].discount_total+disc)*100)/100;
+    result[store].voucher_total=Math.round((result[store].voucher_total+vou)*100)/100;
+    result[store].total_paid=Math.round((result[store].total_paid+paid)*100)/100;
+    result[store].total_base=Math.round((result[store].total_base+base)*100)/100;
     result[store].receipt_count+=1;
   });
   Object.values(result).forEach(s=>{
