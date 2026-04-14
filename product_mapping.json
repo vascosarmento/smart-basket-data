@@ -94,17 +94,6 @@
     "conversion_factor": 1.0,
     "category_manual": true
   },
-  "109": {
-    "global_id": 109,
-    "cont_name": "Gel de Banho Hidratante Natural Honey",
-    "pingo_name": "",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "7683202",
-    "pingo_id": "",
-    "conversion_factor": 1.0
-  },
   "110": {
     "global_id": 110,
     "cont_name": "Champô Suave Bebé Johnsons Baby",
@@ -405,18 +394,6 @@
     "conversion_factor": 1.0,
     "solo": false
   },
-  "135": {
-    "global_id": 135,
-    "cont_name": "Queijo Flamengo sem Lactose Fatiado Terra Nostra",
-    "pingo_name": "",
-    "receipt_string": "",
-    "category": "🧀 Frigorífico",
-    "exclude_comparison": true,
-    "cont_id": "5125010",
-    "pingo_id": "",
-    "conversion_factor": 1.0,
-    "solo": true
-  },
   "136": {
     "global_id": 136,
     "cont_name": "Azeitona Verde Descaroçada Continente",
@@ -665,17 +642,6 @@
     "pingo_id": "377340",
     "conversion_factor": 1.0,
     "solo": false
-  },
-  "157": {
-    "global_id": 157,
-    "cont_name": "Queijo Flamengo Fatiado Continente",
-    "pingo_name": "",
-    "receipt_string": "",
-    "category": "🧀 Frigorífico",
-    "exclude_comparison": false,
-    "cont_id": "2888438",
-    "pingo_id": "",
-    "conversion_factor": 1.0
   },
   "158": {
     "global_id": 158,
@@ -963,18 +929,6 @@
     "cont_id": "2525325",
     "pingo_id": "",
     "conversion_factor": 1.0
-  },
-  "182": {
-    "global_id": 182,
-    "cont_name": "Queijo Flamengo sem Lactose Fatiado Limiano",
-    "pingo_name": "",
-    "receipt_string": "",
-    "category": "🧀 Frigorífico",
-    "exclude_comparison": true,
-    "cont_id": "4863936",
-    "pingo_id": "",
-    "conversion_factor": 1.0,
-    "solo": true
   },
   "183": {
     "global_id": 183,
@@ -1343,17 +1297,6 @@
     "conversion_factor": 1.0,
     "category_manual": true,
     "solo": false
-  },
-  "214": {
-    "global_id": 214,
-    "cont_name": "Tira Nódoas Spray Oxi Action Roupa Branca Vanish",
-    "pingo_name": "",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "7365581",
-    "pingo_id": "",
-    "conversion_factor": 1.0
   },
   "215": {
     "global_id": 215,
@@ -1731,18 +1674,6 @@
     "category_manual": true,
     "solo": false
   },
-  "252": {
-    "global_id": 252,
-    "cont_name": "Saqueta de Fruta Maçã e Banana +8M Continente",
-    "pingo_name": "",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "7273629",
-    "pingo_id": "",
-    "conversion_factor": 1.0,
-    "category_manual": true
-  },
   "253": {
     "global_id": 253,
     "cont_name": "Gelatina em Pó de Limão Royal",
@@ -1775,17 +1706,6 @@
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "4402173",
-    "pingo_id": "",
-    "conversion_factor": 1.0
-  },
-  "256": {
-    "global_id": 256,
-    "cont_name": "Saqueta de Fruta Maçã e Pera +8M Continente",
-    "pingo_name": "",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "7519494",
     "pingo_id": "",
     "conversion_factor": 1.0
   },
@@ -1965,18 +1885,6 @@
     "pingo_id": "928824",
     "conversion_factor": 1.0,
     "solo": false
-  },
-  "272": {
-    "global_id": 272,
-    "cont_name": "Saqueta de Fruta Banana e Morango +8M Continente",
-    "pingo_name": "",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "7267765",
-    "pingo_id": "",
-    "conversion_factor": 1.0,
-    "category_manual": true
   },
   "273": {
     "global_id": 273,
@@ -2621,14 +2529,15 @@
   },
   "374": {
     "global_id": 374,
-    "cont_name": "",
+    "cont_name": "Saqueta de Fruta Maçã e Pera +8M Continente",
     "pingo_name": "Bolsa de Fruta Maçã e Pêra",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "7519494",
     "pingo_id": "975728",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "375": {
     "global_id": 375,
@@ -2810,17 +2719,6 @@
     "pingo_id": "921121",
     "conversion_factor": 1.0
   },
-  "405": {
-    "global_id": 405,
-    "cont_name": "",
-    "pingo_name": "Fiambre da Perna Extra Fatias Finas",
-    "receipt_string": "",
-    "category": "🧀 Frigorífico",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "739881",
-    "conversion_factor": 1.0
-  },
   "406": {
     "global_id": 406,
     "cont_name": "",
@@ -2834,14 +2732,15 @@
   },
   "407": {
     "global_id": 407,
-    "cont_name": "",
+    "cont_name": "Queijo Flamengo sem Lactose Fatiado Terra Nostra",
     "pingo_name": "Queijo Flamengo Fatiado",
     "receipt_string": "",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "5125010",
     "pingo_id": "879922",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "411": {
     "global_id": 411,
@@ -2914,14 +2813,15 @@
   },
   "417": {
     "global_id": 417,
-    "cont_name": "",
+    "cont_name": "Queijo Flamengo sem Lactose Fatiado Limiano",
     "pingo_name": "Queijo Flamengo Fatiado",
     "receipt_string": "",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "4863936",
     "pingo_id": "846659",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "419": {
     "global_id": 419,
@@ -3048,26 +2948,28 @@
   },
   "433": {
     "global_id": 433,
-    "cont_name": "",
+    "cont_name": "Saqueta de Fruta Banana e Morango +8M Continente",
     "pingo_name": "Bolsa de Fruta Banana e Morango",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "7267765",
     "pingo_id": "1004487",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "solo": false
   },
   "434": {
     "global_id": 434,
-    "cont_name": "",
+    "cont_name": "Saqueta de Fruta Maçã e Banana +8M Continente",
     "pingo_name": "Bolsa de Fruta Maçã e Banana",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "7273629",
     "pingo_id": "1004486",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "435": {
     "global_id": 435,
@@ -3172,14 +3074,15 @@
   },
   "452": {
     "global_id": 452,
-    "cont_name": "",
+    "cont_name": "Queijo Flamengo Fatiado Continente",
     "pingo_name": "Queijo Flamengo Fatiado",
     "receipt_string": "",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "2888438",
     "pingo_id": "996980",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "454": {
     "global_id": 454,
@@ -3194,14 +3097,15 @@
   },
   "455": {
     "global_id": 455,
-    "cont_name": "",
+    "cont_name": "Gel de Banho Hidratante Natural Honey",
     "pingo_name": "Gel de Banho Leite e Mel",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "7683202",
     "pingo_id": "967692",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "459": {
     "global_id": 459,
@@ -3392,15 +3296,16 @@
   },
   "509": {
     "global_id": 509,
-    "cont_name": "",
+    "cont_name": "Tira Nódoas Spray Oxi Action Roupa Branca Vanish",
     "pingo_name": "Spray Pré-Lavagem Roupa Branca Oxi-Action",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
-    "cont_id": "",
+    "cont_id": "7365581",
     "pingo_id": "925033",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "solo": false
   },
   "514": {
     "global_id": 514,
@@ -3448,16 +3353,5 @@
     "pingo_id": "901542",
     "conversion_factor": 1.0,
     "solo": false
-  },
-  "524": {
-    "global_id": 524,
-    "cont_name": "Sacos Lixo Fecho Fácil 30 lt Continente",
-    "pingo_name": "",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "7519982",
-    "pingo_id": "",
-    "conversion_factor": 1.0
   }
 }
