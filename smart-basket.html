@@ -2018,12 +2018,36 @@ function _inferCat(name){
   return'🥫 Despensa';
 }
 
+function _buildReceiptLookup(store){
+  // Build normalised receipt_string → {global_id, category} from current mapping
+  // Called at render time so any new receipt_strings take effect immediately
+  const lookup={};
+  const rsKey=store==='continente'?'cont_receipt_string':'pingo_receipt_string';
+  Object.entries(S.mapping||{}).forEach(([gid,e])=>{
+    const rs=(e[rsKey]||e.receipt_string||'').trim().toLowerCase()
+      .normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9 ]/g,' ').replace(/\s+/g,' ').trim();
+    if(rs) lookup[rs]={global_id:Number(gid),category:e.category||'🥫 Despensa'};
+  });
+  return lookup;
+}
+function _resolveItem(item, store, lookup){
+  // If item already has global_id, use mapping category
+  if(item.global_id){
+    const e=S.mapping[item.global_id];
+    return e?(e.category||'🥫 Despensa'):'🥫 Despensa';
+  }
+  // Try live receipt_string match
+  const norm=(item.name||'').trim().toLowerCase()
+    .normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9 ]/g,' ').replace(/\s+/g,' ').trim();
+  if(lookup[norm]) return lookup[norm].category;
+  return '🔍 Por mapear';
+}
 function computeSpendByCategory(history){
   const cats={};
   (history.receipts||[]).forEach(r=>{
     (r.items||[]).forEach(item=>{
-      const _me=item.global_id?S.mapping[item.global_id]:null;
-      const cat=_me?(_me.category||'🥫 Despensa'):(item.global_id?'🥫 Despensa':'🔍 Por mapear');
+      const _lkp=_buildReceiptLookup(r.store||'continente');
+      const cat=_resolveItem(item,r.store||'continente',_lkp);
       if(!cats[cat])cats[cat]={total:0,products:{}};
       cats[cat].total=Math.round((cats[cat].total+(item.line_total||0))*100)/100;
       const pk=(item.name||'').toLowerCase();
@@ -2042,8 +2066,8 @@ function computeSpendByPeriod(history){
   (history.receipts||[]).forEach(r=>{
     const d=new Date(r.date);
     (r.items||[]).forEach(item=>{
-      const _me2=item.global_id?S.mapping[item.global_id]:null;
-      const cat=_me2?(_me2.category||'🥫 Despensa'):(item.global_id?'🥫 Despensa':'🔍 Por mapear');
+      const _lkp2=_buildReceiptLookup(r.store||'continente');
+      const cat=_resolveItem(item,r.store||'continente',_lkp2);
       if(!catEntries[cat])catEntries[cat]=[];
       catEntries[cat].push({d,amt:item.line_total||0});
     });
