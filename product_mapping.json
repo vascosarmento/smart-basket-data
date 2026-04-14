@@ -226,13 +226,14 @@
     "global_id": 120,
     "cont_name": "Esparregado de Grelos Continente Seleção",
     "pingo_name": "",
-    "receipt_string": "",
+    "receipt_string": "ESPARREGADO GRELOS CNT SELECAO",
     "category": "❄️ Congelados",
     "exclude_comparison": false,
     "cont_id": "6392921",
     "pingo_id": "",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "cont_receipt_string": "ESPARREGADO GRELOS CNT SELECAO"
   },
   "121": {
     "global_id": 121,
@@ -354,7 +355,7 @@
     "global_id": 130,
     "cont_name": "Esparregado de Espinafres Continente",
     "pingo_name": "Esparregado Congelado",
-    "receipt_string": "",
+    "receipt_string": "ESPARREGO CNT 350G",
     "category": "❄️ Congelados",
     "exclude_comparison": false,
     "cont_id": "5497688",
@@ -362,7 +363,8 @@
     "conversion_factor": 1.0,
     "category_manual": true,
     "solo": false,
-    "pingo_receipt_string": "ESPARREG CONG PD350G"
+    "pingo_receipt_string": "ESPARREG CONG PD350G",
+    "cont_receipt_string": "ESPARREGO CNT 350G"
   },
   "131": {
     "global_id": 131,
@@ -402,13 +404,14 @@
     "global_id": 134,
     "cont_name": "Coxas de Frango Continente",
     "pingo_name": "Coxas de Frango Embaladas",
-    "receipt_string": "",
+    "receipt_string": "COXAS FRANGO EMB. FAMILIAR LS",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "7069743",
     "pingo_id": "465643",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "cont_receipt_string": "COXAS FRANGO EMB. FAMILIAR LS"
   },
   "136": {
     "global_id": 136,
@@ -680,13 +683,14 @@
     "global_id": 158,
     "cont_name": "Queijo Fundido Light Palitos A Vaca que ri",
     "pingo_name": "Queijo Fundido Palitos",
-    "receipt_string": "",
+    "receipt_string": "PALITOS LIGHT VQR 140G",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "6372252",
     "pingo_id": "748681",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "cont_receipt_string": "PALITOS LIGHT VQR 140G"
   },
   "159": {
     "global_id": 159,
@@ -861,13 +865,13 @@
     "global_id": 172,
     "cont_name": "Coxas de Frango Continente",
     "pingo_name": "",
-    "receipt_string": "",
+    "receipt_string": "COXAS DE FRANGO LS",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "7069742",
     "pingo_id": "",
     "conversion_factor": 1.0,
-    "cont_receipt_string": ""
+    "cont_receipt_string": "COXAS DE FRANGO LS"
   },
   "173": {
     "global_id": 173,
@@ -898,12 +902,13 @@
     "global_id": 175,
     "cont_name": "Preparado de Carne Picada de Bovino Continente",
     "pingo_name": "",
-    "receipt_string": "",
+    "receipt_string": "CARNE PICADA BOVINO CNT",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "7430620",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "cont_receipt_string": "CARNE PICADA BOVINO CNT"
   },
   "176": {
     "global_id": 176,
@@ -974,12 +979,13 @@
     "global_id": 181,
     "cont_name": "Lombo de Porco sem Osso para Assar Continente",
     "pingo_name": "",
-    "receipt_string": "",
+    "receipt_string": "PORCO PERNA S/OSSO VAC. LS KG",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "2525325",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "cont_receipt_string": "PORCO PERNA S/OSSO VAC. LS KG"
   },
   "183": {
     "global_id": 183,
@@ -1214,12 +1220,13 @@
     "global_id": 200,
     "cont_name": "Iogurte Líquido Magro Frutos Tropicais sem Açúcar Continente Equilíbrio",
     "pingo_name": "",
-    "receipt_string": "",
+    "receipt_string": "IOG LIQ 00% CNT EQ F TRO 4X160G",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "8431214",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "cont_receipt_string": "IOG LIQ 00% CNT EQ F TRO 4X160G"
   },
   "201": {
     "global_id": 201,
@@ -1375,25 +1382,27 @@
     "global_id": 215,
     "cont_name": "Abrilhantador Máquina Loiça Limão Continente",
     "pingo_name": "Abrilhantador Máquina da Loiça",
-    "receipt_string": "",
+    "receipt_string": "ABRILHANTADOR MAQUINA LOICA CNT",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "7486410",
     "pingo_id": "558685",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "cont_receipt_string": "ABRILHANTADOR MAQUINA LOICA CNT"
   },
   "216": {
     "global_id": 216,
     "cont_name": "Limpa Madeiras com Sabão Continente",
     "pingo_name": "Lava Tudo Brilhante Madeira",
-    "receipt_string": "",
+    "receipt_string": "LIMPA MADEIRAS SABAO CNT 1,5L",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "7395939",
     "pingo_id": "936913",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "cont_receipt_string": "LIMPA MADEIRAS SABAO CNT 1,5L"
   },
   "217": {
     "global_id": 217,
@@ -1425,14 +1434,15 @@
     "global_id": 219,
     "cont_name": "Luvas Acetinadas M/L Continente",
     "pingo_name": "Luvas Sensíveis Médias/Grandes",
-    "receipt_string": "",
+    "receipt_string": "LUVAS CNT ACETINADAS TAM.M/L",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "6607572",
     "pingo_id": "777261",
     "conversion_factor": 1.0,
     "category_manual": true,
-    "solo": false
+    "solo": false,
+    "cont_receipt_string": "LUVAS CNT ACETINADAS TAM.M/L"
   },
   "220": {
     "global_id": 220,
@@ -1625,14 +1635,15 @@
     "global_id": 240,
     "cont_name": "Gelatina em Pó de Melancia Royal",
     "pingo_name": "Gelatina em Pó de Melancia 0% Açúcar",
-    "receipt_string": "",
+    "receipt_string": "GELATINA PO ROYAL 0% MELA 31G",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "5491853",
     "pingo_id": "767777",
     "conversion_factor": 1.0,
     "category_manual": true,
-    "solo": false
+    "solo": false,
+    "cont_receipt_string": "GELATINA PO ROYAL 0% MELA 31G"
   },
   "241": {
     "global_id": 241,
@@ -1651,13 +1662,14 @@
     "global_id": 242,
     "cont_name": "Gelatina em Pó de Frutos do Bosque Royal",
     "pingo_name": "Gelatina em Pó de Frutos do Bosque  0% Açúcar",
-    "receipt_string": "",
+    "receipt_string": "GELATINA ROYAL 0% F BOSQUE 31G",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "6433393",
     "pingo_id": "856735",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "cont_receipt_string": "GELATINA ROYAL 0% F BOSQUE 31G"
   },
   "243": {
     "global_id": 243,
@@ -1687,13 +1699,14 @@
     "global_id": 245,
     "cont_name": "Gelatina em Pó de Ananás Royal",
     "pingo_name": "Gelatina em Pó de Ananás  0% Açúcar",
-    "receipt_string": "",
+    "receipt_string": "GELATINA PO ROYAL 0% ANANAS S 3",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "5491876",
     "pingo_id": "544170",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "cont_receipt_string": "GELATINA PO ROYAL 0% ANANAS S 3"
   },
   "247": {
     "global_id": 247,
@@ -1776,13 +1789,14 @@
     "global_id": 254,
     "cont_name": "Tortitas de Milho com Sal sem Glúten Continente Equilíbrio",
     "pingo_name": "Tortitas de Milho Sem Glúten",
-    "receipt_string": "",
+    "receipt_string": "TORT. MILHO CNT EQ. C/SAL 130G",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "5968600",
     "pingo_id": "694396",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "cont_receipt_string": "TORT. MILHO CNT EQ. C/SAL 130G"
   },
   "255": {
     "global_id": 255,
@@ -1837,13 +1851,14 @@
     "global_id": 260,
     "cont_name": "Gelatina em Pó de Frutos Tropicais Royal",
     "pingo_name": "Gelatina em Pó de Frutas Tropicais  0% Açúcar",
-    "receipt_string": "",
+    "receipt_string": "GELATINA PO ROYAL 0% TROP 31G",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "5491864",
     "pingo_id": "729225",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "cont_receipt_string": "GELATINA PO ROYAL 0% TROP 31G"
   },
   "261": {
     "global_id": 261,
@@ -1957,14 +1972,15 @@
     "global_id": 270,
     "cont_name": "Gelatina em Pó de Morango Royal",
     "pingo_name": "Gelatina em Pó de Morango  0% Açúcar",
-    "receipt_string": "",
+    "receipt_string": "GELATINA PO ROYAL 0% MORANGO",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "5491891",
     "pingo_id": "550171",
     "conversion_factor": 1.0,
     "category_manual": true,
-    "solo": false
+    "solo": false,
+    "cont_receipt_string": "GELATINA PO ROYAL 0% MORANGO"
   },
   "271": {
     "global_id": 271,
@@ -2625,13 +2641,14 @@
     "global_id": 374,
     "cont_name": "Saqueta de Fruta Maçã e Pera +8M Continente",
     "pingo_name": "Bolsa de Fruta Maçã e Pêra",
-    "receipt_string": "",
+    "receipt_string": "SAQUETA CONTINENTE MACA E PERA",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "7519494",
     "pingo_id": "975728",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "cont_receipt_string": "SAQUETA CONTINENTE MACA E PERA"
   },
   "375": {
     "global_id": 375,
@@ -3061,14 +3078,14 @@
     "global_id": 434,
     "cont_name": "Saqueta de Fruta Maçã e Banana +8M Continente",
     "pingo_name": "Bolsa de Fruta Maçã e Banana",
-    "receipt_string": "",
+    "receipt_string": "SAQ.FRUTA PES MACA BAN CNT 90G",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "7273629",
     "pingo_id": "1004486",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": ""
+    "cont_receipt_string": "SAQ.FRUTA PES MACA BAN CNT 90G"
   },
   "435": {
     "global_id": 435,
@@ -3314,13 +3331,14 @@
     "global_id": 497,
     "cont_name": "Cereais Estrelas de Mel Continente",
     "pingo_name": "Cereais Estrelinhas",
-    "receipt_string": "",
+    "receipt_string": "CER ESTRELA MEL CNT 375G",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "3675268",
     "pingo_id": "402322",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "cont_receipt_string": "CER ESTRELA MEL CNT 375G"
   },
   "498": {
     "global_id": 498,
