@@ -1,6 +1,501 @@
 {
-  "receipts": [],
-  "price_history": {},
-  "reset_at": "2026-04-14T20:41:41.686800+00:00",
+  "receipts": [
+    {
+      "id": "bf9f4f4ab376",
+      "filename": "tmphl0xccop.pdf",
+      "store": "continente",
+      "date": "2026-03-15",
+      "total_gross": 24.11,
+      "discount_total": 2.3,
+      "voucher_total": 2.18,
+      "total": 0.0,
+      "items": [
+        {
+          "name": "IOG LIQ 00% CNT EQ 4X160G",
+          "vat_code": "A",
+          "qty": 1,
+          "unit_price": 1.39,
+          "line_total": 1.39,
+          "base_price": null,
+          "discount": null,
+          "category": "Laticinios/Beb. Veg.",
+          "global_id": null,
+          "match_method": "unmatched"
+        },
+        {
+          "name": "SKYR SOL CNT EQ MIRTILO 150G",
+          "vat_code": "A",
+          "qty": 1,
+          "unit_price": 0.69,
+          "line_total": 0.69,
+          "base_price": null,
+          "discount": null,
+          "category": "Laticinios/Beb. Veg.",
+          "global_id": 197,
+          "match_method": "receipt_string"
+        },
+        {
+          "name": "LEITE CHOC -50% CNT EQL 4X200ML",
+          "vat_code": "A",
+          "qty": 1,
+          "unit_price": 1.59,
+          "line_total": 1.59,
+          "base_price": null,
+          "discount": null,
+          "category": "Laticinios/Beb. Veg.",
+          "global_id": 187,
+          "match_method": "receipt_string"
+        },
+        {
+          "name": "IOGURTE PROTEICO YO PRO BAUNILH",
+          "vat_code": "A",
+          "qty": 1,
+          "unit_price": 2.99,
+          "line_total": 2.99,
+          "base_price": 4.69,
+          "discount": 1.7,
+          "category": "Laticinios/Beb. Veg.",
+          "global_id": 196,
+          "match_method": "receipt_string"
+        },
+        {
+          "name": "CARNE PICADA MISTA CONTINENTE",
+          "vat_code": "A",
+          "qty": 1,
+          "unit_price": 4.89,
+          "line_total": 4.89,
+          "base_price": null,
+          "discount": null,
+          "category": "Talho",
+          "global_id": 145,
+          "match_method": "receipt_string"
+        },
+        {
+          "name": "QJ FLAMENGO CONTINENTE FATIAS E",
+          "vat_code": "A",
+          "qty": 1,
+          "unit_price": 2.49,
+          "line_total": 2.49,
+          "base_price": null,
+          "discount": null,
+          "category": "Charcutaria&Queijos",
+          "global_id": null,
+          "match_method": "unmatched"
+        },
+        {
+          "name": "UVA BRANCA S/GRAINHA 500 G",
+          "vat_code": "A",
+          "qty": 1,
+          "unit_price": 2.79,
+          "line_total": 2.79,
+          "base_price": null,
+          "discount": null,
+          "category": "Frutas e Legumes",
+          "global_id": 150,
+          "match_method": "receipt_string"
+        },
+        {
+          "name": "ORO GIRASSOL E ABOBORA 550G",
+          "vat_code": "A",
+          "qty": 1,
+          "unit_price": 2.29,
+          "line_total": 2.29,
+          "base_price": 2.89,
+          "discount": 0.6,
+          "category": "Padaria",
+          "global_id": null,
+          "match_method": "unmatched"
+        },
+        {
+          "name": "PAO DE LEITE CONTINENTE 350G",
+          "vat_code": "A",
+          "qty": 1,
+          "unit_price": 2.69,
+          "line_total": 2.69,
+          "base_price": null,
+          "discount": null,
+          "category": "Padaria",
+          "global_id": 139,
+          "match_method": "receipt_string"
+        }
+      ],
+      "processed_at": "2026-04-14T20:52:24.229902+00:00"
+    },
+    {
+      "id": "8ab7b3a335b0",
+      "filename": "tmpbs8iy0g5.pdf",
+      "store": "pingodoce",
+      "date": "2026-03-30",
+      "total_gross": 59.4,
+      "discount_total": 5.56,
+      "voucher_total": 0.0,
+      "total": 53.84,
+      "items": [
+        {
+          "name": "B. ANIMAIS PD 3X200G",
+          "qty": 1.0,
+          "unit_price": 1.79,
+          "line_total": 1.79,
+          "base_price": null,
+          "discount": 0.0,
+          "tax_code": "E",
+          "category": "MERCEARIA + PET FOOD",
+          "global_id": 247,
+          "match_method": "receipt_string"
+        },
+        {
+          "name": "B. SELVA PD 8X41,2G",
+          "qty": 1.0,
+          "unit_price": 1.69,
+          "line_total": 1.69,
+          "base_price": null,
+          "discount": 0.0,
+          "tax_code": "E",
+          "category": "MERCEARIA + PET FOOD",
+          "global_id": 427,
+          "match_method": "receipt_string"
+        },
+        {
+          "name": "PEPINO C PD 870/450G",
+          "qty": 2.0,
+          "unit_price": 1.89,
+          "line_total": 3.78,
+          "base_price": null,
+          "discount": 0.0,
+          "tax_code": "E",
+          "category": "MERCEARIA + PET FOOD",
+          "global_id": null,
+          "match_method": "unmatched"
+        },
+        {
+          "name": "MIX FRTOS SC EXOT PD",
+          "qty": 1.0,
+          "unit_price": 2.59,
+          "line_total": 2.59,
+          "base_price": null,
+          "discount": 0.0,
+          "tax_code": "E",
+          "category": "MERCEARIA + PET FOOD",
+          "global_id": null,
+          "match_method": "unmatched"
+        },
+        {
+          "name": "CROQUETE DE CARNE",
+          "qty": 5.0,
+          "unit_price": 0.89,
+          "line_total": 4.45,
+          "base_price": null,
+          "discount": 0.0,
+          "tax_code": "D",
+          "category": "TAKE-AWAY",
+          "global_id": 180,
+          "match_method": "receipt_string"
+        },
+        {
+          "name": "CARNE PICADA MISTA 5",
+          "qty": 1.0,
+          "unit_price": 4.78,
+          "line_total": 4.78,
+          "base_price": null,
+          "discount": 0.0,
+          "tax_code": "C",
+          "category": "TALHO",
+          "global_id": 310,
+          "match_method": "receipt_string"
+        },
+        {
+          "name": "PÃO DE LEITE",
+          "qty": 1.0,
+          "unit_price": 2.69,
+          "line_total": 2.69,
+          "base_price": null,
+          "discount": 0.0,
+          "tax_code": "E",
+          "category": "PADARIA/PASTELARIA",
+          "global_id": 139,
+          "match_method": "receipt_string"
+        },
+        {
+          "name": "PAPAIA",
+          "qty": 0.708,
+          "unit_price": 4.59,
+          "line_total": 2.92,
+          "base_price": 3.25,
+          "discount": 0.33,
+          "tax_code": "C",
+          "category": "FRUTAS E VEGETAIS",
+          "global_id": 165,
+          "match_method": "receipt_string"
+        },
+        {
+          "name": "SALADA CLASSICA 200G",
+          "qty": 1.0,
+          "unit_price": 1.29,
+          "line_total": 1.16,
+          "base_price": 1.29,
+          "discount": 0.13,
+          "tax_code": "C",
+          "category": "FRUTAS E VEGETAIS",
+          "global_id": null,
+          "match_method": "unmatched"
+        },
+        {
+          "name": "4H FRANG C IGLO S/GL",
+          "qty": 1.0,
+          "unit_price": 8.39,
+          "line_total": 4.99,
+          "base_price": 8.39,
+          "discount": 3.4,
+          "tax_code": "C",
+          "category": "CONGELADOS",
+          "global_id": 122,
+          "match_method": "receipt_string"
+        },
+        {
+          "name": "ESPARREG CONG PD350G",
+          "qty": 1.0,
+          "unit_price": 1.49,
+          "line_total": 1.49,
+          "base_price": null,
+          "discount": 0.0,
+          "tax_code": "E",
+          "category": "CONGELADOS",
+          "global_id": 130,
+          "match_method": "receipt_string"
+        },
+        {
+          "name": "IOG NATURAL 8X125GPD",
+          "qty": 1.0,
+          "unit_price": 1.39,
+          "line_total": 1.39,
+          "base_price": null,
+          "discount": 0.0,
+          "tax_code": "C",
+          "category": "PRODUTOS LACTEOS",
+          "global_id": 199,
+          "match_method": "receipt_string"
+        },
+        {
+          "name": "IG LQ MA ME/L PD170G",
+          "qty": 2.0,
+          "unit_price": 1.39,
+          "line_total": 2.78,
+          "base_price": null,
+          "discount": 0.0,
+          "tax_code": "C",
+          "category": "PRODUTOS LACTEOS",
+          "global_id": 192,
+          "match_method": "receipt_string"
+        },
+        {
+          "name": "YOPRO DAN BAUN 4X120",
+          "qty": 1.0,
+          "unit_price": 2.99,
+          "line_total": 2.99,
+          "base_price": null,
+          "discount": 0.0,
+          "tax_code": "C",
+          "category": "PRODUTOS LACTEOS",
+          "global_id": 196,
+          "match_method": "receipt_string"
+        },
+        {
+          "name": "YOPRO STRAC 4X120G",
+          "qty": 1.0,
+          "unit_price": 2.99,
+          "line_total": 2.99,
+          "base_price": null,
+          "discount": 0.0,
+          "tax_code": "C",
+          "category": "PRODUTOS LACTEOS",
+          "global_id": 194,
+          "match_method": "receipt_string"
+        },
+        {
+          "name": "YOPRO DAN MIRT 4X120",
+          "qty": 1.0,
+          "unit_price": 2.99,
+          "line_total": 2.99,
+          "base_price": null,
+          "discount": 0.0,
+          "tax_code": "C",
+          "category": "PRODUTOS LACTEOS",
+          "global_id": 186,
+          "match_method": "receipt_string"
+        },
+        {
+          "name": "QJ VACA RI LIGHT 24T",
+          "qty": 1.0,
+          "unit_price": 4.49,
+          "line_total": 3.79,
+          "base_price": 4.49,
+          "discount": 0.7,
+          "tax_code": "C",
+          "category": "QUEIJOS",
+          "global_id": 137,
+          "match_method": "receipt_string"
+        },
+        {
+          "name": "QJ LIMIANO 200G",
+          "qty": 2.0,
+          "unit_price": 2.79,
+          "line_total": 4.58,
+          "base_price": 5.58,
+          "discount": 1.0,
+          "tax_code": "C",
+          "category": "QUEIJOS",
+          "global_id": 171,
+          "match_method": "receipt_string"
+        }
+      ],
+      "processed_at": "2026-04-14T20:53:46.665189+00:00"
+    }
+  ],
+  "price_history": {
+    "197": [
+      {
+        "date": "2026-03-15",
+        "store": "continente",
+        "unit_price": 0.69
+      }
+    ],
+    "187": [
+      {
+        "date": "2026-03-15",
+        "store": "continente",
+        "unit_price": 1.59
+      }
+    ],
+    "196": [
+      {
+        "date": "2026-03-15",
+        "store": "continente",
+        "unit_price": 4.69
+      },
+      {
+        "date": "2026-03-30",
+        "store": "pingodoce",
+        "unit_price": 2.99
+      }
+    ],
+    "145": [
+      {
+        "date": "2026-03-15",
+        "store": "continente",
+        "unit_price": 4.89
+      }
+    ],
+    "150": [
+      {
+        "date": "2026-03-15",
+        "store": "continente",
+        "unit_price": 2.79
+      }
+    ],
+    "139": [
+      {
+        "date": "2026-03-15",
+        "store": "continente",
+        "unit_price": 2.69
+      },
+      {
+        "date": "2026-03-30",
+        "store": "pingodoce",
+        "unit_price": 2.69
+      }
+    ],
+    "247": [
+      {
+        "date": "2026-03-30",
+        "store": "pingodoce",
+        "unit_price": 1.79
+      }
+    ],
+    "427": [
+      {
+        "date": "2026-03-30",
+        "store": "pingodoce",
+        "unit_price": 1.69
+      }
+    ],
+    "180": [
+      {
+        "date": "2026-03-30",
+        "store": "pingodoce",
+        "unit_price": 0.89
+      }
+    ],
+    "310": [
+      {
+        "date": "2026-03-30",
+        "store": "pingodoce",
+        "unit_price": 4.78
+      }
+    ],
+    "165": [
+      {
+        "date": "2026-03-30",
+        "store": "pingodoce",
+        "unit_price": 4.5904
+      }
+    ],
+    "122": [
+      {
+        "date": "2026-03-30",
+        "store": "pingodoce",
+        "unit_price": 8.39
+      }
+    ],
+    "130": [
+      {
+        "date": "2026-03-30",
+        "store": "pingodoce",
+        "unit_price": 1.49
+      }
+    ],
+    "199": [
+      {
+        "date": "2026-03-30",
+        "store": "pingodoce",
+        "unit_price": 1.39
+      }
+    ],
+    "192": [
+      {
+        "date": "2026-03-30",
+        "store": "pingodoce",
+        "unit_price": 1.39
+      }
+    ],
+    "194": [
+      {
+        "date": "2026-03-30",
+        "store": "pingodoce",
+        "unit_price": 2.99
+      }
+    ],
+    "186": [
+      {
+        "date": "2026-03-30",
+        "store": "pingodoce",
+        "unit_price": 2.99
+      }
+    ],
+    "137": [
+      {
+        "date": "2026-03-30",
+        "store": "pingodoce",
+        "unit_price": 4.49
+      }
+    ],
+    "171": [
+      {
+        "date": "2026-03-30",
+        "store": "pingodoce",
+        "unit_price": 2.79
+      }
+    ]
+  },
+  "reset_at": "2026-04-14T20:52:05.799566+00:00",
   "note": "Reset after debugging phase"
 }
