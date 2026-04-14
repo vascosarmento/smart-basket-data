@@ -35,13 +35,14 @@
   "104": {
     "global_id": 104,
     "cont_name": "Toalhitas Bebé Hidratação Continente do Bebé",
-    "pingo_name": "",
+    "pingo_name": "Toalhitas Bebé Pack",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "8050357",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "805785",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "105": {
     "global_id": 105,
@@ -72,13 +73,14 @@
   "107": {
     "global_id": 107,
     "cont_name": "Papel Higiénico 3 Folhas Decor Continente",
-    "pingo_name": "",
+    "pingo_name": "Papel Higiénico Liso 3 Folhas 12 Rolos",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "6445378",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "969556",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "108": {
     "global_id": 108,
@@ -371,13 +373,14 @@
   "132": {
     "global_id": 132,
     "cont_name": "Rúcula Selvagem Continente",
-    "pingo_name": "",
+    "pingo_name": "Rúcula Selvagem Embalada",
     "receipt_string": "",
     "category": "🥬 Frescos",
     "exclude_comparison": false,
     "cont_id": "2729169",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "725557",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "133": {
     "global_id": 133,
@@ -549,13 +552,14 @@
   "147": {
     "global_id": 147,
     "cont_name": "Alho Francês Continente",
-    "pingo_name": "",
+    "pingo_name": "Alho Francês Embalado",
     "receipt_string": "",
     "category": "🥬 Frescos",
     "exclude_comparison": false,
     "cont_id": "2076696",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "893466",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "148": {
     "global_id": 148,
@@ -819,14 +823,15 @@
   "170": {
     "global_id": 170,
     "cont_name": "Bifes de Frango Continente",
-    "pingo_name": "",
+    "pingo_name": "Bifes de Frango Embalados",
     "receipt_string": "",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "7068833",
-    "pingo_id": "",
+    "pingo_id": "465640",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "solo": false
   },
   "171": {
     "global_id": 171,
@@ -926,13 +931,14 @@
   "179": {
     "global_id": 179,
     "cont_name": "Peito de Peru Continente",
-    "pingo_name": "",
+    "pingo_name": "Peito/Bife de Peru Embalado",
     "receipt_string": "",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "7071904",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "442057",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "180": {
     "global_id": 180,
@@ -1049,13 +1055,14 @@
   "189": {
     "global_id": 189,
     "cont_name": "Iogurte Líquido Magro Limão Continente Equilíbrio",
-    "pingo_name": "",
+    "pingo_name": "Iogurte Líquido Magro Ananás e Lima Pack 4",
     "receipt_string": "",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "5889419",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "968255",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "190": {
     "global_id": 190,
@@ -1073,26 +1080,28 @@
   "191": {
     "global_id": 191,
     "cont_name": "Iogurte Líquido Manga e Papaia sem Açúcar Continente Equilíbrio",
-    "pingo_name": "",
+    "pingo_name": "Iogurte Líquido Magro 000% Morango, Limão e Menta Pack 4",
     "receipt_string": "",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "7634950",
-    "pingo_id": "",
+    "pingo_id": "1002474",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "solo": false
   },
   "192": {
     "global_id": 192,
     "cont_name": "Iogurte Líquido Magro Manga, Laranja e Cenoura Continente Equilíbrio",
-    "pingo_name": "",
+    "pingo_name": "Iogurte Líquido Magro 00% Melancia e Limão Pack 4",
     "receipt_string": "",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "8022987",
-    "pingo_id": "",
+    "pingo_id": "1000596",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "solo": false
   },
   "193": {
     "global_id": 193,
@@ -1216,25 +1225,27 @@
   "203": {
     "global_id": 203,
     "cont_name": "Rolo de Cozinha Compacto Continente",
-    "pingo_name": "",
+    "pingo_name": "Rolo de Cozinha 2 Folhas - 4 un",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "7061584",
-    "pingo_id": "",
+    "pingo_id": "921733",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "solo": false
   },
   "204": {
     "global_id": 204,
     "cont_name": "Tira Nódoas Pó Oxi Action Cores Vanish",
-    "pingo_name": "",
+    "pingo_name": "Tira Nódoas em Pó Oxi Action Cores",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "8088335",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "976880",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "205": {
     "global_id": 205,
@@ -1311,13 +1322,14 @@
   "211": {
     "global_id": 211,
     "cont_name": "Toalhitas Proteção Cores Continente",
-    "pingo_name": "",
+    "pingo_name": "Toalhitas Antitransferência de Cor",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "7423621",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "971693",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "213": {
     "global_id": 213,
@@ -1407,13 +1419,14 @@
   "220": {
     "global_id": 220,
     "cont_name": "Spray Desengordurante Continente",
-    "pingo_name": "",
+    "pingo_name": "Spray Tira Gorduras Extra Forte",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "5356292",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "996386",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "221": {
     "global_id": 221,
@@ -1489,13 +1502,14 @@
   "228": {
     "global_id": 228,
     "cont_name": "Ambientador Máquina Loiça Limão Continente",
-    "pingo_name": "",
+    "pingo_name": "Ambientador Máquina da Loiça Limão",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "7750739",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "777938",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "231": {
     "global_id": 231,
@@ -1538,13 +1552,14 @@
   "235": {
     "global_id": 235,
     "cont_name": "Bloco Sanitário Multiativo Marinho Continente",
-    "pingo_name": "",
+    "pingo_name": "Bloco Sanitário Espuma Ativa Aqua",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "8024463",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "816928",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "236": {
     "global_id": 236,
@@ -1560,14 +1575,15 @@
   "237": {
     "global_id": 237,
     "cont_name": "Sacos para Congelar com Zip 1lt Continente",
-    "pingo_name": "",
+    "pingo_name": "Sacos para Congelação com ZIP 1 L",
     "receipt_string": "",
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "7520128",
-    "pingo_id": "",
+    "pingo_id": "827073",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "solo": false
   },
   "238": {
     "global_id": 238,
@@ -1598,13 +1614,14 @@
   "241": {
     "global_id": 241,
     "cont_name": "Gelatina em Pó Ananás sem Açúcar Continente",
-    "pingo_name": "",
+    "pingo_name": "Gelatina em Pó de Ananás 0% Açúcar",
     "receipt_string": "",
     "category": "🥫 Despensa",
     "exclude_comparison": false,
     "cont_id": "8422400",
-    "pingo_id": "",
-    "conversion_factor": 1.0
+    "pingo_id": "940842",
+    "conversion_factor": 1.0,
+    "solo": false
   },
   "242": {
     "global_id": 242,
@@ -2172,17 +2189,6 @@
     "pingo_id": "906396",
     "conversion_factor": 1.0
   },
-  "292": {
-    "global_id": 292,
-    "cont_name": "",
-    "pingo_name": "Rúcula Selvagem Embalada",
-    "receipt_string": "",
-    "category": "🥬 Frescos",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "725557",
-    "conversion_factor": 1.0
-  },
   "293": {
     "global_id": 293,
     "cont_name": "",
@@ -2341,17 +2347,6 @@
     "conversion_factor": 1.0,
     "category_manual": true
   },
-  "317": {
-    "global_id": 317,
-    "cont_name": "",
-    "pingo_name": "Toalhitas Antitransferência de Cor",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "971693",
-    "conversion_factor": 1.0
-  },
   "319": {
     "global_id": 319,
     "cont_name": "",
@@ -2418,17 +2413,6 @@
     "pingo_id": "659489",
     "conversion_factor": 1.0
   },
-  "327": {
-    "global_id": 327,
-    "cont_name": "",
-    "pingo_name": "Tira Nódoas em Pó Oxi Action Cores",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "976880",
-    "conversion_factor": 1.0
-  },
   "328": {
     "global_id": 328,
     "cont_name": "",
@@ -2450,17 +2434,6 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "952433",
-    "conversion_factor": 1.0
-  },
-  "333": {
-    "global_id": 333,
-    "cont_name": "",
-    "pingo_name": "Papel Higiénico Liso 3 Folhas 12 Rolos",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "969556",
     "conversion_factor": 1.0
   },
   "336": {
@@ -2567,17 +2540,6 @@
     "pingo_id": "963256",
     "conversion_factor": 1.0
   },
-  "355": {
-    "global_id": 355,
-    "cont_name": "",
-    "pingo_name": "Peito/Bife de Peru Embalado",
-    "receipt_string": "",
-    "category": "🧀 Frigorífico",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "442057",
-    "conversion_factor": 1.0
-  },
   "356": {
     "global_id": 356,
     "cont_name": "",
@@ -2611,17 +2573,6 @@
     "pingo_id": "465791",
     "conversion_factor": 1.0
   },
-  "365": {
-    "global_id": 365,
-    "cont_name": "",
-    "pingo_name": "Iogurte Líquido Magro Ananás e Lima Pack 4",
-    "receipt_string": "",
-    "category": "🧀 Frigorífico",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "968255",
-    "conversion_factor": 1.0
-  },
   "366": {
     "global_id": 366,
     "cont_name": "",
@@ -2632,18 +2583,6 @@
     "cont_id": "",
     "pingo_id": "956786",
     "conversion_factor": 1.0
-  },
-  "367": {
-    "global_id": 367,
-    "cont_name": "",
-    "pingo_name": "Iogurte Líquido Magro 00% Melancia e Limão Pack 4",
-    "receipt_string": "",
-    "category": "🧀 Frigorífico",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "1000596",
-    "conversion_factor": 1.0,
-    "category_manual": true
   },
   "370": {
     "global_id": 370,
@@ -3007,17 +2946,6 @@
     "conversion_factor": 1.0,
     "category_manual": true
   },
-  "421": {
-    "global_id": 421,
-    "cont_name": "",
-    "pingo_name": "Iogurte Líquido Magro 000% Morango, Limão e Menta Pack 4",
-    "receipt_string": "",
-    "category": "🧀 Frigorífico",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "1002474",
-    "conversion_factor": 1.0
-  },
   "423": {
     "global_id": 423,
     "cont_name": "",
@@ -3242,17 +3170,6 @@
     "pingo_id": "1001446",
     "conversion_factor": 1.0
   },
-  "451": {
-    "global_id": 451,
-    "cont_name": "",
-    "pingo_name": "Bifes de Frango Embalados",
-    "receipt_string": "",
-    "category": "🧀 Frigorífico",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "465640",
-    "conversion_factor": 1.0
-  },
   "452": {
     "global_id": 452,
     "cont_name": "",
@@ -3297,28 +3214,6 @@
     "pingo_id": "802365",
     "conversion_factor": 1.0
   },
-  "460": {
-    "global_id": 460,
-    "cont_name": "",
-    "pingo_name": "Toalhitas Bebé Pack",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "805785",
-    "conversion_factor": 1.0
-  },
-  "462": {
-    "global_id": 462,
-    "cont_name": "",
-    "pingo_name": "Alho Francês Embalado",
-    "receipt_string": "",
-    "category": "🥬 Frescos",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "893466",
-    "conversion_factor": 1.0
-  },
   "466": {
     "global_id": 466,
     "cont_name": "",
@@ -3352,29 +3247,6 @@
     "pingo_id": "850376",
     "conversion_factor": 1.0
   },
-  "480": {
-    "global_id": 480,
-    "cont_name": "",
-    "pingo_name": "Ambientador Máquina da Loiça Limão",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "777938",
-    "conversion_factor": 1.0
-  },
-  "482": {
-    "global_id": 482,
-    "cont_name": "",
-    "pingo_name": "Rolo de Cozinha 2 Folhas - 4 un",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "921733",
-    "conversion_factor": 1.0,
-    "category_manual": true
-  },
   "484": {
     "global_id": 484,
     "cont_name": "",
@@ -3386,17 +3258,6 @@
     "pingo_id": "940385",
     "conversion_factor": 1.0,
     "category_manual": true
-  },
-  "485": {
-    "global_id": 485,
-    "cont_name": "",
-    "pingo_name": "Gelatina em Pó de Ananás 0% Açúcar",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "940842",
-    "conversion_factor": 1.0
   },
   "486": {
     "global_id": 486,
@@ -3518,18 +3379,6 @@
     "category_manual": true,
     "solo": false
   },
-  "504": {
-    "global_id": 504,
-    "cont_name": "",
-    "pingo_name": "Sacos para Congelação com ZIP 1 L",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "827073",
-    "conversion_factor": 1.0,
-    "category_manual": true
-  },
   "505": {
     "global_id": 505,
     "cont_name": "",
@@ -3552,17 +3401,6 @@
     "pingo_id": "925033",
     "conversion_factor": 1.0,
     "category_manual": true
-  },
-  "511": {
-    "global_id": 511,
-    "cont_name": "",
-    "pingo_name": "Bloco Sanitário Espuma Ativa Aqua",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "816928",
-    "conversion_factor": 1.0
   },
   "514": {
     "global_id": 514,
@@ -3620,17 +3458,6 @@
     "exclude_comparison": false,
     "cont_id": "7519982",
     "pingo_id": "",
-    "conversion_factor": 1.0
-  },
-  "525": {
-    "global_id": 525,
-    "cont_name": "",
-    "pingo_name": "Spray Tira Gorduras Extra Forte",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "996386",
     "conversion_factor": 1.0
   }
 }
