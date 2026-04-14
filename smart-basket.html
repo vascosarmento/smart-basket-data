@@ -1791,23 +1791,23 @@ function setPeriod(p){ setPeriodAndRefresh(p); }
 
 async function loadHistoricalAnalytics(){
   try{
-    let d;
+    // Always compute client-side so S.mapping (with latest receipt_strings) is used.
+    // On local: fetch history from server; on Vercel: fetch from CDN.
+    let history;
     if(IS_LOCAL){
-      const r=await fetch('/api/analytics');
+      const r=await fetch('/receipt_history.json');
       if(!r.ok)return;
-      d=await r.json();
-      if(d.status!=='ok')return;
+      history=await r.json();
     } else {
-      // On Vercel: load receipt_history.json directly and compute client-side
       const r=await fetch(dataUrl('receipt_history.json'));
       if(!r.ok){document.getElementById('an-subtitle').textContent='Sem recibos ainda. Faz push após carregar recibos.';return;}
-      const history=await r.json();
-      d={status:'ok',receipt_count:(history.receipts||[]).length,
-         spend_by_category:computeSpendByCategory(history),
-         spend_by_period:computeSpendByPeriod(history),
-         inflation_report:computeInflation(history),
-         voucher_efficiency:computeVoucherEfficiency(history)};
+      history=await r.json();
     }
+    let d={status:'ok',receipt_count:(history.receipts||[]).length,
+       spend_by_category:computeSpendByCategory(history),
+       spend_by_period:computeSpendByPeriod(history),
+       inflation_report:computeInflation(history),
+       voucher_efficiency:computeVoucherEfficiency(history)};
     _analyticsData=d;
 
     const receipts=d.receipt_count||0;
