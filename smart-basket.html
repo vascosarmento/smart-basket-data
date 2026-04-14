@@ -1830,14 +1830,15 @@ async function loadHistoricalAnalytics(){
       document.getElementById('an-inf').innerHTML=Object.entries(byCat).map(([cat,items])=>`
         <div class="inf-cat-section">
           <div class="inf-cat-hdr">${cat}</div>
-          ${items.slice(0,10).map(i=>`
-            <div class="inf-row">
-              <div class="inf-name">${i.name}</div>
+          ${items.slice(0,10).map(i=>{
+            const storeTag=i.store==='continente'?'<span style="font-size:9px;color:#E2001A;font-weight:700;margin-left:4px">🔴</span>':i.store==='pingodoce'?'<span style="font-size:9px;color:#4A7C2F;font-weight:700;margin-left:4px">🟢</span>':'';
+            return`<div class="inf-row">
+              <div class="inf-name">${i.name}${storeTag}</div>
               <div>
                 <div class="${i.change_pct>0?'inf-up':'inf-dn'}">${i.change_pct>0?'↑':'↓'} ${Math.abs(i.change_pct)}%</div>
                 <div style="font-size:10px;color:var(--muted)">${fmt(i.first_price)} → ${fmt(i.last_price)}</div>
               </div>
-            </div>`).join('')}
+            </div>`;}).join('')}
         </div>`).join('');
     }
 
