@@ -3610,5 +3610,27 @@
     "pingo_id": "901542",
     "conversion_factor": 1.0,
     "solo": false
+  },
+  "524": {
+    "global_id": 524,
+    "cont_name": "Sacos Lixo Fecho Fácil 30 lt Continente",
+    "pingo_name": "",
+    "receipt_string": "",
+    "category": "🧴 Higiene e Limpeza",
+    "exclude_comparison": false,
+    "cont_id": "7519982",
+    "pingo_id": "",
+    "conversion_factor": 1.0
+  },
+  "525": {
+    "global_id": 525,
+    "cont_name": "",
+    "pingo_name": "Spray Tira Gorduras Extra Forte",
+    "receipt_string": "",
+    "category": "🥫 Despensa",
+    "exclude_comparison": false,
+    "cont_id": "",
+    "pingo_id": "996386",
+    "conversion_factor": 1.0
   }
 }
