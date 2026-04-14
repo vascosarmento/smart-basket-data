@@ -258,7 +258,8 @@
     "pingo_id": "813444",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "HAMBURGERS FRANGO IGLO S/GLUTEN"
+    "cont_receipt_string": "HAMBURGERS FRANGO IGLO S/GLUTEN",
+    "pingo_receipt_string": "4H FRANG C IGLO S/GL"
   },
   "123": {
     "global_id": 123,
@@ -360,7 +361,8 @@
     "pingo_id": "896455",
     "conversion_factor": 1.0,
     "category_manual": true,
-    "solo": false
+    "solo": false,
+    "pingo_receipt_string": "ESPARREG CONG PD350G"
   },
   "131": {
     "global_id": 131,
@@ -432,7 +434,8 @@
     "pingo_id": "955261",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "QJ LIGHT VACA QUE RI 24 PORCOES"
+    "cont_receipt_string": "QJ LIGHT VACA QUE RI 24 PORCOES",
+    "pingo_receipt_string": "QJ VACA RI LIGHT 24T"
   },
   "138": {
     "global_id": 138,
@@ -459,7 +462,8 @@
     "conversion_factor": 1.0,
     "category_manual": true,
     "solo": false,
-    "cont_receipt_string": "PAO DE LEITE CONTINENTE 350G"
+    "cont_receipt_string": "PAO DE LEITE CONTINENTE 350G",
+    "pingo_receipt_string": "PÃO DE LEITE"
   },
   "140": {
     "global_id": 140,
@@ -694,7 +698,8 @@
     "pingo_id": "42855",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "CURGETE VERDE"
+    "cont_receipt_string": "CURGETE VERDE",
+    "pingo_receipt_string": "CURGETE KG"
   },
   "160": {
     "global_id": 160,
@@ -771,7 +776,8 @@
     "pingo_id": "56755",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "PAPAIA"
+    "cont_receipt_string": "PAPAIA",
+    "pingo_receipt_string": "PAPAIA"
   },
   "166": {
     "global_id": 166,
@@ -847,7 +853,8 @@
     "pingo_id": "846658",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "QJ FLAMENGO LIMIANO FATIAS"
+    "cont_receipt_string": "QJ FLAMENGO LIMIANO FATIAS",
+    "pingo_receipt_string": "QJ LIMIANO 200G"
   },
   "172": {
     "global_id": 172,
@@ -959,7 +966,8 @@
     "pingo_id": "935776",
     "conversion_factor": 1.0,
     "category_manual": true,
-    "solo": false
+    "solo": false,
+    "pingo_receipt_string": "CROQUETE DE CARNE"
   },
   "181": {
     "global_id": 181,
@@ -1023,7 +1031,8 @@
     "conversion_factor": 1.0,
     "category_manual": true,
     "solo": false,
-    "cont_receipt_string": "IOGURTE PROTEICO YO PRO MIRTILO"
+    "cont_receipt_string": "IOGURTE PROTEICO YO PRO MIRTILO",
+    "pingo_receipt_string": "YOPRO DAN MIRT 4X120"
   },
   "187": {
     "global_id": 187,
@@ -1105,7 +1114,8 @@
     "pingo_id": "1000596",
     "conversion_factor": 1.0,
     "category_manual": true,
-    "solo": false
+    "solo": false,
+    "pingo_receipt_string": "IG LQ MA ME/L PD170G"
   },
   "193": {
     "global_id": 193,
@@ -1131,7 +1141,8 @@
     "pingo_id": "991078",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "IOG SOL YOPRO STRACCIATELLA 4*1"
+    "cont_receipt_string": "IOG SOL YOPRO STRACCIATELLA 4*1",
+    "pingo_receipt_string": "YOPRO STRAC 4X120G"
   },
   "195": {
     "global_id": 195,
@@ -1156,7 +1167,8 @@
     "pingo_id": "982570",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "IOGURTE PROTEICO YO PRO BAUNILH"
+    "cont_receipt_string": "IOGURTE PROTEICO YO PRO BAUNILH",
+    "pingo_receipt_string": "YOPRO DAN BAUN 4X120"
   },
   "197": {
     "global_id": 197,
@@ -1194,7 +1206,8 @@
     "pingo_id": "969872",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "IOG NATURAL CONTINENTE 8X125G"
+    "cont_receipt_string": "IOG NATURAL CONTINENTE 8X125G",
+    "pingo_receipt_string": "IOG NATURAL 8X125GPD"
   },
   "200": {
     "global_id": 200,
@@ -1279,7 +1292,8 @@
     "cont_id": "4302667",
     "pingo_id": "750669",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "pingo_receipt_string": "CR LIMP UL LIX 750ML"
   },
   "207": {
     "global_id": 207,
@@ -1690,7 +1704,8 @@
     "cont_id": "8142811",
     "pingo_id": "1002648",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "pingo_receipt_string": "B. ANIMAIS PD 3X200G"
   },
   "248": {
     "global_id": 248,
@@ -2284,7 +2299,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "1001449",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "pingo_receipt_string": "CARNE PICADA MISTA 5"
   },
   "311": {
     "global_id": 311,
@@ -2967,7 +2983,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "926002",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "pingo_receipt_string": "B. SELVA PD 8X41,2G"
   },
   "428": {
     "global_id": 428,
