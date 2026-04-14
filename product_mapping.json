@@ -469,12 +469,13 @@
     "global_id": 140,
     "cont_name": "Queijo Flamengo dos Açores Fatiado Continente",
     "pingo_name": "",
-    "receipt_string": "",
+    "receipt_string": "QJ FLAMENGO CONTINENTE FATIAS E",
     "category": "🧀 Frigorífico",
     "exclude_comparison": false,
     "cont_id": "5126086",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "cont_receipt_string": "QJ FLAMENGO CONTINENTE FATIAS E"
   },
   "141": {
     "global_id": 141,
