@@ -8,7 +8,8 @@
     "exclude_comparison": false,
     "cont_id": "8286473",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "102": {
     "global_id": 102,
@@ -19,7 +20,8 @@
     "exclude_comparison": false,
     "cont_id": "8120113",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "103": {
     "global_id": 103,
@@ -30,7 +32,8 @@
     "exclude_comparison": false,
     "cont_id": "8191540",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "104": {
     "global_id": 104,
@@ -43,7 +46,8 @@
     "pingo_id": "805785",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "TOALHITAS HIDRATACAO"
+    "cont_receipt_string": "TOALHITAS HIDRATACAO",
+    "subcategory": ""
   },
   "105": {
     "global_id": 105,
@@ -55,7 +59,8 @@
     "cont_id": "5739761",
     "pingo_id": "",
     "conversion_factor": 1.0,
-    "cont_receipt_string": "FRALDA DODOT ACTIVITY EXTRA T5+"
+    "cont_receipt_string": "FRALDA DODOT ACTIVITY EXTRA T5+",
+    "subcategory": ""
   },
   "106": {
     "global_id": 106,
@@ -70,7 +75,8 @@
     "solo": false,
     "category_manual": true,
     "cont_receipt_string": "COTONETES CONTINENTE 300UN",
-    "pingo_receipt_string": ""
+    "pingo_receipt_string": "",
+    "subcategory": ""
   },
   "107": {
     "global_id": 107,
@@ -82,7 +88,8 @@
     "cont_id": "6445378",
     "pingo_id": "969556",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "108": {
     "global_id": 108,
@@ -94,7 +101,8 @@
     "cont_id": "7932003",
     "pingo_id": "",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "110": {
     "global_id": 110,
@@ -106,7 +114,8 @@
     "cont_id": "6840655",
     "pingo_id": "875873",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "111": {
     "global_id": 111,
@@ -119,7 +128,8 @@
     "pingo_id": "937120",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "CH ULTRA SUAVE CAMOMILA 400ML"
+    "cont_receipt_string": "CH ULTRA SUAVE CAMOMILA 400ML",
+    "subcategory": ""
   },
   "112": {
     "global_id": 112,
@@ -132,7 +142,8 @@
     "pingo_id": "815887",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "PASTA SENSODYNE BRANQ 2X75 ML"
+    "cont_receipt_string": "PASTA SENSODYNE BRANQ 2X75 ML",
+    "subcategory": ""
   },
   "113": {
     "global_id": 113,
@@ -144,7 +155,8 @@
     "cont_id": "3054336",
     "pingo_id": "557642",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "114": {
     "global_id": 114,
@@ -156,7 +168,8 @@
     "cont_id": "5340765",
     "pingo_id": "608287",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "115": {
     "global_id": 115,
@@ -169,7 +182,8 @@
     "pingo_id": "964376",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "PH HUMIDO CNT BIODEGRADA 100UN"
+    "cont_receipt_string": "PH HUMIDO CNT BIODEGRADA 100UN",
+    "subcategory": ""
   },
   "116": {
     "global_id": 116,
@@ -182,7 +196,8 @@
     "pingo_id": "608342",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "DEO RO SANEX DERMO INVI 50ML"
+    "cont_receipt_string": "DEO RO SANEX DERMO INVI 50ML",
+    "subcategory": ""
   },
   "117": {
     "global_id": 117,
@@ -194,7 +209,8 @@
     "cont_id": "6862752",
     "pingo_id": "911831",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "118": {
     "global_id": 118,
@@ -208,7 +224,8 @@
     "conversion_factor": 1.0,
     "category_manual": true,
     "solo": false,
-    "cont_receipt_string": "ESC COLGATE TRIPLE ACTION 4UN"
+    "cont_receipt_string": "ESC COLGATE TRIPLE ACTION 4UN",
+    "subcategory": ""
   },
   "119": {
     "global_id": 119,
@@ -220,7 +237,8 @@
     "cont_id": "5813476",
     "pingo_id": "823050",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "120": {
     "global_id": 120,
@@ -233,7 +251,8 @@
     "pingo_id": "",
     "conversion_factor": 1.0,
     "category_manual": true,
-    "cont_receipt_string": "ESPARREGADO GRELOS CNT SELECAO"
+    "cont_receipt_string": "ESPARREGADO GRELOS CNT SELECAO",
+    "subcategory": ""
   },
   "121": {
     "global_id": 121,
@@ -246,7 +265,8 @@
     "pingo_id": "862949",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "DOURAD. PESCADA CONTINENTE 450G"
+    "cont_receipt_string": "DOURAD. PESCADA CONTINENTE 450G",
+    "subcategory": ""
   },
   "122": {
     "global_id": 122,
@@ -260,7 +280,8 @@
     "conversion_factor": 1.0,
     "solo": false,
     "cont_receipt_string": "HAMBURGERS FRANGO IGLO S/GLUTEN",
-    "pingo_receipt_string": "4H FRANG C IGLO S/GL"
+    "pingo_receipt_string": "4H FRANG C IGLO S/GL",
+    "subcategory": ""
   },
   "123": {
     "global_id": 123,
@@ -271,7 +292,8 @@
     "exclude_comparison": false,
     "cont_id": "7143239",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "124": {
     "global_id": 124,
@@ -284,7 +306,8 @@
     "pingo_id": "",
     "conversion_factor": 1.0,
     "category_manual": true,
-    "cont_receipt_string": "MIST LEG CNT ESTILO FRANCES 750"
+    "cont_receipt_string": "MIST LEG CNT ESTILO FRANCES 750",
+    "subcategory": ""
   },
   "125": {
     "global_id": 125,
@@ -296,7 +319,8 @@
     "cont_id": "8368738",
     "pingo_id": "865482",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "126": {
     "global_id": 126,
@@ -309,7 +333,8 @@
     "pingo_id": "",
     "conversion_factor": 1.0,
     "category_manual": true,
-    "cont_receipt_string": "MIST LEG CNT EST ITALIANO 750G"
+    "cont_receipt_string": "MIST LEG CNT EST ITALIANO 750G",
+    "subcategory": ""
   },
   "127": {
     "global_id": 127,
@@ -322,7 +347,8 @@
     "pingo_id": "973058",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "HAMB FRANGO CONTINENTE 420GR"
+    "cont_receipt_string": "HAMB FRANGO CONTINENTE 420GR",
+    "subcategory": ""
   },
   "128": {
     "global_id": 128,
@@ -335,7 +361,8 @@
     "pingo_id": "",
     "conversion_factor": 1.0,
     "category_manual": true,
-    "cont_receipt_string": "MIX ORIENTAL CONTINENTE 750G"
+    "cont_receipt_string": "MIX ORIENTAL CONTINENTE 750G",
+    "subcategory": ""
   },
   "129": {
     "global_id": 129,
@@ -349,7 +376,8 @@
     "conversion_factor": 1.0,
     "category_manual": true,
     "solo": false,
-    "cont_receipt_string": "MISTURA COGUMELOS CONTINENTE"
+    "cont_receipt_string": "MISTURA COGUMELOS CONTINENTE",
+    "subcategory": ""
   },
   "130": {
     "global_id": 130,
@@ -364,7 +392,8 @@
     "category_manual": true,
     "solo": false,
     "pingo_receipt_string": "ESPARREG CONG PD350G",
-    "cont_receipt_string": "ESPARREGO CNT 350G"
+    "cont_receipt_string": "ESPARREGO CNT 350G",
+    "subcategory": ""
   },
   "131": {
     "global_id": 131,
@@ -375,7 +404,8 @@
     "exclude_comparison": false,
     "cont_id": "2076622",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "132": {
     "global_id": 132,
@@ -387,7 +417,8 @@
     "cont_id": "2729169",
     "pingo_id": "725557",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "133": {
     "global_id": 133,
@@ -398,7 +429,8 @@
     "exclude_comparison": false,
     "cont_id": "4349742",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "134": {
     "global_id": 134,
@@ -411,7 +443,8 @@
     "pingo_id": "465643",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "COXAS FRANGO EMB. FAMILIAR LS"
+    "cont_receipt_string": "COXAS FRANGO EMB. FAMILIAR LS",
+    "subcategory": ""
   },
   "136": {
     "global_id": 136,
@@ -424,7 +457,8 @@
     "pingo_id": "701544",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "AZEITONA VERDE DESCAROCADA CNT"
+    "cont_receipt_string": "AZEITONA VERDE DESCAROCADA CNT",
+    "subcategory": ""
   },
   "137": {
     "global_id": 137,
@@ -438,7 +472,8 @@
     "conversion_factor": 1.0,
     "solo": false,
     "cont_receipt_string": "QJ LIGHT VACA QUE RI 24 PORCOES",
-    "pingo_receipt_string": "QJ VACA RI LIGHT 24T"
+    "pingo_receipt_string": "QJ VACA RI LIGHT 24T",
+    "subcategory": ""
   },
   "138": {
     "global_id": 138,
@@ -451,7 +486,8 @@
     "pingo_id": "955140",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "QJ LIGHT VACA QUE RI 16 PORCOES"
+    "cont_receipt_string": "QJ LIGHT VACA QUE RI 16 PORCOES",
+    "subcategory": ""
   },
   "139": {
     "global_id": 139,
@@ -466,7 +502,8 @@
     "category_manual": true,
     "solo": false,
     "cont_receipt_string": "PAO DE LEITE CONTINENTE 350G",
-    "pingo_receipt_string": "PÃO DE LEITE"
+    "pingo_receipt_string": "PÃO DE LEITE",
+    "subcategory": ""
   },
   "140": {
     "global_id": 140,
@@ -478,7 +515,8 @@
     "cont_id": "5126086",
     "pingo_id": "",
     "conversion_factor": 1.0,
-    "cont_receipt_string": "QJ FLAMENGO CONTINENTE FATIAS E"
+    "cont_receipt_string": "QJ FLAMENGO CONTINENTE FATIAS E",
+    "subcategory": ""
   },
   "141": {
     "global_id": 141,
@@ -491,7 +529,8 @@
     "pingo_id": "43218",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "BANANA"
+    "cont_receipt_string": "BANANA",
+    "subcategory": ""
   },
   "142": {
     "global_id": 142,
@@ -504,7 +543,8 @@
     "pingo_id": "990561",
     "conversion_factor": 1.0,
     "category_manual": true,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "143": {
     "global_id": 143,
@@ -517,7 +557,8 @@
     "pingo_id": "54900",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "PIMENTO VERDE CNT KG"
+    "cont_receipt_string": "PIMENTO VERDE CNT KG",
+    "subcategory": ""
   },
   "144": {
     "global_id": 144,
@@ -529,7 +570,8 @@
     "cont_id": "7993967",
     "pingo_id": "",
     "conversion_factor": 1.0,
-    "cont_receipt_string": "CARNE PICADA MISTA CONTINENTE 9"
+    "cont_receipt_string": "CARNE PICADA MISTA CONTINENTE 9",
+    "subcategory": ""
   },
   "145": {
     "global_id": 145,
@@ -542,7 +584,8 @@
     "pingo_id": "253998",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "CARNE PICADA MISTA CONTINENTE"
+    "cont_receipt_string": "CARNE PICADA MISTA CONTINENTE",
+    "subcategory": ""
   },
   "146": {
     "global_id": 146,
@@ -554,7 +597,8 @@
     "cont_id": "7920843",
     "pingo_id": "512015",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "147": {
     "global_id": 147,
@@ -566,7 +610,8 @@
     "cont_id": "2076696",
     "pingo_id": "893466",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "148": {
     "global_id": 148,
@@ -579,7 +624,8 @@
     "pingo_id": "690987",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "BATATA VERMELHA CNT KG"
+    "cont_receipt_string": "BATATA VERMELHA CNT KG",
+    "subcategory": ""
   },
   "149": {
     "global_id": 149,
@@ -592,7 +638,8 @@
     "pingo_id": "701543",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "AZEITO PRETA DESCAROCAD OXIDADA"
+    "cont_receipt_string": "AZEITO PRETA DESCAROCAD OXIDADA",
+    "subcategory": ""
   },
   "150": {
     "global_id": 150,
@@ -604,7 +651,8 @@
     "cont_id": "7618292",
     "pingo_id": "",
     "conversion_factor": 1.0,
-    "cont_receipt_string": "UVA BRANCA S/GRAINHA 500 G"
+    "cont_receipt_string": "UVA BRANCA S/GRAINHA 500 G",
+    "subcategory": ""
   },
   "151": {
     "global_id": 151,
@@ -615,7 +663,8 @@
     "exclude_comparison": false,
     "cont_id": "2505747",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "152": {
     "global_id": 152,
@@ -628,7 +677,8 @@
     "pingo_id": "955563",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "PAO FORMA 12 CEREAIS/SEMENTES"
+    "cont_receipt_string": "PAO FORMA 12 CEREAIS/SEMENTES",
+    "subcategory": ""
   },
   "153": {
     "global_id": 153,
@@ -639,7 +689,8 @@
     "exclude_comparison": false,
     "cont_id": "3835925",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "154": {
     "global_id": 154,
@@ -652,7 +703,8 @@
     "pingo_id": "638809",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "CENOURA KG"
+    "cont_receipt_string": "CENOURA KG",
+    "subcategory": ""
   },
   "155": {
     "global_id": 155,
@@ -664,7 +716,8 @@
     "cont_id": "2076812",
     "pingo_id": "46421",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "156": {
     "global_id": 156,
@@ -677,7 +730,8 @@
     "pingo_id": "377340",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "CENOURA CNT EMB.1KG"
+    "cont_receipt_string": "CENOURA CNT EMB.1KG",
+    "subcategory": ""
   },
   "158": {
     "global_id": 158,
@@ -690,7 +744,8 @@
     "pingo_id": "748681",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "PALITOS LIGHT VQR 140G"
+    "cont_receipt_string": "PALITOS LIGHT VQR 140G",
+    "subcategory": ""
   },
   "159": {
     "global_id": 159,
@@ -704,7 +759,8 @@
     "conversion_factor": 1.0,
     "solo": false,
     "cont_receipt_string": "CURGETE VERDE",
-    "pingo_receipt_string": "CURGETE KG"
+    "pingo_receipt_string": "CURGETE KG",
+    "subcategory": ""
   },
   "160": {
     "global_id": 160,
@@ -718,7 +774,8 @@
     "conversion_factor": 1.0,
     "category_manual": true,
     "solo": false,
-    "cont_receipt_string": "BOLA MISTURA 80G"
+    "cont_receipt_string": "BOLA MISTURA 80G",
+    "subcategory": ""
   },
   "161": {
     "global_id": 161,
@@ -731,7 +788,8 @@
     "pingo_id": "38365",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "LOMBOS PESCADA MSC CNT 400G"
+    "cont_receipt_string": "LOMBOS PESCADA MSC CNT 400G",
+    "subcategory": ""
   },
   "162": {
     "global_id": 162,
@@ -744,7 +802,8 @@
     "pingo_id": "739879",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "FIAMBRE PERNA EXT FINISSIMAS CN"
+    "cont_receipt_string": "FIAMBRE PERNA EXT FINISSIMAS CN",
+    "subcategory": ""
   },
   "163": {
     "global_id": 163,
@@ -756,7 +815,8 @@
     "cont_id": "6690953",
     "pingo_id": "953132",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "164": {
     "global_id": 164,
@@ -768,7 +828,8 @@
     "cont_id": "4618134",
     "pingo_id": "",
     "conversion_factor": 1.0,
-    "cont_receipt_string": "CEBOLA CNT EMB. 1,5 KG"
+    "cont_receipt_string": "CEBOLA CNT EMB. 1,5 KG",
+    "subcategory": ""
   },
   "165": {
     "global_id": 165,
@@ -782,7 +843,8 @@
     "conversion_factor": 1.0,
     "solo": false,
     "cont_receipt_string": "PAPAIA",
-    "pingo_receipt_string": "PAPAIA"
+    "pingo_receipt_string": "PAPAIA",
+    "subcategory": ""
   },
   "166": {
     "global_id": 166,
@@ -795,7 +857,8 @@
     "pingo_id": "949756",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "PERA ROCHA DOP OESTE CAL 55/65"
+    "cont_receipt_string": "PERA ROCHA DOP OESTE CAL 55/65",
+    "subcategory": ""
   },
   "167": {
     "global_id": 167,
@@ -808,7 +871,8 @@
     "pingo_id": "463549",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "PAO DE FORMA S/CODEA CNT 450GR"
+    "cont_receipt_string": "PAO DE FORMA S/CODEA CNT 450GR",
+    "subcategory": ""
   },
   "168": {
     "global_id": 168,
@@ -819,7 +883,8 @@
     "exclude_comparison": false,
     "cont_id": "6956929",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "169": {
     "global_id": 169,
@@ -831,7 +896,8 @@
     "cont_id": "7708138",
     "pingo_id": "956515",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "170": {
     "global_id": 170,
@@ -845,7 +911,8 @@
     "conversion_factor": 1.0,
     "category_manual": true,
     "solo": false,
-    "cont_receipt_string": "BIFE DE FRANGO CONTINENTE LS"
+    "cont_receipt_string": "BIFE DE FRANGO CONTINENTE LS",
+    "subcategory": ""
   },
   "171": {
     "global_id": 171,
@@ -859,7 +926,8 @@
     "conversion_factor": 1.0,
     "solo": false,
     "cont_receipt_string": "QJ FLAMENGO LIMIANO FATIAS",
-    "pingo_receipt_string": "QJ LIMIANO 200G"
+    "pingo_receipt_string": "QJ LIMIANO 200G",
+    "subcategory": ""
   },
   "172": {
     "global_id": 172,
@@ -871,7 +939,8 @@
     "cont_id": "7069742",
     "pingo_id": "",
     "conversion_factor": 1.0,
-    "cont_receipt_string": "COXAS DE FRANGO LS"
+    "cont_receipt_string": "COXAS DE FRANGO LS",
+    "subcategory": ""
   },
   "173": {
     "global_id": 173,
@@ -884,7 +953,8 @@
     "pingo_id": "628467",
     "conversion_factor": 1.0,
     "category_manual": true,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "174": {
     "global_id": 174,
@@ -896,7 +966,8 @@
     "cont_id": "2373500",
     "pingo_id": "",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "175": {
     "global_id": 175,
@@ -908,7 +979,8 @@
     "cont_id": "7430620",
     "pingo_id": "",
     "conversion_factor": 1.0,
-    "cont_receipt_string": "CARNE PICADA BOVINO CNT"
+    "cont_receipt_string": "CARNE PICADA BOVINO CNT",
+    "subcategory": ""
   },
   "176": {
     "global_id": 176,
@@ -921,7 +993,8 @@
     "pingo_id": "",
     "conversion_factor": 1.0,
     "category_manual": true,
-    "cont_receipt_string": "NOVILHO JARDINEIRA NAC CNT LS"
+    "cont_receipt_string": "NOVILHO JARDINEIRA NAC CNT LS",
+    "subcategory": ""
   },
   "177": {
     "global_id": 177,
@@ -934,7 +1007,8 @@
     "pingo_id": "981747",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "PORCO LOMBINHOS VACUO"
+    "cont_receipt_string": "PORCO LOMBINHOS VACUO",
+    "subcategory": ""
   },
   "178": {
     "global_id": 178,
@@ -947,7 +1021,8 @@
     "pingo_id": "46514",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "MANGA PALMER AVIAO"
+    "cont_receipt_string": "MANGA PALMER AVIAO",
+    "subcategory": ""
   },
   "179": {
     "global_id": 179,
@@ -959,7 +1034,8 @@
     "cont_id": "7071904",
     "pingo_id": "442057",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "180": {
     "global_id": 180,
@@ -973,7 +1049,8 @@
     "conversion_factor": 1.0,
     "category_manual": true,
     "solo": false,
-    "pingo_receipt_string": "CROQUETE DE CARNE"
+    "pingo_receipt_string": "CROQUETE DE CARNE",
+    "subcategory": ""
   },
   "181": {
     "global_id": 181,
@@ -985,7 +1062,8 @@
     "cont_id": "2525325",
     "pingo_id": "",
     "conversion_factor": 1.0,
-    "cont_receipt_string": "PORCO PERNA S/OSSO VAC. LS KG"
+    "cont_receipt_string": "PORCO PERNA S/OSSO VAC. LS KG",
+    "subcategory": ""
   },
   "183": {
     "global_id": 183,
@@ -999,7 +1077,8 @@
     "conversion_factor": 1.0,
     "category_manual": true,
     "solo": false,
-    "cont_receipt_string": "MAMAO"
+    "cont_receipt_string": "MAMAO",
+    "subcategory": ""
   },
   "184": {
     "global_id": 184,
@@ -1011,7 +1090,8 @@
     "cont_id": "7302889",
     "pingo_id": "",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "185": {
     "global_id": 185,
@@ -1024,7 +1104,8 @@
     "pingo_id": "906848",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "ALHO SECO KG"
+    "cont_receipt_string": "ALHO SECO KG",
+    "subcategory": ""
   },
   "186": {
     "global_id": 186,
@@ -1039,7 +1120,8 @@
     "category_manual": true,
     "solo": false,
     "cont_receipt_string": "IOGURTE PROTEICO YO PRO MIRTILO",
-    "pingo_receipt_string": "YOPRO DAN MIRT 4X120"
+    "pingo_receipt_string": "YOPRO DAN MIRT 4X120",
+    "subcategory": ""
   },
   "187": {
     "global_id": 187,
@@ -1053,7 +1135,8 @@
     "conversion_factor": 1.0,
     "category_manual": true,
     "solo": false,
-    "cont_receipt_string": "LEITE CHOC -50% CNT EQL 4X200ML"
+    "cont_receipt_string": "LEITE CHOC -50% CNT EQL 4X200ML",
+    "subcategory": ""
   },
   "188": {
     "global_id": 188,
@@ -1067,7 +1150,8 @@
     "conversion_factor": 1.0,
     "category_manual": true,
     "solo": false,
-    "cont_receipt_string": "OVOS SOLO M CNTINENTE 1/2DZ"
+    "cont_receipt_string": "OVOS SOLO M CNTINENTE 1/2DZ",
+    "subcategory": ""
   },
   "189": {
     "global_id": 189,
@@ -1080,7 +1164,8 @@
     "pingo_id": "968255",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "IOG LIQ 00% CNT EQ LIMAO 4X160G"
+    "cont_receipt_string": "IOG LIQ 00% CNT EQ LIMAO 4X160G",
+    "subcategory": ""
   },
   "190": {
     "global_id": 190,
@@ -1094,7 +1179,8 @@
     "conversion_factor": 1.0,
     "category_manual": true,
     "solo": false,
-    "cont_receipt_string": "LEITE UHT M/GORDO CNT 3*200ML"
+    "cont_receipt_string": "LEITE UHT M/GORDO CNT 3*200ML",
+    "subcategory": ""
   },
   "191": {
     "global_id": 191,
@@ -1108,7 +1194,8 @@
     "conversion_factor": 1.0,
     "category_manual": true,
     "solo": false,
-    "cont_receipt_string": "IOG LIQ 000% CNT EQ 4X160G"
+    "cont_receipt_string": "IOG LIQ 000% CNT EQ 4X160G",
+    "subcategory": ""
   },
   "192": {
     "global_id": 192,
@@ -1122,7 +1209,8 @@
     "conversion_factor": 1.0,
     "category_manual": true,
     "solo": false,
-    "pingo_receipt_string": "IG LQ MA ME/L PD170G"
+    "pingo_receipt_string": "IG LQ MA ME/L PD170G",
+    "subcategory": ""
   },
   "193": {
     "global_id": 193,
@@ -1135,7 +1223,8 @@
     "pingo_id": "48150",
     "conversion_factor": 1.0,
     "category_manual": true,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "194": {
     "global_id": 194,
@@ -1149,7 +1238,8 @@
     "conversion_factor": 1.0,
     "solo": false,
     "cont_receipt_string": "IOG SOL YOPRO STRACCIATELLA 4*1",
-    "pingo_receipt_string": "YOPRO STRAC 4X120G"
+    "pingo_receipt_string": "YOPRO STRAC 4X120G",
+    "subcategory": ""
   },
   "195": {
     "global_id": 195,
@@ -1161,7 +1251,8 @@
     "cont_id": "7128711",
     "pingo_id": "",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "196": {
     "global_id": 196,
@@ -1175,7 +1266,8 @@
     "conversion_factor": 1.0,
     "solo": false,
     "cont_receipt_string": "IOGURTE PROTEICO YO PRO BAUNILH",
-    "pingo_receipt_string": "YOPRO DAN BAUN 4X120"
+    "pingo_receipt_string": "YOPRO DAN BAUN 4X120",
+    "subcategory": ""
   },
   "197": {
     "global_id": 197,
@@ -1188,7 +1280,8 @@
     "pingo_id": "",
     "conversion_factor": 1.0,
     "category_manual": true,
-    "cont_receipt_string": "SKYR SOL CNT EQ MIRTILO 150G"
+    "cont_receipt_string": "SKYR SOL CNT EQ MIRTILO 150G",
+    "subcategory": ""
   },
   "198": {
     "global_id": 198,
@@ -1200,7 +1293,8 @@
     "cont_id": "7970956",
     "pingo_id": "",
     "conversion_factor": 1.0,
-    "cont_receipt_string": "IOG LIQ 00% CNT EQ 8X160G"
+    "cont_receipt_string": "IOG LIQ 00% CNT EQ 8X160G",
+    "subcategory": ""
   },
   "199": {
     "global_id": 199,
@@ -1214,7 +1308,8 @@
     "conversion_factor": 1.0,
     "solo": false,
     "cont_receipt_string": "IOG NATURAL CONTINENTE 8X125G",
-    "pingo_receipt_string": "IOG NATURAL 8X125GPD"
+    "pingo_receipt_string": "IOG NATURAL 8X125GPD",
+    "subcategory": ""
   },
   "200": {
     "global_id": 200,
@@ -1226,7 +1321,8 @@
     "cont_id": "8431214",
     "pingo_id": "",
     "conversion_factor": 1.0,
-    "cont_receipt_string": "IOG LIQ 00% CNT EQ F TRO 4X160G"
+    "cont_receipt_string": "IOG LIQ 00% CNT EQ F TRO 4X160G",
+    "subcategory": ""
   },
   "201": {
     "global_id": 201,
@@ -1238,7 +1334,8 @@
     "cont_id": "7625842",
     "pingo_id": "",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "202": {
     "global_id": 202,
@@ -1251,7 +1348,8 @@
     "pingo_id": "662457",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "ABRASIVO SAN GEL CNT MARINHO 1L"
+    "cont_receipt_string": "ABRASIVO SAN GEL CNT MARINHO 1L",
+    "subcategory": ""
   },
   "203": {
     "global_id": 203,
@@ -1264,7 +1362,8 @@
     "pingo_id": "921733",
     "conversion_factor": 1.0,
     "category_manual": true,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "204": {
     "global_id": 204,
@@ -1277,7 +1376,8 @@
     "pingo_id": "976880",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "TIRA NOD VANISH PO PINK 1,45KG"
+    "cont_receipt_string": "TIRA NOD VANISH PO PINK 1,45KG",
+    "subcategory": ""
   },
   "205": {
     "global_id": 205,
@@ -1288,7 +1388,8 @@
     "exclude_comparison": false,
     "cont_id": "7816822",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "206": {
     "global_id": 206,
@@ -1301,7 +1402,8 @@
     "pingo_id": "750669",
     "conversion_factor": 1.0,
     "solo": false,
-    "pingo_receipt_string": "CR LIMP UL LIX 750ML"
+    "pingo_receipt_string": "CR LIMP UL LIX 750ML",
+    "subcategory": ""
   },
   "207": {
     "global_id": 207,
@@ -1313,7 +1415,8 @@
     "cont_id": "7536679",
     "pingo_id": "1002199",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "208": {
     "global_id": 208,
@@ -1326,7 +1429,8 @@
     "pingo_id": "868387",
     "conversion_factor": 1.0,
     "category_manual": true,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "209": {
     "global_id": 209,
@@ -1338,7 +1442,8 @@
     "cont_id": "5018396",
     "pingo_id": "851936",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "210": {
     "global_id": 210,
@@ -1350,7 +1455,8 @@
     "cont_id": "7654326",
     "pingo_id": "952429",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "211": {
     "global_id": 211,
@@ -1363,7 +1469,8 @@
     "pingo_id": "971693",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "TOALHITAS PROTEGE COR CNT 20UN"
+    "cont_receipt_string": "TOALHITAS PROTEGE COR CNT 20UN",
+    "subcategory": ""
   },
   "213": {
     "global_id": 213,
@@ -1376,7 +1483,8 @@
     "pingo_id": "908052",
     "conversion_factor": 1.0,
     "category_manual": true,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "215": {
     "global_id": 215,
@@ -1389,7 +1497,8 @@
     "pingo_id": "558685",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "ABRILHANTADOR MAQUINA LOICA CNT"
+    "cont_receipt_string": "ABRILHANTADOR MAQUINA LOICA CNT",
+    "subcategory": ""
   },
   "216": {
     "global_id": 216,
@@ -1402,7 +1511,8 @@
     "pingo_id": "936913",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "LIMPA MADEIRAS SABAO CNT 1,5L"
+    "cont_receipt_string": "LIMPA MADEIRAS SABAO CNT 1,5L",
+    "subcategory": ""
   },
   "217": {
     "global_id": 217,
@@ -1416,7 +1526,8 @@
     "conversion_factor": 1.0,
     "category_manual": true,
     "solo": false,
-    "cont_receipt_string": "LAVA TUDO CNT BOSQUE 2LT"
+    "cont_receipt_string": "LAVA TUDO CNT BOSQUE 2LT",
+    "subcategory": ""
   },
   "218": {
     "global_id": 218,
@@ -1428,7 +1539,8 @@
     "cont_id": "8105780",
     "pingo_id": "",
     "conversion_factor": 1.0,
-    "cont_receipt_string": "DET MAN LOICA FAIRY LIMAO 2X900"
+    "cont_receipt_string": "DET MAN LOICA FAIRY LIMAO 2X900",
+    "subcategory": ""
   },
   "219": {
     "global_id": 219,
@@ -1442,7 +1554,8 @@
     "conversion_factor": 1.0,
     "category_manual": true,
     "solo": false,
-    "cont_receipt_string": "LUVAS CNT ACETINADAS TAM.M/L"
+    "cont_receipt_string": "LUVAS CNT ACETINADAS TAM.M/L",
+    "subcategory": ""
   },
   "220": {
     "global_id": 220,
@@ -1455,7 +1568,8 @@
     "pingo_id": "996386",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "TIRA GORDURAS SPRAY CNT 750ML"
+    "cont_receipt_string": "TIRA GORDURAS SPRAY CNT 750ML",
+    "subcategory": ""
   },
   "221": {
     "global_id": 221,
@@ -1466,7 +1580,8 @@
     "exclude_comparison": false,
     "cont_id": "8211026",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "222": {
     "global_id": 222,
@@ -1479,7 +1594,8 @@
     "pingo_id": "931458",
     "conversion_factor": 1.0,
     "category_manual": true,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "224": {
     "global_id": 224,
@@ -1491,7 +1607,8 @@
     "cont_id": "4302665",
     "pingo_id": "750668",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "225": {
     "global_id": 225,
@@ -1504,7 +1621,8 @@
     "pingo_id": "983819",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "PERCARBONATO DE SODIO CNT 750G"
+    "cont_receipt_string": "PERCARBONATO DE SODIO CNT 750G",
+    "subcategory": ""
   },
   "226": {
     "global_id": 226,
@@ -1516,7 +1634,8 @@
     "cont_id": "7779005",
     "pingo_id": "",
     "conversion_factor": 1.0,
-    "cont_receipt_string": "DET LIQ MAQ ROU SKIP SABAO NATU"
+    "cont_receipt_string": "DET LIQ MAQ ROU SKIP SABAO NATU",
+    "subcategory": ""
   },
   "227": {
     "global_id": 227,
@@ -1529,7 +1648,8 @@
     "pingo_id": "894109",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "TIRA NOD VANISH SPRA DESENGORDU"
+    "cont_receipt_string": "TIRA NOD VANISH SPRA DESENGORDU",
+    "subcategory": ""
   },
   "228": {
     "global_id": 228,
@@ -1541,7 +1661,8 @@
     "cont_id": "7750739",
     "pingo_id": "777938",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "231": {
     "global_id": 231,
@@ -1554,7 +1675,8 @@
     "pingo_id": "23615",
     "conversion_factor": 1.0,
     "category_manual": true,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "232": {
     "global_id": 232,
@@ -1567,7 +1689,8 @@
     "pingo_id": "915116",
     "conversion_factor": 1.0,
     "category_manual": true,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "234": {
     "global_id": 234,
@@ -1579,7 +1702,8 @@
     "cont_id": "8190857",
     "pingo_id": "999988",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "235": {
     "global_id": 235,
@@ -1591,7 +1715,8 @@
     "cont_id": "8024463",
     "pingo_id": "816928",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "236": {
     "global_id": 236,
@@ -1602,7 +1727,8 @@
     "exclude_comparison": false,
     "cont_id": "7424126",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "237": {
     "global_id": 237,
@@ -1615,7 +1741,8 @@
     "pingo_id": "827073",
     "conversion_factor": 1.0,
     "category_manual": true,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "238": {
     "global_id": 238,
@@ -1629,7 +1756,8 @@
     "conversion_factor": 1.0,
     "category_manual": true,
     "solo": false,
-    "cont_receipt_string": "SPRAY WC LIMPEZA CNT 750ML"
+    "cont_receipt_string": "SPRAY WC LIMPEZA CNT 750ML",
+    "subcategory": ""
   },
   "240": {
     "global_id": 240,
@@ -1643,7 +1771,8 @@
     "conversion_factor": 1.0,
     "category_manual": true,
     "solo": false,
-    "cont_receipt_string": "GELATINA PO ROYAL 0% MELA 31G"
+    "cont_receipt_string": "GELATINA PO ROYAL 0% MELA 31G",
+    "subcategory": ""
   },
   "241": {
     "global_id": 241,
@@ -1656,7 +1785,8 @@
     "pingo_id": "940842",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "GELAT ANANAS 0% CTN 25G"
+    "cont_receipt_string": "GELAT ANANAS 0% CTN 25G",
+    "subcategory": ""
   },
   "242": {
     "global_id": 242,
@@ -1669,7 +1799,8 @@
     "pingo_id": "856735",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "GELATINA ROYAL 0% F BOSQUE 31G"
+    "cont_receipt_string": "GELATINA ROYAL 0% F BOSQUE 31G",
+    "subcategory": ""
   },
   "243": {
     "global_id": 243,
@@ -1680,7 +1811,8 @@
     "exclude_comparison": false,
     "cont_id": "7559315",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "244": {
     "global_id": 244,
@@ -1693,7 +1825,8 @@
     "pingo_id": "692922",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "BOLACHA CNT CRACHERS S/SAL 500G"
+    "cont_receipt_string": "BOLACHA CNT CRACHERS S/SAL 500G",
+    "subcategory": ""
   },
   "245": {
     "global_id": 245,
@@ -1706,7 +1839,8 @@
     "pingo_id": "544170",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "GELATINA PO ROYAL 0% ANANAS S 3"
+    "cont_receipt_string": "GELATINA PO ROYAL 0% ANANAS S 3",
+    "subcategory": ""
   },
   "247": {
     "global_id": 247,
@@ -1719,7 +1853,8 @@
     "pingo_id": "1002648",
     "conversion_factor": 1.0,
     "solo": false,
-    "pingo_receipt_string": "B. ANIMAIS PD 3X200G"
+    "pingo_receipt_string": "B. ANIMAIS PD 3X200G",
+    "subcategory": ""
   },
   "248": {
     "global_id": 248,
@@ -1732,7 +1867,8 @@
     "pingo_id": "322239",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "SALSICHAS BOCKW"
+    "cont_receipt_string": "SALSICHAS BOCKW",
+    "subcategory": ""
   },
   "249": {
     "global_id": 249,
@@ -1744,7 +1880,8 @@
     "cont_id": "4954144",
     "pingo_id": "651179",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "250": {
     "global_id": 250,
@@ -1757,7 +1894,8 @@
     "pingo_id": "701839",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": ""
+    "cont_receipt_string": "",
+    "subcategory": ""
   },
   "251": {
     "global_id": 251,
@@ -1771,7 +1909,8 @@
     "conversion_factor": 1.0,
     "category_manual": true,
     "solo": false,
-    "cont_receipt_string": "GELAT MIRTILO 0% CTN 25G"
+    "cont_receipt_string": "GELAT MIRTILO 0% CTN 25G",
+    "subcategory": ""
   },
   "253": {
     "global_id": 253,
@@ -1783,7 +1922,8 @@
     "cont_id": "5491726",
     "pingo_id": "767798",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "254": {
     "global_id": 254,
@@ -1796,7 +1936,8 @@
     "pingo_id": "694396",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "TORT. MILHO CNT EQ. C/SAL 130G"
+    "cont_receipt_string": "TORT. MILHO CNT EQ. C/SAL 130G",
+    "subcategory": ""
   },
   "255": {
     "global_id": 255,
@@ -1807,7 +1948,8 @@
     "exclude_comparison": false,
     "cont_id": "4402173",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "257": {
     "global_id": 257,
@@ -1819,7 +1961,8 @@
     "cont_id": "5734815",
     "pingo_id": "968014",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "258": {
     "global_id": 258,
@@ -1832,7 +1975,8 @@
     "pingo_id": "963256",
     "conversion_factor": 1.0,
     "cont_receipt_string": "BUONDI RIST NESPRESSO 10CAP",
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "259": {
     "global_id": 259,
@@ -1845,7 +1989,8 @@
     "pingo_id": "803937",
     "conversion_factor": 1.0,
     "category_manual": true,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "260": {
     "global_id": 260,
@@ -1858,7 +2003,8 @@
     "pingo_id": "729225",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "GELATINA PO ROYAL 0% TROP 31G"
+    "cont_receipt_string": "GELATINA PO ROYAL 0% TROP 31G",
+    "subcategory": ""
   },
   "261": {
     "global_id": 261,
@@ -1871,7 +2017,8 @@
     "pingo_id": "673345",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "BOL MARIA CONTINENTE 4*200G"
+    "cont_receipt_string": "BOL MARIA CONTINENTE 4*200G",
+    "subcategory": ""
   },
   "262": {
     "global_id": 262,
@@ -1882,7 +2029,8 @@
     "exclude_comparison": false,
     "cont_id": "7273638",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "263": {
     "global_id": 263,
@@ -1893,7 +2041,8 @@
     "exclude_comparison": false,
     "cont_id": "8155212",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "264": {
     "global_id": 264,
@@ -1905,7 +2054,8 @@
     "cont_id": "7447101",
     "pingo_id": "869881",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "265": {
     "global_id": 265,
@@ -1918,7 +2068,8 @@
     "pingo_id": "944333",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "BUONDI NESPRESSO DECAF 10 CAPS"
+    "cont_receipt_string": "BUONDI NESPRESSO DECAF 10 CAPS",
+    "subcategory": ""
   },
   "266": {
     "global_id": 266,
@@ -1931,7 +2082,8 @@
     "pingo_id": "1960",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "SAL GROSSO CONTINENTE 1KG"
+    "cont_receipt_string": "SAL GROSSO CONTINENTE 1KG",
+    "subcategory": ""
   },
   "267": {
     "global_id": 267,
@@ -1943,7 +2095,8 @@
     "cont_id": "6896865",
     "pingo_id": "660081",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "268": {
     "global_id": 268,
@@ -1955,7 +2108,8 @@
     "cont_id": "8156329",
     "pingo_id": "",
     "conversion_factor": 1.0,
-    "cont_receipt_string": "ESPIRAIS CNT PACK POUPANCA 1KG"
+    "cont_receipt_string": "ESPIRAIS CNT PACK POUPANCA 1KG",
+    "subcategory": ""
   },
   "269": {
     "global_id": 269,
@@ -1966,7 +2120,8 @@
     "exclude_comparison": false,
     "cont_id": "8577938",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "270": {
     "global_id": 270,
@@ -1980,7 +2135,8 @@
     "conversion_factor": 1.0,
     "category_manual": true,
     "solo": false,
-    "cont_receipt_string": "GELATINA PO ROYAL 0% MORANGO"
+    "cont_receipt_string": "GELATINA PO ROYAL 0% MORANGO",
+    "subcategory": ""
   },
   "271": {
     "global_id": 271,
@@ -1993,7 +2149,8 @@
     "pingo_id": "928824",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "BATATA FRITA CNT OND 4*45G"
+    "cont_receipt_string": "BATATA FRITA CNT OND 4*45G",
+    "subcategory": ""
   },
   "273": {
     "global_id": 273,
@@ -2005,7 +2162,8 @@
     "cont_id": "8422398",
     "pingo_id": "",
     "conversion_factor": 1.0,
-    "cont_receipt_string": "GELAT F.TROP 0% CTN 25G"
+    "cont_receipt_string": "GELAT F.TROP 0% CTN 25G",
+    "subcategory": ""
   },
   "274": {
     "global_id": 274,
@@ -2018,7 +2176,8 @@
     "pingo_id": "901449",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "BUONDI ORIGINAL NESPRESSO 10"
+    "cont_receipt_string": "BUONDI ORIGINAL NESPRESSO 10",
+    "subcategory": ""
   },
   "275": {
     "global_id": 275,
@@ -2031,7 +2190,8 @@
     "pingo_id": "931788",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "CEREAIS PETALAS CHOCO CNT 375G"
+    "cont_receipt_string": "CEREAIS PETALAS CHOCO CNT 375G",
+    "subcategory": ""
   },
   "276": {
     "global_id": 276,
@@ -2044,7 +2204,8 @@
     "pingo_id": "701840",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "BOL ARTIACH MINI DINO CER 3*40G"
+    "cont_receipt_string": "BOL ARTIACH MINI DINO CER 3*40G",
+    "subcategory": ""
   },
   "277": {
     "global_id": 277,
@@ -2057,7 +2218,8 @@
     "pingo_id": "559259",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "ATUM AZEITE CONTINENTE 85GR"
+    "cont_receipt_string": "ATUM AZEITE CONTINENTE 85GR",
+    "subcategory": ""
   },
   "279": {
     "global_id": 279,
@@ -2070,7 +2232,8 @@
     "pingo_id": "",
     "conversion_factor": 1.0,
     "category_manual": true,
-    "cont_receipt_string": "SAQ.MACA BANANA PACK CNT 12X90G"
+    "cont_receipt_string": "SAQ.MACA BANANA PACK CNT 12X90G",
+    "subcategory": ""
   },
   "280": {
     "global_id": 280,
@@ -2083,7 +2246,8 @@
     "pingo_id": "",
     "conversion_factor": 1.0,
     "category_manual": true,
-    "cont_receipt_string": "GELAT MANGA 0% CTN 25G"
+    "cont_receipt_string": "GELAT MANGA 0% CTN 25G",
+    "subcategory": ""
   },
   "281": {
     "global_id": 281,
@@ -2094,7 +2258,8 @@
     "exclude_comparison": false,
     "cont_id": "4322899",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "282": {
     "global_id": 282,
@@ -2107,7 +2272,8 @@
     "pingo_id": "808018",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "BOLACHA NACIONAL TORRADA 200G"
+    "cont_receipt_string": "BOLACHA NACIONAL TORRADA 200G",
+    "subcategory": ""
   },
   "283": {
     "global_id": 283,
@@ -2119,7 +2285,8 @@
     "cont_id": "4906498",
     "pingo_id": "700832",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "284": {
     "global_id": 284,
@@ -2132,7 +2299,8 @@
     "pingo_id": "660079",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "CALDO CARNE CNT 240G 24CB"
+    "cont_receipt_string": "CALDO CARNE CNT 240G 24CB",
+    "subcategory": ""
   },
   "285": {
     "global_id": 285,
@@ -2145,7 +2313,8 @@
     "pingo_id": "",
     "conversion_factor": 1.0,
     "category_manual": true,
-    "cont_receipt_string": "MASSA NINHOS C/OVOS CNT 500G"
+    "cont_receipt_string": "MASSA NINHOS C/OVOS CNT 500G",
+    "subcategory": ""
   },
   "286": {
     "global_id": 286,
@@ -2158,7 +2327,8 @@
     "pingo_id": "651101",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "ARROZ BASMATI CONTINENTE 1KG"
+    "cont_receipt_string": "ARROZ BASMATI CONTINENTE 1KG",
+    "subcategory": ""
   },
   "287": {
     "global_id": 287,
@@ -2170,7 +2340,8 @@
     "cont_id": "",
     "pingo_id": "261946",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "288": {
     "global_id": 288,
@@ -2182,7 +2353,8 @@
     "cont_id": "",
     "pingo_id": "323718",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "289": {
     "global_id": 289,
@@ -2193,7 +2365,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "32816",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "290": {
     "global_id": 290,
@@ -2204,7 +2377,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "373083",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "291": {
     "global_id": 291,
@@ -2215,7 +2389,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "906396",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "293": {
     "global_id": 293,
@@ -2226,7 +2401,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "951831",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "294": {
     "global_id": 294,
@@ -2237,7 +2413,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "906397",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "295": {
     "global_id": 295,
@@ -2248,7 +2425,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "906395",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "298": {
     "global_id": 298,
@@ -2259,7 +2437,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "920794",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "300": {
     "global_id": 300,
@@ -2270,7 +2449,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "962770",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "301": {
     "global_id": 301,
@@ -2282,7 +2462,8 @@
     "cont_id": "",
     "pingo_id": "42856",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "307": {
     "global_id": 307,
@@ -2294,7 +2475,8 @@
     "cont_id": "",
     "pingo_id": "968215",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "308": {
     "global_id": 308,
@@ -2305,7 +2487,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "465789",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "310": {
     "global_id": 310,
@@ -2317,7 +2500,8 @@
     "cont_id": "",
     "pingo_id": "1001449",
     "conversion_factor": 1.0,
-    "pingo_receipt_string": "CARNE PICADA MISTA 5"
+    "pingo_receipt_string": "CARNE PICADA MISTA 5",
+    "subcategory": ""
   },
   "311": {
     "global_id": 311,
@@ -2329,7 +2513,8 @@
     "cont_id": "",
     "pingo_id": "26230",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "312": {
     "global_id": 312,
@@ -2340,7 +2525,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "953810",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "313": {
     "global_id": 313,
@@ -2351,7 +2537,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "910521",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "315": {
     "global_id": 315,
@@ -2362,7 +2549,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "945223",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "316": {
     "global_id": 316,
@@ -2374,7 +2562,8 @@
     "cont_id": "",
     "pingo_id": "925034",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "319": {
     "global_id": 319,
@@ -2385,7 +2574,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "818892",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "320": {
     "global_id": 320,
@@ -2396,7 +2586,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "808838",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "323": {
     "global_id": 323,
@@ -2407,7 +2598,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "845747",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "324": {
     "global_id": 324,
@@ -2418,7 +2610,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "857929",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "325": {
     "global_id": 325,
@@ -2429,7 +2622,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "762320",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "326": {
     "global_id": 326,
@@ -2440,7 +2634,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "659489",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "328": {
     "global_id": 328,
@@ -2452,7 +2647,8 @@
     "cont_id": "",
     "pingo_id": "920248",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "330": {
     "global_id": 330,
@@ -2463,7 +2659,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "952433",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "336": {
     "global_id": 336,
@@ -2474,7 +2671,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "999077",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "337": {
     "global_id": 337,
@@ -2486,7 +2684,8 @@
     "cont_id": "",
     "pingo_id": "981746",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "339": {
     "global_id": 339,
@@ -2498,7 +2697,8 @@
     "cont_id": "",
     "pingo_id": "46442",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "342": {
     "global_id": 342,
@@ -2510,7 +2710,8 @@
     "cont_id": "",
     "pingo_id": "30717",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "343": {
     "global_id": 343,
@@ -2522,7 +2723,8 @@
     "cont_id": "",
     "pingo_id": "952933",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "344": {
     "global_id": 344,
@@ -2534,7 +2736,8 @@
     "cont_id": "",
     "pingo_id": "54677",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "345": {
     "global_id": 345,
@@ -2545,7 +2748,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "262753",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "347": {
     "global_id": 347,
@@ -2556,7 +2760,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "739880",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "356": {
     "global_id": 356,
@@ -2567,7 +2772,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "622075",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "357": {
     "global_id": 357,
@@ -2578,7 +2784,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "966685",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "358": {
     "global_id": 358,
@@ -2589,7 +2796,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "465791",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "366": {
     "global_id": 366,
@@ -2600,7 +2808,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "956786",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "370": {
     "global_id": 370,
@@ -2612,7 +2821,8 @@
     "cont_id": "",
     "pingo_id": "746865001",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "372": {
     "global_id": 372,
@@ -2623,7 +2833,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "673347",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "373": {
     "global_id": 373,
@@ -2635,7 +2846,8 @@
     "cont_id": "",
     "pingo_id": "900858",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "374": {
     "global_id": 374,
@@ -2648,7 +2860,8 @@
     "pingo_id": "975728",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "SAQUETA CONTINENTE MACA E PERA"
+    "cont_receipt_string": "SAQUETA CONTINENTE MACA E PERA",
+    "subcategory": ""
   },
   "375": {
     "global_id": 375,
@@ -2660,7 +2873,8 @@
     "cont_id": "",
     "pingo_id": "900853",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "377": {
     "global_id": 377,
@@ -2671,7 +2885,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "924371",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "378": {
     "global_id": 378,
@@ -2682,7 +2897,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "909276",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "379": {
     "global_id": 379,
@@ -2693,7 +2909,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "986050",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "382": {
     "global_id": 382,
@@ -2705,7 +2922,8 @@
     "cont_id": "",
     "pingo_id": "762247",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "383": {
     "global_id": 383,
@@ -2717,7 +2935,8 @@
     "cont_id": "",
     "pingo_id": "104376",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "385": {
     "global_id": 385,
@@ -2728,7 +2947,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "650222",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "386": {
     "global_id": 386,
@@ -2739,7 +2959,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "952432",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "387": {
     "global_id": 387,
@@ -2750,7 +2971,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "1004042",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "388": {
     "global_id": 388,
@@ -2762,7 +2984,8 @@
     "cont_id": "",
     "pingo_id": "985530",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "390": {
     "global_id": 390,
@@ -2773,7 +2996,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "805491",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "397": {
     "global_id": 397,
@@ -2784,7 +3008,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "657178",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "398": {
     "global_id": 398,
@@ -2795,7 +3020,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "369927",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "400": {
     "global_id": 400,
@@ -2806,7 +3032,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "922203",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "401": {
     "global_id": 401,
@@ -2817,7 +3044,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "691230",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "402": {
     "global_id": 402,
@@ -2828,7 +3056,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "921121",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "406": {
     "global_id": 406,
@@ -2839,7 +3068,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "879712",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "407": {
     "global_id": 407,
@@ -2852,7 +3082,8 @@
     "pingo_id": "879922",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "QJ FLAM T.NOST FAT2*200GR"
+    "cont_receipt_string": "QJ FLAM T.NOST FAT2*200GR",
+    "subcategory": ""
   },
   "411": {
     "global_id": 411,
@@ -2863,7 +3094,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "969344",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "412": {
     "global_id": 412,
@@ -2874,7 +3106,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "895979",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "413": {
     "global_id": 413,
@@ -2886,7 +3119,8 @@
     "cont_id": "",
     "pingo_id": "953129",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "414": {
     "global_id": 414,
@@ -2898,7 +3132,8 @@
     "cont_id": "",
     "pingo_id": "746925",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "415": {
     "global_id": 415,
@@ -2910,7 +3145,8 @@
     "cont_id": "",
     "pingo_id": "46503",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "416": {
     "global_id": 416,
@@ -2921,7 +3157,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "937267",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "417": {
     "global_id": 417,
@@ -2934,7 +3171,8 @@
     "pingo_id": "846659",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "QJ FLAMENGO LIMIANO FATIAS 2*20"
+    "cont_receipt_string": "QJ FLAMENGO LIMIANO FATIAS 2*20",
+    "subcategory": ""
   },
   "419": {
     "global_id": 419,
@@ -2945,7 +3183,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "900685",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "420": {
     "global_id": 420,
@@ -2957,7 +3196,8 @@
     "cont_id": "",
     "pingo_id": "973818",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "423": {
     "global_id": 423,
@@ -2968,7 +3208,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "991083",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "425": {
     "global_id": 425,
@@ -2979,7 +3220,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "336088",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "426": {
     "global_id": 426,
@@ -2990,7 +3232,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "941233",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "427": {
     "global_id": 427,
@@ -3002,7 +3245,8 @@
     "cont_id": "",
     "pingo_id": "926002",
     "conversion_factor": 1.0,
-    "pingo_receipt_string": "B. SELVA PD 8X41,2G"
+    "pingo_receipt_string": "B. SELVA PD 8X41,2G",
+    "subcategory": ""
   },
   "428": {
     "global_id": 428,
@@ -3013,7 +3257,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "975696",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "429": {
     "global_id": 429,
@@ -3024,7 +3269,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "977079",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "430": {
     "global_id": 430,
@@ -3035,7 +3281,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "976792",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "431": {
     "global_id": 431,
@@ -3047,7 +3294,8 @@
     "cont_id": "",
     "pingo_id": "900854",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "432": {
     "global_id": 432,
@@ -3058,7 +3306,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "731757",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "433": {
     "global_id": 433,
@@ -3072,7 +3321,8 @@
     "conversion_factor": 1.0,
     "category_manual": true,
     "solo": false,
-    "cont_receipt_string": "SAQ.FRUTA BANANA MORANG CNT 90G"
+    "cont_receipt_string": "SAQ.FRUTA BANANA MORANG CNT 90G",
+    "subcategory": ""
   },
   "434": {
     "global_id": 434,
@@ -3085,7 +3335,8 @@
     "pingo_id": "1004486",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "SAQ.FRUTA PES MACA BAN CNT 90G"
+    "cont_receipt_string": "SAQ.FRUTA PES MACA BAN CNT 90G",
+    "subcategory": ""
   },
   "435": {
     "global_id": 435,
@@ -3096,7 +3347,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "909277",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "436": {
     "global_id": 436,
@@ -3107,7 +3359,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "838456",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "437": {
     "global_id": 437,
@@ -3118,7 +3371,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "654603",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "439": {
     "global_id": 439,
@@ -3130,7 +3384,8 @@
     "cont_id": "",
     "pingo_id": "923707",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "443": {
     "global_id": 443,
@@ -3142,7 +3397,8 @@
     "cont_id": "",
     "pingo_id": "1002325",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "444": {
     "global_id": 444,
@@ -3153,7 +3409,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "965896",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "445": {
     "global_id": 445,
@@ -3164,7 +3421,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "287288",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "449": {
     "global_id": 449,
@@ -3175,7 +3433,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "250550",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "450": {
     "global_id": 450,
@@ -3186,7 +3445,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "1001446",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "452": {
     "global_id": 452,
@@ -3199,7 +3459,8 @@
     "pingo_id": "996980",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": ""
+    "cont_receipt_string": "",
+    "subcategory": ""
   },
   "454": {
     "global_id": 454,
@@ -3210,7 +3471,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "995618",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "455": {
     "global_id": 455,
@@ -3222,7 +3484,8 @@
     "cont_id": "7683202",
     "pingo_id": "967692",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "459": {
     "global_id": 459,
@@ -3233,7 +3496,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "802365",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "466": {
     "global_id": 466,
@@ -3244,7 +3508,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "995629",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "472": {
     "global_id": 472,
@@ -3255,7 +3520,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "812807",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "476": {
     "global_id": 476,
@@ -3266,7 +3532,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "850376",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "484": {
     "global_id": 484,
@@ -3278,7 +3545,8 @@
     "cont_id": "",
     "pingo_id": "940385",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "486": {
     "global_id": 486,
@@ -3289,7 +3557,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "940841",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "489": {
     "global_id": 489,
@@ -3300,7 +3569,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "986428",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "494": {
     "global_id": 494,
@@ -3313,7 +3583,8 @@
     "pingo_id": "857044",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "CRU MUESLI CNT 0% ACU 500G"
+    "cont_receipt_string": "CRU MUESLI CNT 0% ACU 500G",
+    "subcategory": ""
   },
   "495": {
     "global_id": 495,
@@ -3325,7 +3596,8 @@
     "cont_id": "6581986",
     "pingo_id": "865298",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "497": {
     "global_id": 497,
@@ -3338,7 +3610,8 @@
     "pingo_id": "402322",
     "conversion_factor": 1.0,
     "solo": false,
-    "cont_receipt_string": "CER ESTRELA MEL CNT 375G"
+    "cont_receipt_string": "CER ESTRELA MEL CNT 375G",
+    "subcategory": ""
   },
   "498": {
     "global_id": 498,
@@ -3351,7 +3624,8 @@
     "pingo_id": "752916",
     "conversion_factor": 1.0,
     "category_manual": true,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "499": {
     "global_id": 499,
@@ -3363,7 +3637,8 @@
     "cont_id": "2054670",
     "pingo_id": "690570",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "500": {
     "global_id": 500,
@@ -3374,7 +3649,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "1000190",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "502": {
     "global_id": 502,
@@ -3387,7 +3663,8 @@
     "pingo_id": "820136",
     "conversion_factor": 1.0,
     "category_manual": true,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "503": {
     "global_id": 503,
@@ -3401,7 +3678,8 @@
     "conversion_factor": 1.0,
     "category_manual": true,
     "solo": false,
-    "cont_receipt_string": "PAPEL DE ALUMINIO CNT 30M"
+    "cont_receipt_string": "PAPEL DE ALUMINIO CNT 30M",
+    "subcategory": ""
   },
   "505": {
     "global_id": 505,
@@ -3412,7 +3690,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "884556",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "509": {
     "global_id": 509,
@@ -3426,7 +3705,8 @@
     "conversion_factor": 1.0,
     "category_manual": true,
     "solo": false,
-    "cont_receipt_string": "SPRAY VANISH ROUPA BRANCA 750ML"
+    "cont_receipt_string": "SPRAY VANISH ROUPA BRANCA 750ML",
+    "subcategory": ""
   },
   "514": {
     "global_id": 514,
@@ -3437,7 +3717,8 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "985531",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "subcategory": ""
   },
   "519": {
     "global_id": 519,
@@ -3449,7 +3730,8 @@
     "cont_id": "",
     "pingo_id": "940090",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "521": {
     "global_id": 521,
@@ -3461,7 +3743,8 @@
     "cont_id": "",
     "pingo_id": "773757",
     "conversion_factor": 1.0,
-    "category_manual": true
+    "category_manual": true,
+    "subcategory": ""
   },
   "523": {
     "global_id": 523,
@@ -3473,7 +3756,8 @@
     "cont_id": "8172848",
     "pingo_id": "901542",
     "conversion_factor": 1.0,
-    "solo": false
+    "solo": false,
+    "subcategory": ""
   },
   "524": {
     "global_id": 524,
@@ -3483,6 +3767,31 @@
     "category": "🧴 Higiene e Limpeza",
     "exclude_comparison": false,
     "cont_id": "7519982",
+    "pingo_id": "",
+    "conversion_factor": 1.0,
+    "subcategory": ""
+  },
+  "525": {
+    "global_id": 525,
+    "cont_name": "Lombinhos de Peru Turkey Lovers",
+    "pingo_name": "",
+    "receipt_string": "",
+    "category": "🥫 Despensa",
+    "subcategory": "",
+    "exclude_comparison": false,
+    "cont_id": "6917437",
+    "pingo_id": "",
+    "conversion_factor": 1.0
+  },
+  "526": {
+    "global_id": 526,
+    "cont_name": "Tortitas de Arroz sem Sal sem Glúten Continente Equilíbrio",
+    "pingo_name": "",
+    "receipt_string": "",
+    "category": "🥫 Despensa",
+    "subcategory": "",
+    "exclude_comparison": false,
+    "cont_id": "7183105",
     "pingo_id": "",
     "conversion_factor": 1.0
   }
