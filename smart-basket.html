@@ -1089,7 +1089,16 @@ function renderSubcatManager(){
     return;
   }
   const subcats = _collectSubcats();
-  const allCats = [...new Set(Object.values(mapping).map(e=>e.category||'🥫 Despensa'))].sort();
+  // Merge pending (user-created but unassigned) subcategories so they show up
+  (S.pendingSubcats||[]).forEach(p=>{
+    subcats[p.category] = subcats[p.category] || {};
+    if(!(p.subcategory in subcats[p.category])) subcats[p.category][p.subcategory] = 0;
+  });
+
+  const allCats = [...new Set([
+    ...Object.values(mapping).map(e=>e.category||'🥫 Despensa'),
+    ...Object.keys(subcats),
+  ])].sort();
   const totalSubs = Object.values(subcats).reduce((s,m)=>s+Object.keys(m).length, 0);
   const totEl = document.getElementById('subcat-total');
   if(totEl) totEl.textContent = totalSubs + ' definidas';
@@ -1099,15 +1108,19 @@ function renderSubcatManager(){
     const subs = subcats[cat] || {};
     const subKeys = Object.keys(subs).sort((a,b)=>a.localeCompare(b,'pt'));
     html += `<div class="set-cat-hdr">${cat}<span class="set-cat-count">${subKeys.length} subcategoria${subKeys.length===1?'':'s'}</span></div>`;
+    html += '<div class="sub-list">';
     if(subKeys.length){
-      html += '<div class="sub-list">' + subKeys.map(s=>{
+      html += subKeys.map(s=>{
         const esc = s.replace(/"/g,'&quot;');
         const cesc = cat.replace(/"/g,'&quot;');
-        return `<span class="sub-chip-set" data-cat="${cesc}" data-sub="${esc}"><span>${s}</span><span class="sub-chip-count">· ${subs[s]}</span><span class="sub-chip-del" onclick="renameSubcat('${cesc}','${esc}')" title="Renomear">✎</span><span class="sub-chip-del" onclick="deleteSubcat('${cesc}','${esc}')" title="Apagar">×</span></span>`;
-      }).join('') + '</div>';
+        const isPending = subs[s] === 0;
+        const dashed = isPending ? ' style="border-style:dashed"' : '';
+        return `<span class="sub-chip-set" data-cat="${cesc}" data-sub="${esc}"${dashed}><span>${s}</span><span class="sub-chip-count">· ${subs[s]}</span><span class="sub-chip-del" onclick="renameSubcat('${cesc}','${esc}')" title="Renomear">✎</span><span class="sub-chip-del" onclick="deleteSubcat('${cesc}','${esc}')" title="Apagar">×</span></span>`;
+      }).join('');
     } else {
-      html += '<div style="font-size:11px;color:var(--muted);margin-bottom:10px">Sem subcategorias ainda.</div>';
+      html += '<span style="font-size:11px;color:var(--muted)">Sem subcategorias ainda.</span>';
     }
+    html += '</div>';
   });
 
   // Add form
@@ -1126,44 +1139,19 @@ function addSubcat(){
   const cat = document.getElementById('new-subcat-cat')?.value || '';
   const name = (document.getElementById('new-subcat-name')?.value || '').trim();
   if(!name){ _toast('Nome vazio'); return; }
-  // Virtual add: we don't need to persist until a product is assigned to it.
-  // But we want it to show up in the manager, so remember it in a client-side set.
   S.pendingSubcats = S.pendingSubcats || [];
-  if(!S.pendingSubcats.some(x=>x.category===cat && x.subcategory===name))
-    S.pendingSubcats.push({category:cat, subcategory:name});
+  // Avoid duplicates (against both pending and real subcats)
+  const real = _collectSubcats();
+  if((real[cat]||{})[name] != null){ _toast('Já existe'); return; }
+  if(S.pendingSubcats.some(x=>x.category===cat && x.subcategory===name)){ _toast('Já existe'); return; }
+  S.pendingSubcats.push({category:cat, subcategory:name});
   document.getElementById('new-subcat-name').value='';
-  // Re-render: include pending in the manager below
-  _renderSubcatManagerWithPending();
+  renderSubcatManager();
   _toast('Subcategoria criada (vazia)');
 }
 
-function _renderSubcatManagerWithPending(){
-  // Temporarily inject pending subcats into the mapping view by mutating a shadow copy
-  renderSubcatManager();
-  if(!S.pendingSubcats?.length) return;
-  // Merge pending into rendering by just re-rendering with injected chips
-  // Simpler: just re-render and append chips for pending
-  const el = document.getElementById('subcat-manager');
-  if(!el) return;
-  S.pendingSubcats.forEach(p=>{
-    // Add a chip under its category header if visible, else ignore silently
-    const hdrs = el.querySelectorAll('.set-cat-hdr');
-    hdrs.forEach(h=>{
-      if(h.textContent.startsWith(p.category)){
-        const lists = h.nextElementSibling;
-        if(lists && lists.classList.contains('sub-list')){
-          const exists = Array.from(lists.querySelectorAll('.sub-chip-set')).some(c=>c.dataset.sub===p.subcategory);
-          if(!exists){
-            const esc = p.subcategory.replace(/"/g,'&quot;');
-            const cesc = p.category.replace(/"/g,'&quot;');
-            lists.insertAdjacentHTML('beforeend',
-              `<span class="sub-chip-set" data-cat="${cesc}" data-sub="${esc}" style="border-style:dashed"><span>${p.subcategory}</span><span class="sub-chip-count">· 0</span><span class="sub-chip-del" onclick="renameSubcat('${cesc}','${esc}')">✎</span><span class="sub-chip-del" onclick="deleteSubcat('${cesc}','${esc}')">×</span></span>`);
-          }
-        }
-      }
-    });
-  });
-}
+// Legacy alias (no longer needed since renderSubcatManager handles pending directly)
+function _renderSubcatManagerWithPending(){ renderSubcatManager(); }
 
 async function renameSubcat(cat, old){
   const newName = prompt('Novo nome para "'+old+'":', old);
