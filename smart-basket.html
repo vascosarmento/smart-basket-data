@@ -191,6 +191,96 @@ main{padding:16px;max-width:700px;margin:0 auto;width:100%;padding-bottom:90px}
 .cat-select:focus{border-color:#111}
 .cat-review-badge{background:#E2001A;color:#fff;border-radius:10px;padding:1px 7px;font-size:10px;font-weight:600;margin-left:5px}
 
+/* ── New: Generic category card (subcategory-based catalogue) ──────────── */
+.gen-card{background:#fff;border:1px solid var(--border);border-radius:10px;padding:12px;margin-bottom:10px;transition:all .15s}
+.gen-card:hover{border-color:#ccc;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.gen-card.in-basket{border-color:#111;background:#fafafa}
+.gen-top{display:flex;align-items:flex-start;gap:12px}
+.gen-emoji{font-size:24px;width:40px;height:40px;flex-shrink:0;display:flex;align-items:center;justify-content:center;background:var(--s2);border-radius:8px}
+.gen-info{flex:1;min-width:0}
+.gen-name{font-size:14px;font-weight:600;line-height:1.3;margin-bottom:2px}
+.gen-sub{font-size:11px;color:var(--muted);margin-bottom:8px;display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.gen-sub .dot{width:3px;height:3px;border-radius:50%;background:var(--muted)}
+.gen-prices{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:6px}
+.gen-store{border:1px solid var(--border);border-radius:6px;padding:8px 10px;position:relative;transition:all .15s}
+.gen-store.winner{border-color:#111;background:#fafafa}
+.gen-store.winner::after{content:"★";position:absolute;top:6px;right:8px;font-size:11px;color:#1a7a3c}
+.gen-store-lbl{font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px}
+.gen-store-lbl.cont{color:#E2001A}
+.gen-store-lbl.pingo{color:#4A7C2F}
+.gen-store-unit{font-size:15px;font-weight:700;line-height:1.1}
+.gen-store-pkg{font-size:10px;color:var(--muted);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.gen-store-promo{display:inline-block;background:rgba(226,0,26,.08);color:#E2001A;font-size:9px;font-weight:700;padding:1px 5px;border-radius:3px;margin-top:3px;text-transform:uppercase;letter-spacing:.3px}
+.gen-store-promo.pingo{background:rgba(74,124,47,.08);color:#4A7C2F}
+.gen-store-na{font-size:12px;color:var(--muted);font-style:italic}
+.gen-expand{margin-top:10px;padding-top:10px;border-top:1px dashed var(--border);font-size:11px;color:var(--muted);cursor:pointer;display:flex;align-items:center;justify-content:space-between;user-select:none}
+.gen-expand:hover{color:#111}
+.gen-expand-chev{font-size:9px;transition:transform .2s}
+.gen-card.expanded .gen-expand-chev{transform:rotate(180deg)}
+.opt-list{display:none;margin-top:10px;padding-top:10px;border-top:1px solid var(--border)}
+.gen-card.expanded .opt-list{display:block}
+.opt-row{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--border)}
+.opt-row:last-child{border:none}
+.opt-row.is-best{background:linear-gradient(90deg,rgba(26,122,60,.04),transparent);margin:0 -6px;padding:8px 6px;border-radius:6px;border:1px solid rgba(26,122,60,.2)}
+.opt-img{width:36px;height:36px;border-radius:6px;background:var(--s2);flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:16px;overflow:hidden}
+.opt-img img{width:100%;height:100%;object-fit:cover}
+.opt-info{flex:1;min-width:0}
+.opt-name{font-size:12px;font-weight:500;line-height:1.3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.opt-meta{font-size:10px;color:var(--muted);margin-top:1px;display:flex;gap:5px;align-items:center}
+.opt-store{font-size:9px;font-weight:700;padding:1px 5px;border-radius:3px;text-transform:uppercase;letter-spacing:.3px}
+.opt-store.cont{background:rgba(226,0,26,.08);color:#E2001A}
+.opt-store.pingo{background:rgba(74,124,47,.08);color:#4A7C2F}
+.opt-prices{text-align:right;flex-shrink:0}
+.opt-unit-price{font-size:13px;font-weight:700}
+.opt-unit-price.best{color:#1a7a3c}
+.opt-pkg{font-size:10px;color:var(--muted)}
+.opt-badge{display:inline-block;font-size:9px;font-weight:700;color:#1a7a3c;background:rgba(26,122,60,.08);padding:1px 5px;border-radius:3px;margin-left:4px;text-transform:uppercase;letter-spacing:.3px}
+.unclass-tag{display:inline-block;background:rgba(226,0,26,.08);color:#E2001A;font-size:9px;font-weight:700;padding:1px 6px;border-radius:3px;text-transform:uppercase;letter-spacing:.3px;margin-left:6px;vertical-align:middle}
+
+/* Settings subtabs */
+#subtabs{display:flex;gap:4px;margin-bottom:16px;background:var(--s2);padding:3px;border-radius:6px}
+.subtab{flex:1;padding:8px 10px;text-align:center;font-size:12px;font-weight:600;color:var(--muted);cursor:pointer;border-radius:5px;transition:all .15s}
+.subtab.active{background:#fff;color:#111;box-shadow:0 1px 2px rgba(0,0,0,.05)}
+.subtab .stb{background:#E2001A;color:#fff;border-radius:10px;padding:1px 6px;font-size:10px;margin-left:4px}
+.subpanel{display:none}
+.subpanel.active{display:block}
+.sub-list{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.sub-chip-set{background:var(--s2);border:1px solid var(--border);border-radius:20px;padding:4px 10px;font-size:11px;font-weight:500;display:inline-flex;align-items:center;gap:6px}
+.sub-chip-count{color:var(--muted);font-size:10px}
+.sub-chip-del{font-size:13px;color:var(--muted);cursor:pointer;line-height:1}
+.sub-chip-del:hover{color:#E2001A}
+.sub-add-row{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-top:8px}
+.sub-add-row input,.sub-add-row select{padding:7px 10px;border:1px solid var(--border);border-radius:6px;font-family:var(--font);font-size:12px;outline:none;background:#fff}
+.sub-add-row input{flex:1;min-width:140px}
+.set-cat-hdr{background:#111;color:#fff;padding:8px 12px;border-radius:6px;font-size:12px;font-weight:700;margin:14px 0 8px;display:flex;justify-content:space-between;align-items:center}
+.set-cat-count{font-size:10px;font-weight:500;opacity:.7}
+.set-subcat-hdr{padding:8px 10px 4px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);border-bottom:1px solid var(--border);margin:6px 0 4px;display:flex;justify-content:space-between;align-items:center}
+.set-subcat-hdr.unclass{color:#E2001A}
+.prod-row-s{display:grid;grid-template-columns:1fr 200px;gap:10px;align-items:center;padding:10px 8px;border-bottom:1px solid var(--border);font-size:12px}
+.prod-row-s:hover{background:var(--s1)}
+.prod-row-s-name{min-width:0}
+.prod-row-s-name .pn{font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:12px}
+.prod-row-s-name .pm{font-size:10px;color:var(--muted);margin-top:1px;display:flex;gap:4px;align-items:center;flex-wrap:wrap}
+.mini-store-tag{font-size:8px;font-weight:700;padding:1px 4px;border-radius:2px;text-transform:uppercase;letter-spacing:.2px}
+.mini-store-tag.cont{background:rgba(226,0,26,.08);color:#E2001A}
+.mini-store-tag.pingo{background:rgba(74,124,47,.08);color:#4A7C2F}
+.prod-row-s select{width:100%;padding:6px 8px;border:1px solid var(--border);border-radius:5px;font-family:var(--font);font-size:11px;outline:none;background:#fff}
+.prod-row-s select.empty{border-color:rgba(226,0,26,.3);background:rgba(226,0,26,.03);color:#E2001A}
+.rec-row-s{display:grid;grid-template-columns:1fr 60px 220px;gap:10px;align-items:center;padding:10px 8px;border-bottom:1px solid var(--border);font-size:12px}
+.rec-row-s:hover{background:var(--s1)}
+.rec-code-s{min-width:0}
+.rec-code-s .rc{font-family:monospace;font-size:12px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rec-code-s .rm{font-size:10px;color:var(--muted);margin-top:1px;display:flex;gap:4px;align-items:center;flex-wrap:wrap}
+.rec-count-s{text-align:center}
+.rec-count-badge-s{display:inline-block;background:var(--s2);color:var(--text);font-size:11px;font-weight:700;padding:2px 8px;border-radius:12px}
+.rec-row-s select{width:100%;padding:6px 8px;border:1px solid var(--border);border-radius:5px;font-family:var(--font);font-size:11px;outline:none;background:#fff}
+.rec-row-s select.empty{border-color:rgba(226,0,26,.3);background:rgba(226,0,26,.03);color:#E2001A}
+@media(max-width:640px){
+  .prod-row-s{grid-template-columns:1fr;gap:6px}
+  .rec-row-s{grid-template-columns:1fr 50px;gap:6px}
+  .rec-row-s select{grid-column:1 / -1}
+}
+
 
 /* ── Step 5: Dark tick shopping list ──────────────────────── */
 .sl-store-section{margin-bottom:16px}
@@ -595,21 +685,50 @@ main{padding:16px;max-width:700px;margin:0 auto;width:100%;padding-bottom:90px}
     <pre id="sync-log"></pre>
   </div>
 
-  <!-- Product matching section -->
-  <div class="card" style="margin-top:4px">
-    <div class="card-title">
-      Correspondência de produtos
-      <span id="rev-task-count" style="font-size:11px;font-weight:600;color:#E2001A;display:none"></span>
+  <!-- Settings tab: 3 subtabs (subcategorias / produtos / recibos) -->
+  <div id="subtabs">
+    <div class="subtab active" data-sub="subcats" onclick="goSubTab('subcats')">Subcategorias</div>
+    <div class="subtab" data-sub="products" onclick="goSubTab('products')">Produtos <span class="stb" id="stb-products" style="display:none">0</span></div>
+    <div class="subtab" data-sub="receipts" onclick="goSubTab('receipts')">Recibos <span class="stb" id="stb-receipts" style="display:none">0</span></div>
+  </div>
+
+  <!-- Subtab 1: Subcategorias -->
+  <div class="subpanel active" id="sub-subcats">
+    <div class="card">
+      <div class="card-title">Subcategorias<span id="subcat-total" style="font-weight:500;text-transform:none;letter-spacing:0;font-size:11px">—</span></div>
+      <p style="font-size:12px;color:var(--muted);margin-bottom:10px">Grupos de produtos que se comportam como um só item no cesto. O sistema escolhe o mais barato por €/unidade.</p>
+      <div id="subcat-manager"><div class="empty" style="padding:16px 0"><div class="empty-icon">📁</div><p>A carregar…</p></div></div>
     </div>
-    <p style="font-size:13px;color:var(--muted);margin-bottom:12px">Liga produtos entre lojas, corrige categorias e marca os que só existem numa loja.</p>
-    <div class="chips" id="rev-chips" style="margin-bottom:14px">
-      <button class="chip active" data-f="review">Para rever <span id="rev-badge" style="background:#E2001A;color:#fff;border-radius:10px;padding:1px 6px;font-size:10px;margin-left:4px;display:none">0</span></button>
-      <button class="chip" data-f="paired">Ligados</button>
-      <button class="chip" data-f="solo">Solo</button>
-      <button class="chip" data-f="all">Todos</button>
+  </div>
+
+  <!-- Subtab 2: Produtos -->
+  <div class="subpanel" id="sub-products" style="display:none">
+    <div class="card">
+      <div class="card-title">Classificar produtos<span id="prod-classify-meta" style="font-weight:500;text-transform:none;letter-spacing:0;font-size:11px">—</span></div>
+      <div class="search-wrap" style="margin-bottom:10px"><span class="search-icon">🔍</span><input type="text" id="prod-search-inp" placeholder="Procurar produto…" oninput="renderProdClassifier()"></div>
+      <div class="chips" id="prod-filter-chips" style="margin-bottom:10px">
+        <button class="chip active" data-pf="unclass">Por classificar <span style="background:#E2001A;color:#fff;border-radius:10px;padding:1px 6px;font-size:10px;margin-left:3px" id="pf-unclass-badge">0</span></button>
+        <button class="chip" data-pf="classified">Classificados</button>
+        <button class="chip" data-pf="all">Todos</button>
+      </div>
+      <div id="prod-classifier"><div class="empty" style="padding:16px 0"><div class="empty-icon">📦</div><p>A carregar…</p></div></div>
     </div>
-    <div id="rev-list">
-      <div class="empty"><div class="empty-icon">🔗</div><h3>Sem dados</h3><p>Faz um sync primeiro.</p></div>
+  </div>
+
+  <!-- Subtab 3: Recibos -->
+  <div class="subpanel" id="sub-receipts" style="display:none">
+    <div class="card">
+      <div class="card-title">Códigos de recibo<span id="rec-meta" style="font-weight:500;text-transform:none;letter-spacing:0;font-size:11px">—</span></div>
+      <p style="font-size:12px;color:var(--muted);margin-bottom:10px">Cada código aparece uma vez. Mapeia para um produto específico (tracking preciso) ou directamente para uma subcategoria.</p>
+      <div class="search-wrap" style="margin-bottom:10px"><span class="search-icon">🔍</span><input type="text" id="rec-search-inp" placeholder="Procurar código…" oninput="renderReceiptMapper()"></div>
+      <div class="chips" id="rec-filter-chips" style="margin-bottom:10px">
+        <button class="chip active" data-rf="unmapped">Por mapear <span style="background:#E2001A;color:#fff;border-radius:10px;padding:1px 6px;font-size:10px;margin-left:3px" id="rf-unmapped-badge">0</span></button>
+        <button class="chip" data-rf="mapped">Mapeados</button>
+        <button class="chip" data-rf="all">Todos</button>
+        <button class="chip" data-rf="cont">Continente</button>
+        <button class="chip" data-rf="pingo">Pingo Doce</button>
+      </div>
+      <div id="receipt-mapper"><div class="empty" style="padding:16px 0"><div class="empty-icon">🧾</div><p>Sem recibos carregados.</p></div></div>
     </div>
   </div>
 
@@ -624,24 +743,6 @@ main{padding:16px;max-width:700px;margin:0 auto;width:100%;padding-bottom:90px}
   </div>
 
   <button class="btn btn-yellow btn-full" style="margin-top:4px" onclick="goTab('basket')">Continuar → Construir cesto</button>
-
-  <!-- Search modal for pairing -->
-  <div id="pair-modal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:300;align-items:center;justify-content:center;padding:16px">
-    <div style="background:#fff;border-radius:12px;width:100%;max-width:560px;max-height:80vh;display:flex;flex-direction:column;box-shadow:0 20px 60px rgba(0,0,0,.2)">
-      <div style="padding:16px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between">
-        <div>
-          <div style="font-size:14px;font-weight:600" id="pair-modal-title">Ligar a produto Pingo Doce</div>
-          <div style="font-size:12px;color:var(--muted);margin-top:2px" id="pair-modal-sub"></div>
-        </div>
-        <button onclick="closePairModal()" style="background:none;border:none;font-size:20px;cursor:pointer;color:var(--muted)">✕</button>
-      </div>
-      <div style="padding:12px 16px;border-bottom:1px solid var(--border)">
-        <input type="text" id="pair-search" placeholder="Pesquisar…" oninput="renderPairResults()"
-          style="width:100%;padding:9px 12px;border:1.5px solid var(--border);border-radius:8px;font-family:var(--font);font-size:13px;outline:none">
-      </div>
-      <div id="pair-results" style="overflow-y:auto;flex:1;padding:8px"></div>
-    </div>
-  </div>
 <div style="height:12px"></div>
 <div class="card">
     <div class="card-title">Carregar recibo PDF</div>
@@ -660,7 +761,7 @@ main{padding:16px;max-width:700px;margin:0 auto;width:100%;padding-bottom:90px}
     <div id="r-history-body" style="display:none"><div id="r-history"></div></div>
   </div>
 
-
+</div>
 
 </main>
 <div class="modal-bg" id="otp-modal">
@@ -707,9 +808,14 @@ async function init(){
   renderAll();
   gasInit();
   document.getElementById('ghost-inp-sl')?.addEventListener('keydown',e=>{if(e.key==='Enter')addGhostFromList();});
-  document.querySelectorAll('#rev-chips .chip').forEach(c=>c.addEventListener('click',()=>{
-    document.querySelectorAll('#rev-chips .chip').forEach(x=>x.classList.remove('active'));
-    c.classList.add('active');S.revFilter=c.dataset.f;renderReview();
+  // Settings subtab chip wiring (product + receipt filters)
+  document.querySelectorAll('#prod-filter-chips .chip').forEach(c=>c.addEventListener('click',()=>{
+    document.querySelectorAll('#prod-filter-chips .chip').forEach(x=>x.classList.remove('active'));
+    c.classList.add('active');S.prodFilter=c.dataset.pf;renderProdClassifier();
+  }));
+  document.querySelectorAll('#rec-filter-chips .chip').forEach(c=>c.addEventListener('click',()=>{
+    document.querySelectorAll('#rec-filter-chips .chip').forEach(x=>x.classList.remove('active'));
+    c.classList.add('active');S.recFilter=c.dataset.rf;renderReceiptMapper();
   }));
   // Render basket on load since it's the default tab
   renderProductSelector();renderGhosts();restoreVouchers();
@@ -807,7 +913,7 @@ function goTab(tab){
   if(tab==='basket'){renderProductSelector();renderGhosts();restoreVouchers();}
   if(tab==='list'){renderShoppingList();renderGhostList();}
   if(tab==='report'){renderAnalytics();}
-  if(tab==='settings'){renderReview();renderReceiptHistory();}
+  if(tab==='settings'){renderSettings();renderReceiptHistory();}
   if(tab==='gasolina'){gasCalc();}
   if(tab==='gasolina'){gasCalc();if(!GAS_LOADED){GAS_LOADED=true;gasLoadAll();}}
 }
@@ -880,7 +986,7 @@ async function pollScrape(){
       clearInterval(S.scrapePoller);
       btn.disabled=false;btn.innerHTML='✓ Concluído!';
       setTimeout(()=>btn.innerHTML='🔄 Actualizar agora',3000);
-      await loadData();updateSyncPill();renderAll();renderReview();
+      await loadData();updateSyncPill();renderAll();renderSettings();
     }else if(d.status==='error'){
       clearInterval(S.scrapePoller);btn.disabled=false;btn.innerHTML='✗ Erro';
     }
@@ -921,270 +1027,565 @@ async function pushToGithub(btnId,statusId){
   }
 }
 
-/* ── Review / Mapping ────────────────────────────────────────── */
-function renderReview(){
-  const el=document.getElementById('rev-list');
+/* ── Settings: subtab wiring ─────────────────────────────────── */
+function goSubTab(which){
+  document.querySelectorAll('.subtab').forEach(t=>t.classList.toggle('active', t.dataset.sub===which));
+  document.querySelectorAll('.subpanel').forEach(p=>p.classList.remove('active'));
+  const el=document.getElementById('sub-'+which);
+  if(el){el.classList.add('active'); el.style.display='block';}
+  document.querySelectorAll('.subpanel').forEach(p=>{if(p.id!=='sub-'+which) p.style.display='none';});
+  if(which==='subcats')  renderSubcatManager();
+  if(which==='products') renderProdClassifier();
+  if(which==='receipts') renderReceiptMapper();
+}
+
+function renderSettings(){
+  // Ensure all subpanels are properly visible/hidden
+  const active = document.querySelector('.subtab.active')?.dataset.sub || 'subcats';
+  goSubTab(active);
+  updateSettingsBadges();
+}
+
+function updateSettingsBadges(){
+  const mapping = S.mapping || {};
+  let unclass = 0;
+  Object.values(mapping).forEach(e=>{ if(!(e.subcategory||'').trim()) unclass++; });
+  const stbP = document.getElementById('stb-products');
+  if(stbP){ stbP.textContent = unclass; stbP.style.display = unclass>0 ? 'inline-block' : 'none'; }
+  const pfU = document.getElementById('pf-unclass-badge');
+  if(pfU) pfU.textContent = unclass;
+
+  const rs = S.receiptStrings || {continente:[], pingodoce:[]};
+  const unmapped = (rs.continente||[]).filter(r=>!r.mapping).length
+                 + (rs.pingodoce||[]).filter(r=>!r.mapping).length;
+  const stbR = document.getElementById('stb-receipts');
+  if(stbR){ stbR.textContent = unmapped; stbR.style.display = unmapped>0 ? 'inline-block' : 'none'; }
+  const rfU = document.getElementById('rf-unmapped-badge');
+  if(rfU) rfU.textContent = unmapped;
+}
+
+/* ── Settings: Subcategories manager ─────────────────────────── */
+function _collectSubcats(){
+  // Returns { category: { subcategory: count } }
+  const out = {};
+  Object.values(S.mapping||{}).forEach(e=>{
+    const cat = e.category || '🥫 Despensa';
+    const sub = (e.subcategory||'').trim();
+    if(!sub) return;
+    out[cat] = out[cat] || {};
+    out[cat][sub] = (out[cat][sub] || 0) + 1;
+  });
+  return out;
+}
+
+function renderSubcatManager(){
+  const el = document.getElementById('subcat-manager');
   if(!el) return;
-  const mapping=S.mapping;
+  const mapping = S.mapping || {};
   if(!Object.keys(mapping).length){
-    el.innerHTML='<div class="empty"><div class="empty-icon">🔗</div><h3>Sem dados</h3><p>Faz um sync primeiro.</p></div>';
+    el.innerHTML = '<div class="empty" style="padding:16px 0"><div class="empty-icon">📁</div><p>Sem dados. Faz um sync primeiro.</p></div>';
     return;
   }
-  const prodByGid={};
-  S.products.forEach(p=>prodByGid[p.global_id]=p);
-  const allEntries=Object.entries(mapping);
-  const toReview=allEntries.filter(([,e])=>((e.cont_name&&!e.pingo_name)||(e.pingo_name&&!e.cont_name))&&!e.exclude_comparison&&!e.solo);
-  const paired=allEntries.filter(([,e])=>e.cont_name&&e.pingo_name&&!e.exclude_comparison);
-  const solo=allEntries.filter(([,e])=>e.solo||e.exclude_comparison);
-  const badge=document.getElementById('rev-badge');
-  const taskCount=document.getElementById('rev-task-count');
-  if(toReview.length>0){
-    if(badge){badge.style.display='inline';badge.textContent=toReview.length;}
-    if(taskCount){taskCount.style.display='inline';taskCount.textContent=toReview.length+' para rever';}
-  } else {
-    if(badge) badge.style.display='none';
-    if(taskCount) taskCount.style.display='none';
-  }
-  const f=S.revFilter||'review';
-  let entries=f==='review'?toReview:f==='paired'?paired:f==='solo'?solo:allEntries;
-  if(!entries.length){
-    el.innerHTML='<div class="empty" style="padding:24px 0"><div class="empty-icon">'+(f==='review'?'✓':'🔍')+'</div><h3>'+(f==='review'?'Tudo revisto!':'Nenhum produto.')+'</h3></div>';
-    return;
-  }
-  el.innerHTML=entries.map(([gid,e])=>{
-    const p=prodByGid[e.global_id]||{};
-    const isPaired=e.cont_name&&e.pingo_name;
-    const isSolo=e.solo||e.exclude_comparison;
-    function storeCol(store){
-      const name=store==='cont'?e.cont_name:e.pingo_name;
-      const img=(store==='cont'?(p.cont_image||p.pingo_image):(p.pingo_image||p.cont_image))||'';
-      const price=store==='cont'?p.cont_price:p.pingo_price;
-      const unitLbl=store==='cont'?p.cont_unit_label:p.pingo_unit_label;
-      const qtyLbl=store==='cont'?p.cont_qty_label:p.pingo_qty_label;
-      const brand=store==='cont'?p.cont_brand:p.pingo_brand;
-      const inPromo=store==='cont'?p.cont_in_promo:p.pingo_in_promo;
-      const basePrice=store==='cont'?p.cont_base_price:p.pingo_base_price;
-      const discPct=store==='cont'?p.cont_discount_pct:p.pingo_discount_pct;
-      const color=store==='cont'?'#E2001A':'#4A7C2F';
-      const label=store==='cont'?'🔴 Continente':'🟢 Pingo Doce';
-      if(!name) return `<div class="map-empty-col" style="cursor:pointer" onclick="openPairModal('${gid}')">
-        <div style="text-align:center"><div style="font-size:22px;margin-bottom:4px">🔍</div><div style="font-size:12px;color:var(--muted)">Clica para ligar ao<br>${store==='cont'?'Continente':'Pingo Doce'}</div></div></div>`;
-      const imgHTML=img?`<img class="map-prod-img" src="${img}" loading="lazy" onerror="this.parentElement.innerHTML='<div class=map-prod-img-ph>${catEmoji(e.category||p.category)}</div>'">`
-        :`<div class="map-prod-img-ph">${catEmoji(e.category||p.category)}</div>`;
-      return `<div class="map-store-col ${store}">
-        <div class="map-store-label ${store}" style="color:${color}">${label}</div>
-        <div class="map-prod-row">
-          ${imgHTML}
-          <div class="map-prod-info">
-            <div class="map-prod-name">${name}</div>
-            ${brand?`<div class="map-prod-brand">${brand}</div>`:''}
-            ${(()=>{
-              // Compute €/Kg if we have a kg/g qty — show it first
-              let kgLabel=null;
-              // Compute €/Kg when label is €/un with kg/g qty, or when no label
-              const lbl2=(unitLbl||'').toLowerCase();
-              const alreadyKg2=lbl2.includes('/kg')||lbl2.includes('/l');
-              const isQuantMin=qtyLbl&&qtyLbl.toLowerCase().includes('quant');
-              if(!alreadyKg2&&!isQuantMin&&price&&qtyLbl){
-                const qm=qtyLbl.match(/([0-9]+[.,][0-9]+|[0-9]+)[ ]*(kg|g)/i);
-                if(qm){
-                  let qv=parseFloat(qm[1].replace(',','.'));
-                  if(qm[2].toLowerCase()==='g'||qm[2].toLowerCase()==='gr') qv=qv/1000;
-                  if(qv>0) kgLabel=`${(price/qv).toFixed(2).replace('.',',')}€/Kg`;
-                }
-              }
-              const primaryLbl=kgLabel||unitLbl;
-              // kgLabel overrides €/un; if no kgLabel, use unitLbl directly
-              const secondaryLbl=kgLabel&&unitLbl&&unitLbl!==kgLabel?unitLbl:'';
-              return `
-                <div class="map-price-row">
-                  ${primaryLbl?`<span class="map-price" style="color:${color};font-size:14px;font-weight:700">${primaryLbl}</span>`:''}
-                  ${qtyLbl?`<span class="map-unit">${qtyLbl}</span>`:''}
-                </div>
-                <div style="font-size:11px;color:var(--muted)">
-                  ${inPromo&&basePrice?`<span style="text-decoration:line-through">${fmt(basePrice)}</span> `:''}
-                  ${price!=null?`<span style="font-weight:600">${fmt(price)}</span>`:''}
-                  ${discPct?`<span style="background:rgba(226,0,26,.08);color:#E2001A;padding:1px 4px;border-radius:4px;font-size:10px;font-weight:600;margin-left:3px">-${discPct}%</span>`:''}
-                </div>
-                ${secondaryLbl?`<div style="font-size:11px;color:var(--muted)">${secondaryLbl}</div>`:''}
-              `;
-            })()}
-          </div>
-        </div>
-      </div>`;
-    }
-    const catSel=`<select class="cat-select" onchange="updateCategory('${gid}',this.value)">
-      ${CATS.map(c=>`<option value="${c}"${(e.category||'')==c?' selected':''}>${c}</option>`).join('')}
-    </select>`;
-    let footer='';
-    if(isPaired){
-      footer=`<span style="font-size:12px;color:var(--muted);flex:1">✓ Ligado</span>${catSel}<button class="map-action-btn danger" onclick="unpairProduct('${gid}')">Desligar</button>`;
-    } else if(isSolo){
-      footer=`<span style="font-size:12px;color:var(--muted);flex:1">Solo</span>${catSel}<button class="map-action-btn" onclick="unmarkSolo('${gid}')">Remover solo</button>`;
+  const subcats = _collectSubcats();
+  const allCats = [...new Set(Object.values(mapping).map(e=>e.category||'🥫 Despensa'))].sort();
+  const totalSubs = Object.values(subcats).reduce((s,m)=>s+Object.keys(m).length, 0);
+  const totEl = document.getElementById('subcat-total');
+  if(totEl) totEl.textContent = totalSubs + ' definidas';
+
+  let html = '';
+  allCats.forEach(cat=>{
+    const subs = subcats[cat] || {};
+    const subKeys = Object.keys(subs).sort((a,b)=>a.localeCompare(b,'pt'));
+    html += `<div class="set-cat-hdr">${cat}<span class="set-cat-count">${subKeys.length} subcategoria${subKeys.length===1?'':'s'}</span></div>`;
+    if(subKeys.length){
+      html += '<div class="sub-list">' + subKeys.map(s=>{
+        const esc = s.replace(/"/g,'&quot;');
+        const cesc = cat.replace(/"/g,'&quot;');
+        return `<span class="sub-chip-set" data-cat="${cesc}" data-sub="${esc}"><span>${s}</span><span class="sub-chip-count">· ${subs[s]}</span><span class="sub-chip-del" onclick="renameSubcat('${cesc}','${esc}')" title="Renomear">✎</span><span class="sub-chip-del" onclick="deleteSubcat('${cesc}','${esc}')" title="Apagar">×</span></span>`;
+      }).join('') + '</div>';
     } else {
-      footer=`<span style="flex:1"></span>${catSel}<button class="map-action-btn link" onclick="openPairModal('${gid}')">Ligar</button><button class="map-action-btn" onclick="markSolo('${gid}')">Solo</button>`;
+      html += '<div style="font-size:11px;color:var(--muted);margin-bottom:10px">Sem subcategorias ainda.</div>';
     }
-    const rsCont=e.cont_receipt_string||e.receipt_string||'';
-    const rsPingo=e.pingo_receipt_string||'';
-    const hasCont=!!(e.cont_name);
-    const hasPingo=!!(e.pingo_name);
-    return `<div class="map-card" id="mc-${gid}">
-      <div class="map-card-body">${storeCol('cont')}${storeCol('pingo')}</div>
-      <div class="map-card-footer">${footer}</div>
-      <div class="map-receipt-row" style="flex-wrap:wrap;gap:4px 8px">
-        <span class="map-receipt-lbl">Recibo</span>
-        ${hasCont?`<span class="map-receipt-store cont">🔴 Cont</span>
-        <input class="map-receipt-inp" id="rsc-${gid}" type="text" value="${rsCont.replace(/"/g,'&quot;')}"
-          placeholder="ex: BOLO PLANETUS MANHAZITOS"
-          onblur="saveReceiptString('${gid}','cont',this.value)"
-          onkeydown="if(event.key==='Enter')this.blur()" style="flex:1;min-width:120px">`:''}
-        ${hasPingo?`<span class="map-receipt-store pingo">🟢 Pingo</span>
-        <input class="map-receipt-inp" id="rsp-${gid}" type="text" value="${rsPingo.replace(/"/g,'&quot;')}"
-          placeholder="ex: BOLO PLANETUS"
-          onblur="saveReceiptString('${gid}','pingo',this.value)"
-          onkeydown="if(event.key==='Enter')this.blur()" style="flex:1;min-width:120px">`:''}
-        <span class="map-receipt-ok" id="rs-ok-${gid}">✓</span>
-      </div>
-    </div>`;
-  }).join('');
+  });
+
+  // Add form
+  html += `<div class="set-cat-hdr" style="background:var(--s2);color:var(--text)">Nova subcategoria<span class="set-cat-count" style="opacity:1;color:var(--muted)">cria e depois associa produtos</span></div>`;
+  html += `<div class="sub-add-row">
+    <select id="new-subcat-cat">${allCats.map(c=>`<option value="${c.replace(/"/g,'&quot;')}">${c}</option>`).join('')}</select>
+    <input type="text" id="new-subcat-name" placeholder="Nome (ex: Queijo fatiado branco)" maxlength="80">
+    <button class="btn btn-sm btn-yellow" onclick="addSubcat()">+ Adicionar</button>
+  </div>`;
+
+  el.innerHTML = html;
+  updateSettingsBadges();
 }
 
-let _pairGid=null;
-function openPairModal(gid){
-  _pairGid=gid;
-  const e=S.mapping[gid];
-  const modal=document.getElementById('pair-modal');
-  document.getElementById('pair-modal-title').textContent=e.cont_name?'Ligar ao Pingo Doce':'Ligar ao Continente';
-  document.getElementById('pair-modal-sub').textContent=e.cont_name||e.pingo_name||'';
-  document.getElementById('pair-search').value='';
-  modal.style.display='flex';
-  renderPairResults();
-  setTimeout(()=>document.getElementById('pair-search').focus(),100);
+function addSubcat(){
+  const cat = document.getElementById('new-subcat-cat')?.value || '';
+  const name = (document.getElementById('new-subcat-name')?.value || '').trim();
+  if(!name){ _toast('Nome vazio'); return; }
+  // Virtual add: we don't need to persist until a product is assigned to it.
+  // But we want it to show up in the manager, so remember it in a client-side set.
+  S.pendingSubcats = S.pendingSubcats || [];
+  if(!S.pendingSubcats.some(x=>x.category===cat && x.subcategory===name))
+    S.pendingSubcats.push({category:cat, subcategory:name});
+  document.getElementById('new-subcat-name').value='';
+  // Re-render: include pending in the manager below
+  _renderSubcatManagerWithPending();
+  _toast('Subcategoria criada (vazia)');
 }
-function closePairModal(){document.getElementById('pair-modal').style.display='none';_pairGid=null;}
-function renderPairResults(){
-  const q=(document.getElementById('pair-search').value||'').toLowerCase().trim();
-  const e=_pairGid?S.mapping[_pairGid]:{};
-  const searchStore=e.cont_name?'pingo':'cont';
-  let candidates=S.products.filter(p=>searchStore==='pingo'?p.pingo_available:p.cont_available);
-  if(q) candidates=candidates.filter(p=>{const n=(searchStore==='pingo'?p.pingo_name||p.name:p.cont_name||p.name)||'';return n.toLowerCase().includes(q);});
-  const el=document.getElementById('pair-results');
-  if(!candidates.length){el.innerHTML='<div style="text-align:center;padding:24px;color:var(--muted);font-size:13px">Nenhum resultado</div>';return;}
-  el.innerHTML=candidates.slice(0,40).map(p=>{
-    const name=searchStore==='pingo'?(p.pingo_name||p.name):(p.cont_name||p.name);
-    const brand=searchStore==='pingo'?p.pingo_brand:p.cont_brand;
-    const price=searchStore==='pingo'?p.pingo_price:p.cont_price;
-    const unitLbl=searchStore==='pingo'?p.pingo_unit_label:p.cont_unit_label;
-    const qtyLbl=searchStore==='pingo'?p.pingo_qty_label:p.cont_qty_label;
-    const img=searchStore==='pingo'?p.pingo_image:p.cont_image;
-    const color=searchStore==='pingo'?'#4A7C2F':'#E2001A';
-    const imgHTML=img?`<img class="pair-img" src="${img}" loading="lazy" onerror="this.style.display='none'">`
-      :`<div class="pair-img" style="display:flex;align-items:center;justify-content:center;font-size:18px">${catEmoji(p.category)}</div>`;
-    return `<div class="pair-result-card" onclick="confirmPair(${p.global_id})">
-      ${imgHTML}
-      <div style="flex:1;min-width:0">
-        <div class="pair-name">${name||'—'}</div>
-        ${brand?`<div class="pair-brand">${brand}</div>`:''}
-        <div style="display:flex;gap:6px;align-items:center;margin-top:3px;flex-wrap:wrap">
-          ${unitLbl?`<span style="font-size:13px;font-weight:700;color:${color}">${unitLbl}</span>`:''}
-          ${qtyLbl?`<span class="map-unit">${qtyLbl}</span>`:''}
-          ${price!=null?`<span style="font-size:12px;color:var(--muted)">${fmt(price)}</span>`:''}
-        </div>
-      </div>
-    </div>`;
-  }).join('');
+
+function _renderSubcatManagerWithPending(){
+  // Temporarily inject pending subcats into the mapping view by mutating a shadow copy
+  renderSubcatManager();
+  if(!S.pendingSubcats?.length) return;
+  // Merge pending into rendering by just re-rendering with injected chips
+  // Simpler: just re-render and append chips for pending
+  const el = document.getElementById('subcat-manager');
+  if(!el) return;
+  S.pendingSubcats.forEach(p=>{
+    // Add a chip under its category header if visible, else ignore silently
+    const hdrs = el.querySelectorAll('.set-cat-hdr');
+    hdrs.forEach(h=>{
+      if(h.textContent.startsWith(p.category)){
+        const lists = h.nextElementSibling;
+        if(lists && lists.classList.contains('sub-list')){
+          const exists = Array.from(lists.querySelectorAll('.sub-chip-set')).some(c=>c.dataset.sub===p.subcategory);
+          if(!exists){
+            const esc = p.subcategory.replace(/"/g,'&quot;');
+            const cesc = p.category.replace(/"/g,'&quot;');
+            lists.insertAdjacentHTML('beforeend',
+              `<span class="sub-chip-set" data-cat="${cesc}" data-sub="${esc}" style="border-style:dashed"><span>${p.subcategory}</span><span class="sub-chip-count">· 0</span><span class="sub-chip-del" onclick="renameSubcat('${cesc}','${esc}')">✎</span><span class="sub-chip-del" onclick="deleteSubcat('${cesc}','${esc}')">×</span></span>`);
+          }
+        }
+      }
+    });
+  });
 }
-async function confirmPair(targetGid){
-  if(!_pairGid) return;
-  const srcEntry=S.mapping[_pairGid];
-  // global_id in products is always integer; targetGid from onclick is integer
-  const tgtProduct=S.products.find(p=>p.global_id===Number(targetGid));
-  if(!tgtProduct) return;
-  if(srcEntry.cont_name){
-    // Source has cont — pair with pingo target
-    srcEntry.pingo_name=tgtProduct.pingo_name||tgtProduct.name;
-    srcEntry.pingo_id=String(tgtProduct.pingo_id||tgtProduct.global_id);
-    // Remove orphan pingo-solo entry that was using this pingo_id
-    const existing=Object.entries(S.mapping).find(([gid,e])=>
-      gid!==_pairGid&&e.pingo_id===srcEntry.pingo_id&&!e.cont_name&&(e.solo||!e.cont_name));
-    if(existing) delete S.mapping[existing[0]];
-    // Sync to products list
-    const srcProd=S.products.find(p=>p.global_id===Number(_pairGid));
-    if(srcProd){srcProd.pingo_name=srcEntry.pingo_name;srcProd.pingo_id=srcEntry.pingo_id;srcProd.pingo_price=tgtProduct.pingo_price;srcProd.pingo_available=true;srcProd.solo=false;}
-  } else {
-    // Source has pingo — pair with cont target
-    srcEntry.cont_name=tgtProduct.cont_name||tgtProduct.name;
-    srcEntry.cont_id=String(tgtProduct.cont_id||tgtProduct.global_id);
-    const srcProd=S.products.find(p=>p.global_id===Number(_pairGid));
-    if(srcProd){srcProd.cont_name=srcEntry.cont_name;srcProd.cont_id=srcEntry.cont_id;srcProd.cont_price=tgtProduct.cont_price;srcProd.cont_available=true;srcProd.solo=false;}
-  }
-  srcEntry.solo=false;srcEntry.exclude_comparison=false;
-  if(IS_LOCAL){try{await fetch('/api/mapping/update',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({global_id:Number(_pairGid),pingo_name:srcEntry.pingo_name||'',pingo_id:srcEntry.pingo_id||'',cont_name:srcEntry.cont_name||'',cont_id:srcEntry.cont_id||'',solo:false,exclude_comparison:false})});}catch(e){}}
-  else{const msg=document.createElement('div');msg.style.cssText='position:fixed;bottom:80px;left:50%;transform:translateX(-50%);background:#111;color:#fff;padding:8px 16px;border-radius:20px;font-size:12px;z-index:999';msg.textContent='Guardado localmente — faz push para persistir';document.body.appendChild(msg);setTimeout(()=>msg.remove(),3000);}
-  closePairModal();renderReview();renderProductSelector();
-}
-async function unpairProduct(gid){
-  if(!confirm('Desligar esta correspondência?')) return;
-  const e=S.mapping[gid];if(!e)return;
-  // Determine which store is the "guest" (the one to remove)
-  // If both names exist, remove pingo (cont is the anchor)
-  // If only pingo exists, it becomes solo — clear cont side instead
-  const hasBoth=e.cont_name&&e.pingo_name;
-  const payload={global_id:Number(gid)};
-  if(hasBoth||e.cont_name){e.pingo_name='';e.pingo_id='';payload.pingo_name='';payload.pingo_id='';}
-  else{e.cont_name='';e.cont_id='';payload.cont_name='';payload.cont_id='';}
-  e.solo=true;e.exclude_comparison=true;payload.solo=true;payload.exclude_comparison=true;
-  // Sync to products
-  const prod=S.products.find(p=>p.global_id===Number(gid));
-  if(prod){if(hasBoth||e.cont_name){prod.pingo_available=false;prod.pingo_price=null;}else{prod.cont_available=false;prod.cont_price=null;}prod.solo=true;}
-  if(IS_LOCAL){try{await fetch('/api/mapping/update',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});}catch(e){}}
-  renderReview();
-}
-async function markSolo(gid){
-  const e=S.mapping[gid];if(!e)return;
-  e.solo=true;e.exclude_comparison=true;
-  if(IS_LOCAL){try{await fetch('/api/mapping/update',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({global_id:gid,solo:true,exclude_comparison:true})});}catch(e){}}else _toast('Guardado localmente — faz push para persistir');
-  renderReview();
-}
-async function unmarkSolo(gid){
-  const e=S.mapping[gid];if(!e)return;
-  e.solo=false;e.exclude_comparison=false;
-  if(IS_LOCAL){try{await fetch('/api/mapping/update',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({global_id:gid,solo:false,exclude_comparison:false})});}catch(e){}}else _toast('Guardado localmente — faz push para persistir');
-  renderReview();
-}
-async function updateCategory(gid,newCat){
-  if(!S.mapping[gid])return;
-  S.mapping[gid].category=newCat;S.mapping[gid].category_manual=true;
-  if(IS_LOCAL){try{await fetch('/api/mapping/update',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({global_id:gid,category:newCat,category_manual:true})});}catch(e){}}else _toast('Guardado localmente — faz push para persistir');
-  const prod=S.products.find(p=>p.global_id===S.mapping[gid]?.global_id);
-  if(prod) prod.category=newCat;
-}
-async function toggleExclude(gid){
-  if(!S.mapping[gid])return;
-  const nv=!S.mapping[gid].exclude_comparison;
-  S.mapping[gid].exclude_comparison=nv;
-  if(IS_LOCAL){try{await fetch('/api/mapping/update',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({global_id:gid,exclude_comparison:nv})});}catch(e){}}else _toast('Guardado localmente — faz push para persistir');
-  renderReview();
-}
-async function saveReceiptString(gid,store,val){
-  val=(val||'').trim();
-  if(!S.mapping[gid])return;
-  const field=store==='cont'?'cont_receipt_string':'pingo_receipt_string';
-  if(S.mapping[gid][field]===val)return;  // no change
-  S.mapping[gid][field]=val;
-  // Keep legacy receipt_string as cont value for backwards compat
-  if(store==='cont') S.mapping[gid].receipt_string=val;
-  const prod=S.products.find(p=>p.global_id===Number(gid));
-  if(prod){prod[field]=val;if(store==='cont')prod.receipt_string=val;}
-  const ok=document.getElementById('rs-ok-'+gid);
-  if(ok){ok.style.display='inline';setTimeout(()=>ok.style.display='none',2000);}
+
+async function renameSubcat(cat, old){
+  const newName = prompt('Novo nome para "'+old+'":', old);
+  if(!newName || newName.trim()===old) return;
+  const nn = newName.trim();
+  // Update mapping locally
+  Object.values(S.mapping).forEach(e=>{ if(e.category===cat && (e.subcategory||'')===old) e.subcategory = nn; });
+  S.products.forEach(p=>{ if(p.category===cat && (p.subcategory||'')===old) p.subcategory = nn; });
   if(IS_LOCAL){
-    try{await fetch('/api/mapping/update',{method:'POST',headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({global_id:Number(gid),[field]:val,receipt_string:store==='cont'?val:S.mapping[gid].receipt_string||''})});}catch(e){}
+    try{ await fetch('/api/subcategory/rename',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({category:cat, old, new:nn})}); }catch(e){}
   } else _toast('Guardado localmente — faz push para persistir');
+  renderSubcatManager(); renderCatalog?.();
 }
 
-/* ── Step 3: Product selector ───────────────────────────────── */
+async function deleteSubcat(cat, sub){
+  if(!confirm('Remover a subcategoria "'+sub+'"? Os produtos ficam por classificar.')) return;
+  Object.values(S.mapping).forEach(e=>{ if(e.category===cat && (e.subcategory||'')===sub) e.subcategory = ''; });
+  S.products.forEach(p=>{ if(p.category===cat && (p.subcategory||'')===sub) p.subcategory = ''; });
+  if(IS_LOCAL){
+    try{ await fetch('/api/subcategory/delete',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({category:cat, subcategory:sub})}); }catch(e){}
+  } else _toast('Guardado localmente — faz push para persistir');
+  renderSubcatManager(); renderCatalog?.();
+}
+
+/* ── Settings: Product classifier ─────────────────────────────── */
+function renderProdClassifier(){
+  const el = document.getElementById('prod-classifier');
+  if(!el) return;
+  const mapping = S.mapping || {};
+  const products = S.products || [];
+  if(!products.length){
+    el.innerHTML = '<div class="empty" style="padding:16px 0"><div class="empty-icon">📦</div><p>Sem dados. Faz um sync primeiro.</p></div>';
+    return;
+  }
+  const searchQ = (document.getElementById('prod-search-inp')?.value || '').toLowerCase().trim();
+  const filter = S.prodFilter || 'unclass';
+
+  // Build list: use S.products because it has prices/etc; merge subcategory from mapping
+  const prods = products.map(p=>{
+    const e = mapping[p.global_id] || {};
+    return {...p, subcategory: e.subcategory || ''};
+  });
+
+  let rows = prods;
+  if(filter==='unclass')    rows = rows.filter(p=>!(p.subcategory||'').trim());
+  else if(filter==='classified') rows = rows.filter(p=>(p.subcategory||'').trim());
+  if(searchQ) rows = rows.filter(p=>(p.name||'').toLowerCase().includes(searchQ));
+
+  const totalUnclass = prods.filter(p=>!(p.subcategory||'').trim()).length;
+  const meta = document.getElementById('prod-classify-meta');
+  if(meta) meta.textContent = `${prods.length} total · ${totalUnclass} por classificar`;
+  const pfU = document.getElementById('pf-unclass-badge');
+  if(pfU) pfU.textContent = totalUnclass;
+
+  if(!rows.length){
+    el.innerHTML = '<div class="empty" style="padding:24px 0"><div class="empty-icon">'+(filter==='unclass'?'✓':'🔍')+'</div><p>'+(filter==='unclass'?'Tudo classificado!':'Sem resultados.')+'</p></div>';
+    return;
+  }
+
+  // Sort: category, then subcategory (unclass first), then name
+  rows.sort((a,b)=>{
+    const ca=a.category||'', cb=b.category||'';
+    if(ca!==cb) return ca.localeCompare(cb,'pt');
+    const sa=(a.subcategory||'').trim(), sb=(b.subcategory||'').trim();
+    if(!sa && sb) return -1;
+    if(sa && !sb) return 1;
+    if(sa!==sb) return sa.localeCompare(sb,'pt');
+    return (a.name||'').localeCompare(b.name||'','pt');
+  });
+
+  // Group by category → subcategory
+  const subcats = _collectSubcats();
+  // Include pending subcats
+  (S.pendingSubcats||[]).forEach(p=>{
+    subcats[p.category] = subcats[p.category] || {};
+    subcats[p.category][p.subcategory] = subcats[p.category][p.subcategory] || 0;
+  });
+
+  let html = '';
+  let curCat = null, curSub = null;
+  let unclassInCat = 0, classInCat = 0;
+  // precompute counts per category
+  const countsByCat = {};
+  rows.forEach(p=>{
+    countsByCat[p.category] = countsByCat[p.category] || {unclass:0,total:0};
+    countsByCat[p.category].total++;
+    if(!(p.subcategory||'').trim()) countsByCat[p.category].unclass++;
+  });
+
+  rows.forEach(p=>{
+    const cat = p.category||'🥫 Despensa';
+    const sub = (p.subcategory||'').trim();
+    if(cat !== curCat){
+      const c = countsByCat[cat] || {unclass:0,total:0};
+      html += `<div class="set-cat-hdr">${cat}<span class="set-cat-count">${c.total} produto${c.total===1?'':'s'}${c.unclass?` · ${c.unclass} por classificar`:''}</span></div>`;
+      curCat = cat; curSub = null;
+    }
+    if(sub !== curSub){
+      if(!sub){
+        html += `<div class="set-subcat-hdr unclass">— Por classificar —</div>`;
+      } else {
+        const cnt = (subcats[cat] && subcats[cat][sub]) || 0;
+        html += `<div class="set-subcat-hdr">${sub}<span>${cnt}</span></div>`;
+      }
+      curSub = sub;
+    }
+    html += _prodClassifyRow(p, subcats);
+  });
+  el.innerHTML = html;
+  updateSettingsBadges();
+}
+
+function _prodClassifyRow(p, subcats){
+  const cat = p.category||'🥫 Despensa';
+  const haveCont = p.cont_name && p.cont_price!=null;
+  const havePingo = p.pingo_name && p.pingo_price!=null;
+  const storeTags = [haveCont?'<span class="mini-store-tag cont">CONT</span>':'', havePingo?'<span class="mini-store-tag pingo">PINGO</span>':''].filter(Boolean).join(' ');
+  const priceTxt = [
+    haveCont?fmt(p.cont_price):null,
+    havePingo?fmt(p.pingo_price):null,
+  ].filter(Boolean).join(' / ');
+
+  // Build subcategory dropdown grouped by category
+  const catKeys = Object.keys(subcats).sort();
+  let opts = `<option value="">— por classificar —</option>`;
+  // Include current category's subcats first for convenience
+  function catOpts(c){
+    const subs = Object.keys(subcats[c]||{}).sort((a,b)=>a.localeCompare(b,'pt'));
+    if(!subs.length) return '';
+    return `<optgroup label="${c}">${subs.map(s=>`<option value="${s.replace(/"/g,'&quot;')}"${(p.subcategory||'')===s?' selected':''}>${s}</option>`).join('')}</optgroup>`;
+  }
+  opts += catOpts(cat);
+  catKeys.filter(c=>c!==cat).forEach(c=>{ opts += catOpts(c); });
+  // New one
+  opts += `<option value="__new__">+ Criar nova subcategoria…</option>`;
+
+  const emptyCls = (p.subcategory||'').trim() ? '' : ' empty';
+  return `<div class="prod-row-s">
+    <div class="prod-row-s-name">
+      <div class="pn">${p.name||'(sem nome)'}</div>
+      <div class="pm">${storeTags}${priceTxt?' · '+priceTxt:''}</div>
+    </div>
+    <select class="${emptyCls}" onchange="setProductSubcategory(${p.global_id}, this)">${opts}</select>
+  </div>`;
+}
+
+async function setProductSubcategory(gid, sel){
+  let val = sel.value;
+  if(val === '__new__'){
+    const name = prompt('Nome da nova subcategoria:');
+    if(!name || !name.trim()){ sel.value = S.mapping[gid]?.subcategory || ''; return; }
+    val = name.trim();
+  }
+  const e = S.mapping[gid]; if(!e) return;
+  e.subcategory = val;
+  const p = S.products.find(x=>x.global_id===Number(gid));
+  if(p) p.subcategory = val;
+  if(IS_LOCAL){
+    try{ await fetch('/api/mapping/update',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({global_id:Number(gid), subcategory:val})}); }catch(e){}
+  } else _toast('Guardado localmente — faz push para persistir');
+  renderProdClassifier();
+}
+
+/* ── Settings: Receipt mapper ─────────────────────────────────── */
+async function loadReceiptStrings(){
+  if(!IS_LOCAL) return; // Vercel-only app has no /api; handled via history file directly
+  try{
+    const r = await fetch('/api/receipt-strings');
+    if(r.ok) S.receiptStrings = await r.json();
+  }catch(e){}
+}
+
+function renderReceiptMapper(){
+  const el = document.getElementById('receipt-mapper');
+  if(!el) return;
+  if(!S.receiptStrings){
+    loadReceiptStrings().then(()=>{ renderReceiptMapper(); updateSettingsBadges(); });
+    el.innerHTML = '<div class="empty" style="padding:16px 0"><div class="empty-icon">🧾</div><p>A carregar…</p></div>';
+    return;
+  }
+  const filter = S.recFilter || 'unmapped';
+  const searchQ = (document.getElementById('rec-search-inp')?.value || '').toLowerCase().trim();
+  const rs = S.receiptStrings || {continente:[], pingodoce:[]};
+
+  const meta = document.getElementById('rec-meta');
+  const totalAll = (rs.continente||[]).length + (rs.pingodoce||[]).length;
+  const totalUn = (rs.continente||[]).filter(r=>!r.mapping).length + (rs.pingodoce||[]).filter(r=>!r.mapping).length;
+  if(meta) meta.textContent = `${totalAll} únicos · ${totalUn} por mapear`;
+
+  let rows = [];
+  function addStore(storeKey, list){
+    (list||[]).forEach(r=> rows.push({...r, store: storeKey}));
+  }
+  if(filter==='pingo') addStore('pingodoce', rs.pingodoce);
+  else if(filter==='cont') addStore('continente', rs.continente);
+  else { addStore('continente', rs.continente); addStore('pingodoce', rs.pingodoce); }
+
+  if(filter==='unmapped') rows = rows.filter(r=>!r.mapping);
+  if(filter==='mapped')   rows = rows.filter(r=>!!r.mapping);
+  if(searchQ) rows = rows.filter(r=>(r.string||'').toLowerCase().includes(searchQ));
+
+  if(!rows.length){
+    el.innerHTML = '<div class="empty" style="padding:24px 0"><div class="empty-icon">'+(filter==='unmapped'?'✓':'🔍')+'</div><p>'+(filter==='unmapped'?'Tudo mapeado!':'Sem resultados.')+'</p></div>';
+    return;
+  }
+
+  // Sort: unmapped first within each group, by descending count
+  rows.sort((a,b)=>{
+    const am = a.mapping?1:0, bm = b.mapping?1:0;
+    if(am!==bm) return am-bm;
+    return (b.count||0)-(a.count||0);
+  });
+
+  // Split header: unmapped / mapped
+  let html = '';
+  let curSection = null;
+  const subcats = _collectSubcats();
+  (S.pendingSubcats||[]).forEach(p=>{
+    subcats[p.category] = subcats[p.category] || {};
+    subcats[p.category][p.subcategory] = subcats[p.category][p.subcategory] || 0;
+  });
+  const productOpts = _productDropdownOptions();
+  const subcatOpts  = _subcatDropdownOptions(subcats);
+
+  rows.forEach(r=>{
+    const section = r.mapping ? 'mapped' : 'unmapped';
+    if(section !== curSection){
+      const cnt = rows.filter(x=>(x.mapping?'mapped':'unmapped')===section).length;
+      html += `<div class="set-subcat-hdr${section==='unmapped'?' unclass':''}">${section==='unmapped'?'— Por mapear —':'Mapeados'}<span>${cnt}</span></div>`;
+      curSection = section;
+    }
+    html += _receiptRow(r, productOpts, subcatOpts);
+  });
+  el.innerHTML = html;
+  updateSettingsBadges();
+}
+
+function _productDropdownOptions(){
+  // All products, grouped by category
+  const byCat = {};
+  (S.products||[]).forEach(p=>{
+    const c = p.category || '🥫 Despensa';
+    byCat[c] = byCat[c] || [];
+    byCat[c].push(p);
+  });
+  const cats = Object.keys(byCat).sort();
+  let html = '';
+  cats.forEach(c=>{
+    const items = byCat[c].slice().sort((a,b)=>(a.name||'').localeCompare(b.name||'','pt'));
+    html += `<optgroup label="🎯 ${c}">${items.map(p=>`<option value="p:${p.global_id}">${(p.name||'').replace(/"/g,'&quot;')}</option>`).join('')}</optgroup>`;
+  });
+  return html;
+}
+
+function _subcatDropdownOptions(subcats){
+  let html = '';
+  const cats = Object.keys(subcats).sort();
+  cats.forEach(c=>{
+    const subs = Object.keys(subcats[c]||{}).sort((a,b)=>a.localeCompare(b,'pt'));
+    if(!subs.length) return;
+    html += `<optgroup label="📁 ${c}">${subs.map(s=>`<option value="s:${c}||${s}">${s.replace(/"/g,'&quot;')}</option>`).join('')}</optgroup>`;
+  });
+  return html;
+}
+
+function _receiptRow(r, productOpts, subcatOpts){
+  const storeTag = r.store==='continente' ? '<span class="mini-store-tag cont">CONT</span>' : '<span class="mini-store-tag pingo">PINGO</span>';
+  const lastSeen = r.last ? (' · último: '+r.last) : '';
+  const cnt = r.count || 0;
+  let currentVal = '';
+  if(r.mapping){
+    if(r.mapping.type==='product') currentVal = 'p:'+r.mapping.global_id;
+    else if(r.mapping.type==='subcategory') currentVal = 's:'+(r.mapping.category||'')+'||'+(r.mapping.subcategory||'');
+  }
+  const emptyCls = r.mapping ? '' : ' empty';
+  // Build opts with correct selection
+  function applySelected(html){
+    return html.replace(`value="${currentVal}"`, `value="${currentVal}" selected`);
+  }
+  const storeEsc = r.store;
+  const rawEsc = (r.string||'').replace(/'/g,"\\'").replace(/"/g,'&quot;');
+  return `<div class="rec-row-s">
+    <div class="rec-code-s">
+      <div class="rc">${r.string}</div>
+      <div class="rm">${storeTag} · visto ${cnt}×${lastSeen}</div>
+    </div>
+    <div class="rec-count-s"><span class="rec-count-badge-s">${cnt}×</span></div>
+    <select class="${emptyCls}" onchange="setReceiptMapping('${storeEsc}','${rawEsc}', this.value)">
+      <option value="">— escolher destino —</option>
+      ${applySelected(subcatOpts)}
+      ${applySelected(productOpts)}
+      ${r.mapping?'<option value="__clear__">✕ Limpar mapeamento</option>':''}
+    </select>
+  </div>`;
+}
+
+async function setReceiptMapping(store, receiptString, val){
+  if(!val){ return; }
+  let body;
+  if(val==='__clear__') body = {store, receipt_string: receiptString, type:'clear'};
+  else if(val.startsWith('p:')) body = {store, receipt_string: receiptString, type:'product', global_id: Number(val.slice(2))};
+  else if(val.startsWith('s:')){
+    const [cat, sub] = val.slice(2).split('||');
+    body = {store, receipt_string: receiptString, type:'subcategory', category: cat, subcategory: sub};
+  } else return;
+
+  if(IS_LOCAL){
+    try{
+      const r = await fetch('/api/receipt-mapping/set',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
+      if(r.ok){
+        // Update local cache
+        const list = S.receiptStrings?.[store] || [];
+        const row = list.find(x=>x.string===receiptString);
+        if(row){
+          if(val==='__clear__') row.mapping = null;
+          else if(val.startsWith('p:')) row.mapping = {type:'product', global_id:Number(val.slice(2))};
+          else if(val.startsWith('s:')){ const [c,s]=val.slice(2).split('||'); row.mapping = {type:'subcategory', category:c, subcategory:s}; }
+        }
+        _toast('Guardado');
+      }
+    }catch(e){}
+  } else {
+    _toast('Não disponível em modo Vercel');
+  }
+  renderReceiptMapper();
+}
+
+
+/* ── Step 3: Category-based catalogue ─────────────────────────── */
+/*  Basket state uses subcategory keys:
+      "sub::🧀 Frigorífico||Queijo fatiado — branco"  for real subcategories
+      "solo::42"                                       for unclassified single-product cards
+    Each S.basket[key] = qty.
+    Resolution to a concrete pack happens at display/math time.
+*/
+
+function _subKey(cat, sub){ return `sub::${cat}||${sub}`; }
+function _soloKey(gid){ return `solo::${gid}`; }
+function _parseBasketKey(k){
+  if(k.startsWith('sub::')){ const [c,s]=k.slice(5).split('||'); return {type:'sub', category:c, subcategory:s}; }
+  if(k.startsWith('solo::')){ return {type:'solo', global_id:Number(k.slice(6))}; }
+  // Legacy: plain numeric gid (basket stored before the migration)
+  if(/^\d+$/.test(k)) return {type:'solo', global_id:Number(k)};
+  return null;
+}
+
+/* Per-product unit price (€/kg or €/un), applies conversion_factor only for Cont. */
+function _unitPrice(p, store){
+  if(!p) return null;
+  const cf = p.conversion_factor || 1;
+  if(store==='cont'){
+    if(p.cont_per_kg) return p.cont_per_kg * cf;
+    if(p.cont_norm_price) return p.cont_norm_price * cf;
+    return p.cont_price;
+  } else {
+    if(p.pingo_per_kg) return p.pingo_per_kg;
+    if(p.pingo_norm_price) return p.pingo_norm_price;
+    return p.pingo_price;
+  }
+}
+
+/* Pack price (what you pay at the till) for a store. */
+function _pkgPrice(p, store){
+  if(!p) return null;
+  if(store==='cont') return p.cont_pkg_price ?? p.cont_price ?? null;
+  return p.pingo_pkg_price ?? p.pingo_price ?? null;
+}
+
+/* Image/name helpers */
+function _img(p, store){ return (store==='cont' ? (p.cont_image||p.pingo_image) : (p.pingo_image||p.cont_image)) || ''; }
+function _qtyLabel(p, store){ return (store==='cont' ? p.cont_qty_label : p.pingo_qty_label) || ''; }
+function _promoPct(p, store){ return store==='cont' ? p.cont_discount_pct : p.pingo_discount_pct; }
+function _inPromo(p, store){ return store==='cont' ? p.cont_in_promo : p.pingo_in_promo; }
+
+/* Group products by (category, subcategory). Products without subcategory become solo. */
+function _groupedCatalogue(products){
+  const groups = [];    // array of {category, subcategory, members:[...], isSolo}
+  const bySubcat = {};  // key "cat||sub" -> group
+  products.forEach(p=>{
+    const cat = p.category || '🥫 Despensa';
+    const sub = (p.subcategory||'').trim();
+    if(sub){
+      const key = cat+'||'+sub;
+      if(!bySubcat[key]){
+        const g = {category:cat, subcategory:sub, members:[], isSolo:false, key:_subKey(cat,sub)};
+        bySubcat[key] = g; groups.push(g);
+      }
+      bySubcat[key].members.push(p);
+    } else {
+      groups.push({category:cat, subcategory:'', members:[p], isSolo:true, key:_soloKey(p.global_id), soloProduct:p});
+    }
+  });
+  return groups;
+}
+
+/* For a given group, pick cheapest member in each store and the overall winner.
+   Returns: { cont:{product, unit, pkg}|null, pingo:{...}|null, winner:'cont'|'pingo'|null }
+   If scenario is 'cont', only cont is considered (pingo=null).
+   If scenario is 'pingo', only pingo.
+   Default scenario 'hybrid' picks cheapest overall. */
+function _groupResolve(group, scenario){
+  let bestC=null, bestP=null;
+  group.members.forEach(p=>{
+    const uc = _unitPrice(p,'cont');
+    if(uc!=null && (bestC===null || uc < bestC.unit)){
+      bestC = {product:p, unit:uc, pkg:_pkgPrice(p,'cont')};
+    }
+    const up = _unitPrice(p,'pingo');
+    if(up!=null && (bestP===null || up < bestP.unit)){
+      bestP = {product:p, unit:up, pkg:_pkgPrice(p,'pingo')};
+    }
+  });
+  let winner = null;
+  if(scenario==='cont'){ winner = bestC ? 'cont' : null; bestP = null; }
+  else if(scenario==='pingo'){ winner = bestP ? 'pingo' : null; bestC = null; }
+  else {
+    if(bestC && bestP) winner = (bestC.unit <= bestP.unit) ? 'cont' : 'pingo';
+    else if(bestC) winner = 'cont';
+    else if(bestP) winner = 'pingo';
+  }
+  return {cont:bestC, pingo:bestP, winner};
+}
+
+/* ── Catalogue rendering ──────────────────────────────────────── */
 function renderProductSelector(){
   const el=document.getElementById('prod-selector');
   if(!S.products.length) return;
@@ -1198,240 +1599,306 @@ function renderProductSelector(){
 }
 function setCatFilter(c){S.catFilter=c;document.querySelectorAll('#cat-filter-bar .chip').forEach(el=>el.classList.toggle('active',el.dataset.cat===(c==='all'?'__all__':c)));renderCatalog();}
 function filterCatalog(){S.searchQ=document.getElementById('search-inp').value.toLowerCase().trim();renderCatalog();}
+
 function renderCatalog(){
   const el=document.getElementById('prod-selector');
+  // Base filter: only products with at least one price
   let prods=S.products.filter(p=>p.name&&p.name.trim().length>=3&&(p.cont_price!=null||p.pingo_price!=null));
-  // Deduplicate: if two products share the same cont_id+pingo_id, keep the lower global_id
+  // Dedup
   const seen=new Set();
   prods=prods.filter(p=>{
     const key=(p.cont_id||'')+'|'+(p.pingo_id||'');
-    if(key==='|') return true;  // no ids yet — always show
+    if(key==='|') return true;
     if(seen.has(key)) return false;
     seen.add(key);return true;
   });
   if(S.catFilter!=='all') prods=prods.filter(p=>(p.category||'🥫 Despensa')===S.catFilter);
-  if(S.searchQ) prods=prods.filter(p=>p.name&&p.name.toLowerCase().includes(S.searchQ));
-  if(!prods.length){el.innerHTML='<div class="empty" style="padding:20px 0"><div class="empty-icon">🔍</div><h3>Sem resultados</h3></div>';return;}
-  const cats={};
-  prods.forEach(p=>{const c=p.category||'🥫 Despensa';if(!cats[c])cats[c]=[];cats[c].push(p);});
-  el.innerHTML=Object.keys(cats).sort().map(cat=>`
-    <div class="cat-section">
+  // Build groups first so search can target subcategory names too
+  let groups=_groupedCatalogue(prods);
+  if(S.searchQ){
+    const q=S.searchQ;
+    groups=groups.filter(g=>{
+      if(g.subcategory && g.subcategory.toLowerCase().includes(q)) return true;
+      return g.members.some(m=>(m.name||'').toLowerCase().includes(q));
+    });
+  }
+  if(!groups.length){el.innerHTML='<div class="empty" style="padding:20px 0"><div class="empty-icon">🔍</div><h3>Sem resultados</h3></div>';return;}
+  // Group-of-groups by category
+  const byCat={};
+  groups.forEach(g=>{ byCat[g.category]=byCat[g.category]||[]; byCat[g.category].push(g); });
+  const catKeys=Object.keys(byCat).sort();
+  el.innerHTML=catKeys.map(cat=>{
+    // Within a category: non-solo subcategories first (sorted alpha), then solo cards
+    const list=byCat[cat];
+    list.sort((a,b)=>{
+      if(a.isSolo!==b.isSolo) return a.isSolo?1:-1;
+      if(!a.isSolo && !b.isSolo) return a.subcategory.localeCompare(b.subcategory,'pt');
+      return (a.soloProduct?.name||'').localeCompare(b.soloProduct?.name||'','pt');
+    });
+    return `<div class="cat-section">
       <div class="cat-hdr" onclick="toggleCat(this)">
-        <span class="cat-hdr-name">${cat} <span style="font-weight:400;font-size:10px">(${cats[cat].length})</span></span>
+        <span class="cat-hdr-name">${cat} <span style="font-weight:400;font-size:10px">(${list.length})</span></span>
         <span class="cat-chev open">▼</span>
       </div>
-      <div class="cat-body open">${cats[cat].map(p=>prodCardHTML(p)).join('')}</div>
-    </div>`).join('');
+      <div class="cat-body open">${list.map(g=>genCardHTML(g)).join('')}</div>
+    </div>`;
+  }).join('');
   updateBasketBar();
 }
-function prodCardHTML(p){
-  const qty=S.basket[p.global_id]||0;
-  const inB=qty>0;
-  const imgC=p.cont_image||'';
-  const imgP=p.pingo_image||'';
-  const img=imgC||imgP;
-  const fallbackImg=imgC?imgP:imgC;
-  const imgHTML=img
-    ?`<div class="prod-img-wrap"><img src="${img}" loading="lazy" onerror="this.style.display='none'"></div>`
-    :`<div class="prod-img-wrap"><div class="ph">${catEmoji(p.category)}</div></div>`;
-  // Unit price - use unit_label (e.g. "0,59€/un") which is the formatted version from scraper
-  const cUnitLbl=p.cont_unit_label||'';
-  const pUnitLbl=p.pingo_unit_label||'';
-  const cQtyLbl=p.cont_qty_label||'';
-  const pQtyLbl=p.pingo_qty_label||'';
 
-  // Build stacked price info
-  function priceStack(store){
-    let unitLbl=store==='cont'?cUnitLbl:pUnitLbl;
-    const normPrice=store==='cont'?p.cont_norm_price:p.pingo_norm_price;
-    const normUnit=store==='cont'?(p.cont_unit||''):(p.pingo_unit||'');
-    let price=store==='cont'?p.cont_price:p.pingo_price;
-    const basePrice=store==='cont'?p.cont_base_price:p.pingo_base_price;
-    const discPct=store==='cont'?p.cont_discount_pct:p.pingo_discount_pct;
-    const inPromo=store==='cont'?p.cont_in_promo:p.pingo_in_promo;
-    const color=store==='cont'?'#E2001A':'#4A7C2F';
-    const storeQtyLbl=store==='cont'?cQtyLbl:pQtyLbl;
-    const computedKg=store==='cont'?contComputedKg:pingoComputedKg;
-    if(price==null) return '';
-    // Primary unit price: cont/pingo_per_kg (from enriched data) OR scraped label OR norm_price fallback
-    const kgLabel=computedKg||( unitLbl&&(unitLbl.toLowerCase().includes('/kg')||unitLbl.toLowerCase().includes('/l'))?unitLbl:null);
-    const primaryUnit=kgLabel||(normPrice&&normUnit?`${normPrice.toFixed(2).replace('.',',')}€/${normUnit}`:unitLbl);
-    const secondaryUnit=kgLabel&&unitLbl&&unitLbl!==kgLabel?unitLbl:'';
-    const isByWeight=!!kgLabel;
-    const promoRow=`${inPromo&&basePrice?`<span style="text-decoration:line-through">${fmt(basePrice)}</span> `:''}${discPct?`<span style="background:rgba(226,0,26,.08);color:#E2001A;padding:1px 4px;border-radius:4px;font-size:9px;font-weight:700;margin-left:2px">-${discPct}%</span>`:''}`;
+function genCardHTML(group){
+  const key = group.key;
+  const qty = S.basket[key] || 0;
+  const inB = qty>0;
+  const r = _groupResolve(group, 'hybrid');
+  const catEmj = catEmoji(group.category);
+  const title = group.isSolo ? (group.soloProduct?.name || '(sem nome)') : group.subcategory;
+  const titleTag = group.isSolo ? ` <span class="unclass-tag">Por classificar</span>` : '';
 
-    if(isByWeight){
-      return `<div style="display:inline-flex;flex-direction:column;gap:1px">
-        <span style="font-size:14px;font-weight:700;color:${color}">${primaryUnit}</span>
-        ${storeQtyLbl?`<span style="font-size:11px;color:var(--muted)">${storeQtyLbl}</span>`:''}
-        ${price!=null?`<span style="font-size:11px;color:var(--muted)">${promoRow}<span style="color:#111;font-weight:500">${fmt(price)}</span></span>`:''}
-        ${secondaryUnit?`<span style="font-size:11px;color:var(--muted)">${secondaryUnit}</span>`:''}
-      </div>`;
-    } else {
-      return `<div style="display:inline-flex;flex-direction:column;gap:1px">
-        <span style="font-size:14px;font-weight:700;color:${color}">${fmt(price)}</span>
-        ${primaryUnit?`<span style="font-size:11px;color:var(--muted)">${primaryUnit}${storeQtyLbl?' · '+storeQtyLbl:''}</span>`:''}
-        ${!primaryUnit&&storeQtyLbl?`<span style="font-size:11px;color:var(--muted)">${storeQtyLbl}</span>`:''}
-        ${inPromo&&basePrice?`<span style="font-size:11px;color:var(--muted)"><span style="text-decoration:line-through">${fmt(basePrice)}</span></span>`:''}
-      </div>`;
-    }
-  }
-
-  const hasCont=p.cont_price!=null;
-  const hasPingo=p.pingo_price!=null;
-
-  // Compute kg-normalised unit price for Continente when Pingo shows €/Kg
-  // so the two sides can be directly compared
-  // Compute €/Kg from price and qty:
-  // Only when qty is a plain weight (e.g. "0.6 Kg", "500 gr", "emb. 650 gr")
-  // NOT for "Quant. Mínima = 200 gr (2 un)" — those are per-unit packs
-  function computeKgUnit(price, unitLbl, qtyLbl){
-    if(!price||!qtyLbl) return null;
-    const lbl=(unitLbl||'').toLowerCase();
-    if(lbl.includes('/kg')||lbl.includes('/l')) return null;  // already has kg/l label
-    // Skip "Quant. Mínima" — sold by unit count, not pure weight
-    if(qtyLbl.toLowerCase().includes('quant')) return null;
-    const qm=qtyLbl.match(/([0-9]+[.,][0-9]+|[0-9]+)[ ]*(kg|g)/i);
-    if(!qm) return null;
-    let qv=parseFloat(qm[1].replace(',','.'));
-    if(qm[2].toLowerCase()==='g'||qm[2].toLowerCase()==='gr') qv=qv/1000;
-    if(qv<=0) return null;
-    return (price/qv).toFixed(2).replace('.',',')+'€/Kg';
-  }
-  // Use scraper-computed per_kg when available (more accurate than re-parsing labels)
-  const contComputedKg=p.cont_per_kg?p.cont_per_kg.toFixed(2).replace('.',',')+'€/Kg':computeKgUnit(p.cont_price, cUnitLbl, cQtyLbl);
-  const pingoComputedKg=p.pingo_per_kg?p.pingo_per_kg.toFixed(2).replace('.',',')+'€/Kg':computeKgUnit(p.pingo_price, pUnitLbl, pQtyLbl);
-
-  let qtyInner;
-  if(qty===0){
-    qtyInner=`<button class="qty-btn add-btn" onclick="setQty(${p.global_id},1,event)">+</button>`;
+  // Sub-line: count, size range, brand hints
+  const count = group.members.length;
+  let sizeHint = '';
+  if(!group.isSolo){
+    const sizes = group.members.map(m=>_qtyLabel(m,'cont')||_qtyLabel(m,'pingo')).filter(Boolean);
+    if(sizes.length) sizeHint = sizes.slice(0,2).join(', ') + (sizes.length>2?'…':'');
   } else {
-    qtyInner=`<div class="qty-ctrl">
-      <button class="qty-btn" onclick="setQty(${p.global_id},-1,event)">−</button>
-      <span class="qty-num">${qty}</span>
-      <button class="qty-btn" onclick="setQty(${p.global_id},1,event)">+</button>
+    sizeHint = _qtyLabel(group.soloProduct,'cont') || _qtyLabel(group.soloProduct,'pingo') || '';
+  }
+  const subLine = `<span>${count} opç${count===1?'ão':'ões'}</span>${sizeHint?`<span class="dot"></span><span>${sizeHint}</span>`:''}`;
+
+  // Two-store price grid
+  function storeSide(store, best){
+    const lbl = store==='cont' ? '● Continente' : '● Pingo Doce';
+    const cls = store==='cont' ? 'cont' : 'pingo';
+    if(!best){
+      return `<div class="gen-store"><div class="gen-store-lbl ${cls}">${lbl}</div><div class="gen-store-na">— não disponível</div></div>`;
+    }
+    const isWin = (r.winner===store);
+    const unitTxt = _formatUnit(best.unit, best.product, store);
+    const pkgTxt  = best.pkg!=null ? fmt(best.pkg) : '';
+    const qtyL    = _qtyLabel(best.product, store);
+    const pkg     = pkgTxt + (qtyL ? ' · '+qtyL : '');
+    const inPromo = _inPromo(best.product, store);
+    const discPct = _promoPct(best.product, store);
+    const promo   = inPromo && discPct ? `<div class="gen-store-promo ${cls}">−${discPct}%</div>` : '';
+    return `<div class="gen-store${isWin?' winner':''}">
+      <div class="gen-store-lbl ${cls}">${lbl}</div>
+      <div class="gen-store-unit">${unitTxt}</div>
+      <div class="gen-store-pkg">${pkg}</div>
+      ${promo}
     </div>`;
   }
-  const qtyHTML=`<div class="qty-wrap">${qtyInner}</div>`;
 
-  return `<div class="prod-card${inB?' in-basket':''}" id="pc-${p.global_id}">
-    ${imgHTML}
-    <div class="prod-info">
-      <div class="prod-name">${p.name}</div>
-      ${p.cont_brand||p.pingo_brand?`<div class="prod-brand">${p.cont_brand||p.pingo_brand}</div>`:''}
-      <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:4px">
-        <div>
-          ${hasCont?priceStack('cont'):''}
+  const priceGrid = `<div class="gen-prices">${storeSide('cont', r.cont)}${storeSide('pingo', r.pingo)}</div>`;
 
+  // Qty control
+  const escKey = key.replace(/'/g,"\\'");
+  let qtyInner;
+  if(qty===0){
+    qtyInner=`<button class="qty-btn add-btn" onclick="setSubQty('${escKey}',1,event)">+</button>`;
+  } else {
+    qtyInner=`<div class="qty-ctrl">
+      <button class="qty-btn" onclick="setSubQty('${escKey}',-1,event)">−</button>
+      <span class="qty-num">${qty}</span>
+      <button class="qty-btn" onclick="setSubQty('${escKey}',1,event)">+</button>
+    </div>`;
+  }
+
+  // Expand toggle (only when more than 1 option)
+  const expandable = count > 1;
+  const expandBtn = expandable ? `<div class="gen-expand" onclick="this.closest('.gen-card').classList.toggle('expanded')"><span>Ver ${count} opções</span><span class="gen-expand-chev">▼</span></div>` : '';
+
+  // Expanded option list (rendered but hidden until expanded)
+  let optList = '';
+  if(expandable){
+    const rows = [];
+    group.members.forEach(p=>{
+      ['cont','pingo'].forEach(store=>{
+        const u = _unitPrice(p, store);
+        if(u==null) return;
+        rows.push({product:p, store, unit:u, pkg:_pkgPrice(p,store)});
+      });
+    });
+    rows.sort((a,b)=>a.unit-b.unit);
+    const bestUnit = rows[0]?.unit;
+    optList = `<div class="opt-list">${rows.map(row=>{
+      const isBest = row.unit===bestUnit;
+      const img = _img(row.product, row.store);
+      const imgHTML = img ? `<div class="opt-img"><img src="${img}" loading="lazy" onerror="this.parentElement.innerHTML='${catEmj}'"></div>` : `<div class="opt-img">${catEmj}</div>`;
+      const promo = _inPromo(row.product,row.store) && _promoPct(row.product,row.store) ? ` · em promo −${_promoPct(row.product,row.store)}%` : '';
+      const storeLbl = row.store==='cont' ? '<span class="opt-store cont">Cont.</span>' : '<span class="opt-store pingo">Pingo</span>';
+      const qtyL = _qtyLabel(row.product, row.store);
+      return `<div class="opt-row${isBest?' is-best':''}">
+        ${imgHTML}
+        <div class="opt-info">
+          <div class="opt-name">${row.product.name||''}</div>
+          <div class="opt-meta">${storeLbl}${qtyL?' '+qtyL:''}${promo}</div>
         </div>
-        ${hasCont&&hasPingo?'<span style="color:var(--border);font-size:11px;align-self:center">|</span>':''}
-        ${hasPingo?priceStack('pingo'):''}
+        <div class="opt-prices">
+          <div class="opt-unit-price${isBest?' best':''}">${_formatUnit(row.unit, row.product, row.store)}${isBest?' <span class="opt-badge">Melhor</span>':''}</div>
+          <div class="opt-pkg">${row.pkg!=null?fmt(row.pkg):''}</div>
+        </div>
+      </div>`;
+    }).join('')}</div>`;
+  }
+
+  return `<div class="gen-card${inB?' in-basket':''}" data-key="${key.replace(/"/g,'&quot;')}">
+    <div class="gen-top">
+      <div class="gen-emoji">${catEmj}</div>
+      <div class="gen-info">
+        <div class="gen-name">${title}${titleTag}</div>
+        <div class="gen-sub">${subLine}</div>
+        ${priceGrid}
       </div>
+      <div class="qty-wrap">${qtyInner}</div>
     </div>
-    <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;min-width:86px">
-      ${inB?`<div style="font-size:12px;font-weight:600;color:#111">${(()=>{const{cCmp,pCmp,cPkg,pPkg}=_safeCompare(p);const cD=cCmp??p.cont_price??Infinity,pD=pCmp??p.pingo_price??Infinity;const pkg=cD<=pD?(cPkg??p.cont_price??0):(pPkg??p.pingo_price??0);return fmt((pkg||0)*qty);})()}</div>`:''}
-      ${qtyHTML}
-    </div>
+    ${expandBtn}
+    ${optList}
   </div>`;
 }
 
-function setQty(gid,delta,event){
+function _formatUnit(unit, p, store){
+  // Decide unit suffix based on the scraper's norm_unit
+  if(unit==null) return '—';
+  const normUnit = store==='cont' ? (p.cont_unit || p.cont_norm_unit || '') : (p.pingo_unit || p.pingo_norm_unit || '');
+  // Prefer /kg if cont_per_kg exists (scraper computes this)
+  const hasKg = store==='cont' ? !!p.cont_per_kg : !!p.pingo_per_kg;
+  let suffix = '/un';
+  if(hasKg) suffix = '/kg';
+  else if(/kg|litro|l|liter/i.test(normUnit)) suffix = '/'+normUnit;
+  else if(normUnit) suffix = '/'+normUnit;
+  return unit.toFixed(2).replace('.',',') + ' €' + suffix;
+}
+
+function setSubQty(key, delta, event){
   if(event){event.preventDefault();event.stopPropagation();}
-  const cur=S.basket[gid]||0;
-  const nxt=Math.max(0,cur+delta);
-  if(nxt===0) delete S.basket[gid]; else S.basket[gid]=nxt;
+  const cur = S.basket[key] || 0;
+  const nxt = Math.max(0, cur+delta);
+  if(nxt===0) delete S.basket[key]; else S.basket[key]=nxt;
   saveLocal();
-  // Update just the qty control and card class — no full re-render
-  const card=document.getElementById('pc-'+gid);
+  // Local re-render of this one card
+  const card = document.querySelector(`.gen-card[data-key="${CSS.escape(key)}"]`);
   if(card){
-    card.classList.toggle('in-basket',nxt>0);
-    const wrap=card.querySelector('.qty-wrap');
+    card.classList.toggle('in-basket', nxt>0);
+    const wrap = card.querySelector('.qty-wrap');
     if(wrap){
+      const escKey = key.replace(/'/g,"\\'");
       if(nxt===0){
-        wrap.innerHTML=`<button class="qty-btn add-btn" onclick="setQty(${gid},1,event)">+</button>`;
+        wrap.innerHTML = `<button class="qty-btn add-btn" onclick="setSubQty('${escKey}',1,event)">+</button>`;
       } else {
-        wrap.innerHTML=`<div class="qty-ctrl">
-          <button class="qty-btn" onclick="setQty(${gid},-1,event)">−</button>
+        wrap.innerHTML = `<div class="qty-ctrl">
+          <button class="qty-btn" onclick="setSubQty('${escKey}',-1,event)">−</button>
           <span class="qty-num">${nxt}</span>
-          <button class="qty-btn" onclick="setQty(${gid},1,event)">+</button>
+          <button class="qty-btn" onclick="setSubQty('${escKey}',1,event)">+</button>
         </div>`;
       }
     }
-    // Update total in card
-    const p=S.products.find(p=>p.global_id===parseInt(gid));
-    const totalEl=card.querySelector('[style*="font-size:12px;font-weight:600"]');
-    if(p&&nxt>0){
-      const{cCmp:_cC,pCmp:_pC,cPkg:_cP,pPkg:_pP}=_safeCompare(p);
-      const cCmp=_cC!=null?_cC:(p.cont_price||Infinity);
-      const pCmp=_pC!=null?_pC:(p.pingo_price||Infinity);
-      const _bestPkg=cCmp<=pCmp?(_cP??p.cont_price??0):(_pP??p.pingo_price??0);
-      const best=_bestPkg*nxt;
-      if(totalEl) totalEl.textContent=fmt(best);
-      else{const wrap=card.querySelector('.qty-wrap');if(wrap)wrap.insertAdjacentHTML('beforebegin',`<div style="font-size:12px;font-weight:600;color:#111">${fmt(best)}</div>`);}
-    } else if(totalEl) totalEl.remove();
   }
   updateBasketBar();
 }
 
+// Legacy: older code (analytics, shopping-list keys) might call setQty(gid,...).
+// Keep a shim so numeric basket keys still work.
+function setQty(gid, delta, event){
+  setSubQty(_soloKey(gid), delta, event);
+}
+
+/* ── Basket resolution + totals ───────────────────────────────── */
+
+/* Returns resolved basket items for a given scenario.
+   Each item: { key, group, qty, resolved:{product, unit, pkg, store} | null }
+   resolved is null when that scenario can't satisfy the subcategory (missing). */
+function basketItemsFor(scenario){
+  const groups = _groupedCatalogue(S.products || []);
+  const byKey = {}; groups.forEach(g=>byKey[g.key]=g);
+  const out = [];
+  Object.entries(S.basket||{}).forEach(([k,qty])=>{
+    if(!qty) return;
+    // Legacy numeric key → treat as solo key
+    let key = k;
+    if(/^\d+$/.test(k)) key = _soloKey(Number(k));
+    const g = byKey[key];
+    if(!g) return;
+    const r = _groupResolve(g, scenario);
+    let resolved = null;
+    if(scenario==='cont' && r.cont) resolved = {product:r.cont.product, unit:r.cont.unit, pkg:r.cont.pkg, store:'cont'};
+    else if(scenario==='pingo' && r.pingo) resolved = {product:r.pingo.product, unit:r.pingo.unit, pkg:r.pingo.pkg, store:'pingo'};
+    else if(scenario==='hybrid'){
+      if(r.winner==='cont' && r.cont) resolved = {product:r.cont.product, unit:r.cont.unit, pkg:r.cont.pkg, store:'cont'};
+      else if(r.winner==='pingo' && r.pingo) resolved = {product:r.pingo.product, unit:r.pingo.unit, pkg:r.pingo.pkg, store:'pingo'};
+    }
+    out.push({key, group:g, qty:Number(qty), resolved});
+  });
+  return out;
+}
+
+/* Back-compat: some legacy code reads basketItems() assuming per-product entries.
+   Return hybrid resolution with {product, qty} shape so voucher/missing logic keeps working. */
+function basketItems(){
+  return basketItemsFor('hybrid')
+    .filter(i=>i.resolved)
+    .map(i=>({product:i.resolved.product, qty:i.qty}));
+}
+
 function updateBasketBar(){
-  const items=basketItems();
-  const count=items.length;
-  const totalQty=items.reduce((s,i)=>s+i.qty,0);
-  const vc=S.vouchers.cont,vp=S.vouchers.pingo;
-  // Compute 3 totals
-  let rawC=0,rawP=0;
-  items.forEach(({product:p,qty})=>{
-    const{cPkg,pPkg}=_safeCompare(p);
-    if(cPkg!=null) rawC+=cPkg*qty;
-    if(pPkg!=null) rawP+=pPkg*qty;
+  const vc=S.vouchers.cont, vp=S.vouchers.pingo;
+
+  // Per scenario: raw totals (before voucher), missing count
+  function scenarioTotal(scn){
+    const items = basketItemsFor(scn);
+    let raw=0, missing=0;
+    items.forEach(it=>{
+      if(it.resolved && it.resolved.pkg!=null) raw += it.resolved.pkg * it.qty;
+      else missing += it.qty;
+    });
+    return {raw, missing, items};
+  }
+  const C = scenarioTotal('cont');
+  const P = scenarioTotal('pingo');
+  const H = scenarioTotal('hybrid');
+
+  // Hybrid splits across stores → apply vouchers per store
+  let hRawC=0, hRawP=0;
+  H.items.forEach(it=>{
+    if(!it.resolved) return;
+    if(it.resolved.store==='cont') hRawC += (it.resolved.pkg||0) * it.qty;
+    else hRawP += (it.resolved.pkg||0) * it.qty;
   });
-  const contFinal=applyVoucher(rawC,vc);
-  const pingoFinal=applyVoucher(rawP,vp);
-  // Hybrid
-  let splitCraw=0,splitPraw=0;
-  items.forEach(({product:p,qty})=>{
-    const cp=p.cont_price,pp=p.pingo_price;
-    if(cp!=null&&pp==null){splitCraw+=cp*qty;return;}
-    if(pp!=null&&cp==null){splitPraw+=pp*qty;return;}
-    if(cp==null&&pp==null)return;
-    const{cCmp,pCmp,cPkg,pPkg}=_safeCompare(p);
-    if((cCmp??cp)<=(pCmp??pp)){splitCraw+=(cPkg??cp)*qty;}
-    else{splitPraw+=(pPkg??pp)*qty;}
-  });
-  const hybridFinal=applyVoucher(splitCraw,vc)+applyVoucher(splitPraw,vp);
+  const hybridFinal = applyVoucher(hRawC,vc) + applyVoucher(hRawP,vp);
+  const contFinal   = applyVoucher(C.raw, vc);
+  const pingoFinal  = applyVoucher(P.raw, vp);
+
+  const basketKeys = Object.keys(S.basket||{}).filter(k=>S.basket[k]>0);
+  const count = basketKeys.length;
+  const totalQty = basketKeys.reduce((s,k)=>s+(S.basket[k]||0),0);
+
+  const hasCont  = count && C.items.some(i=>!!i.resolved);
+  const hasPingo = count && P.items.some(i=>!!i.resolved);
+
   const splitEl=document.getElementById('tot-split-val');
   const contEl=document.getElementById('tot-cont-val');
   const pingoEl=document.getElementById('tot-pingo-val');
   const countEl=document.getElementById('bk-count');
-  // A store total is only meaningful if at least one basket item has that store's price
-  const hasContPrice=count&&items.some(({product:p})=>p.cont_price!=null);
-  const hasPingoPrice=count&&items.some(({product:p})=>p.pingo_price!=null);
-  if(splitEl) splitEl.textContent=count?fmt(hybridFinal):'—';
-  if(contEl)  contEl.textContent=hasContPrice?fmt(contFinal):'—';
-  if(pingoEl) pingoEl.textContent=hasPingoPrice?fmt(pingoFinal):'—';
-  if(countEl) countEl.textContent=count?`${count} produto${count!==1?'s':''} · ${totalQty} un.`:'Selecciona produtos';
-  // Highlight best — only compare stores that have at least one price
-  const validTotals=[];
-  if(count) validTotals.push(hybridFinal);
-  if(hasContPrice) validTotals.push(contFinal);
-  if(hasPingoPrice) validTotals.push(pingoFinal);
-  const best=validTotals.length?Math.min(...validTotals):null;
+  if(splitEl) splitEl.textContent = count ? fmt(hybridFinal) : '—';
+  if(contEl)  contEl.textContent  = hasCont ? fmt(contFinal) : '—';
+  if(pingoEl) pingoEl.textContent = hasPingo ? fmt(pingoFinal) : '—';
+  if(countEl) countEl.textContent = count ? `${count} subcat · ${totalQty} un.` : 'Selecciona subcategorias';
+
+  // Highlight cheapest scenario
+  const totals = [];
+  if(count) totals.push(hybridFinal);
+  if(hasCont) totals.push(contFinal);
+  if(hasPingo) totals.push(pingoFinal);
+  const best = totals.length ? Math.min(...totals) : null;
   ['split','cont','pingo'].forEach(s=>{
-    const el=document.getElementById('tot-'+s);
-    if(!el) return;
-    const val=s==='split'?hybridFinal:s==='cont'?contFinal:pingoFinal;
-    const isValid=s==='split'?count:s==='cont'?hasContPrice:hasPingoPrice;
-    el.style.borderColor=(best!==null&&isValid&&val===best)?'#111':'var(--border)';
-    el.style.background=(best!==null&&isValid&&val===best)?'#f5f5f5':'';
+    const el=document.getElementById('tot-'+s); if(!el) return;
+    const val = s==='split'?hybridFinal : s==='cont'?contFinal : pingoFinal;
+    const isValid = s==='split'?count : s==='cont'?hasCont : hasPingo;
+    el.style.borderColor = (best!==null && isValid && Math.abs(val-best)<0.001) ? '#111' : 'var(--border)';
+    el.style.background  = (best!==null && isValid && Math.abs(val-best)<0.001) ? '#f5f5f5' : '';
   });
 }
 
-function basketItems(){
-  return Object.entries(S.basket)
-    .filter(([,qty])=>qty>0)
-    .map(([gid,qty])=>({product:S.products.find(p=>p.global_id===parseInt(gid)),qty:parseInt(qty)}))
-    .filter(i=>i.product);
-}
 function clearBasket(){
   if(!Object.keys(S.basket).length)return;
   if(!confirm('Limpar todos os produtos?'))return;
@@ -1525,128 +1992,193 @@ function compareUnitPrices(p){
 }
 
 function calculateOptimum(){
-  const vc=S.vouchers.cont,vp=S.vouchers.pingo;
-  const items=basketItems().filter(i=>!i.product.exclude_comparison);
-  if(!items.length){
-    (document.getElementById('scenario-area-b')||document.getElementById('scenario-area')||{}).innerHTML='<div class="empty"><div class="empty-icon">🛒</div><h3>Cesto vazio</h3><p>Adiciona produtos no passo anterior.</p></div>';
+  const vc=S.vouchers.cont, vp=S.vouchers.pingo;
+
+  // Resolve basket per scenario — each scenario picks the cheapest pack per subcategory
+  // within that store's products (or across both, for hybrid).
+  function _keepItem(it){ return it.resolved && !it.resolved.product.exclude_comparison; }
+
+  const contItemsAll  = basketItemsFor('cont');
+  const pingoItemsAll = basketItemsFor('pingo');
+  const hybridItemsAll = basketItemsFor('hybrid');
+
+  const contItems  = contItemsAll.filter(_keepItem);
+  const pingoItems = pingoItemsAll.filter(_keepItem);
+  const hybridItems= hybridItemsAll.filter(_keepItem);
+
+  const totalBasketCount = Object.keys(S.basket||{}).filter(k=>(S.basket[k]||0)>0).length;
+  if(totalBasketCount === 0){
+    (document.getElementById('scenario-area-b')||document.getElementById('scenario-area')||{}).innerHTML='<div class="empty"><div class="empty-icon">🛒</div><h3>Cesto vazio</h3><p>Adiciona subcategorias no passo anterior.</p></div>';
     (document.getElementById('decision-area-b')||document.getElementById('decision-area')||{}).innerHTML='';
     (document.getElementById('missing-area-b')||document.getElementById('missing-area')||{}).innerHTML='';
     (document.getElementById('alloc-table-b')||document.getElementById('alloc-table')||{}).innerHTML='';
     return;
   }
-  function distToThreshold(sum,v){return v.flat&&v.min?Math.max(0,v.min-sum):Infinity;}
-  let rawC=0,rawP=0,cMissing=[],pMissing=[];
-  items.forEach(({product:p,qty})=>{
-    if(p.cont_price!=null)rawC+=p.cont_price*qty;else cMissing.push(p.name);
-    if(p.pingo_price!=null)rawP+=p.pingo_price*qty;else pMissing.push(p.name);
-  });
-  const contFinal=applyVoucher(rawC,vc);
-  const pingoFinal=applyVoucher(rawP,vp);
-  let splitC=[],splitP=[],splitCraw=0,splitPraw=0;const ties=[];
-  items.forEach(({product:p,qty})=>{
-    const cp=p.cont_price,pp=p.pingo_price;
-    if(cp!=null&&pp==null){splitC.push({product:p,qty});splitCraw+=cp*qty;return;}
-    if(pp!=null&&cp==null){splitP.push({product:p,qty});splitPraw+=pp*qty;return;}
-    if(cp==null&&pp==null)return;
-    const{cCmp,pCmp,cPkg,pPkg}=_safeCompare(p);
-    const cN=cCmp??cp, pN=pCmp??pp;
-    const diff=cN-pN;
-    if(Math.abs(diff)<0.0001){ties.push({product:p,qty});return;}
-    if(diff<0){splitC.push({product:p,qty});splitCraw+=(cPkg??cp)*qty;}
-    else{splitP.push({product:p,qty});splitPraw+=(pPkg??pp)*qty;}
-  });
-  ties.forEach(({product:p,qty})=>{
-    const dC=distToThreshold(splitCraw,vc),dP=distToThreshold(splitPraw,vp);
-    if(dC<=dP){splitC.push({product:p,qty});splitCraw+=p.cont_price*qty;}
-    else{splitP.push({product:p,qty});splitPraw+=p.pingo_price*qty;}
-  });
-  const splitCfinal=applyVoucher(splitCraw,vc);
-  const splitPfinal=applyVoucher(splitPraw,vp);
-  const totalSplit=splitCfinal+splitPfinal;
-  // Only include a store total if items exist for that store
-  const _hasC=items.some(({product:p})=>p.cont_price!=null);
-  const _hasP=items.some(({product:p})=>p.pingo_price!=null);
-  const _validTotals=[totalSplit];
-  if(_hasC) _validTotals.push(contFinal);
-  if(_hasP) _validTotals.push(pingoFinal);
-  const best=Math.min(..._validTotals);
-  S.slAlloc={contItems:splitC,pingoItems:splitP,
-    result:{totalSplit,contFinal,pingoFinal,splitCraw,splitPraw,splitCfinal,splitPfinal,best}};
 
-  // Scenario cards — clickable, best badge on actual cheapest
-  const scenarios=[
-    {id:'split',total:totalSplit,label:'Continente + Pingo Doce',dotC:'#E2001A',dotP:'#4A7C2F'},
-    {id:'cont', total:contFinal, label:'Só Continente',dot:'#E2001A'},
-    {id:'pingo',total:pingoFinal,label:'Só Pingo Doce', dot:'#4A7C2F'},
+  // Per-scenario raw totals + missing lists
+  function sumScenario(itemsAll){
+    let raw=0; const missing=[];
+    itemsAll.forEach(it=>{
+      // Respect exclude_comparison on the resolved pack
+      if(it.resolved && it.resolved.product.exclude_comparison) return;
+      if(it.resolved && it.resolved.pkg!=null) raw += it.resolved.pkg * it.qty;
+      else missing.push(it.group.isSolo ? (it.group.soloProduct?.name||'(sem nome)') : it.group.subcategory);
+    });
+    return {raw, missing};
+  }
+  const contS  = sumScenario(contItemsAll);
+  const pingoS = sumScenario(pingoItemsAll);
+  const contFinal  = applyVoucher(contS.raw, vc);
+  const pingoFinal = applyVoucher(pingoS.raw, vp);
+
+  // Hybrid: per-item winner, split across stores, vouchers applied per store
+  let splitCraw=0, splitPraw=0;
+  const splitC=[], splitP=[];
+  const hybridMissing=[];
+  hybridItemsAll.forEach(it=>{
+    if(it.resolved && it.resolved.product.exclude_comparison) return;
+    if(!it.resolved || it.resolved.pkg==null){
+      hybridMissing.push(it.group.isSolo ? (it.group.soloProduct?.name||'(sem nome)') : it.group.subcategory);
+      return;
+    }
+    if(it.resolved.store==='cont'){
+      splitCraw += it.resolved.pkg * it.qty;
+      splitC.push({group:it.group, qty:it.qty, product:it.resolved.product, pkg:it.resolved.pkg, unit:it.resolved.unit});
+    } else {
+      splitPraw += it.resolved.pkg * it.qty;
+      splitP.push({group:it.group, qty:it.qty, product:it.resolved.product, pkg:it.resolved.pkg, unit:it.resolved.unit});
+    }
+  });
+  const splitCfinal = applyVoucher(splitCraw, vc);
+  const splitPfinal = applyVoucher(splitPraw, vp);
+  const totalSplit  = splitCfinal + splitPfinal;
+
+  // Persist allocation for shopping list + realloc table
+  S.slAlloc = {
+    contItems: splitC,
+    pingoItems: splitP,
+    contOnlyItems: contItems,   // resolved for "Só Cont" scenario
+    pingoOnlyItems: pingoItems, // resolved for "Só Pingo" scenario
+    hybridItems: hybridItems,
+    result: {totalSplit, contFinal, pingoFinal, splitCraw, splitPraw, splitCfinal, splitPfinal,
+             contMissing: contS.missing, pingoMissing: pingoS.missing, hybridMissing}
+  };
+
+  // Scenario cards
+  const hasValidHybrid = hybridMissing.length === 0 && (splitC.length + splitP.length) > 0;
+  const hasValidCont   = contS.missing.length === 0 && contItems.length > 0;
+  const hasValidPingo  = pingoS.missing.length === 0 && pingoItems.length > 0;
+
+  const candidates = [];
+  if(hasValidHybrid) candidates.push(totalSplit);
+  if(hasValidCont)   candidates.push(contFinal);
+  if(hasValidPingo)  candidates.push(pingoFinal);
+  const best = candidates.length ? Math.min(...candidates) : null;
+
+  const scenarios = [
+    {id:'split', total:totalSplit, label:'Continente + Pingo Doce', isValid:hasValidHybrid,
+     missing: hybridMissing, isSplit:true},
+    {id:'cont',  total:contFinal,  label:'Só Continente', isValid:hasValidCont,
+     missing: contS.missing, dot:'#E2001A'},
+    {id:'pingo', total:pingoFinal, label:'Só Pingo Doce',  isValid:hasValidPingo,
+     missing: pingoS.missing, dot:'#4A7C2F'},
   ];
-  const _sa=document.getElementById('scenario-area-b')||document.getElementById('scenario-area');
-  _sa.innerHTML=`<div class="scenario-grid" style="margin-bottom:14px">${
+
+  const _sa = document.getElementById('scenario-area-b')||document.getElementById('scenario-area');
+  _sa.innerHTML = `<div class="scenario-grid" style="margin-bottom:14px">${
     scenarios.map(s=>{
-      const isBest=s.total===best;
-      const isSelected=S.selectedScenario===s.id;
-      const dot=s.id==='split'
-        ?`<span class="sc-store-dot" style="background:#E2001A"></span><span class="sc-store-dot" style="background:#4A7C2F"></span>`
-        :`<span class="sc-store-dot" style="background:${s.dot}"></span>`;
-      return `<div class="scenario-card${isSelected?' selected':''}${isBest?' best-pick':''}" id="sc-card-${s.id}" onclick="selectScenario('${s.id}')">
-        ${isBest?`<div style="font-size:9px;font-weight:700;color:#4A7C2F;text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px">✦ Melhor opção</div>`:'<div style="height:17px;margin-bottom:4px"></div>'}
+      const isBest = s.isValid && best!==null && Math.abs(s.total-best)<0.001;
+      const isSelected = S.selectedScenario===s.id;
+      const dot = s.isSplit
+        ? `<span class="sc-store-dot" style="background:#E2001A"></span><span class="sc-store-dot" style="background:#4A7C2F"></span>`
+        : `<span class="sc-store-dot" style="background:${s.dot}"></span>`;
+      const disabledClass = s.isValid ? '' : ' scenario-disabled';
+      const bestTag = isBest ? `<div style="font-size:9px;font-weight:700;color:#4A7C2F;text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px">✦ Melhor opção</div>` : '<div style="height:17px;margin-bottom:4px"></div>';
+      const missingTag = s.missing.length ? `<div style="font-size:10px;color:#E2001A;font-weight:600;margin-top:4px">${s.missing.length} em falta</div>` : '';
+      const selectedTag = isSelected ? `<div style="font-size:10px;color:#111;margin-top:4px;font-weight:600">✓ Seleccionado</div>` : '';
+      return `<div class="scenario-card${isSelected?' selected':''}${isBest?' best-pick':''}${disabledClass}" id="sc-card-${s.id}" onclick="selectScenario('${s.id}')" style="${!s.isValid?'opacity:.55':''}">
+        ${bestTag}
         <div style="font-size:11px;font-weight:500;color:var(--muted);margin-bottom:4px">${dot} ${s.label}</div>
-        <div style="font-size:22px;font-weight:700">${fmt(s.total)}<span style="font-size:11px;font-weight:400;color:var(--muted)"> total</span></div>
-        ${isSelected?`<div style="font-size:10px;color:#111;margin-top:4px;font-weight:600">✓ Seleccionado</div>`:''}
+        <div style="font-size:22px;font-weight:700">${s.isValid ? fmt(s.total) : '—'}<span style="font-size:11px;font-weight:400;color:var(--muted)"> total</span></div>
+        ${missingTag}
+        ${selectedTag}
       </div>`;
     }).join('')
   }</div>`;
 
-  // Decision box
-  const splitSaving=Math.min(contFinal,pingoFinal)-totalSplit;
-  const secondStoreItems=contFinal<=pingoFinal?splitP.length:splitC.length;
+  // Decision box: does the extra trip earn its keep?
   let decisionHTML='';
-  if(splitSaving>0.01&&secondStoreItems>0){
-    const perItem=splitSaving/secondStoreItems;
-    const verdict=splitSaving<1?`<span class="verdict-strong">Provavelmente não vale a pena</span> — menos de €1 de poupança para uma viagem extra.`
-      :splitSaving>=3?`<span class="verdict-strong">Vale a pena dividir</span> — ${fmt(splitSaving)} de poupança (${fmt(perItem)}/item na segunda loja).`
-      :`Poupança modesta de ${fmt(splitSaving)} em ${secondStoreItems} itens.`;
-    decisionHTML=`<div class="decision-box"><div class="decision-title">⚖️ Vale a pena a viagem extra?</div>
-      <div class="decision-scale">
-        <div class="scale-pill green"><div class="pill-val">${fmt(splitSaving)}</div><div class="pill-label">poupas</div></div>
-        <div style="color:var(--muted);font-size:18px">vs</div>
-        <div class="scale-pill yellow"><div class="pill-val">${secondStoreItems}</div><div class="pill-label">itens extra</div></div>
-        <div class="scale-pill"><div class="pill-val">${fmt(perItem)}</div><div class="pill-label">poupança/item</div></div>
-      </div>
-      <div class="verdict">${verdict}</div></div>`;
+  if(hasValidHybrid){
+    const singleBest = (hasValidCont && hasValidPingo) ? Math.min(contFinal, pingoFinal)
+                      : hasValidCont ? contFinal : hasValidPingo ? pingoFinal : null;
+    if(singleBest != null){
+      const splitSaving = singleBest - totalSplit;
+      const secondStoreItems = (contFinal <= pingoFinal) ? splitP.length : splitC.length;
+      if(splitSaving > 0.01 && secondStoreItems > 0){
+        const perItem = splitSaving / secondStoreItems;
+        const verdict = splitSaving < 1
+          ? `<span class="verdict-strong">Provavelmente não vale a pena</span> — menos de €1 de poupança para uma viagem extra.`
+          : splitSaving >= 3
+            ? `<span class="verdict-strong">Vale a pena dividir</span> — ${fmt(splitSaving)} de poupança (${fmt(perItem)}/item na segunda loja).`
+            : `Poupança modesta de ${fmt(splitSaving)} em ${secondStoreItems} itens.`;
+        decisionHTML = `<div class="decision-box"><div class="decision-title">⚖️ Vale a pena a viagem extra?</div>
+          <div class="decision-scale">
+            <div class="scale-pill green"><div class="pill-val">${fmt(splitSaving)}</div><div class="pill-label">poupas</div></div>
+            <div style="color:var(--muted);font-size:18px">vs</div>
+            <div class="scale-pill yellow"><div class="pill-val">${secondStoreItems}</div><div class="pill-label">itens extra</div></div>
+            <div class="scale-pill"><div class="pill-val">${fmt(perItem)}</div><div class="pill-label">poupança/item</div></div>
+          </div>
+          <div class="verdict">${verdict}</div></div>`;
+      }
+    }
   }
-  (document.getElementById('decision-area-b')||document.getElementById('decision-area')).innerHTML=decisionHTML;
-  (document.getElementById('missing-area-b')||document.getElementById('missing-area')).innerHTML=cMissing.length
-    ?`<div class="missing-warn">⚠ ${cMissing.length} produto(s) sem preço: ${cMissing.slice(0,4).join(', ')}${cMissing.length>4?` +${cMissing.length-4}...`:''}</div>`:'';
+  (document.getElementById('decision-area-b')||document.getElementById('decision-area')).innerHTML = decisionHTML;
+
+  // Missing-items warning (union of any subcategory that couldn't be resolved in the selected/hybrid scenarios)
+  const allMissing = [...new Set([...hybridMissing])];
+  (document.getElementById('missing-area-b')||document.getElementById('missing-area')).innerHTML = allMissing.length
+    ? `<div class="missing-warn">⚠ ${allMissing.length} subcategoria(s) sem preço em ambas as lojas: ${allMissing.slice(0,4).join(', ')}${allMissing.length>4?` +${allMissing.length-4}...`:''}</div>`
+    : '';
+
   renderAllocTable();
 }
 
 function renderAllocTable(){
-  if(!S.slAlloc)return;
-  const{contItems,pingoItems}=S.slAlloc;
-  const el=document.getElementById('alloc-table-b')||document.getElementById('alloc-table');
-  const items=basketItems().filter(i=>!i.product.exclude_comparison);
-  el.innerHTML=`<table class="split-table"><thead><tr>
-    <th>Produto</th><th>Qty</th>
+  if(!S.slAlloc) return;
+  const el = document.getElementById('alloc-table-b') || document.getElementById('alloc-table');
+  if(!el) return;
+  // Show the hybrid allocation: one row per subcategory, showing which store wins
+  const hybridItemsAll = basketItemsFor('hybrid').filter(it => !(it.resolved && it.resolved.product.exclude_comparison));
+
+  el.innerHTML = `<table class="split-table"><thead><tr>
+    <th>Subcategoria</th><th>Qty</th>
     <th style="color:#E2001A">Cont</th>
     <th style="color:#4A7C2F">Pingo</th>
     <th>Melhor</th><th>Total</th>
-  </tr></thead><tbody>${items.map(({product:p,qty})=>{
-    const up=compareUnitPrices(p);
-    const winner=up.winner||(p.cont_price!=null&&p.pingo_price!=null?(p.cont_price<p.pingo_price?'cont':p.pingo_price<p.cont_price?'pingo':'same'):p.cont_price!=null?'cont':'pingo');
-    // Show actual till price per pack for the price cells, std_price for total
-    const{cCmp:_ac,pCmp:_ap,cPkg:_acp,pPkg:_app}=_safeCompare(p);
-    const lineStd=winner==='pingo'?(_app??p.pingo_price??0):(_acp??p.cont_price??0);
-    const lineTotal=lineStd*qty;
-    const tag=winner==='cont'?`<span class="store-tag tag-cont-s" style="background:rgba(226,0,26,.08);color:#E2001A">🔴 Cont</span>`
-      :winner==='pingo'?`<span class="store-tag tag-pingo-s" style="background:rgba(74,124,47,.08);color:#4A7C2F">🟢 Pingo</span>`
-      :'<span class="store-tag tag-same-s">Igual</span>';
-    const cPerKg=p.cont_per_kg?p.cont_per_kg.toFixed(2).replace('.',',')+'€/kg':p.cont_unit_label||'';
-    const pPerKg=p.pingo_per_kg?p.pingo_per_kg.toFixed(2).replace('.',',')+'€/kg':p.pingo_unit_label||'';
-    const cCell=p.cont_price!=null?`${fmt(p.cont_price)}${cPerKg?`<br><small style="color:var(--muted)">${cPerKg}</small>`:''}`:'-';
-    const pCell=p.pingo_price!=null?`${fmt(p.pingo_price)}${pPerKg?`<br><small style="color:var(--muted)">${pPerKg}</small>`:''}`:'-';
+  </tr></thead><tbody>${hybridItemsAll.map(it=>{
+    const g = it.group;
+    const label = g.isSolo ? (g.soloProduct?.name || '(sem nome)') : g.subcategory;
+    const r = _groupResolve(g, 'hybrid');
+    const rC = _groupResolve(g, 'cont').cont;
+    const rP = _groupResolve(g, 'pingo').pingo;
+    const winner = r.winner;
+    function fmtUnit(best, store){
+      if(!best) return '—';
+      const unitTxt = _formatUnit(best.unit, best.product, store);
+      const pkgTxt = best.pkg!=null ? fmt(best.pkg) : '';
+      return `${pkgTxt}<br><small style="color:var(--muted)">${unitTxt}</small>`;
+    }
+    const cCell = fmtUnit(rC, 'cont');
+    const pCell = fmtUnit(rP, 'pingo');
+    const tag = winner==='cont' ? `<span class="store-tag" style="background:rgba(226,0,26,.08);color:#E2001A">🔴 Cont</span>`
+              : winner==='pingo' ? `<span class="store-tag" style="background:rgba(74,124,47,.08);color:#4A7C2F">🟢 Pingo</span>`
+              : '<span class="store-tag">—</span>';
+    let lineTotal = 0;
+    if(winner==='cont' && rC) lineTotal = (rC.pkg||0) * it.qty;
+    else if(winner==='pingo' && rP) lineTotal = (rP.pkg||0) * it.qty;
     return `<tr>
-      <td>${catEmoji(p.category)} ${p.name}</td>
-      <td style="text-align:center">${qty}</td>
+      <td>${catEmoji(g.category)} ${label}</td>
+      <td style="text-align:center">${it.qty}</td>
       <td class="${winner==='cont'?'cheaper':''}">${cCell}</td>
       <td class="${winner==='pingo'?'cheaper':''}">${pCell}</td>
       <td>${tag}</td>
@@ -1657,80 +2189,112 @@ function renderAllocTable(){
 
 /* ── Step 5: Shopping list ───────────────────────────────────── */
 function renderShoppingList(){
-  const el=document.getElementById('sl-container');
-  const prog=document.getElementById('sl-progress');
-  if(!el)return;
+  const el = document.getElementById('sl-container');
+  const prog = document.getElementById('sl-progress');
+  if(!el) return;
   if(!S.slAlloc){
-    el.innerHTML='<div class="empty"><div class="empty-icon">📋</div><h3>Calcula primeiro</h3><p>Volta ao passo 3 e calcula.</p></div>';
-    if(prog)prog.classList.remove('visible');return;
+    el.innerHTML = '<div class="empty"><div class="empty-icon">📋</div><h3>Calcula primeiro</h3><p>Volta ao cesto e calcula.</p></div>';
+    if(prog) prog.classList.remove('visible');
+    return;
   }
-  if(prog)prog.classList.add('visible');
+  if(prog) prog.classList.add('visible');
 
-  // Determine items based on selected scenario
-  let contItems=[],pingoItems=[];
-  const sc=S.selectedScenario||'split';
-  if(sc==='split'){contItems=S.slAlloc.contItems;pingoItems=S.slAlloc.pingoItems;}
-  else if(sc==='cont'){contItems=[...S.slAlloc.contItems,...S.slAlloc.pingoItems];pingoItems=[];}
-  else{pingoItems=[...S.slAlloc.contItems,...S.slAlloc.pingoItems];contItems=[];}
+  // Choose allocation based on selected scenario
+  const sc = S.selectedScenario || 'split';
+  let contItems = [], pingoItems = [];
+  if(sc === 'split'){
+    contItems = S.slAlloc.contItems || [];
+    pingoItems = S.slAlloc.pingoItems || [];
+  } else if(sc === 'cont'){
+    // Everything maps to Continente using the 'cont' scenario resolver
+    contItems = (S.slAlloc.contOnlyItems||[]).map(it=>({
+      group: it.group, qty: it.qty, product: it.resolved.product, pkg: it.resolved.pkg, unit: it.resolved.unit,
+    }));
+  } else if(sc === 'pingo'){
+    pingoItems = (S.slAlloc.pingoOnlyItems||[]).map(it=>({
+      group: it.group, qty: it.qty, product: it.resolved.product, pkg: it.resolved.pkg, unit: it.resolved.unit,
+    }));
+  }
 
-  function groupByCat(items){const cats={};items.forEach(i=>{const c=i.product.category||'🥫 Despensa';if(!cats[c])cats[c]=[];cats[c].push(i);});return cats;}
+  function groupByCat(items){
+    const cats = {};
+    items.forEach(i => {
+      const c = i.group.category || i.product.category || '🥫 Despensa';
+      if(!cats[c]) cats[c] = [];
+      cats[c].push(i);
+    });
+    return cats;
+  }
 
-  function slItem(item,store){
-    const{product:p,qty}=item;
-    const key=`${store}-${p.global_id}`;
-    const ticked=S.slTicked.has(key);
-    // pkg_price = actual till price for this pack/min-qty
-    const price=store==='cont'?(p.cont_pkg_price??p.cont_price):(p.pingo_pkg_price??p.pingo_price);
-    const img=(store==='cont'?(p.cont_image||p.pingo_image):(p.pingo_image||p.cont_image))||'';
-    const imgHTML=img
-      ?`<img class="sl-prod-img" src="${img}" loading="lazy" onerror="this.style.display='none'">`
-      :`<div class="sl-prod-img-ph">${catEmoji(p.category)}</div>`;
-    const unitLbl=store==='cont'?p.cont_unit_label:p.pingo_unit_label;
-    const isLoose=p.pricing_type==='loose';
-    const slDetail=isLoose&&p.std_qty_g?`~${p.std_qty_g}g · ${unitLbl||''}`:(unitLbl||'');
-    const detailHTML=slDetail?`<div class="sl-detail">${slDetail}</div>`:'';
-    return `<div class="sl-item${ticked?' ticked':''}" id="sli-${key}" onclick="tickItem('${key}')">
+  function slItem(item, store){
+    const p = item.product;
+    const g = item.group;
+    // Ticked key: per subcategory + store (so same pack in different scenarios shares state)
+    const key = `${store}-${g.key}`;
+    const ticked = S.slTicked.has(key);
+    const price = item.pkg;
+    const img = (store === 'cont' ? (p.cont_image || p.pingo_image) : (p.pingo_image || p.cont_image)) || '';
+    const imgHTML = img
+      ? `<img class="sl-prod-img" src="${img}" loading="lazy" onerror="this.style.display='none'">`
+      : `<div class="sl-prod-img-ph">${catEmoji(g.category)}</div>`;
+    const title = g.isSolo ? (p.name || '(sem nome)') : g.subcategory;
+    const subline = g.isSolo
+      ? (_qtyLabel(p, store) || '')
+      : `${p.name} · ${_qtyLabel(p, store) || ''}`.replace(/ · $/, '');
+    const detailHTML = subline ? `<div class="sl-detail">${subline}</div>` : '';
+    return `<div class="sl-item${ticked?' ticked':''}" id="sli-${key.replace(/[^a-z0-9]/gi,'_')}" onclick="tickItem('${key.replace(/'/g,"\\\\'")}')">
       <div class="sl-tick${ticked?' done':''}">&#10003;</div>
       ${imgHTML}
-      <div class="sl-qty-badge">${qty}</div>
-      <div class="sl-info"><div class="sl-name">${p.name}</div>${detailHTML}</div>
-      <div class="sl-price">${fmt((price||0)*qty)}</div>
+      <div class="sl-qty-badge">${item.qty}</div>
+      <div class="sl-info"><div class="sl-name">${title}</div>${detailHTML}</div>
+      <div class="sl-price">${fmt((price||0) * item.qty)}</div>
     </div>`;
   }
 
-  function storeSection(items,store,label,cls){
-    if(!items.length)return'';
-    const total=items.reduce((s,i)=>{const pr=store==='cont'?(i.product.cont_pkg_price??i.product.cont_price):(i.product.pingo_pkg_price??i.product.pingo_price);return s+(pr||0)*i.qty;},0);
-    const cats=groupByCat(items);
+  function storeSection(items, store, label, cls){
+    if(!items.length) return '';
+    const total = items.reduce((s,i) => s + ((i.pkg||0) * i.qty), 0);
+    const cats = groupByCat(items);
     return `<div class="sl-store-section">
       <div class="sl-store-hdr ${cls}"><span>${label}</span><span>${fmt(total)}</span></div>
-      ${Object.entries(cats).sort().map(([cat,prods])=>`
+      ${Object.entries(cats).sort().map(([cat, prods]) => `
         <div class="sl-cat-lbl">${cat}</div>
-        ${prods.map(i=>slItem(i,store)).join('')}`).join('')}
+        ${prods.map(i => slItem(i, store)).join('')}`).join('')}
     </div>`;
   }
 
-  el.innerHTML=storeSection(contItems,'cont','🔴 Continente','cont')+storeSection(pingoItems,'pingo','🟢 Pingo Doce','pingo');
+  el.innerHTML = storeSection(contItems, 'cont', '🔴 Continente', 'cont')
+              + storeSection(pingoItems, 'pingo', '🟢 Pingo Doce', 'pingo');
   renderGhostList();
   updateSlProgress();
 }
 
 function tickItem(key){
-  if(S.slTicked.has(key))S.slTicked.delete(key);else S.slTicked.add(key);
+  if(S.slTicked.has(key)) S.slTicked.delete(key); else S.slTicked.add(key);
   saveLocal();
-  const el=document.getElementById('sli-'+key);
-  if(el){el.classList.toggle('ticked',S.slTicked.has(key));el.querySelector('.sl-tick')?.classList.toggle('done',S.slTicked.has(key));}
+  const safeId = 'sli-' + key.replace(/[^a-z0-9]/gi,'_');
+  const el = document.getElementById(safeId);
+  if(el){
+    el.classList.toggle('ticked', S.slTicked.has(key));
+    el.querySelector('.sl-tick')?.classList.toggle('done', S.slTicked.has(key));
+  }
   updateSlProgress();
 }
+
 function updateSlProgress(){
-  if(!S.slAlloc)return;
-  const contItems=S.selectedScenario==='pingo'?[...S.slAlloc.contItems,...S.slAlloc.pingoItems]:S.slAlloc.contItems;
-  const pingoItems=S.selectedScenario==='cont'?[]:S.slAlloc.pingoItems;
-  const total=(S.selectedScenario==='split'?contItems.length+pingoItems.length:S.slAlloc.contItems.length+S.slAlloc.pingoItems.length)+S.ghosts.length;
-  const done=S.slTicked.size;
-  const pct=total?Math.round(done/total*100):0;
-  const fill=document.getElementById('sl-fill');const txt=document.getElementById('sl-txt');
-  if(fill)fill.style.width=pct+'%';if(txt)txt.textContent=`${done} / ${total}`;
+  if(!S.slAlloc) return;
+  const sc = S.selectedScenario || 'split';
+  let total = 0;
+  if(sc === 'split') total = (S.slAlloc.contItems?.length||0) + (S.slAlloc.pingoItems?.length||0);
+  else if(sc === 'cont') total = (S.slAlloc.contOnlyItems?.length||0);
+  else if(sc === 'pingo') total = (S.slAlloc.pingoOnlyItems?.length||0);
+  total += (S.ghosts?.length || 0);
+  const done = S.slTicked.size;
+  const pct = total ? Math.round(done / total * 100) : 0;
+  const fill = document.getElementById('sl-fill');
+  const txt  = document.getElementById('sl-txt');
+  if(fill) fill.style.width = pct + '%';
+  if(txt) txt.textContent = `${done} / ${total}`;
 }
 
 function confirmClear(){
