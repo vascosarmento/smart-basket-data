@@ -196,7 +196,8 @@ main{padding:16px;max-width:700px;margin:0 auto;width:100%;padding-bottom:90px}
 .gen-card:hover{border-color:#ccc;box-shadow:0 2px 8px rgba(0,0,0,.06)}
 .gen-card.in-basket{border-color:#111;background:#fafafa}
 .gen-top{display:flex;align-items:flex-start;gap:12px}
-.gen-emoji{font-size:24px;width:40px;height:40px;flex-shrink:0;display:flex;align-items:center;justify-content:center;background:var(--s2);border-radius:8px}
+.gen-emoji{font-size:24px;width:40px;height:40px;flex-shrink:0;display:flex;align-items:center;justify-content:center;background:var(--s2);border-radius:8px;overflow:hidden}
+.gen-emoji img{width:100%;height:100%;object-fit:cover}
 .gen-info{flex:1;min-width:0}
 .gen-name{font-size:14px;font-weight:600;line-height:1.3;margin-bottom:2px}
 .gen-sub{font-size:11px;color:var(--muted);margin-bottom:8px;display:flex;gap:6px;align-items:center;flex-wrap:wrap}
@@ -256,7 +257,7 @@ main{padding:16px;max-width:700px;margin:0 auto;width:100%;padding-bottom:90px}
 .set-cat-count{font-size:10px;font-weight:500;opacity:.7}
 .set-subcat-hdr{padding:8px 10px 4px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);border-bottom:1px solid var(--border);margin:6px 0 4px;display:flex;justify-content:space-between;align-items:center}
 .set-subcat-hdr.unclass{color:#E2001A}
-.prod-row-s{display:grid;grid-template-columns:1fr 200px;gap:10px;align-items:center;padding:10px 8px;border-bottom:1px solid var(--border);font-size:12px}
+.prod-row-s{display:grid;grid-template-columns:1fr 140px 200px;gap:8px;align-items:center;padding:10px 8px;border-bottom:1px solid var(--border);font-size:12px}
 .prod-row-s:hover{background:var(--s1)}
 .prod-row-s-name{min-width:0}
 .prod-row-s-name .pn{font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:12px}
@@ -829,6 +830,7 @@ async function loadData(){
   try{const r=await fetch(dataUrl('prices.json'));if(!r.ok)return;const d=await r.json();S.products=(d.products||[]);S.lastUpdated=d.updatedAt;S._cCount=d.continente?.count||0;S._pCount=d.pingodoce?.count||0;}catch(e){}
   try{const r2=await fetch(dataUrl('product_mapping.json'));if(r2.ok)S.mapping=await r2.json();}catch(e){}
   try{const url=IS_LOCAL?'/receipt_history.json?_='+Date.now():dataUrl('receipt_history.json');const r3=await fetch(url);if(r3.ok){const d3=await r3.json();S.receipts=d3.receipts||[];S.priceHistory=d3.price_history||{};}}catch(e){}
+  try{const r4=await fetch(dataUrl('receipt_mappings.json'));if(r4.ok) S.receiptMappings=await r4.json();}catch(e){}
 }
 
 function saveLocal(){
@@ -1196,6 +1198,12 @@ function renderProdClassifier(){
     el.innerHTML = '<div class="empty" style="padding:16px 0"><div class="empty-icon">📦</div><p>Sem dados. Faz um sync primeiro.</p></div>';
     return;
   }
+  // Build distinct level-1 category list from products you actually have
+  const _catSet = new Set();
+  Object.values(mapping).forEach(e=>{ if(e.category) _catSet.add(e.category); });
+  products.forEach(p=>{ if(p.category) _catSet.add(p.category); });
+  window.CATEGORY_LIST = [..._catSet].sort();
+
   const searchQ = (document.getElementById('prod-search-inp')?.value || '').toLowerCase().trim();
   const filter = S.prodFilter || 'unclass';
 
@@ -1284,10 +1292,12 @@ function _prodClassifyRow(p, subcats){
     havePingo?fmt(p.pingo_price):null,
   ].filter(Boolean).join(' / ');
 
-  // Build subcategory dropdown grouped by category
+  // Level-1 category dropdown (CATEGORY_LIST is global, defined below)
+  const catOptsHTML = (window.CATEGORY_LIST||[]).map(c=>`<option value="${c.replace(/"/g,'&quot;')}"${c===cat?' selected':''}>${c}</option>`).join('');
+
+  // Subcategory dropdown grouped by category
   const catKeys = Object.keys(subcats).sort();
   let opts = `<option value="">— por classificar —</option>`;
-  // Include current category's subcats first for convenience
   function catOpts(c){
     const subs = Object.keys(subcats[c]||{}).sort((a,b)=>a.localeCompare(b,'pt'));
     if(!subs.length) return '';
@@ -1295,7 +1305,6 @@ function _prodClassifyRow(p, subcats){
   }
   opts += catOpts(cat);
   catKeys.filter(c=>c!==cat).forEach(c=>{ opts += catOpts(c); });
-  // New one
   opts += `<option value="__new__">+ Criar nova subcategoria…</option>`;
 
   const emptyCls = (p.subcategory||'').trim() ? '' : ' empty';
@@ -1304,8 +1313,25 @@ function _prodClassifyRow(p, subcats){
       <div class="pn">${p.name||'(sem nome)'}</div>
       <div class="pm">${storeTags}${priceTxt?' · '+priceTxt:''}</div>
     </div>
-    <select class="${emptyCls}" onchange="setProductSubcategory(${p.global_id}, this)">${opts}</select>
+    <select onchange="setProductCategory(${p.global_id}, this)" title="Categoria principal">${catOptsHTML}</select>
+    <select class="${emptyCls}" onchange="setProductSubcategory(${p.global_id}, this)" title="Subcategoria">${opts}</select>
   </div>`;
+}
+
+async function setProductCategory(gid, sel){
+  const val = sel.value;
+  const e = S.mapping[gid]; if(!e) return;
+  if(e.category === val) return;
+  // Clear subcategory if changing category (subs are scoped per category)
+  e.category = val;
+  e.subcategory = '';
+  e.category_manual = true;
+  const p = S.products.find(x=>x.global_id===Number(gid));
+  if(p){ p.category = val; p.subcategory = ''; }
+  if(IS_LOCAL){
+    try{ await fetch('/api/mapping/update',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({global_id:Number(gid), category:val, subcategory:'', category_manual:true})}); }catch(e){}
+  } else _toast('Guardado localmente — faz push para persistir');
+  renderProdClassifier();
 }
 
 async function setProductSubcategory(gid, sel){
@@ -1334,6 +1360,21 @@ async function loadReceiptStrings(){
   }catch(e){}
 }
 
+async function backfillReceiptStrings(){
+  if(!IS_LOCAL){ _toast('Disponível apenas em modo local'); return; }
+  if(!confirm('Reconstruir a lista de códigos de recibo a partir do histórico? Isto não apaga nada.')) return;
+  try{
+    const r = await fetch('/api/receipt-strings/backfill', {method:'POST'});
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    const data = await r.json();
+    _toast(`✓ ${data.items_scanned} linhas processadas (${data.unique_continente} CNT + ${data.unique_pingodoce} PD)`, 4000);
+    S.receiptStrings = null;
+    await loadReceiptStrings();
+    renderReceiptMapper();
+    updateSettingsBadges();
+  }catch(e){ _toast('Erro: '+e.message); }
+}
+
 function renderReceiptMapper(){
   const el = document.getElementById('receipt-mapper');
   if(!el) return;
@@ -1350,6 +1391,17 @@ function renderReceiptMapper(){
   const totalAll = (rs.continente||[]).length + (rs.pingodoce||[]).length;
   const totalUn = (rs.continente||[]).filter(r=>!r.mapping).length + (rs.pingodoce||[]).filter(r=>!r.mapping).length;
   if(meta) meta.textContent = `${totalAll} únicos · ${totalUn} por mapear`;
+
+  // Empty state with backfill suggestion
+  if(totalAll === 0){
+    el.innerHTML = `<div class="empty" style="padding:20px 0">
+      <div class="empty-icon">🧾</div>
+      <h3>Sem códigos de recibo</h3>
+      <p style="margin-bottom:12px">Se já carregaste recibos antes, podes reconstruir a lista a partir do histórico.</p>
+      <button class="btn btn-yellow btn-sm" onclick="backfillReceiptStrings()">↻ Reconstruir do histórico</button>
+    </div>`;
+    return;
+  }
 
   let rows = [];
   function addStore(storeKey, list){
@@ -1508,19 +1560,48 @@ function _parseBasketKey(k){
   return null;
 }
 
-/* Per-product unit price (€/kg or €/un), applies conversion_factor only for Cont. */
+/* Per-product unit price for COMPARISON (raw normalised €/base-unit value).
+   Apply conversion_factor only for Continente (legacy field used to align units across stores). */
 function _unitPrice(p, store){
   if(!p) return null;
   const cf = p.conversion_factor || 1;
   if(store==='cont'){
-    if(p.cont_per_kg) return p.cont_per_kg * cf;
-    if(p.cont_norm_price) return p.cont_norm_price * cf;
+    if(p.cont_per_kg != null) return p.cont_per_kg * cf;       // already €/kg
+    if(p.cont_norm_price != null) return p.cont_norm_price * cf; // €/base-unit (g, ml, un)
     return p.cont_price;
   } else {
-    if(p.pingo_per_kg) return p.pingo_per_kg;
-    if(p.pingo_norm_price) return p.pingo_norm_price;
+    if(p.pingo_per_kg != null) return p.pingo_per_kg;
+    if(p.pingo_norm_price != null) return p.pingo_norm_price;
     return p.pingo_price;
   }
+}
+
+/* Per-product unit price for DISPLAY (returns a formatted string, e.g. "8,24 €/kg").
+   Prefers the scraper's pre-formatted unit_label, falls back to computing from norm_price. */
+function _unitDisplay(p, store){
+  if(!p) return '—';
+  // Prefer scraper-formatted label if present and well-formed
+  const lbl = (store==='cont' ? p.cont_unit_label : p.pingo_unit_label) || '';
+  if(lbl && /€\s*\/\s*(kg|l|un|gr|g|ml)/i.test(lbl)){
+    // Normalise spacing, e.g. "8,24€/kg" -> "8,24 €/kg"
+    return lbl.replace(/\s*€\s*\/\s*/i, ' €/').replace(/\/Kg/i,'/kg').replace(/\/L\b/i,'/L');
+  }
+  // Compute from norm_price + unit
+  const np = store==='cont' ? p.cont_norm_price : p.pingo_norm_price;
+  const nu = store==='cont' ? (p.cont_unit||'') : (p.pingo_unit||'');
+  if(np != null && nu){
+    // Convert g→kg, ml→L for nicer display
+    let val = np, unit = nu;
+    if(/^g$/i.test(nu)){ val = np * 1000; unit = 'kg'; }
+    else if(/^ml$/i.test(nu)){ val = np * 1000; unit = 'L'; }
+    else if(/^kg$/i.test(nu)){ unit = 'kg'; }
+    else if(/^l(?:iter)?$/i.test(nu)){ unit = 'L'; }
+    else if(/^un$/i.test(nu)){ unit = 'un'; }
+    return val.toFixed(2).replace('.',',') + ' €/' + unit;
+  }
+  // Fallback to plain price
+  const pp = store==='cont' ? p.cont_price : p.pingo_price;
+  return pp != null ? fmt(pp) : '—';
 }
 
 /* Pack price (what you pay at the till) for a store. */
@@ -1655,6 +1736,13 @@ function genCardHTML(group){
   const title = group.isSolo ? (group.soloProduct?.name || '(sem nome)') : group.subcategory;
   const titleTag = group.isSolo ? ` <span class="unclass-tag">Por classificar</span>` : '';
 
+  // Image: take from the winning store's chosen pack; fall back to other store, then category emoji
+  let winImg = '';
+  if(r.winner==='cont' && r.cont) winImg = _img(r.cont.product, 'cont');
+  else if(r.winner==='pingo' && r.pingo) winImg = _img(r.pingo.product, 'pingo');
+  if(!winImg && r.cont) winImg = _img(r.cont.product, 'cont');
+  if(!winImg && r.pingo) winImg = _img(r.pingo.product, 'pingo');
+
   // Sub-line: count, size range, brand hints
   const count = group.members.length;
   let sizeHint = '';
@@ -1744,7 +1832,7 @@ function genCardHTML(group){
 
   return `<div class="gen-card${inB?' in-basket':''}" data-key="${key.replace(/"/g,'&quot;')}">
     <div class="gen-top">
-      <div class="gen-emoji">${catEmj}</div>
+      <div class="gen-emoji">${winImg ? `<img src="${winImg}" loading="lazy" onerror="this.parentElement.innerHTML='${catEmj}'">` : catEmj}</div>
       <div class="gen-info">
         <div class="gen-name">${title}${titleTag}</div>
         <div class="gen-sub">${subLine}</div>
@@ -1758,16 +1846,9 @@ function genCardHTML(group){
 }
 
 function _formatUnit(unit, p, store){
-  // Decide unit suffix based on the scraper's norm_unit
-  if(unit==null) return '—';
-  const normUnit = store==='cont' ? (p.cont_unit || p.cont_norm_unit || '') : (p.pingo_unit || p.pingo_norm_unit || '');
-  // Prefer /kg if cont_per_kg exists (scraper computes this)
-  const hasKg = store==='cont' ? !!p.cont_per_kg : !!p.pingo_per_kg;
-  let suffix = '/un';
-  if(hasKg) suffix = '/kg';
-  else if(/kg|litro|l|liter/i.test(normUnit)) suffix = '/'+normUnit;
-  else if(normUnit) suffix = '/'+normUnit;
-  return unit.toFixed(2).replace('.',',') + ' €' + suffix;
+  // Legacy signature kept for compatibility; delegates to _unitDisplay which uses the
+  // scraper's pre-formatted unit_label (much more reliable than computing from raw norm).
+  return _unitDisplay(p, store);
 }
 
 function setSubQty(key, delta, event){
@@ -2519,6 +2600,45 @@ function renderCategorySpend(d){
       <div class="cat-period-yoy" style="color:var(--muted)">—</div>
     </div>`;
 
+    // Build subcategory rollup, period-aware
+    const allSubcats = cats[cat]?.subcategories || {};
+    const subRows = Object.entries(allSubcats).map(([subName, subData])=>{
+      // Filter sub's products to selected period
+      const subProds = Object.values(subData.products||{}).map(pr=>{
+        const entries = filterDate ? pr.entries.filter(e=>new Date(e.date)>=filterDate) : pr.entries;
+        const t = entries.reduce((s,e)=>s+e.amount,0);
+        return {name:pr.name, total:t, count:entries.length};
+      }).filter(pr=>pr.total>0).sort((a,b)=>b.total-a.total);
+      const subTotal = subProds.reduce((s,p)=>s+p.total,0);
+      return {name:subName, total:subTotal, products:subProds};
+    }).filter(s=>s.total>0).sort((a,b)=>b.total-a.total);
+
+    const subPct = (subTotal)=>total>0 ? Math.round(subTotal/total*100) : 0;
+
+    const subcatHTML = subRows.length>0 ? `
+      <div style="margin-top:10px;padding:10px;background:var(--s2);border-radius:6px">
+        <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);margin-bottom:6px">Por subcategoria</div>
+        ${subRows.map(s=>`
+          <div class="subcat-spend-row" style="border-bottom:1px solid var(--border);padding:6px 0">
+            <div style="display:flex;align-items:center;gap:8px;cursor:pointer" onclick="event.stopPropagation();this.parentElement.classList.toggle('open');this.querySelector('.subcat-chev').textContent=this.parentElement.classList.contains('open')?'▲':'▼'">
+              <span style="font-size:12px;font-weight:600;flex:1">${s.name}</span>
+              <span style="font-size:10px;color:var(--muted)">${subPct(s.total)}%</span>
+              <span style="font-size:13px;font-weight:700;min-width:60px;text-align:right">${fmt(s.total)}</span>
+              <span class="subcat-chev" style="font-size:9px;color:var(--muted)">▼</span>
+            </div>
+            <div style="display:none;padding:6px 0 4px 12px" class="subcat-body">
+              ${s.products.map(pr=>`<div style="display:flex;justify-content:space-between;font-size:11px;padding:3px 0;color:var(--muted)">
+                <span style="flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${pr.name}</span>
+                <span style="margin-right:6px">${pr.count}×</span>
+                <span style="font-weight:600;color:var(--text)">${fmt(pr.total)}</span>
+              </div>`).join('')}
+            </div>
+          </div>
+        `).join('')}
+      </div>
+      <style>.subcat-spend-row.open .subcat-body{display:block!important}</style>
+    ` : '';
+
     return `<div class="cat-spend-row">
       <div class="cat-spend-hdr" onclick="toggleCatSpend(this)">
         <span class="cat-spend-name">${cat}</span>
@@ -2533,12 +2653,14 @@ function renderCategorySpend(d){
           Média/viagem: <strong>${fmt(avg)}</strong>
           <span style="color:var(--muted);margin-left:6px">(viagens onde compraste esta categoria)</span>
         </div>
+        ${subcatHTML}
+        <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);margin:10px 0 4px">Todos os produtos</div>
         ${filteredProducts.map(pr=>`<div class="cat-prod-row">
           <span class="cat-prod-name">${pr.name}</span>
           <span style="font-size:11px;color:var(--muted);margin-right:8px">${pr.count}×</span>
           <span class="cat-prod-amt">${fmt(pr.total)}</span>
         </div>`).join('')}
-        
+
       </div>
     </div>`;
   }).join('');
@@ -2583,41 +2705,86 @@ function _inferCat(name){
   return'🥫 Despensa';
 }
 
+function _normRS(s){
+  return (s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9 ]/g,' ').replace(/\s+/g,' ').trim();
+}
+
 function _buildReceiptLookup(store){
-  // Build normalised receipt_string → {global_id, category} from current mapping
-  // Called at render time so any new receipt_strings take effect immediately
+  // Build a normalised receipt_string lookup combining:
+  //   1. The new receipt_mappings.json (S.receiptMappings) — user-mapped to product or subcategory
+  //   2. Legacy fields on product mapping (cont_receipt_string / pingo_receipt_string)
   const lookup={};
-  const rsKey=store==='continente'?'cont_receipt_string':'pingo_receipt_string';
+  // 1. New mappings (preferred)
+  const rmStore = (S.receiptMappings||{})[store] || {};
+  Object.entries(rmStore).forEach(([norm, m])=>{
+    if(m.type==='product' && m.global_id!=null){
+      const e = S.mapping[m.global_id];
+      lookup[norm] = {
+        global_id: m.global_id,
+        category: e?.category || '🥫 Despensa',
+        subcategory: e?.subcategory || '',
+      };
+    } else if(m.type==='subcategory'){
+      lookup[norm] = {
+        global_id: null,
+        category: m.category || '🥫 Despensa',
+        subcategory: m.subcategory || '',
+      };
+    }
+  });
+  // 2. Legacy product receipt strings
+  const rsKey = store==='continente' ? 'cont_receipt_string' : 'pingo_receipt_string';
   Object.entries(S.mapping||{}).forEach(([gid,e])=>{
-    const rs=(e[rsKey]||e.receipt_string||'').trim().toLowerCase()
-      .normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9 ]/g,' ').replace(/\s+/g,' ').trim();
-    if(rs) lookup[rs]={global_id:Number(gid),category:e.category||'🥫 Despensa'};
+    const rs = _normRS(e[rsKey] || e.receipt_string || '');
+    if(rs && !lookup[rs]){
+      lookup[rs] = {
+        global_id: Number(gid),
+        category: e.category || '🥫 Despensa',
+        subcategory: e.subcategory || '',
+      };
+    }
   });
   return lookup;
 }
+
 function _resolveItem(item, store, lookup){
-  // If item already has global_id, use mapping category
+  // Returns {category, subcategory, global_id|null}
   if(item.global_id){
-    const e=S.mapping[item.global_id];
-    return e?(e.category||'🥫 Despensa'):'🥫 Despensa';
+    const e = S.mapping[item.global_id];
+    return {
+      global_id: item.global_id,
+      category: e?.category || '🥫 Despensa',
+      subcategory: e?.subcategory || '',
+    };
   }
-  // Try live receipt_string match
-  const norm=(item.name||'').trim().toLowerCase()
-    .normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9 ]/g,' ').replace(/\s+/g,' ').trim();
-  if(lookup[norm]) return lookup[norm].category;
-  return '🔍 Por mapear';
+  const norm = _normRS(item.name||'');
+  if(lookup[norm]) return lookup[norm];
+  return { global_id: null, category: '🔍 Por mapear', subcategory: '' };
 }
+
 function computeSpendByCategory(history){
-  const cats={};
+  const cats = {};
+  // Build lookups once per store, not per item
+  const lkpC = _buildReceiptLookup('continente');
+  const lkpP = _buildReceiptLookup('pingodoce');
   (history.receipts||[]).forEach(r=>{
+    const lkp = (r.store||'continente')==='pingodoce' ? lkpP : lkpC;
     (r.items||[]).forEach(item=>{
-      const _lkp=_buildReceiptLookup(r.store||'continente');
-      const cat=_resolveItem(item,r.store||'continente',_lkp);
-      if(!cats[cat])cats[cat]={total:0,products:{}};
-      cats[cat].total=Math.round((cats[cat].total+(item.line_total||0))*100)/100;
-      const pk=(item.name||'').toLowerCase();
-      if(!cats[cat].products[pk])cats[cat].products[pk]={name:item.name,entries:[]};
-      cats[cat].products[pk].entries.push({date:r.date,store:r.store,amount:item.line_total||0});
+      const res = _resolveItem(item, r.store||'continente', lkp);
+      const cat = res.category;
+      const sub = res.subcategory || '— sem subcategoria';
+      if(!cats[cat]) cats[cat] = {total:0, products:{}, subcategories:{}};
+      cats[cat].total = Math.round((cats[cat].total + (item.line_total||0)) * 100) / 100;
+      // Subcategory bucket
+      if(!cats[cat].subcategories[sub]) cats[cat].subcategories[sub] = {total:0, products:{}};
+      cats[cat].subcategories[sub].total = Math.round((cats[cat].subcategories[sub].total + (item.line_total||0)) * 100) / 100;
+      // Product bucket (legacy, used by the existing drill-down UI)
+      const pk = (item.name||'').toLowerCase();
+      if(!cats[cat].products[pk]) cats[cat].products[pk] = {name:item.name, entries:[]};
+      cats[cat].products[pk].entries.push({date:r.date, store:r.store, amount:item.line_total||0});
+      // Same product also tracked under its subcategory
+      if(!cats[cat].subcategories[sub].products[pk]) cats[cat].subcategories[sub].products[pk] = {name:item.name, entries:[]};
+      cats[cat].subcategories[sub].products[pk].entries.push({date:r.date, store:r.store, amount:item.line_total||0});
     });
   });
   return Object.fromEntries(Object.entries(cats).sort((a,b)=>b[1].total-a[1].total));
@@ -2628,11 +2795,14 @@ function computeSpendByPeriod(history){
   function pStart(months){const d=new Date(today);d.setMonth(d.getMonth()-months);return d;}
   const catEntries={};
   const nTrips=Math.max(1,(history.receipts||[]).length);
+  // Build lookups once per store
+  const lkpC = _buildReceiptLookup('continente');
+  const lkpP = _buildReceiptLookup('pingodoce');
   (history.receipts||[]).forEach(r=>{
     const d=new Date(r.date);
+    const lkp = (r.store||'continente')==='pingodoce' ? lkpP : lkpC;
     (r.items||[]).forEach(item=>{
-      const _lkp2=_buildReceiptLookup(r.store||'continente');
-      const cat=_resolveItem(item,r.store||'continente',_lkp2);
+      const cat=_resolveItem(item,r.store||'continente',lkp).category;
       if(!catEntries[cat])catEntries[cat]=[];
       catEntries[cat].push({d,amt:item.line_total||0});
     });
