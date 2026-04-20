@@ -316,12 +316,13 @@
     "cont_name": "Batata Noisette Continente",
     "pingo_name": "",
     "receipt_string": "",
-    "category": "🥫 Despensa",
+    "category": "❄️ Congelados",
     "subcategory": "",
     "exclude_comparison": false,
     "cont_id": "8172848",
     "pingo_id": "",
-    "conversion_factor": 1.0
+    "conversion_factor": 1.0,
+    "category_manual": true
   },
   "128": {
     "global_id": 128,
