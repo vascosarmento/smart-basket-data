@@ -1160,20 +1160,36 @@ async function renameSubcat(cat, old){
   // Update mapping locally
   Object.values(S.mapping).forEach(e=>{ if(e.category===cat && (e.subcategory||'')===old) e.subcategory = nn; });
   S.products.forEach(p=>{ if(p.category===cat && (p.subcategory||'')===old) p.subcategory = nn; });
+  // Update pending too
+  if(S.pendingSubcats){
+    S.pendingSubcats = S.pendingSubcats.map(p =>
+      (p.category===cat && p.subcategory===old) ? {...p, subcategory:nn} : p
+    );
+  }
   if(IS_LOCAL){
     try{ await fetch('/api/subcategory/rename',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({category:cat, old, new:nn})}); }catch(e){}
   } else _toast('Guardado localmente — faz push para persistir');
-  renderSubcatManager(); renderCatalog?.();
+  _toast(`✓ Renomeada para "${nn}"`);
+  renderSubcatManager();
+  renderProdClassifier();
+  if(typeof renderCatalog==='function') try{ renderCatalog(); }catch(e){}
 }
 
 async function deleteSubcat(cat, sub){
   if(!confirm('Remover a subcategoria "'+sub+'"? Os produtos ficam por classificar.')) return;
   Object.values(S.mapping).forEach(e=>{ if(e.category===cat && (e.subcategory||'')===sub) e.subcategory = ''; });
   S.products.forEach(p=>{ if(p.category===cat && (p.subcategory||'')===sub) p.subcategory = ''; });
+  // Drop from pending too
+  if(S.pendingSubcats){
+    S.pendingSubcats = S.pendingSubcats.filter(p => !(p.category===cat && p.subcategory===sub));
+  }
   if(IS_LOCAL){
     try{ await fetch('/api/subcategory/delete',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({category:cat, subcategory:sub})}); }catch(e){}
   } else _toast('Guardado localmente — faz push para persistir');
-  renderSubcatManager(); renderCatalog?.();
+  _toast(`✓ Removida`);
+  renderSubcatManager();
+  renderProdClassifier();
+  if(typeof renderCatalog==='function') try{ renderCatalog(); }catch(e){}
 }
 
 /* ── Settings: Product classifier ─────────────────────────────── */
@@ -1280,19 +1296,17 @@ function _prodClassifyRow(p, subcats){
     havePingo?fmt(p.pingo_price):null,
   ].filter(Boolean).join(' / ');
 
-  // Level-1 category dropdown (CATEGORY_LIST is global, defined below)
+  // Level-1 category dropdown
   const catOptsHTML = (window.CATEGORY_LIST||[]).map(c=>`<option value="${c.replace(/"/g,'&quot;')}"${c===cat?' selected':''}>${c}</option>`).join('');
 
-  // Subcategory dropdown grouped by category
-  const catKeys = Object.keys(subcats).sort();
+  // Subcategory dropdown — ONLY show subs scoped to this product's current category.
+  // Subs are per-category by design (a "Queijo fatiado" subcat under Frigorífico is
+  // distinct from one under any other category, even if the name happens to match).
+  const subsForCat = Object.keys(subcats[cat]||{}).sort((a,b)=>a.localeCompare(b,'pt'));
   let opts = `<option value="">— por classificar —</option>`;
-  function catOpts(c){
-    const subs = Object.keys(subcats[c]||{}).sort((a,b)=>a.localeCompare(b,'pt'));
-    if(!subs.length) return '';
-    return `<optgroup label="${c}">${subs.map(s=>`<option value="${s.replace(/"/g,'&quot;')}"${(p.subcategory||'')===s?' selected':''}>${s}</option>`).join('')}</optgroup>`;
+  if(subsForCat.length){
+    opts += subsForCat.map(s=>`<option value="${s.replace(/"/g,'&quot;')}"${(p.subcategory||'')===s?' selected':''}>${s}</option>`).join('');
   }
-  opts += catOpts(cat);
-  catKeys.filter(c=>c!==cat).forEach(c=>{ opts += catOpts(c); });
   opts += `<option value="__new__">+ Criar nova subcategoria…</option>`;
 
   const emptyCls = (p.subcategory||'').trim() ? '' : ' empty';
@@ -1319,7 +1333,11 @@ async function setProductCategory(gid, sel){
   if(IS_LOCAL){
     try{ await fetch('/api/mapping/update',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({global_id:Number(gid), category:val, subcategory:'', category_manual:true})}); }catch(e){}
   } else _toast('Guardado localmente — faz push para persistir');
+  _toast(`✓ Movido para ${val}`);
   renderProdClassifier();
+  renderSubcatManager();
+  // Invalidate catalogue cache so it re-renders next time the basket tab opens
+  if(typeof renderCatalog==='function') try{ renderCatalog(); }catch(e){}
 }
 
 async function setProductSubcategory(gid, sel){
@@ -1336,7 +1354,10 @@ async function setProductSubcategory(gid, sel){
   if(IS_LOCAL){
     try{ await fetch('/api/mapping/update',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({global_id:Number(gid), subcategory:val})}); }catch(e){}
   } else _toast('Guardado localmente — faz push para persistir');
+  _toast(`✓ ${val ? 'Atribuído a "'+val+'"' : 'Subcategoria removida'}`);
   renderProdClassifier();
+  renderSubcatManager();
+  if(typeof renderCatalog==='function') try{ renderCatalog(); }catch(e){}
 }
 
 /* ── Settings: Receipt mapper ─────────────────────────────────── */
