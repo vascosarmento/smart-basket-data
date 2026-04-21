@@ -719,7 +719,7 @@ main{padding:16px;max-width:700px;margin:0 auto;width:100%;padding-bottom:90px}
   <!-- Subtab 3: Recibos -->
   <div class="subpanel" id="sub-receipts" style="display:none">
     <div class="card">
-      <div class="card-title">Códigos de recibo<span id="rec-meta" style="font-weight:500;text-transform:none;letter-spacing:0;font-size:11px">—</span></div>
+      <div class="card-title">Códigos de recibo<span style="display:flex;align-items:center;gap:8px;font-weight:500;text-transform:none;letter-spacing:0;font-size:11px"><span id="rec-meta">—</span><a href="#" onclick="event.preventDefault();backfillReceiptStrings()" style="color:var(--muted);text-decoration:underline;cursor:pointer">↻ reconstruir</a></span></div>
       <p style="font-size:12px;color:var(--muted);margin-bottom:10px">Cada código aparece uma vez. Mapeia para um produto específico (tracking preciso) ou directamente para uma subcategoria.</p>
       <div class="search-wrap" style="margin-bottom:10px"><span class="search-icon">🔍</span><input type="text" id="rec-search-inp" placeholder="Procurar código…" oninput="renderReceiptMapper()"></div>
       <div class="chips" id="rec-filter-chips" style="margin-bottom:10px">
@@ -831,6 +831,11 @@ async function loadData(){
   try{const r2=await fetch(dataUrl('product_mapping.json'));if(r2.ok)S.mapping=await r2.json();}catch(e){}
   try{const url=IS_LOCAL?'/receipt_history.json?_='+Date.now():dataUrl('receipt_history.json');const r3=await fetch(url);if(r3.ok){const d3=await r3.json();S.receipts=d3.receipts||[];S.priceHistory=d3.price_history||{};}}catch(e){}
   try{const r4=await fetch(dataUrl('receipt_mappings.json'));if(r4.ok) S.receiptMappings=await r4.json();}catch(e){}
+  try{const r5=await fetch(dataUrl('subcategories.json'));if(r5.ok) S.subcategories=await r5.json();}catch(e){ S.subcategories=[]; }
+}
+
+async function reloadSubcategories(){
+  try{const r=await fetch(dataUrl('subcategories.json')+'?_='+Date.now());if(r.ok) S.subcategories=await r.json();}catch(e){}
 }
 
 function saveLocal(){
@@ -1070,12 +1075,21 @@ function updateSettingsBadges(){
 function _collectSubcats(){
   // Returns { category: { subcategory: count } }
   const out = {};
+  // 1. Subcategories that are actively used by at least one product
   Object.values(S.mapping||{}).forEach(e=>{
     const cat = e.category || '🥫 Despensa';
     const sub = (e.subcategory||'').trim();
     if(!sub) return;
     out[cat] = out[cat] || {};
     out[cat][sub] = (out[cat][sub] || 0) + 1;
+  });
+  // 2. Persisted subcategories from subcategories.json (may include empty ones)
+  (S.subcategories||[]).forEach(s=>{
+    const cat = s.category || '🥫 Despensa';
+    const sub = (s.subcategory||'').trim();
+    if(!sub) return;
+    out[cat] = out[cat] || {};
+    if(!(sub in out[cat])) out[cat][sub] = 0;
   });
   return out;
 }
@@ -1089,11 +1103,6 @@ function renderSubcatManager(){
     return;
   }
   const subcats = _collectSubcats();
-  // Merge pending (user-created but unassigned) subcategories so they show up
-  (S.pendingSubcats||[]).forEach(p=>{
-    subcats[p.category] = subcats[p.category] || {};
-    if(!(p.subcategory in subcats[p.category])) subcats[p.category][p.subcategory] = 0;
-  });
 
   const allCats = [...new Set([
     ...Object.values(mapping).map(e=>e.category||'🥫 Despensa'),
@@ -1135,19 +1144,37 @@ function renderSubcatManager(){
   updateSettingsBadges();
 }
 
-function addSubcat(){
+async function addSubcat(){
   const cat = document.getElementById('new-subcat-cat')?.value || '';
   const name = (document.getElementById('new-subcat-name')?.value || '').trim();
   if(!name){ _toast('Nome vazio'); return; }
-  S.pendingSubcats = S.pendingSubcats || [];
-  // Avoid duplicates (against both pending and real subcats)
   const real = _collectSubcats();
   if((real[cat]||{})[name] != null){ _toast('Já existe'); return; }
-  if(S.pendingSubcats.some(x=>x.category===cat && x.subcategory===name)){ _toast('Já existe'); return; }
-  S.pendingSubcats.push({category:cat, subcategory:name});
-  document.getElementById('new-subcat-name').value='';
+
+  if(IS_LOCAL){
+    try{
+      const r = await fetch('/api/subcategory/add',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({category:cat, subcategory:name})});
+      if(!r.ok) throw new Error('HTTP '+r.status);
+      await reloadSubcategories();
+    }catch(e){
+      _toast('Erro a guardar: '+e.message);
+      return;
+    }
+  } else {
+    // On Vercel (read-only), fall back to in-memory so UI still reacts
+    S.subcategories = S.subcategories || [];
+    if(!S.subcategories.some(s=>s.category===cat && s.subcategory===name))
+      S.subcategories.push({category:cat, subcategory:name});
+    _toast('Guardado localmente — faz push para persistir');
+  }
+
+  const input = document.getElementById('new-subcat-name');
+  if(input) input.value='';
   renderSubcatManager();
-  _toast('Subcategoria criada (vazia)');
+  // Also refresh Produtos and Recibos if they're open, so the new sub appears in their dropdowns
+  if(typeof renderProdClassifier==='function') try{ renderProdClassifier(); }catch(e){}
+  if(typeof renderReceiptMapper==='function') try{ renderReceiptMapper(); }catch(e){}
+  _toast('✓ Subcategoria criada');
 }
 
 // Legacy alias (no longer needed since renderSubcatManager handles pending directly)
@@ -1160,18 +1187,16 @@ async function renameSubcat(cat, old){
   // Update mapping locally
   Object.values(S.mapping).forEach(e=>{ if(e.category===cat && (e.subcategory||'')===old) e.subcategory = nn; });
   S.products.forEach(p=>{ if(p.category===cat && (p.subcategory||'')===old) p.subcategory = nn; });
-  // Update pending too
-  if(S.pendingSubcats){
-    S.pendingSubcats = S.pendingSubcats.map(p =>
-      (p.category===cat && p.subcategory===old) ? {...p, subcategory:nn} : p
-    );
-  }
   if(IS_LOCAL){
-    try{ await fetch('/api/subcategory/rename',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({category:cat, old, new:nn})}); }catch(e){}
+    try{
+      await fetch('/api/subcategory/rename',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({category:cat, old, new:nn})});
+      await reloadSubcategories();
+    }catch(e){}
   } else _toast('Guardado localmente — faz push para persistir');
   _toast(`✓ Renomeada para "${nn}"`);
   renderSubcatManager();
   renderProdClassifier();
+  if(typeof renderReceiptMapper==='function') try{ renderReceiptMapper(); }catch(e){}
   if(typeof renderCatalog==='function') try{ renderCatalog(); }catch(e){}
 }
 
@@ -1179,16 +1204,16 @@ async function deleteSubcat(cat, sub){
   if(!confirm('Remover a subcategoria "'+sub+'"? Os produtos ficam por classificar.')) return;
   Object.values(S.mapping).forEach(e=>{ if(e.category===cat && (e.subcategory||'')===sub) e.subcategory = ''; });
   S.products.forEach(p=>{ if(p.category===cat && (p.subcategory||'')===sub) p.subcategory = ''; });
-  // Drop from pending too
-  if(S.pendingSubcats){
-    S.pendingSubcats = S.pendingSubcats.filter(p => !(p.category===cat && p.subcategory===sub));
-  }
   if(IS_LOCAL){
-    try{ await fetch('/api/subcategory/delete',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({category:cat, subcategory:sub})}); }catch(e){}
+    try{
+      await fetch('/api/subcategory/delete',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({category:cat, subcategory:sub})});
+      await reloadSubcategories();
+    }catch(e){}
   } else _toast('Guardado localmente — faz push para persistir');
   _toast(`✓ Removida`);
   renderSubcatManager();
   renderProdClassifier();
+  if(typeof renderReceiptMapper==='function') try{ renderReceiptMapper(); }catch(e){}
   if(typeof renderCatalog==='function') try{ renderCatalog(); }catch(e){}
 }
 
@@ -1246,11 +1271,6 @@ function renderProdClassifier(){
 
   // Group by category → subcategory
   const subcats = _collectSubcats();
-  // Include pending subcats
-  (S.pendingSubcats||[]).forEach(p=>{
-    subcats[p.category] = subcats[p.category] || {};
-    subcats[p.category][p.subcategory] = subcats[p.category][p.subcategory] || 0;
-  });
 
   let html = '';
   let curCat = null, curSub = null;
@@ -1440,10 +1460,6 @@ function renderReceiptMapper(){
   let html = '';
   let curSection = null;
   const subcats = _collectSubcats();
-  (S.pendingSubcats||[]).forEach(p=>{
-    subcats[p.category] = subcats[p.category] || {};
-    subcats[p.category][p.subcategory] = subcats[p.category][p.subcategory] || 0;
-  });
   const productOpts = _productDropdownOptions();
   const subcatOpts  = _subcatDropdownOptions(subcats);
 
