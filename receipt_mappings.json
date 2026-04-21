@@ -1,0 +1,2577 @@
+{
+  "continente": {
+    "pao de leite continente 350g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão de Leite",
+      "original": "PAO DE LEITE CONTINENTE 350G"
+    },
+    "iog natural continente 8x125g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Natural",
+      "original": "IOG NATURAL CONTINENTE 8X125G"
+    },
+    "pao forma 12 cereais sementes": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão 12 Cereais",
+      "original": "PAO FORMA 12 CEREAIS/SEMENTES"
+    },
+    "fiambre perna ext finissimas cn": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Fiambre",
+      "original": "FIAMBRE PERNA EXT FINISSIMAS CN"
+    },
+    "curgete verde": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Curgete",
+      "original": "CURGETE VERDE"
+    },
+    "pera rocha dop oeste cal 55 65": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Pera",
+      "original": "PERA ROCHA DOP OESTE CAL 55/65"
+    },
+    "novilho jardineira nac cnt ls": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Jardineira",
+      "original": "NOVILHO JARDINEIRA NAC CNT LS"
+    },
+    "pao de forma s codea cnt 450gr": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão Branco sem Côdea",
+      "original": "PAO DE FORMA S/CODEA CNT 450GR"
+    },
+    "banana": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Banana",
+      "original": "BANANA"
+    },
+    "ovos solo m cntinente 1 2dz": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Ovos",
+      "original": "OVOS SOLO M CNTINENTE 1/2DZ"
+    },
+    "carne picada mista continente": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Carne Picada Mista",
+      "original": "CARNE PICADA MISTA CONTINENTE"
+    },
+    "manga palmer aviao": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Manga",
+      "original": "MANGA PALMER AVIAO"
+    },
+    "uva branca s grainha 500 g": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Uvas",
+      "original": "UVA BRANCA S/GRAINHA 500 G"
+    },
+    "coxas de frango ls": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Coxa de Frango",
+      "original": "COXAS DE FRANGO LS"
+    },
+    "gelat manga 0 ctn 25g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Gelatina Marca Branca",
+      "original": "GELAT MANGA 0% CTN 25G"
+    },
+    "iogurte proteico yo pro baunilh": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte YoPro Mini Pack4",
+      "original": "IOGURTE PROTEICO YO PRO BAUNILH"
+    },
+    "azeito preta descarocad oxidada": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Azeitonas",
+      "original": "AZEITO PRETA DESCAROCAD OXIDADA"
+    },
+    "leite choc 50 cnt eql 4x200ml": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Leitinhos Chocolate",
+      "original": "LEITE CHOC -50% CNT EQL 4X200ML"
+    },
+    "saq fruta maca manga cnt 90g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolsa de Fruta",
+      "original": "SAQ.FRUTA MACA MANGA CNT 90G"
+    },
+    "azeitona verde descarocada cnt": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Azeitonas",
+      "original": "AZEITONA VERDE DESCAROCADA CNT"
+    },
+    "mist leg cnt est italiano 750g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Mistura legumes",
+      "original": "MIST LEG CNT EST ITALIANO 750G"
+    },
+    "bolacha nacional torrada 200g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolachas Torradas",
+      "original": "BOLACHA NACIONAL TORRADA 200G"
+    },
+    "iog liq 00 cnt eq 4x160g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Líquido",
+      "original": "IOG LIQ 00% CNT EQ 4X160G"
+    },
+    "hamb frango continente 420gr": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Hamburguer Frango Marca Branca",
+      "original": "HAMB FRANGO CONTINENTE 420GR"
+    },
+    "qj flamengo continente fatias e": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Queijo Fatiado Marca Branca",
+      "original": "QJ FLAMENGO CONTINENTE FATIAS E"
+    },
+    "salsichas bockw": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Salsichas",
+      "original": "SALSICHAS BOCKW"
+    },
+    "saqueta continente maca e pera": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolsa de Fruta",
+      "original": "SAQUETA CONTINENTE MACA E PERA"
+    },
+    "skyr sol cnt eq mirtilo 150g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Skyr",
+      "original": "SKYR SOL CNT EQ MIRTILO 150G"
+    },
+    "carne picada mista continente 9": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Carne Picada Mista",
+      "original": "CARNE PICADA MISTA CONTINENTE 9"
+    },
+    "iog liq 00 cnt eq f tro 4x160g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Líquido",
+      "original": "IOG LIQ 00% CNT EQ F TRO 4X160G"
+    },
+    "mistura cogumelos continente": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Cogumelos",
+      "original": "MISTURA COGUMELOS CONTINENTE"
+    },
+    "fralda dodot activity extra t5": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Fraldas Dodot T5",
+      "original": "FRALDA DODOT ACTIVITY EXTRA T5+"
+    },
+    "mist leg cnt estilo frances 750": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Mistura legumes",
+      "original": "MIST LEG CNT ESTILO FRANCES 750"
+    },
+    "iogurte proteico yo pro mirtilo": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte YoPro Mini Pack4",
+      "original": "IOGURTE PROTEICO YO PRO MIRTILO"
+    },
+    "coxas frango emb familiar ls": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Coxa de Frango",
+      "original": "COXAS FRANGO EMB. FAMILIAR LS"
+    },
+    "qj flam t nost fat2 200gr": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Queijo Limiano/TerraNostra",
+      "original": "QJ FLAM T.NOST FAT2*200GR"
+    },
+    "esparregado espinafres cnt 700g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Esparregado",
+      "original": "ESPARREGADO ESPINAFRES CNT 700G"
+    },
+    "salada camponesa cnt 250gr": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Salada",
+      "original": "SALADA CAMPONESA CNT 250GR"
+    },
+    "gelat mirtilo 0 ctn 25g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Gelatina Marca Branca",
+      "original": "GELAT MIRTILO 0% CTN 25G"
+    },
+    "iog liq 00 cnt eq 8x160g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Líquido",
+      "original": "IOG LIQ 00% CNT EQ 8X160G"
+    },
+    "atum azeite continente 85gr": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Atum Azeite",
+      "original": "ATUM AZEITE CONTINENTE 85GR"
+    },
+    "iog sol yopro stracciatella 4 1": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte YoPro Mini Pack4",
+      "original": "IOG SOL YOPRO STRACCIATELLA 4*1"
+    },
+    "qj flamengo limiano fatias": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Queijo Limiano/TerraNostra",
+      "original": "QJ FLAMENGO LIMIANO FATIAS"
+    },
+    "cereais petalas choco cnt 375g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Cereais Chocolate",
+      "original": "CEREAIS PETALAS CHOCO CNT 375G"
+    },
+    "ph humido cnt biodegrada 100un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Papel Higiénico Húmido",
+      "original": "PH HUMIDO CNT BIODEGRADA 100UN"
+    },
+    "cru muesli cnt 0 acu 500g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Cereais Muesli",
+      "original": "CRU MUESLI CNT 0% ACU 500G"
+    },
+    "cebola cnt emb 1 5 kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Cebolas",
+      "original": "CEBOLA CNT EMB. 1,5 KG"
+    },
+    "leite uht m gordo cnt 3 200ml": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Leitinhos",
+      "original": "LEITE UHT M/GORDO CNT 3*200ML"
+    },
+    "tira nod vanish po pink 1 45kg": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Tira Nódoas Pó Oxi Action Cores Vanish",
+      "original": "TIRA NOD VANISH PO PINK 1,45KG"
+    },
+    "carne picada bovino continente": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Carne Picada Vaca",
+      "original": "CARNE PICADA BOVINO CONTINENTE"
+    },
+    "lombinhos de frango cnt ls": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Bifes de Frango",
+      "original": "LOMBINHOS DE FRANGO CNT LS"
+    },
+    "cenoura cnt emb 1kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Cenouras",
+      "original": "CENOURA CNT EMB.1KG"
+    },
+    "gelatina po royal 0 ananas s 3": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Gelatina Royal",
+      "original": "GELATINA PO ROYAL 0% ANANAS S 3"
+    },
+    "ph cnt extraordinario 8r 4f": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Papel Higiénico",
+      "original": "PH CNT EXTRAORDINARIO 8R 4F"
+    },
+    "qj flamengo limiano fatias 2 20": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Queijo Limiano/TerraNostra",
+      "original": "QJ FLAMENGO LIMIANO FATIAS 2*20"
+    },
+    "lombinhos de peru ls": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Lombinhos de Peru",
+      "original": "LOMBINHOS DE PERU LS"
+    },
+    "leite mg acores rosca ctn lt": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Leite Meio Gordo",
+      "original": "LEITE MG ACORES ROSCA CTN LT"
+    },
+    "bife de frango continente ls": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Bifes de Frango",
+      "original": "BIFE DE FRANGO CONTINENTE LS"
+    },
+    "saq fruta banana morang cnt 90g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolsa de Fruta",
+      "original": "SAQ.FRUTA BANANA MORANG CNT 90G"
+    },
+    "saq fruta maca morango cnt 90g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolsa de Fruta",
+      "original": "SAQ.FRUTA MACA MORANGO CNT 90G"
+    },
+    "buondi nespresso decaf 10 caps": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Buondi Descafeinado",
+      "original": "BUONDI NESPRESSO DECAF 10 CAPS"
+    },
+    "ch ultra suave camomila 400ml": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Champô Camomila",
+      "original": "CH ULTRA SUAVE CAMOMILA 400ML"
+    },
+    "bolacha cnt crachers s sal 500g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolachas Crackers",
+      "original": "BOLACHA CNT CRACHERS S/SAL 500G"
+    },
+    "arroz basmati continente 1kg": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Arroz Basmati",
+      "original": "ARROZ BASMATI CONTINENTE 1KG"
+    },
+    "toalhitas protege cor cnt 20un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Toalhitas Antitransferência de Cor",
+      "original": "TOALHITAS PROTEGE COR CNT 20UN"
+    },
+    "tira nod vanish spra desengordu": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Spray Pré-Lavagem Roupa Cores Vanish",
+      "original": "TIRA NOD VANISH SPRA DESENGORDU"
+    },
+    "gelat f trop 0 ctn 25g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Gelatina Marca Branca",
+      "original": "GELAT F.TROP 0% CTN 25G"
+    },
+    "percarbonato de sodio cnt 750g": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Percabonato de Sódio",
+      "original": "PERCARBONATO DE SODIO CNT 750G"
+    },
+    "esparrego cnt 350g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Esparregado",
+      "original": "ESPARREGO CNT 350G"
+    },
+    "gelatina royal 0 f bosque 31g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Gelatina Royal",
+      "original": "GELATINA ROYAL 0% F BOSQUE 31G"
+    },
+    "esparregado grelos cnt selecao": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Esparregado",
+      "original": "ESPARREGADO GRELOS CNT SELECAO"
+    },
+    "det man loica fairy limao 2x900": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Fairy Limão",
+      "original": "DET MAN LOICA FAIRY LIMAO 2X900"
+    },
+    "mix mediterraneo cnt 750g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Mistura legumes",
+      "original": "MIX MEDITERRANEO CNT 750G"
+    },
+    "bol artiach mini dino cer 3 40g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolachas Dinossauros Cereais",
+      "original": "BOL ARTIACH MINI DINO CER 3*40G"
+    },
+    "mist vegetais grelh cnt 400g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Mistura legumes",
+      "original": "MIST. VEGETAIS GRELH. CNT 400G"
+    },
+    "saq maca banana pack cnt 12x90g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolsa de Fruta",
+      "original": "SAQ.MACA BANANA PACK CNT 12X90G"
+    },
+    "saq fruta maca ban lar cnt 90g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolsa de Fruta",
+      "original": "SAQ.FRUTA MACA BAN LAR CNT 90G"
+    },
+    "saq fruta pes maca ban cnt 90g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolsa de Fruta",
+      "original": "SAQ.FRUTA PES MACA BAN CNT 90G"
+    },
+    "saq fruta maca banana cnt 90g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolsa de Fruta",
+      "original": "SAQ.FRUTA MACA BANANA CNT 90G"
+    },
+    "saq fruta multifrutos cnt 90g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolsa de Fruta",
+      "original": "SAQ.FRUTA MULTIFRUTOS CNT 90G"
+    },
+    "pao de leite dulcesol 10un 350g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão de Leite",
+      "original": "PAO DE LEITE DULCESOL 10UN 350G"
+    },
+    "gelatina po royal 0 trop 31g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Gelatina Royal",
+      "original": "GELATINA PO ROYAL 0% TROP 31G"
+    },
+    "gelat po royal 0 limao 31g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Gelatina Royal",
+      "original": "GELAT PO ROYAL 0% LIMAO 31G"
+    },
+    "gelatina po royal 0 morango": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Gelatina Royal",
+      "original": "GELATINA PO ROYAL 0% MORANGO"
+    },
+    "gelatina po royal 0 mela 31g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Gelatina Royal",
+      "original": "GELATINA PO ROYAL 0% MELA 31G"
+    },
+    "peito frango continente ls": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Peito de Frango",
+      "original": "PEITO FRANGO CONTINENTE LS"
+    },
+    "hamburgers frango iglo s gluten": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Hamburguer Frango Iglo",
+      "original": "HAMBURGERS FRANGO IGLO S/GLUTEN"
+    },
+    "bife frango extrafino cnt ls": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Bifes de Frango",
+      "original": "BIFE FRANGO EXTRAFINO CNT LS"
+    },
+    "qj light vaca que ri 24 porcoes": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Vaca que ri",
+      "original": "QJ LIGHT VACA QUE RI 24 PORCOES"
+    },
+    "qj light vaca que ri 16 porcoes": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Vaca que ri",
+      "original": "QJ LIGHT VACA QUE RI 16 PORCOES"
+    },
+    "qj light vaca que ri 8 porcoes": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Vaca que ri",
+      "original": "QJ LIGHT VACA QUE RI 8 PORCOES"
+    },
+    "noz metades cnt 200g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Frutos secos",
+      "original": "NOZ METADES CNT 200G"
+    },
+    "oro girassol e abobora 550g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão 12 Cereais",
+      "original": "ORO GIRASSOL E ABOBORA 550G"
+    },
+    "sacos lixo cnt lav 30l 40un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Sacos do Lixo",
+      "original": "SACOS LIXO CNT LAV 30L 40UN"
+    },
+    "rolo coz mega rolo mult 1r 2f": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Rolo de Cozinha",
+      "original": "ROLO COZ MEGA ROLO MULT 1R 2F"
+    },
+    "dourad pescada continente 450g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Douradinhos",
+      "original": "DOURAD. PESCADA CONTINENTE 450G"
+    },
+    "buondi original nespresso 10": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Buondi Café 8",
+      "original": "BUONDI ORIGINAL NESPRESSO 10"
+    },
+    "peskitos pesc s glu pescanova 1": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Douradinhos",
+      "original": "PESKITOS PESC S/GLU PESCANOVA 1"
+    },
+    "toalhitas hidratacao": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Toalhitas Bebé",
+      "original": "TOALHITAS HIDRATACAO"
+    },
+    "deo ro sanex dermo invi 50ml": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Desodorizante Invisible",
+      "original": "DEO RO SANEX DERMO INVI 50ML"
+    },
+    "leite uht c ch maxpower 3 200ml": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Leitinhos Chocolate",
+      "original": "LEITE UHT C/CH MAXPOWER 3*200ML"
+    },
+    "lombos pescada msc cnt 400g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Lombos de Pescada",
+      "original": "LOMBOS PESCADA MSC CNT 400G"
+    },
+    "achocolatado continente 500g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Nesquik",
+      "original": "ACHOCOLATADO CONTINENTE 500G"
+    },
+    "batata vermelha cnt kg": {
+      "type": "product",
+      "global_id": 450,
+      "original": "BATATA VERMELHA CNT KG"
+    },
+    "pasta sensodyne branq 2x75 ml": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Pasta de Dentes",
+      "original": "PASTA SENSODYNE BRANQ 2X75 ML"
+    },
+    "amac surf extra eficacia 62d": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Amaciador Camomila",
+      "original": "AMAC SURF EXTRA EFICACIA 62D"
+    },
+    "bol maria continente 4 200g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolacha Maria",
+      "original": "BOL MARIA CONTINENTE 4*200G"
+    },
+    "spray vanish roupa branca 750ml": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Spray Pré-Lavagem Roupa Branca Vanish",
+      "original": "SPRAY VANISH ROUPA BRANCA 750ML"
+    },
+    "cereais estrelitas 550g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Cereais Estrelitas",
+      "original": "CEREAIS ESTRELITAS 550G"
+    },
+    "cenoura kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Cenouras",
+      "original": "CENOURA KG"
+    },
+    "lava tudo cnt bosque 2lt": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Lava tudo",
+      "original": "LAVA TUDO CNT BOSQUE 2LT"
+    },
+    "bola mistura 80g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão Unidade",
+      "original": "BOLA MISTURA 80G"
+    },
+    "tortita arroz s sal cnt eq 130g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Tortitas de Arroz",
+      "original": "TORTITA ARROZ S/SAL CNT EQ 130G"
+    },
+    "tort milho cnt eq c sal 130g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Tortitas de Milho",
+      "original": "TORT. MILHO CNT EQ. C/SAL 130G"
+    },
+    "iog liq 00 cnt eq limao 4x160g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Líquido",
+      "original": "IOG LIQ 00% CNT EQ LIMAO 4X160G"
+    },
+    "massa ninhos c ovos cnt 500g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Massa Ninhos",
+      "original": "MASSA NINHOS C/OVOS CNT 500G"
+    },
+    "gelat ananas 0 ctn 25g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Gelatina Marca Branca",
+      "original": "GELAT ANANAS 0% CTN 25G"
+    },
+    "gelat morang 0 ctn 25g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Gelatina Marca Branca",
+      "original": "GELAT MORANG 0% CTN 25G"
+    },
+    "maca golden sr": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Maçã",
+      "original": "MACA GOLDEN SR"
+    },
+    "pera rocha": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Pera",
+      "original": "PERA ROCHA"
+    },
+    "esparguete continente 1kg": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Massa Esparguete",
+      "original": "ESPARGUETE CONTINENTE 1KG"
+    },
+    "tort arroz cnt eq c sal 130g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Tortitas de Arroz",
+      "original": "TORT. ARROZ CNT EQ. C/SAL 130G"
+    },
+    "cotonetes continente 300un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Cotonetes",
+      "original": "COTONETES CONTINENTE 300UN"
+    },
+    "barrinhas pescanova": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Douradinhos",
+      "original": "BARRINHAS PESCANOVA"
+    },
+    "det liq maq rou skip sabao natu": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Detergente Skip Sabão Natural",
+      "original": "DET LIQ MAQ ROU SKIP SABAO NATU"
+    },
+    "mix oriental continente 750g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Mistura legumes",
+      "original": "MIX ORIENTAL CONTINENTE 750G"
+    },
+    "bol cuetara tosta rica 570g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolachas Animais",
+      "original": "BOL.CUETARA TOSTA RICA 570G"
+    },
+    "toalhitas dodot pure aqua 48un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Toalhitas Bebé",
+      "original": "TOALHITAS DODOT PURE AQUA 48UN"
+    },
+    "abrasivo san gel cnt marinho 1l": {
+      "type": "product",
+      "global_id": 519,
+      "original": "ABRASIVO SAN GEL CNT MARINHO 1L"
+    },
+    "amendoa c pele cnt 200g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Frutos secos",
+      "original": "AMENDOA C/PELE CNT 200G"
+    },
+    "caldo carne cnt 240g 24cb": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Caldo de Carne",
+      "original": "CALDO CARNE CNT 240G 24CB"
+    },
+    "esc colgate triple action 4un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Escova de Dentes",
+      "original": "ESC COLGATE TRIPLE ACTION 4UN"
+    },
+    "papel de aluminio cnt 30m": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Papel Alumínio",
+      "original": "PAPEL DE ALUMINIO CNT 30M"
+    },
+    "mamao": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Mamão",
+      "original": "MAMAO"
+    },
+    "sal grosso continente 1kg": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Sal Grosso",
+      "original": "SAL GROSSO CONTINENTE 1KG"
+    },
+    "batata frita cnt ond 4 45g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Batatas Fritas Onduladas Pack 4",
+      "original": "BATATA FRITA CNT OND 4*45G"
+    },
+    "spray wc limpeza cnt 750ml": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Spray Casa de Banho",
+      "original": "SPRAY WC LIMPEZA CNT 750ML"
+    },
+    "porco lombinhos vacuo": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Lombinhos de Porco",
+      "original": "PORCO LOMBINHOS VACUO"
+    },
+    "lombos pescada msc iglo 400g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Lombos de Pescada",
+      "original": "LOMBOS PESCADA MSC IGLO 400G"
+    },
+    "qj flam t nost fatias emb": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Queijo Limiano/TerraNostra",
+      "original": "QJ FLAM T.NOST FATIAS EMB"
+    },
+    "papaia": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Papaia",
+      "original": "PAPAIA"
+    },
+    "pimento verde cnt kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Pimento Verde",
+      "original": "PIMENTO VERDE CNT KG"
+    },
+    "det liq maq roupa skip sabao 60": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Detergente Skip Sabão Natural",
+      "original": "DET LIQ MAQ ROUPA SKIP SABAO 60"
+    },
+    "brocolos continente 900g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Mistura legumes",
+      "original": "BROCOLOS CONTINENTE 900G"
+    },
+    "mass cotovelos gr risc cnt 500g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Massa várias",
+      "original": "MASS COTOVELOS GR RISC CNT 500G"
+    },
+    "linguine continente 500g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Massa Esparguete",
+      "original": "LINGUINE CONTINENTE 500G"
+    },
+    "espirais cnt pack poupanca 1kg": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Massa Espirais",
+      "original": "ESPIRAIS CNT PACK POUPANCA 1KG"
+    },
+    "tomate cacho": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Tomate",
+      "original": "TOMATE CACHO"
+    },
+    "luvas cnt acetinadas tam m l": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Luvas",
+      "original": "LUVAS CNT ACETINADAS TAM.M/L"
+    },
+    "cond u suave abac karite 200ml": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Amaciador Camomila",
+      "original": "COND.U.SUAVE ABAC/KARITE 200ML"
+    },
+    "entrecote novilho skp": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entrecôte",
+      "original": "ENTRECOTE NOVILHO SKP"
+    },
+    "mas vinha alho continente 200g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Massa de Pimentão",
+      "original": "MAS.VINHA ALHO CONTINENTE 200G"
+    },
+    "sal maquina loica sun reg 1kg": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Sal Máquina Loiça",
+      "original": "SAL MAQUINA LOICA SUN REG 1KG"
+    },
+    "abrilhantador maquina loica cnt": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Abrilhantador Máquina da Loiça",
+      "original": "ABRILHANTADOR MAQUINA LOICA CNT"
+    },
+    "batatas palitos continente 1kg": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Batata Noisette",
+      "original": "BATATAS PALITOS CONTINENTE 1KG"
+    },
+    "ervilhas continente 400g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Mistura legumes",
+      "original": "ERVILHAS CONTINENTE 400G"
+    },
+    "medalhoes pescada msc cnt 400g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Lombos de Pescada",
+      "original": "MEDALHOES PESCADA MSC CNT 400G"
+    },
+    "maca golden": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Maçã",
+      "original": "MACA GOLDEN"
+    },
+    "maca pink lady": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Maçã",
+      "original": "MACA PINK LADY"
+    },
+    "espinafres cnt salt c alho 750g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Mistura legumes",
+      "original": "ESPINAFRES CNT SALT C/ALHO 750G"
+    },
+    "coxa fran desoss temp bifranga": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Coxa de Frango",
+      "original": "COXA FRAN DESOSS TEMP BIFRANGA"
+    },
+    "hamb nov angus sel 100 carne": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Carne Picada Vaca",
+      "original": "HAMB. NOV. ANGUS SEL 100% CARNE"
+    },
+    "pelicula aderente cnt 60m": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Película Aderente",
+      "original": "PELICULA ADERENTE CNT 60M"
+    },
+    "sacos lixo continente 30l 40un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Sacos do Lixo",
+      "original": "SACOS LIXO CONTINENTE 30L 40UN"
+    },
+    "leite uht m gor rosca slim cont": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Leite Meio Gordo",
+      "original": "LEITE UHT M/GOR ROSCA SLIM CONT"
+    },
+    "lombos salmao asc cnt cong 250g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Salmão",
+      "original": "LOMBOS SALMAO ASC CNT CONG 250G"
+    },
+    "nabo sem rama cnt kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Nabos",
+      "original": "NABO SEM RAMA CNT KG"
+    },
+    "rucula selvagem cnt emb 100gr": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Rúcula",
+      "original": "RUCULA SELVAGEM CNT EMB.100GR"
+    },
+    "maca golden alc 1kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Maçã",
+      "original": "MACA GOLDEN ALC 1KG"
+    },
+    "clementina": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Laranja",
+      "original": "CLEMENTINA"
+    },
+    "ref c gas coca cola zero 50cl": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Coca Cola",
+      "original": "REF.C/GAS COCA COLA ZERO 50CL"
+    },
+    "manteiga c sal milhafre 250g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Manteiga",
+      "original": "MANTEIGA C/SAL MILHAFRE 250G"
+    },
+    "bomb nougat i love milka 110g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas",
+      "original": "BOMB NOUGAT I LOVE MILKA 110G"
+    },
+    "spray inox mistolin advanced 50": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Tira Gorduras",
+      "original": "SPRAY INOX MISTOLIN ADVANCED 50"
+    },
+    "bife de peru continente ls": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Peito de Peru",
+      "original": "BIFE DE PERU CONTINENTE LS"
+    },
+    "novilho bife vazia nacional skp": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entrecôte",
+      "original": "NOVILHO BIFE VAZIA NACIONAL SKP"
+    },
+    "bovino picanha america sul skin": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entrecôte",
+      "original": "BOVINO PICANHA AMERICA SUL SKIN"
+    },
+    "limpa madeiras sabao cnt 1 5l": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Lava tudo madeira",
+      "original": "LIMPA MADEIRAS SABAO CNT 1,5L"
+    },
+    "papaia fracionada kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Papaia",
+      "original": "PAPAIA FRACIONADA KG"
+    },
+    "gelatina 0 cnt morango 6x100g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Gelatina Marca Branca",
+      "original": "GELATINA 0% CNT MORANGO 6X100G"
+    },
+    "cebola doce cnt emb 1 kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Cebolas",
+      "original": "CEBOLA DOCE CNT EMB 1 KG"
+    },
+    "barrinhas pescanova omega3 15un": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Douradinhos",
+      "original": "BARRINHAS PESCANOVA OMEGA3 15UN"
+    },
+    "iog sol 00 cnt eq nat 6x120g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Líquido",
+      "original": "IOG SOL 00% CNT EQ NAT 6X120G"
+    },
+    "leite c choc agros 4 200ml": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Leitinhos Chocolate",
+      "original": "LEITE C/CHOC AGROS 4*200ML"
+    },
+    "maca granny alcobaca igp": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Maçã",
+      "original": "MACA GRANNY ALCOBACA IGP"
+    },
+    "tortitas milho bicentury 130g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Tortitas de Milho",
+      "original": "TORTITAS MILHO BICENTURY 130G"
+    },
+    "tomate frito continente 215g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Polpa de Tomate",
+      "original": "TOMATE FRITO CONTINENTE 215G"
+    },
+    "q c polpa danonino mor ban6 50g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Danoninho",
+      "original": "Q C/POLPA DANONINO MOR/BAN6*50G"
+    },
+    "iog sol yopro morango 4 120g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte YoPro Mini Pack4",
+      "original": "IOG SOL YOPRO MORANGO 4*120G"
+    },
+    "novilho jardineira guisar kg ls": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Jardineira",
+      "original": "NOVILHO JARDINEIRA/GUISAR KG LS"
+    },
+    "escalopes peru extrafinos ls": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Lombinhos de Peru",
+      "original": "ESCALOPES PERU EXTRAFINOS LS"
+    },
+    "medalhoes salmao pescanova 400g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Salmão",
+      "original": "MEDALHOES SALMAO PESCANOVA 400G"
+    },
+    "palitos light vqr 140g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Palitos A Vaca que ri",
+      "original": "PALITOS LIGHT VQR 140G"
+    },
+    "cereais choco cookies cnt 375g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Cereais Chocolate",
+      "original": "CEREAIS CHOCO COOKIES CNT 375G"
+    },
+    "alface frisada": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Alface",
+      "original": "ALFACE FRISADA"
+    },
+    "cebola cnt kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Cebolas",
+      "original": "CEBOLA CNT KG"
+    },
+    "oroweat sementes sesamo e linha": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão 12 Cereais",
+      "original": "OROWEAT SEMENTES SESAMO E LINHA"
+    },
+    "gel baun mora e continente 2lt": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas",
+      "original": "GEL BAUN/MORA E CONTINENTE 2LT"
+    },
+    "cer estrela mel cnt 375g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Cereais Estrelitas",
+      "original": "CER ESTRELA MEL CNT 375G"
+    },
+    "cer bolas c choc cnt 375g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Cereais Chocolate",
+      "original": "CER BOLAS C/CHOC.CNT 375G"
+    },
+    "farinha trigo s f cnt t55 1kg": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Farinha",
+      "original": "FARINHA TRIGO S/F CNT T55 1KG"
+    },
+    "carne picada bovino cnt": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Carne Picada Vaca",
+      "original": "CARNE PICADA BOVINO CNT"
+    },
+    "maca gala sr alcobaca kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Maçã",
+      "original": "MACA GALA SR ALCOBACA KG"
+    },
+    "choc culinaria pantagruel 200g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas",
+      "original": "CHOC CULINARIA PANTAGRUEL 200G"
+    },
+    "porco bifanas": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Bifanas de Porco",
+      "original": "PORCO BIFANAS"
+    },
+    "snack bat ond c sal forno lay s": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Batatas Fritas Onduladas Pack 4",
+      "original": "SNACK BAT OND C/SAL FORNO LAY S"
+    },
+    "bol cracker folhas clas sg g pa": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Tostas",
+      "original": "BOL CRACKER FOLHAS CLAS SG G.PA"
+    },
+    "az ve reserva cnt selecao 750 m": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Azeite",
+      "original": "AZ VE RESERVA CNT SELECAO 750 M"
+    },
+    "det past maq loic finish quantu": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Pastilhas máquina loiça",
+      "original": "DET PAST MAQ LOIC FINISH QUANTU"
+    },
+    "iog liq 000 cnt eq 4x160g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Líquido",
+      "original": "IOG LIQ 000% CNT EQ 4X160G"
+    },
+    "massa macarrao riscado cnt 500g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Massa várias",
+      "original": "MASSA MACARRAO RISCADO CNT 500G"
+    },
+    "porco bifanas ls": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Bifanas de Porco",
+      "original": "PORCO BIFANAS - LS"
+    },
+    "saqueta nestle maca cen manga": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolsa de Fruta",
+      "original": "SAQUETA NESTLE MACA CEN MANGA"
+    },
+    "saqueta nestle ban lar bol": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolsa de Fruta",
+      "original": "SAQUETA NESTLE BAN LAR BOL"
+    },
+    "saqueta nestle maca ban mor 90": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolsa de Fruta",
+      "original": "SAQUETA NESTLE MACA BAN MOR 90"
+    },
+    "saqueta nestle maca manga 90g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolsa de Fruta",
+      "original": "SAQUETA NESTLE MACA MANGA 90G"
+    },
+    "saqueta nestle maca pessego 90g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolsa de Fruta",
+      "original": "SAQUETA NESTLE MACA PESSEGO 90G"
+    },
+    "buondi rist nespresso 10cap": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Buondi Ristretto 13",
+      "original": "BUONDI RIST NESPRESSO 10CAP"
+    },
+    "alho seco kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Alho",
+      "original": "ALHO SECO KG"
+    },
+    "mix kids macas peras cnt 800 g": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Pera",
+      "original": "MIX KIDS MACAS PERAS CNT 800 G"
+    },
+    "tira gorduras spray cnt 750ml": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Tira Gorduras",
+      "original": "TIRA GORDURAS SPRAY CNT 750ML"
+    },
+    "pure batata continente mp 1kg": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Puré de Batata",
+      "original": "PURE BATATA CONTINENTE MP 1KG"
+    },
+    "spay pre lav vanish oxi 500ml": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Spray Pré-Lavagem Roupa Cores Vanish",
+      "original": "SPAY PRE LAV VANISH OXI 500ML"
+    },
+    "saco compras reutilizavel": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Sacos",
+      "original": "SACO COMPRAS REUTILIZAVEL"
+    },
+    "saco plas re cnt": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Sacos",
+      "original": "SACO PLAS RE CNT"
+    },
+    "saco pequeno": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Sacos",
+      "original": "SACO PEQUENO"
+    },
+    "saqueta nestle multifru 90g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolsa de Fruta",
+      "original": "SAQUETA NESTLE MULTIFRU 90G"
+    },
+    "tomate pelado continente 390g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Tomate Pelado",
+      "original": "TOMATE PELADO CONTINENTE 390G"
+    },
+    "porco bifinh cachaco cnt kg ls": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Bifanas de Porco",
+      "original": "PORCO BIFINH. CACHACO CNT KG LS"
+    },
+    "porco cachaco 1 2 assar s osso": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Carne Estufar",
+      "original": "PORCO CACHACO 1/2 ASSAR S/OSSO"
+    },
+    "porco pa c osso": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Carne Estufar",
+      "original": "PORCO PA C/ OSSO"
+    },
+    "iced tea continente manga 6 20": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Refrigerantes",
+      "original": "ICED TEA CONTINENTE MANGA 6*20"
+    },
+    "iced tea continente pess 6 20cl": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Refrigerantes",
+      "original": "ICED TEA CONTINENTE PESS.6*20CL"
+    },
+    "porco bifinhos do lombo": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Bifanas de Porco",
+      "original": "PORCO BIFINHOS DO LOMBO"
+    },
+    "lasanha c ovo continente 500g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Lasanha Bolonhesa",
+      "original": "LASANHA C/OVO CONTINENTE 500G"
+    },
+    "nectar um bongo manga 3 20cl": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Sumos",
+      "original": "NECTAR UM BONGO MANGA 3*20CL"
+    }
+  },
+  "pingodoce": {
+    "b animais pd 3x200g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolachas Animais",
+      "original": "B. ANIMAIS PD 3X200G"
+    },
+    "b selva pd 8x41 2g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolachas Várias",
+      "original": "B. SELVA PD 8X41,2G"
+    },
+    "croquete de carne": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Croquete Unidade",
+      "original": "CROQUETE DE CARNE"
+    },
+    "pao de leite": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão de Leite",
+      "original": "PÃO DE LEITE"
+    },
+    "papaia": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Papaia",
+      "original": "PAPAIA"
+    },
+    "salada classica 200g": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Salada",
+      "original": "SALADA CLASSICA 200G"
+    },
+    "4h frang c iglo s gl": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Hamburguer Frango Iglo",
+      "original": "4H FRANG C IGLO S/GL"
+    },
+    "esparreg cong pd350g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Esparregado",
+      "original": "ESPARREG CONG PD350G"
+    },
+    "iog natural 8x125gpd": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Natural",
+      "original": "IOG NATURAL 8X125GPD"
+    },
+    "ig lq ma me l pd170g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Líquido",
+      "original": "IG LQ MA ME/L PD170G"
+    },
+    "yopro dan baun 4x120": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte YoPro Mini Pack4",
+      "original": "YOPRO DAN BAUN 4X120"
+    },
+    "yopro strac 4x120g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte YoPro Mini Pack4",
+      "original": "YOPRO STRAC 4X120G"
+    },
+    "yopro dan mirt 4x120": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte YoPro Mini Pack4",
+      "original": "YOPRO DAN MIRT 4X120"
+    },
+    "qj vaca ri light 24t": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Vaca que ri",
+      "original": "QJ VACA RI LIGHT 24T"
+    },
+    "qj limiano 200g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Queijo Limiano/TerraNostra",
+      "original": "QJ LIMIANO 200G"
+    },
+    "curgete kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Curgete",
+      "original": "CURGETE KG"
+    },
+    "cr limp ul lix 750ml": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "CIF",
+      "original": "CR LIMP UL LIX 750ML"
+    },
+    "rucula selva 100g pd": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Rúcula",
+      "original": "RÚCULA SELVA 100G PD"
+    },
+    "carne picada mista 5": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Carne Picada Mista",
+      "original": "CARNE PICADA MISTA 5"
+    },
+    "g sel pd baun 1000ml": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas",
+      "original": "G SEL PD BAUN 1000ML"
+    },
+    "crepes choco pd 540g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas",
+      "original": "CREPES CHOCO PD 540G"
+    },
+    "mix frtos sc exot pd": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Frutos secos",
+      "original": "MIX FRTOS SC EXOT PD"
+    },
+    "pavesi lima pim 150g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Tostas",
+      "original": "PAVESI LIMA&PIM 150G"
+    },
+    "pepino c pd 870 450g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pickles",
+      "original": "PEPINO C PD 870/450G"
+    },
+    "cheerios 330g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Cereais Estrelitas",
+      "original": "CHEERIOS 330G"
+    },
+    "lasanha bol c pd400g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Lasanha Bolonhesa",
+      "original": "LASANHA BOL C PD400G"
+    },
+    "pap hig 3f pd 12r": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Papel Higiénico",
+      "original": "PAP HIG 3F PD 12R"
+    },
+    "pap hig hum pd 60un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Papel Higiénico Húmido",
+      "original": "PAP HIG HUM PD 60UN"
+    },
+    "coca cola zero 4x1lt": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Coca Cola",
+      "original": "COCA COLA ZERO 4X1LT"
+    },
+    "pao de leite 10 un 350 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão de Leite",
+      "original": "Pão de Leite 10 un 350 g"
+    },
+    "carne picada mista 500g pd s g c01": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Carne Picada Mista",
+      "original": "CARNE PICADA MISTA 500G PD S/G C01"
+    },
+    "uva rosada honey 400gr": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Uvas",
+      "original": "Uva Rosada Honey 400gr"
+    },
+    "iogurte yopro danone baunilha 4x120g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte YoPro Mini Pack4",
+      "original": "IOGURTE YOPRO DANONE BAUNILHA 4X120G"
+    },
+    "iogurte yopro danone mirtilo 160 gr": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte YoPro Mini Pack4",
+      "original": "Iogurte Yopro Danone Mirtilo 160 gr"
+    },
+    "iogurte yopro danone mirtilo 4x120g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte YoPro Mini Pack4",
+      "original": "IOGURTE YOPRO DANONE MIRTILO 4X120G"
+    },
+    "iogurte liquido proteico manga yopro 300 g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte YoPro Mini Pack4",
+      "original": "Iogurte Líquido Proteico Manga YoPro 300 g"
+    },
+    "yopro morango 4x120g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte YoPro Mini Pack4",
+      "original": "YOPRO MORANGO 4X120G"
+    },
+    "logurte yopro danone mirtilo 160 gr": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte YoPro Mini Pack4",
+      "original": "logurte Yopro Danone Mirtilo 160 gr"
+    },
+    "logurte proteico baunilha yopro 160 g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte YoPro Mini Pack4",
+      "original": "logurte Proteico Baunilha YoPro 160 g"
+    },
+    "iogurte liquido proteico stracciatellayopro 300 g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte YoPro Mini Pack4",
+      "original": "Iogurte Líquido Proteico StracciatellaYoPro 300 g"
+    },
+    "iogurte liquido proteico mirtilo yopro300 g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte YoPro Mini Pack4",
+      "original": "Iogurte Líquido Proteico Mirtilo YoPro300 g"
+    },
+    "uva branca honey 400gr": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Uvas",
+      "original": "Uva Branca Honey 400gr"
+    },
+    "uva honey branca 700gr": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Uvas",
+      "original": "Uva Honey Branca 700gr"
+    },
+    "fraldas activity extra t5 12 17 kg dodot 48 un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Fraldas Dodot T5",
+      "original": "Fraldas Activity Extra T5 12-17 Kg Dodot 48 un"
+    },
+    "fralda protect dry t6 cuida bebe 38un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Fraldas Marca Branca T6",
+      "original": "Fralda Protect&Dry T6 Cuida Bebé 38un"
+    },
+    "atum posta em azeite pingo doce 120 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Atum Azeite",
+      "original": "Atum Posta em Azeite Pingo Doce 120 g"
+    },
+    "pepino em conserva pingo doce 870 450g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pickles",
+      "original": "Pepino Em Conserva Pingo Doce 870/450g"
+    },
+    "veggie rice congelado pingo doce 450 g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Mistura legumes",
+      "original": "Veggie Rice Congelado Pingo Doce 450 g"
+    },
+    "fiambre da perna extra fatias finas pingo doce 150 g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Fiambre",
+      "original": "Fiambre da Perna Extra Fatias Finas Pingo Doce 150 g"
+    },
+    "miolo de noz metades pingo doce 200 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Frutos Secos",
+      "original": "Miolo de Noz Metades Pingo Doce 200 g"
+    },
+    "bolachas da selva pingo doce 330 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolachas Várias",
+      "original": "Bolachas da Selva Pingo Doce 330 g"
+    },
+    "logurte natural pingo doce 8x125 g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Natural",
+      "original": "logurte Natural Pingo Doce 8x125 g"
+    },
+    "azeitonas pretas descarocadas pingo doce 165 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Azeitonas",
+      "original": "Azeitonas Pretas Descaroçadas Pingo Doce 165 g"
+    },
+    "salsichas hot dog frasco pingo doce 6 un": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Salsichas",
+      "original": "Salsichas Hot Dog Frasco Pingo Doce 6 un"
+    },
+    "esparregado congelado pingo doce 350 g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Esparregado",
+      "original": "Esparregado Congelado Pingo Doce 350 g"
+    },
+    "gelatina royal zero melancia 31gr": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Gelatina Royal",
+      "original": "Gelatina Royal Zero Melancia 31Gr"
+    },
+    "gelatina royal zero mirtilo 31 gr": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Gelatina Royal",
+      "original": "Gelatina Royal Zero Mirtilo 31 Gr"
+    },
+    "gelatina royal zero limao 31gr": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Gelatina Royal",
+      "original": "Gelatina Royal Zero Limão 31gr"
+    },
+    "gelatina royal zero fr bosque 31g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Gelatina Royal",
+      "original": "Gelatina Royal Zero Fr Bosque 31g"
+    },
+    "gelatina royal zero morango 31gr": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Gelatina Royal",
+      "original": "Gelatina Royal Zero Morango 31Gr"
+    },
+    "iogurte natural pingo doce 8x125 g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Natural",
+      "original": "Iogurte Natural Pingo Doce 8x125 g"
+    },
+    "iog liq magro 00 pd melancia limao 170g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Líquido",
+      "original": "IOG LÍQ MAGRO 00% PD MELANCIA&LIMÃO 170G"
+    },
+    "iog liq magro 000 pd mor lim menta 170g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Líquido",
+      "original": "IOG LÍQ MAGRO 000% PD MOR-LIM-MENTA 170G"
+    },
+    "iogurte liquido magro 00 ananas e lima pingo doce 170g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Líquido",
+      "original": "Iogurte Líquido Magro 00% Ananás e Lima Pingo Doce 170g"
+    },
+    "iogurte liquido frutos vermelhos pingo doce 170 g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Líquido",
+      "original": "Iogurte Líquido Frutos Vermelhos Pingo Doce 170 g"
+    },
+    "queijo fundido light palitos a vaca que ri 140 g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Palitos A Vaca que ri",
+      "original": "Queijo Fundido Light Palitos A Vaca que Ri 140 g"
+    },
+    "queijo fundido light 8 porcoes a vaca que ri 125 g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Vaca que ri",
+      "original": "Queijo Fundido Light 8 porções A Vaca Que Ri 125 g"
+    },
+    "queijo fundido light 16 porcoes a vaca que ri 250 g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Vaca que ri",
+      "original": "Queijo Fundido Light 16 porções A Vaca Que Ri 250 g"
+    },
+    "hamburgueres de frango sem gluten 4un iglo 240 g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Hamburguer Frango Iglo",
+      "original": "Hambúrgueres de Frango sem Glúten 4un Iglo 240 g"
+    },
+    "hamburgueres de frango sem gluten 8un iglo 480 g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Hamburguer Frango Iglo",
+      "original": "Hambúrgueres de Frango sem Glúten 8un Iglo 480 g"
+    },
+    "croquetes de carne congelados forno pingo doce 10x32 g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Croquetes",
+      "original": "Croquetes de Carne Congelados Forno Pingo Doce 10x32 g"
+    },
+    "spray limpa vidros ultra pro 1 l": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Limpa Vidros",
+      "original": "Spray Limpa Vidros Ultra Pro 1 L"
+    },
+    "lombos de salmao c pele pescanova 250g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Salmão",
+      "original": "LOMBOS DE SALMÃO C/PELE PESCANOVA 250G"
+    },
+    "lindahls stracciatella 160g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Skyr",
+      "original": "Lindahls Stracciatella 160g"
+    },
+    "lindahls framboesa 160g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Skyr",
+      "original": "Lindahls Framboesa 160g"
+    },
+    "lasanha bolonhesa pingo doce 400 g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Lasanha Bolonhesa",
+      "original": "Lasanha Bolonhesa Pingo Doce 400 g"
+    },
+    "bolsa de fruta manga e pessego pingo doce 90 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolsa de Fruta",
+      "original": "Bolsa de Fruta Manga e Pêssego Pingo Doce 90 g"
+    },
+    "bolsa de fruta maca banana e laranja com bolacha pingo doce 90 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolsa de Fruta",
+      "original": "Bolsa de Fruta Maçã, Banana e Laranja com Bolacha Pingo Doce 90 g"
+    },
+    "bolsa maca 90g pingo doce": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolsa de Fruta",
+      "original": "BOLSA MAÇA 90G PINGO DOCE"
+    },
+    "bolsa pera 90g pingo doce": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolsa de Fruta",
+      "original": "BOLSA PERA 90G PINGO DOCE"
+    },
+    "bolsa de fruta banana maca emorangonestle 90 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolsa de Fruta",
+      "original": "Bolsa de Fruta Banana, Maçã eMorangoNestlé 90 g"
+    },
+    "bolsa de fruta 4 frutas 4 meses nestle90 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolsa de Fruta",
+      "original": "Bolsa de Fruta 4 Frutas +4 Meses Nestlé90 g"
+    },
+    "bolsa de fruta maca e banana pingo doce 90 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolsa de Fruta",
+      "original": "Bolsa de Fruta Maçã e Banana Pingo Doce 90 g"
+    },
+    "pera rocha do oeste dop 1 kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Pera",
+      "original": "Pera Rocha do Oeste DOP 1 kg"
+    },
+    "sumo 100 pera rocha pingo doce 20 cl": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Sumos",
+      "original": "Sumo 100% Pera Rocha Pingo Doce 20 cl"
+    },
+    "alface iceberg 400 g": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Alface",
+      "original": "Alface Iceberg 400 g"
+    },
+    "tortitas arroz integral bicentury 130g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Tortitas de Arroz",
+      "original": "TORTITAS ARROZ INTEGRAL BICENTURY 130G"
+    },
+    "gelatina em po de mirtilo light pingo doce 31 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Gelatina Marca Branca",
+      "original": "Gelatina em Pó de Mirtilo Light Pingo Doce 31 g"
+    },
+    "gelatina zero frut tropicals 31gr": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Gelatina Marca Branca",
+      "original": "Gelatina Zero Frut Tropicals 31Gr"
+    },
+    "gelatina em po de frutos vermelhos light pingo doce 31 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Gelatina Marca Branca",
+      "original": "Gelatina em Pó de Frutos Vermelhos Light Pingo Doce 31 g"
+    },
+    "gelatina em po de ananas light pingo doce 31 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Gelatina Marca Branca",
+      "original": "Gelatina em Pó de Ananás Light Pingo Doce 31 g"
+    },
+    "gelatina 10kcal morango pingo doce 4x100 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Gelatina Marca Branca",
+      "original": "Gelatina 10Kcal Morango Pingo Doce 4x100 g"
+    },
+    "gelatina zero frut tropicalais 31gr": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Gelatina Marca Branca",
+      "original": "Gelatina Zero Frut Tropicalais 31Gr"
+    },
+    "coentros 50g pd": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Coentros",
+      "original": "Coentros 50g pd"
+    },
+    "queijo flamengo fatiado limiano 2x200 g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Queijo Limiano/TerraNostra",
+      "original": "Queijo Flamengo Fatiado Limiano 2x200 g"
+    },
+    "queijo flamengo fatiado limiano 200 g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Queijo Limiano/TerraNostra",
+      "original": "Queijo Flamengo Fatiado Limiano 200 g"
+    },
+    "azeite n planicies ve nao filtrado 0 5l": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Azeite",
+      "original": "Azeite N.Planicies Ve Não Filtrado 0,5l"
+    },
+    "champo camomila ultra suave 600 ml": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Champô Camomila",
+      "original": "Champô Camomila Ultra Suave 600 ml"
+    },
+    "azeitonas verdes descarocadas pingodoce165 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Azeitonas",
+      "original": "Azeitonas Verdes Descaroçadas PingoDoce165 g"
+    },
+    "rolo de cozinha 2 folhas compacto 2 4 pingo doce 2 un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Rolo de Cozinha",
+      "original": "Rolo de Cozinha 2 Folhas Compacto 2=4 Pingo Doce 2 un"
+    },
+    "pera rocha mini nacional saco 1kilo": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Pera",
+      "original": "Pêra Rocha Mini Nacional saco 1kilo"
+    },
+    "leite uht meio gordo pingo doce 1 l": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Leite Meio Gordo",
+      "original": "Leite UHT Meio Gordo Pingo Doce 1 L"
+    },
+    "ovos de galinhas criadas no solo classem pingo doce 6 un": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Ovos",
+      "original": "Ovos de Galinhas Criadas no Solo ClasseM Pingo Doce 6 un"
+    },
+    "crocantes de peixe pingo doce 15x30 g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Douradinhos",
+      "original": "Crocantes de Peixe Pingo Doce 15x30 g"
+    },
+    "pao de forma branco sem codea pingo doce 450 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão Branco sem Côdea",
+      "original": "Pão de Forma Branco sem Côdea Pingo Doce 450 g"
+    },
+    "leite choco 40 acucares adic 200ml pd": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Leitinhos Chocolate",
+      "original": "LEITE CHOCO -40% AÇUCARES ADIC 200ML PD"
+    },
+    "rucula selvagem pingo doce 70 g": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Rúcula",
+      "original": "Rúcula Selvagem Pingo Doce 70 g"
+    },
+    "mistura exotica de frutos secos pingo doce 200 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Frutos Secos",
+      "original": "Mistura Exótica de Frutos Secos Pingo Doce 200 g"
+    },
+    "cebola saco 1 kg pd": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Cebolas",
+      "original": "CEBOLA SACO 1 KG PD"
+    },
+    "mistura vegetais para saltear congelados pingo doce 400 g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Mistura legumes",
+      "original": "Mistura Vegetais para Saltear Congelados Pingo Doce 400 g"
+    },
+    "batata palitos finos congelada pingo doce 1kg": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Batata Noisette",
+      "original": "Batata Palitos Finos Congelada Pingo Doce 1kg"
+    },
+    "filetes de pangasiuscongeladospescanova 600 g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Filetes de Pescada",
+      "original": "Filetes de PangasiusCongeladosPescanova 600 g"
+    },
+    "logurte magro aroma morango pingo doce 125g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Aromas",
+      "original": "logurte Magro Aroma Morango Pingo Doce 125g"
+    },
+    "sal grosso pingo doce 1kg": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Sal Grosso",
+      "original": "Sal Grosso Pingo Doce 1kg"
+    },
+    "pao de queijo 1 un": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão Unidade",
+      "original": "Pão de Queijo 1 un"
+    },
+    "spray anticalcario ultra 1l": {
+      "type": "product",
+      "global_id": 480,
+      "original": "SPRAY ANTICALCARIO ULTRA 1L"
+    },
+    "massa farfalle pingo doce 500 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Massa várias",
+      "original": "Massa Farfalle Pingo Doce 500 g"
+    },
+    "gel de banho leite e mel pingo doce 1 l": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Gel de Banho",
+      "original": "Gel de Banho Leite e Mel Pingo Doce 1 L"
+    },
+    "limonada de maracuja 750ml pingo doce": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Sumos",
+      "original": "LIMONADA DE MARACUJÁ 750ML PINGO DOCE"
+    },
+    "arroz vaporizado pingo doce 1kg": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Arroz Vaporizado",
+      "original": "Arroz Vaporizado Pingo Doce 1kg"
+    },
+    "massa curvas riscadas pingo doce 500 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Massa várias",
+      "original": "Massa Curvas Riscadas Pingo Doce 500 g"
+    },
+    "molho para pizza aromatizado mutti 400 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Polpa de Tomate",
+      "original": "Molho para Pizza Aromatizado Mutti 400 g"
+    },
+    "azeite h esporao ve 0 75l": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Azeite",
+      "original": "Azeite H Esporão Ve 0,75l"
+    },
+    "legumes salteados com quinoa congelados pingo doce 350 g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Mistura legumes",
+      "original": "Legumes Salteados com Quinoa Congelados Pingo Doce 350 g"
+    },
+    "bolachas de cereais animais pingo doce400 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolachas Animais",
+      "original": "Bolachas de Cereais Animais Pingo Doce400 g"
+    },
+    "polpa de tomate pingo doce 210 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Polpa de Tomate",
+      "original": "Polpa de Tomate Pingo Doce 210 g"
+    },
+    "cereais chocolocos pingo doce 500 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Cereais Chocolate",
+      "original": "Cereais Chocolocos Pingo Doce 500 g"
+    },
+    "amendoa com pele formato poupanca pingodoce 400 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Frutos Secos",
+      "original": "Amêndoa com Pele Formato Poupança PingoDoce 400 g"
+    },
+    "maca mini nacional saco 1 kilo": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Maçã",
+      "original": "Maçã Mini Nacional Saco 1 kilo"
+    },
+    "massa garofalo fusilli lunghi 0 5kg": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Massa várias",
+      "original": "MASSA GAROFALO FUSILLI LUNGHI 0,5KG"
+    },
+    "pao carcaca bijou 60 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão Unidade",
+      "original": "PÃO CARCAÇA/BIJOU 60 G"
+    },
+    "pao forma bimbo sem codea 10 cereisesementes 450 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão 12 Cereais",
+      "original": "Pão Forma Bimbo Sem Côdea 10 CereiseSementes 450 G"
+    },
+    "logurte liquido magro00 ananaselimapingo doce 170g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Líquido",
+      "original": "logurte Liquido Magro00%AnanaseLimaPingo Doce 170g"
+    },
+    "salada fresca pingo doce 150 g": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Salada",
+      "original": "Salada Fresca Pingo Doce 150 g"
+    },
+    "bolacha torrada nacional 200 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolachas Torradas",
+      "original": "Bolacha Torrada Nacional 200 g"
+    },
+    "pao de forma brioche pingo doce 500 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão de Forma Brioche",
+      "original": "Pão de Forma Brioche Pingo Doce 500 g"
+    },
+    "pao enriquecido em fibra 70 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão 12 Cereais",
+      "original": "Pão Enriquecido em Fibra 70 g"
+    },
+    "tomate pelado pingo doce 390 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Tomate Pelado",
+      "original": "Tomate Pelado Pingo Doce 390 g"
+    },
+    "massa macarronete grande milaneza 500 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Massa várias",
+      "original": "Massa Macarronete Grande Milaneza 500 g"
+    },
+    "massa conchas milaneza 500 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Massa várias",
+      "original": "Massa Conchas Milaneza 500 g"
+    },
+    "pao de malte 75 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão 12 Cereais",
+      "original": "Pão de Malte 75 g"
+    },
+    "pasta de dentes multicare sensodyne 75ml ml": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Pasta de Dentes",
+      "original": "Pasta de Dentes Multicare Sensodyne 75ml ml"
+    },
+    "amendoa com pele formato poupanca pingo doce 400 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Frutos Secos",
+      "original": "Amêndoa com Pele Formato Poupança Pingo Doce 400 g"
+    },
+    "cond ultra suave camomila 200 ml": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Amaciador Camomila",
+      "original": "COND ULTRA SUAVE CAMOMILA 200 ML"
+    },
+    "achocolatado em po nesquik 390 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Nesquik",
+      "original": "Achocolatado em Pó Nesquik 390 g"
+    },
+    "bolo snack planetus manhazitos 6x2 un": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Manhãzitos",
+      "original": "Bolo Snack Planetus Manhazitos 6x2 un"
+    },
+    "ovos de galinhas criadas no solo classe m pingo doce 6 un": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Ovos",
+      "original": "Ovos de Galinhas Criadas no Solo Classe M Pingo Doce 6 un"
+    },
+    "queijinho de morango danonino petitdino 6x50 g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Danoninho",
+      "original": "Queijinho de Morango Danonino Petitdino 6x50 g"
+    },
+    "lombos de pescada ultracongelados pingo doce 400 g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Lombos de Pescada",
+      "original": "Lombos de Pescada Ultracongelados Pingo Doce 400 g"
+    },
+    "capsulas de cafe original buondi nespresso 10 un": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Buondi Café 8",
+      "original": "Cápsulas de Café Original Buondi Nespresso 10 un"
+    },
+    "logurte natural longa vida 120 g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Natural",
+      "original": "logurte Natural Longa Vida 120 g"
+    },
+    "cereais bolas de chocolate pingo doce 375 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Cereais Chocolate",
+      "original": "Cereais Bolas de Chocolate Pingo Doce 375 g"
+    },
+    "logurte liquido magro 00 ananas e lima pingo doce 170g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Líquido",
+      "original": "logurte Liquido Magro 00% Ananás e Lima Pingo Doce 170g"
+    },
+    "saco do lixo pingo doce lavanda fecho facil 30l 20un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Sacos do Lixo",
+      "original": "SACO DO LIXO PINGO DOCE LAVANDA FECHO FÁCIL 30L 20UN"
+    },
+    "bolachas com cereais mini dinosaurus 120gg": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolachas Dinossauros Cereais",
+      "original": "Bolachas com Cereais Mini Dinosaurus 120gg"
+    },
+    "pao de leite dulca 10 un": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão de Leite",
+      "original": "Pão de Leite Dulca 10 un"
+    },
+    "capsulas de cafe ristretto buondi nespresso 10 un": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Buondi Ristretto 13",
+      "original": "Cápsulas de Café Ristretto Buondi Nespresso 10 un"
+    },
+    "cenoura embalada pingo doce kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Cenouras",
+      "original": "Cenoura Embalada Pingo Doce kg"
+    },
+    "massa de alho pingo doce 200 ml": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Massa de Pimentão",
+      "original": "Massa de Alho Pingo Doce 200 ml"
+    },
+    "azeitonas verdes descarocadas pingo doce 165 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Azeitonas",
+      "original": "Azeitonas Verdes Descaroçadas Pingo Doce 165 g"
+    },
+    "massa vinha d alhos peninsular 200 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Massa de Pimentão",
+      "original": "Massa Vinha D'alhos Peninsular 200 G"
+    },
+    "pao de forma 12 cereais e sementes pingo doce 600 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão 12 Cereais",
+      "original": "Pão de Forma 12 Cereais e Sementes Pingo Doce 600 g"
+    },
+    "azeite virgem extra nossos planaltos pingo doce 0 75l": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Azeite",
+      "original": "Azeite Virgem Extra Nossos Planaltos Pingo Doce 0,75L"
+    },
+    "batatas noisettes congeladas pingo doce 1 kg": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Batata Noisette",
+      "original": "Batatas Noisettes Congeladas Pingo Doce 1 kg"
+    },
+    "cogumelos laminados pingo doce 355 185g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Cogumelos",
+      "original": "Cogumelos Laminados Pingo Doce 355/185g"
+    },
+    "concentrado de tomate compal da horta 140 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Polpa de Tomate",
+      "original": "Concentrado de Tomate Compal da Horta 140 g"
+    },
+    "amac roupa conc quanto f silvestre 74 d": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Amaciador Roupa",
+      "original": "AMAC ROUPA CONC QUANTO F SILVESTRE 74 D"
+    },
+    "maca golden das serras 1 5 kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Maçã",
+      "original": "Maçã Golden das Serras 1,5 kg"
+    },
+    "leite uht meio gordo pingo doce 200 ml": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Leitinhos",
+      "original": "Leite UHT Meio Gordo Pingo Doce 200 ml"
+    },
+    "croissant brioche 85 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão Unidade",
+      "original": "CROISSANT BRIOCHE 85 G *"
+    },
+    "mistura oriental de vegetais congelados pingo doce 380 g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Mistura legumes",
+      "original": "Mistura Oriental de Vegetais Congelados Pingo Doce 380 g"
+    },
+    "leite com chocolate sem lactose agros 200 ml": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Leitinhos Chocolate",
+      "original": "Leite com Chocolate sem Lactose Agros 200 ml"
+    },
+    "fr dodot pants act extra t7 29": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Fraldas Dodot Pants T7",
+      "original": "FR DODOT PANTS ACT EXTRA T7 29"
+    },
+    "azeite nossas planicies ve 0 75l": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Azeite",
+      "original": "AZEITE NOSSAS PLANICIES VE 0,75L"
+    },
+    "arroz basmati pingo doce 1kg": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Arroz Basmati",
+      "original": "Arroz Basmati Pingo Doce 1kg"
+    },
+    "salsa pd 50gr pd": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Salsa",
+      "original": "Salsa pd 50gr pd"
+    },
+    "tomate em pedacos pingo doce 390 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Tomate Pelado",
+      "original": "Tomate em Pedaços Pingo Doce 390 g"
+    },
+    "leite uht achocolatado agros 200 ml": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Leitinhos Chocolate",
+      "original": "Leite UHT Achocolatado Agros 200 ml"
+    },
+    "maca gala saco 1 5 kg maca gala saco 1 5kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Maçã",
+      "original": "MAÇÃ GALA SACO 1,5 KG Maçã Gala Saco 1,5Kg"
+    },
+    "queijo flamengo fatiado terra nostra 2x200 g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Queijo Limiano/TerraNostra",
+      "original": "Queijo Flamengo Fatiado Terra Nostra 2x200 g"
+    },
+    "limpa chao de madeira com sabaoultrapro 1500 ml": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Lava tudo madeira",
+      "original": "Limpa Chão de Madeira com SabãoUltraPro 1500 ml"
+    },
+    "bolachas de manteiga com cereais dinosaurus 185 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolachas Várias",
+      "original": "Bolachas de Manteiga com Cereais Dinosaurus 185 g"
+    },
+    "maca fuji saco 1 5 kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Maçã",
+      "original": "Maçã Fuji Saco 1,5 Kg"
+    },
+    "salsichas tipo alemas frasco pingo doce 5 un": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Salsichas",
+      "original": "Salsichas Tipo Alemãs Frasco Pingo Doce 5 un"
+    },
+    "capsulas de cafe ristrettobuondinespresso 10 un": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Buondi Ristretto 13",
+      "original": "Cápsulas de Café RistrettoBuondiNespresso 10 un"
+    },
+    "bolacha animais pingo doce 3x200g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolachas Animais",
+      "original": "Bolacha Animais Pingo Doce 3X200G"
+    },
+    "toalhitas dodot aqua pure 48un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Toalhitas Bebé",
+      "original": "TOALHITAS DODOT AQUA PURE 48UN"
+    },
+    "tortitas de arroz com chocolate preto 4x30 5g pingo doce": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Tortitas de Arroz",
+      "original": "Tortitas de Arroz com Chocolate Preto 4x30,5g Pingo Doce"
+    },
+    "abrasivo gel sanitario anticalcario ultra pro 1000 ml": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "CIF",
+      "original": "Abrasivo Gel Sanitário Anticalcário Ultra Pro 1000 ml"
+    },
+    "esfregao com sabao ultra limao 6un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Esfregão",
+      "original": "ESFREGÃO COM SABÃO ULTRA LIMÃO 6UN"
+    },
+    "creme vegetal para culinaria pingo doce1kg": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Margarina",
+      "original": "Creme Vegetal para Culinária Pingo Doce1Kg"
+    },
+    "lasanha bolonhesa pingo doce 1kg": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Lasanha Bolonhesa",
+      "original": "Lasanha Bolonhesa Pingo Doce 1kg"
+    },
+    "nuggets tipo americano iglo 12 un": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Nuggets",
+      "original": "Nuggets Tipo Americano Iglo 12 un"
+    }
+  }
+}
