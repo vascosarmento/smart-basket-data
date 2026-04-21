@@ -14,5 +14,45 @@
   {
     "category": "🥫 Despensa",
     "subcategory": "Sumos"
+  },
+  {
+    "category": "🥫 Despensa",
+    "subcategory": "Cerveja/Cidra"
+  },
+  {
+    "category": "🧀 Frigorífico",
+    "subcategory": "Presunto/Salmão"
+  },
+  {
+    "category": "🧀 Frigorífico",
+    "subcategory": "Entradas"
+  },
+  {
+    "category": "🥫 Despensa",
+    "subcategory": "Tostas"
+  },
+  {
+    "category": "🥫 Despensa",
+    "subcategory": "Vinhos"
+  },
+  {
+    "category": "❄️ Congelados",
+    "subcategory": "Sobremesas/Gelados"
+  },
+  {
+    "category": "🧀 Frigorífico",
+    "subcategory": "Ranas"
+  },
+  {
+    "category": "🥫 Despensa",
+    "subcategory": "Condimentos"
+  },
+  {
+    "category": "🧀 Frigorífico",
+    "subcategory": "Manteiga"
+  },
+  {
+    "category": "🧴 Higiene e Limpeza",
+    "subcategory": "Pensos"
   }
 ]
