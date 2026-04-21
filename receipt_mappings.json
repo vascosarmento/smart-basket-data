@@ -1413,6 +1413,174 @@
       "category": "🥫 Despensa",
       "subcategory": "Sumos",
       "original": "NECTAR UM BONGO MANGA 3*20CL"
+    },
+    "porco perna s osso vac ls kg": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Carne Estufar",
+      "original": "PORCO PERNA S/OSSO VAC. LS KG"
+    },
+    "cerv c alc super bock tp 20": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Cerveja/Cidra",
+      "original": "CERV.C/ALC.SUPER BOCK TP 20"
+    },
+    "cerveja s bock mini 6x20cl tp l": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Cerveja/Cidra",
+      "original": "CERVEJA S.BOCK MINI 6X20CL TP L"
+    },
+    "sidra c alc somersby maca6 20cl": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Cerveja/Cidra",
+      "original": "SIDRA C/ALC.SOMERSBY MACA6*20CL"
+    },
+    "presunto fat 9m cnt 120g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Presunto/Salmão",
+      "original": "PRESUNTO FAT 9M CNT 120G"
+    },
+    "porco entrecosto fritar": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Bifanas de Porco",
+      "original": "PORCO ENTRECOSTO FRITAR"
+    },
+    "fuet ext cnt un": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "FUET EXT CNT UN"
+    },
+    "burrata de vaca cnt 200g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "BURRATA DE VACA CNT 200G"
+    },
+    "qj mozzarella st lucia galbani": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "QJ MOZZARELLA ST LUCIA GALBANI"
+    },
+    "sz pate c trufa capdevila 55g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "(SZ) PATE C/TRUFA CAPDEVILA 55G"
+    },
+    "molho tzatziki cnt 180g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "MOLHO TZATZIKI CNT 180G"
+    },
+    "snack choc snickers 50g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "SNACK CHOC SNICKERS 50G"
+    },
+    "waffle c acucar": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "WAFFLE C/ACUCAR"
+    },
+    "acucar branco continente 1kg": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "ACUCAR BRANCO CONTINENTE 1KG"
+    },
+    "morango candela sr 400 g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "MORANGO CANDELA SR 400 G"
+    },
+    "ravioli abobora ceb caram 250g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Ranas",
+      "original": "RAVIOLI ABOBORA CEB.CARAM.250G"
+    },
+    "ravioli bolonhesa rana 250g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Ranas",
+      "original": "RAVIOLI BOLONHESA RANA 250G"
+    },
+    "nata leve p culi cont 200ml": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Condimentos",
+      "original": "NATA LEVE P/ CULI CONT. 200ML"
+    },
+    "leite de coco koala 400ml": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Condimentos",
+      "original": "LEITE DE COCO KOALA 400ML"
+    },
+    "molho de soja continente 200ml": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Condimentos",
+      "original": "MOLHO DE SOJA CONTINENTE 200ML"
+    },
+    "pim misturas grao cnt saq 45g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Condimentos",
+      "original": "PIM MISTURAS GRAO CNT SAQ 45G"
+    },
+    "farinheira arganil cnt 250g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Condimentos",
+      "original": "FARINHEIRA ARGANIL CNT 250G"
+    },
+    "ch carne alentejo cnt 130g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Condimentos",
+      "original": "CH CARNE ALENTEJO CNT 130G"
+    },
+    "louro folhas continente saq 10g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Condimentos",
+      "original": "LOURO FOLHAS CONTINENTE SAQ 10G"
+    },
+    "jpack pant bebe seco t7 44un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Fraldas Dodot Pants T7",
+      "original": "JPACK PANT BEBE SECO T7 44UN"
+    },
+    "jpack pant bebe seco t6 54un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Fraldas Marca Branca T6",
+      "original": "JPACK PANT BEBE SECO T6 54UN"
+    },
+    "penso class cnt 100un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Pensos",
+      "original": "PENSO CLASS CNT 100UN"
+    },
+    "madalenas class continente 450g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão de Leite",
+      "original": "MADALENAS CLASS CONTINENTE 450G"
     }
   },
   "pingodoce": {
@@ -2572,6 +2740,198 @@
       "category": "❄️ Congelados",
       "subcategory": "Nuggets",
       "original": "Nuggets Tipo Americano Iglo 12 un"
+    },
+    "pao de forma 9 cereais sem codea panrico 480 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão 12 Cereais",
+      "original": "Pão de Forma 9 Cereais sem Côdea Panrico 480 g"
+    },
+    "pizza fresca de presunto serrano pingodoce 390 g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Lasanha Bolonhesa",
+      "original": "Pizza Fresca de Presunto Serrano PingoDoce 390 g"
+    },
+    "agua pingo doce 50 cl": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Refrigerantes",
+      "original": "Água Pingo Doce 50 cl"
+    },
+    "cerveja com alcool super bock 15x20 cl": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Cerveja/Cidra",
+      "original": "Cerveja com Álcool Super Bock 15x20 cl"
+    },
+    "sidra somersby 20cl": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Cerveja/Cidra",
+      "original": "SIDRA SOMERSBY 20CL"
+    },
+    "presunto da beira baixa 9 meses de cura fatiado pingo doce 150 g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Presunto/Salmão",
+      "original": "Presunto da Beira Baixa 9 Meses de Cura Fatiado Pingo Doce 150 g"
+    },
+    "salmao fumado da noruega pingo doce 200 g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Presunto/Salmão",
+      "original": "Salmão Fumado da Noruega Pingo Doce 200 g"
+    },
+    "tostas lima pimenta gran pavesi 150 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Tostas",
+      "original": "Tostas Lima&Pimenta Gran Pavesi 150 G"
+    },
+    "presunto 5 meses de cura fatiado pingodoce 200 g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Presunto/Salmão",
+      "original": "Presunto 5 Meses de Cura Fatiado PingoDoce 200 g"
+    },
+    "guacamole pingo doce 200g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "Guacamole Pingo Doce 200g"
+    },
+    "hortela 50gr pd": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Coentros",
+      "original": "HORTELÃ 50GR PD"
+    },
+    "vinho tinto peninsula de setubal adega de pegoes 75 cl": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Vinhos",
+      "original": "Vinho Tinto Península de Setúbal Adega de Pegões 75 cl"
+    },
+    "vinho tinto dao pingo doce colheita selecionada 75 cl": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Vinhos",
+      "original": "Vinho Tinto Dão Pingo Doce Colheita Selecionada 75 cl"
+    },
+    "vinho branco peninsula de setubal adegade pegoes 75 cl": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Vinhos",
+      "original": "Vinho Branco Península de Setúbal Adegade Pegões 75 cl"
+    },
+    "v dao fuga res tto 75cl": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Vinhos",
+      "original": "V.DAO FUGA RES.TTO 75CL"
+    },
+    "v douro qta dos aciprestes res tto 75cl": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Vinhos",
+      "original": "V.DOURO QTA DOS ACIPRESTES RES.TTO 75cl"
+    },
+    "queijo mozzarella ralado campainha 2x250": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "Queijo Mozzarella Ralado Campainha 2x250"
+    },
+    "chupa chups 12 g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "Chupa Chups 12 g"
+    },
+    "madalenas classicas pingo doce 350 g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "Madalenas Clássicas Pingo Doce 350 g"
+    },
+    "qj frs magro santiago 80g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "QJ FRS MAGRO SANTIAGO 80G"
+    },
+    "gelado sorbet de manga 50 fruta iguarias pingo doce 1000 ml": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "Gelado Sorbet de Manga 50% Fruta Iguarias Pingo Doce 1000 ml"
+    },
+    "gelado de natas frescas pingo doce 1 l": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "Gelado de Natas Frescas Pingo Doce 1 L"
+    },
+    "tablete de chocolate de leite amendoa e caramelo pingo doce 200 g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "Tablete de Chocolate de Leite, Amêndoa e Caramelo Pingo Doce 200 g"
+    },
+    "chupa sem acucar chupa chups 11 g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "Chupa Sem Açúcar Chupa Chups 11 g"
+    },
+    "snack de chocolate de leite kindert12150 g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "Snack de Chocolate de Leite KinderT12150 g"
+    },
+    "pintainhos pascoa magnetic 75 g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "Pintainhos Páscoa Magnetic 75 G"
+    },
+    "mostarda com graos pingo doce 200 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Condimentos",
+      "original": "Mostarda com Grãos Pingo Doce 200 g"
+    },
+    "pimentao doce saqueta margao 35 g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Condimentos",
+      "original": "Pimentão Doce Saqueta Margão 35 g"
+    },
+    "nachos com sabor a queijo pingo doce150 g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "Nachos com Sabor a Queijo Pingo Doce150 g"
+    },
+    "penso higienico noite com abascottonlike evax 18 un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Pensos",
+      "original": "Penso Higiénico Noite com AbasCottonlike Evax 18 un"
+    },
+    "manteiga com sal mimosa 125 g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Manteiga",
+      "original": "Manteiga com Sal Mimosa 125 g"
+    },
+    "barras linha de chocolate negro pd 6x23g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Barritas",
+      "original": "Barras Linha de Chocolate Negro PD 6x23g"
     }
   }
 }
