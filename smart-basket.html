@@ -2907,18 +2907,29 @@ function fmt(n){if(n==null||isNaN(n))return'—';return n.toFixed(2).replace('.'
    ══════════════════════════════════════════════════ */
 
 const GAS_STATIONS={
-  gt:{id:65368,label:'GALP Telheiras',brand:'galp'},
-  gp:{id:65371,label:'GALP Padre Cruz',brand:'galp'},
-  bp:{id:65943,label:'BP Padre Cruz',brand:'bp'},
-  bc:{id:65944,label:'BP Columbano',brand:'bp'}
+  gt:{id:65368,label:'GALP Telheiras',       brand:'galp'},
+  gp:{id:65371,label:'GALP Padre Cruz',      brand:'galp'},
+  ga:{id:65373,label:'GALP Ajuda',           brand:'galp'},
+  bp:{id:65943,label:'BP Padre Cruz',        brand:'bp'},
+  bc:{id:65944,label:'BP Columbano',         brand:'bp'},
+  eu:{id:69132,label:'Estádio Universitário',brand:'none'},
+  pa:{id:87694,label:'PRIO Alta de Lisboa',  brand:'none'},
+  pc:{id:93251,label:'PRIO Campo Grande',    brand:'none'},
+  rc:{id:66647,label:'REPSOL Campo Grande',  brand:'none'}
 };
 
-// Prices as of 13-04-2026 (fallback cache)
+// Prices as of 13-04-2026 (fallback cache) — new stations get a placeholder;
+// first live fetch replaces them with real data.
 const GAS_CACHE={
   gt:{fuels:[['Gasolina simples 95',1.994],['Gasolina especial 95',2.044],['Gasóleo simples',2.200],['Gasóleo especial',2.250],['Gasolina especial 98',2.204]],ts:'13-04-2026 17:55'},
   gp:{fuels:[['Gasolina simples 95',1.994],['Gasolina especial 95',2.044],['Gasóleo simples',2.200],['Gasóleo especial',2.250],['Gasolina especial 98',2.204]],ts:'13-04-2026 18:40'},
+  ga:{fuels:[['Gasolina simples 95',1.994],['Gasolina especial 95',2.044],['Gasóleo simples',2.200],['Gasóleo especial',2.250],['Gasolina especial 98',2.204]],ts:'—'},
   bp:{fuels:[['Gasolina simples 95',2.029],['Gasóleo simples',2.229],['Gasóleo especial',2.359],['Gasolina especial 98',2.239]],ts:'12-04-2026 23:30'},
-  bc:{fuels:[['Gasolina simples 95',2.029],['Gasóleo simples',2.229],['Gasóleo especial',2.359],['Gasolina especial 98',2.239]],ts:'13-04-2026 07:00'}
+  bc:{fuels:[['Gasolina simples 95',2.029],['Gasóleo simples',2.229],['Gasóleo especial',2.359],['Gasolina especial 98',2.239]],ts:'13-04-2026 07:00'},
+  eu:{fuels:[['Gasolina simples 95',1.989],['Gasóleo simples',2.084]],ts:'—'},
+  pa:{fuels:[['Gasolina simples 95',1.989],['Gasóleo simples',2.084]],ts:'—'},
+  pc:{fuels:[['Gasolina simples 95',1.989],['Gasóleo simples',2.084]],ts:'—'},
+  rc:{fuels:[['Gasolina simples 95',1.989],['Gasolina especial 95',2.059],['Gasóleo simples',2.084],['Gasóleo especial',2.154],['Gasolina especial 98',2.189]],ts:'21-04-2026 08:20'}
 };
 
 const GAS_BP_TIERS=[
@@ -2968,29 +2979,32 @@ function gasCalc(){
 
   const res=[];
 
-  // GALP stations — min 16L required for discount
-  ['gt','gp'].forEach(k=>{
-    const p=_gasGet(k,fuel);if(!p)return;
-    const litres=eur/p;
-    const disc=litres>=16?gd:0;
-    const effP=p-disc;
-    const effL=eur/effP;
-    res.push({key:k,label:GAS_STATIONS[k].label,rawP:p,disc,effP,effL,
-      discStr:disc>0?`−${(disc*100).toFixed(1)}c/L`:'sem desc. GALP'});
-  });
+  Object.entries(GAS_STATIONS).forEach(([k, station])=>{
+    const p=_gasGet(k, fuel);
+    if(!p) return;
+    const label = station.label;
+    const litres = eur/p;
 
-  // BP stations — escalão discount, capped by available balance
-  ['bp','bc'].forEach(k=>{
-    const p=_gasGet(k,fuel);if(!p)return;
-    const label=GAS_STATIONS[k].label;
-    let bd=_gasBpDisc(eur);
-    // Cap by available balance: if bpBal=0 → no discount; if bpBal>0 → cap at bpBal
-    if(bpBal===0) bd=0;
-    else bd=Math.min(bd,bpBal);
-    const effL=(eur/p)+(bd/p);
-    const effP=eur/effL;
-    res.push({key:k,label,rawP:p,disc:bd,effP,effL,
-      discStr:bd>0?`−${bd}€ total`:(bpBal===0?'sem saldo BP':'sem desc. BP')});
+    if(station.brand==='galp'){
+      // GALP: min 16 L for discount
+      const disc = litres>=16 ? gd : 0;
+      const effP = p - disc;
+      const effL = eur / effP;
+      res.push({key:k,label,rawP:p,disc,effP,effL,
+        discStr:disc>0?`−${(disc*100).toFixed(1)}c/L`:'sem desc. GALP'});
+    } else if(station.brand==='bp'){
+      // BP: escalão discount, capped by available balance
+      let bd = _gasBpDisc(eur);
+      if(bpBal===0) bd = 0;
+      else bd = Math.min(bd, bpBal);
+      const effL = (eur/p) + (bd/p);
+      const effP = eur / effL;
+      res.push({key:k,label,rawP:p,disc:bd,effP,effL,
+        discStr:bd>0?`−${bd}€ total`:(bpBal===0?'sem saldo BP':'sem desc. BP')});
+    } else {
+      // No-discount stations: just raw price
+      res.push({key:k,label,rawP:p,disc:0,effP:p,effL:litres,discStr:'sem desconto'});
+    }
   });
 
   if(!res.length){
@@ -3087,13 +3101,9 @@ async function gasLoadAll(){
   const status=document.getElementById('gas-refresh-status');
   if(btn){btn.disabled=true;btn.textContent='A actualizar…';}
   if(status)status.textContent='';
-  await Promise.allSettled([
-    gasFetchStation(65368,'gt'),
-    gasFetchStation(65371,'gp'),
-    gasFetchStation(65943,'bp'),
-    gasFetchStation(65944,'bc'),
-    gasFetchEnse()
-  ]);
+  const tasks = Object.entries(GAS_STATIONS).map(([k, station]) => gasFetchStation(station.id, k));
+  tasks.push(gasFetchEnse());
+  await Promise.allSettled(tasks);
   gasCalc();
   const ts=GAS_LIVE.gt?.ts||'—';
   if(status)status.textContent='DGEG: '+ts;
@@ -3116,9 +3126,9 @@ function gasInit(){
       </tr>`;
     }).join('');
   }
-  // Update subtitle to include Columbano
+  // Update subtitle to reflect total station count
   const sub=document.getElementById('gas-subtitle');
-  if(sub) sub.textContent='Padre Cruz · Telheiras · Columbano';
+  if(sub) sub.textContent=`${Object.keys(GAS_STATIONS).length} postos em Lisboa`;
 }
 
 /* ══ end of gasolina section ══ */
