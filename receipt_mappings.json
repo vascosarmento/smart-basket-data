@@ -1581,6 +1581,24 @@
       "category": "🥫 Despensa",
       "subcategory": "Pão de Leite",
       "original": "MADALENAS CLASS CONTINENTE 450G"
+    },
+    "figuras de gesso p pintar": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "FIGURAS DE GESSO P/PINTAR"
+    },
+    "inside out": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "INSIDE OUT"
+    },
+    "conj 4 pilhas aaa plus check ou": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "CONJ 4 PILHAS AAA PLUS CHECK OU"
     }
   },
   "pingodoce": {
@@ -2932,6 +2950,18 @@
       "category": "🥫 Despensa",
       "subcategory": "Barritas",
       "original": "Barras Linha de Chocolate Negro PD 6x23g"
+    },
+    "saco plastico reciclado pd 90": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "SACO PLASTICO RECICLADO PD 90%"
+    },
+    "uhu madeira rapida 75g": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "UHU MADEIRA RÁPIDA 75G"
     }
   }
 }
