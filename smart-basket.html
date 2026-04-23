@@ -3039,21 +3039,28 @@ function gasCalc(){
 function gasRenderEnse(data){
   const el=document.getElementById('gas-ense-out');
   if(!el||!data||!data.length)return;
-  const vals=data.slice(-5).map(d=>d.g);
-  const n=vals.length;
-  if(n<2){el.textContent='Dados insuficientes.';return;}
-  const slope=vals.slice(1).reduce((s,v,i)=>s+(v-vals[i]),0)/(n-1);
-  const last=vals[n-1];
-  const lastD=data[data.length-1].d;
-  const est=(last+slope*5).toFixed(3);
-  const rising=slope>0.002,falling=slope<-0.002;
+  if(data.length<2){el.textContent='Dados insuficientes.';return;}
+
+  // Week-over-week delta on the ENSE gasolina simples 95 reference.
+  // ENSE publishes a daily bulletin; the WoW move is what feeds Monday's pump price
+  // (brands announce Sunday → DGEG updates Mon 00:00).
+  const latest=data[data.length-1];
+  const prev=data.length>=8?data[data.length-8]:data[0]; // ~7 days back if available
+  const delta=latest.g-prev.g;                            // €/L
+  const deltaC=delta*100;                                 // cêntimos/L
+  const pctWoW=(delta/prev.g)*100;                        // %
+  const est=latest.g+delta;                               // project same WoW move forward
+
+  const rising=deltaC>0.5,falling=deltaC<-0.5;
   const arrow=rising?'↑':falling?'↓':'→';
   const dir=rising?'a subir':falling?'a descer':'estável';
   const col=rising?'#E2001A':falling?'var(--green)':'var(--muted)';
+  const sign=deltaC>=0?'+':'';
+
   el.innerHTML=`<span style="font-size:16px;font-weight:700;color:${col}">${arrow} ${dir}</span>
-    <span style="font-size:13px;color:var(--text);margin-left:8px">~${est} €/L segunda</span>
+    <span style="font-size:13px;color:var(--text);margin-left:8px">~${est.toFixed(3)} €/L segunda</span>
     <span style="font-size:11px;color:var(--muted);margin-left:6px">(ref. ENSE, não preço bomba)</span>
-    <div style="font-size:11px;color:var(--muted);margin-top:2px">Último: ${lastD} = ${last.toFixed(3)} €/L · tendência ${slope>=0?'+':''}${(slope*100).toFixed(2)}c/dia</div>`;
+    <div style="font-size:11px;color:var(--muted);margin-top:2px">Variação semanal: ${sign}${deltaC.toFixed(1)}c/L (${sign}${pctWoW.toFixed(2)}%) · boletim ENSE ${latest.d} vs ${prev.d} · Gasolina simples 95</div>`;
 }
 
 async function gasFetchStation(id,key){
