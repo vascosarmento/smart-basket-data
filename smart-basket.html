@@ -643,11 +643,11 @@ main{padding:16px;max-width:700px;margin:0 auto;width:100%;padding-bottom:90px}
   <div id="gas-results"><div style="font-size:13px;color:var(--muted)">A carregar preços…</div></div>
 </div>
 
-<!-- ENSE outlook — compact -->
+<!-- Weekly fuel prediction (source: Contas-Poupança) -->
 <div style="background:var(--s1);border:1px solid var(--border);border-radius:var(--r);padding:12px 14px;margin-bottom:12px">
-  <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);margin-bottom:6px">Tendência ENSE — próxima semana</div>
-  <div id="gas-ense-out" style="font-size:13px;color:var(--muted)">A carregar…</div>
-  <div style="font-size:10px;color:var(--muted);margin-top:6px;line-height:1.5">ENSE publica sexta à tarde → marcas anunciam domingo → DGEG actualiza segunda 00:00</div>
+  <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);margin-bottom:6px">Previsão combustíveis — próxima semana</div>
+  <div id="gas-pred-out" style="font-size:13px;color:var(--muted)">A carregar…</div>
+  <div style="font-size:10px;color:var(--muted);margin-top:6px;line-height:1.5">Fonte: Contas-Poupança (Pedro Andersson) → publicado sextas → vigora segunda a domingo</div>
 </div>
 
 <!-- Refresh -->
@@ -2939,15 +2939,22 @@ const GAS_BP_TIERS=[
   {min:67,max:71,d:17},{min:71,max:75,d:18},{min:75,max:79,d:19},{min:79,d:20}
 ];
 
-// ENSE reference data as of 13-04-2026 (fallback)
-const GAS_ENSE_CACHE=[
-  {d:'06/04',g:1.746,go:2.083},{d:'07/04',g:1.746,go:2.083},
-  {d:'08/04',g:1.746,go:2.044},{d:'09/04',g:1.651,go:1.807},
-  {d:'10/04',g:1.686,go:1.915},{d:'13/04',g:1.671,go:1.834}
-];
+// Weekly prediction fallback. The /api/fuel-prediction endpoint scrapes
+// Contas-Poupança's weekly article; if that fetch fails, we render this.
+// Seed value is the real 24/04/2026 publication. Update on deploy if stale.
+const GAS_PRED_FALLBACK={
+  status:'ok',
+  week_label:'27 de abril a 3 de maio',
+  published:'2026-04-24',
+  is_update:false,
+  gasoline:{delta_c:2.5,price_eur:1.921},
+  diesel:{delta_c:-4.0,price_eur:1.928},
+  source_url:'https://contaspoupanca.pt/carro/combustiveis',
+  fetched_at:null
+};
 
 let GAS_LIVE={};
-let GAS_ENSE=GAS_ENSE_CACHE;
+let GAS_PRED=GAS_PRED_FALLBACK;
 let GAS_LOADED=false;
 
 function _gasP(s){
@@ -3036,31 +3043,54 @@ function gasCalc(){
   }).join('')+(eur<16?'<div style="font-size:11px;color:#e06060;margin-top:8px">Descontos aplicam-se a partir de 16 L.</div>':'');
 }
 
-function gasRenderEnse(data){
-  const el=document.getElementById('gas-ense-out');
-  if(!el||!data||!data.length)return;
-  if(data.length<2){el.textContent='Dados insuficientes.';return;}
+function gasRenderPred(p){
+  const el=document.getElementById('gas-pred-out');
+  if(!el||!p)return;
 
-  // Week-over-week delta on the ENSE gasolina simples 95 reference.
-  // ENSE publishes a daily bulletin; the WoW move is what feeds Monday's pump price
-  // (brands announce Sunday → DGEG updates Mon 00:00).
-  const latest=data[data.length-1];
-  const prev=data.length>=8?data[data.length-8]:data[0]; // ~7 days back if available
-  const delta=latest.g-prev.g;                            // €/L
-  const deltaC=delta*100;                                 // cêntimos/L
-  const pctWoW=(delta/prev.g)*100;                        // %
-  const est=latest.g+delta;                               // project same WoW move forward
+  // No forward-looking prediction available (typical Mon–Thu state).
+  // Show a clear status message instead of stale current-week numbers.
+  if(p.status==='no_prediction_yet'){
+    el.innerHTML=`<div style="font-size:13px;color:var(--muted);line-height:1.5">
+      Sem previsão para a próxima semana ainda.
+      <div style="font-size:11px;margin-top:2px">Pedro Andersson publica nova previsão à sexta-feira.</div>
+    </div>`;
+    return;
+  }
 
-  const rising=deltaC>0.5,falling=deltaC<-0.5;
-  const arrow=rising?'↑':falling?'↓':'→';
-  const dir=rising?'a subir':falling?'a descer':'estável';
-  const col=rising?'#E2001A':falling?'var(--green)':'var(--muted)';
-  const sign=deltaC>=0?'+':'';
+  // Format a single fuel row: arrow + delta + projected price.
+  // price_eur may be missing on mid-week speculation articles — handle gracefully.
+  function row(label,fuel){
+    if(!fuel||fuel.delta_c==null)return `<div style="font-size:13px;color:var(--muted)">${label}: —</div>`;
+    const d=fuel.delta_c;
+    const rising=d>0.5,falling=d<-0.5;
+    const arrow=rising?'↑':falling?'↓':'→';
+    const col=rising?'#E2001A':falling?'var(--green)':'var(--muted)';
+    const sign=d>=0?'+':'';
+    const price=fuel.price_eur!=null?` · ${fuel.price_eur.toFixed(3)} €/L`:'';
+    return `<div style="font-size:13px;line-height:1.55">
+      <span style="display:inline-block;width:64px;color:var(--muted)">${label}</span>
+      <span style="font-weight:700;color:${col}">${arrow} ${sign}${d.toFixed(1)}c/L</span>
+      <span style="color:var(--text);margin-left:6px">${price}</span>
+    </div>`;
+  }
 
-  el.innerHTML=`<span style="font-size:16px;font-weight:700;color:${col}">${arrow} ${dir}</span>
-    <span style="font-size:13px;color:var(--text);margin-left:8px">~${est.toFixed(3)} €/L segunda</span>
-    <span style="font-size:11px;color:var(--muted);margin-left:6px">(ref. ENSE, não preço bomba)</span>
-    <div style="font-size:11px;color:var(--muted);margin-top:2px">Variação semanal: ${sign}${deltaC.toFixed(1)}c/L (${sign}${pctWoW.toFixed(2)}%) · boletim ENSE ${latest.d} vs ${prev.d} · Gasolina simples 95</div>`;
+  // Format published date as DD/MM
+  let pubStr=p.published||'';
+  if(/^\d{4}-\d{2}-\d{2}$/.test(pubStr)){
+    const [_,mm,dd]=pubStr.split('-');
+    pubStr=`${dd}/${mm}`;
+  }
+
+  // Status badges:
+  //   • (cache) — fetch failed, showing stale fallback data
+  //   • ATUALIZAÇÃO — Pedro updated his prediction mid-week (oil moved)
+  const badges=[];
+  if(p.fetched_at==null) badges.push('<span style="color:#E2001A">(cache)</span>');
+  if(p.is_update) badges.push('<span style="color:var(--text);font-weight:600">ATUALIZAÇÃO</span>');
+  const badgeStr=badges.length?' · '+badges.join(' · '):'';
+
+  el.innerHTML=`${row('Gasolina',p.gasoline)}${row('Gasóleo',p.diesel)}
+    <div style="font-size:11px;color:var(--muted);margin-top:4px">Semana ${p.week_label||'—'} · publicado ${pubStr}${badgeStr}</div>`;
 }
 
 async function gasFetchStation(id,key){
@@ -3075,26 +3105,20 @@ async function gasFetchStation(id,key){
   }
 }
 
-async function gasFetchEnse(){
+async function gasFetchPred(){
+  // Hits the Vercel serverless function /api/fuel-prediction which scrapes
+  // Contas-Poupança server-side (browser can't reach it directly: CORS + weekly URL hash).
   try{
-    const r=await fetch('https://www.ense-epe.pt/precos-de-referencia/');
-    if(!r.ok)throw 0;
-    const txt=await r.text();
-    const rows=[];
-    const re=/<tr[^>]*>([\s\S]*?)<\/tr>/gi;
-    let m;
-    while((m=re.exec(txt))!==null){
-      const cells=[...m[1].matchAll(/<td[^>]*>([\s\S]*?)<\/td>/gi)].map(x=>x[1].replace(/<[^>]+>/g,'').trim());
-      if(cells.length>=3){
-        const d=cells[0];
-        const g=parseFloat(cells[1].replace(',','.').replace('€',''));
-        const go=parseFloat(cells[2].replace(',','.').replace('€',''));
-        if(d.match(/\d{2}\/\d{2}\/\d{4}/)&&!isNaN(g))rows.push({d:d.slice(0,5),g,go:isNaN(go)?0:go});
-      }
-    }
-    if(rows.length)GAS_ENSE=rows;
-  }catch(e){}
-  gasRenderEnse(GAS_ENSE);
+    const r=await fetch('/api/fuel-prediction',{cache:'no-store'});
+    if(!r.ok)throw new Error('HTTP '+r.status);
+    const j=await r.json();
+    // Accept either a populated prediction OR an explicit "nothing yet" status.
+    // Both are valid server responses; only network/parse errors fall through to cache.
+    if(j&&(j.status==='no_prediction_yet'||j.gasoline||j.diesel))GAS_PRED=j;
+  }catch(e){
+    // Silent fallback to seeded values; render below will mark them as cache.
+  }
+  gasRenderPred(GAS_PRED);
 }
 
 function gasApplyCache(){
@@ -3109,7 +3133,7 @@ async function gasLoadAll(){
   if(btn){btn.disabled=true;btn.textContent='A actualizar…';}
   if(status)status.textContent='';
   const tasks = Object.entries(GAS_STATIONS).map(([k, station]) => gasFetchStation(station.id, k));
-  tasks.push(gasFetchEnse());
+  tasks.push(gasFetchPred());
   await Promise.allSettled(tasks);
   gasCalc();
   const ts=GAS_LIVE.gt?.ts||'—';
@@ -3119,7 +3143,7 @@ async function gasLoadAll(){
 
 function gasInit(){
   gasApplyCache();
-  gasRenderEnse(GAS_ENSE);
+  gasRenderPred(GAS_PRED);
   gasCalc();
   // Render BP tier table
   const tb=document.getElementById('bp-tier-table');
