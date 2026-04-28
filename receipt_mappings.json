@@ -1599,6 +1599,36 @@
       "category": "🧴 Higiene e Limpeza",
       "subcategory": "Casa/Outros",
       "original": "CONJ 4 PILHAS AAA PLUS CHECK OU"
+    },
+    "rolo coz cnt mega rolo mul 1r": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Rolo de Cozinha",
+      "original": "ROLO COZ. CNT MEGA ROLO MUL 1R"
+    },
+    "croissant folhado un": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão Unidade",
+      "original": "CROISSANT FOLHADO UN"
+    },
+    "croissant past careca": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão Unidade",
+      "original": "CROISSANT PAST CARECA"
+    },
+    "pants dodot activity extra t6": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Fraldas Dodot Pants T7",
+      "original": "PANTS DODOT ACTIVITY EXTRA T6+"
+    },
+    "marcador perm bic bisel pt": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "MARCADOR PERM BIC BISEL PT"
     }
   },
   "pingodoce": {
@@ -2962,6 +2992,174 @@
       "category": "🧴 Higiene e Limpeza",
       "subcategory": "Casa/Outros",
       "original": "UHU MADEIRA RÁPIDA 75G"
+    },
+    "fiambre p extra 200g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Fiambre",
+      "original": "FIAMBRE P EXTRA 200G"
+    },
+    "pao 12 cereai pd600g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão 12 Cereais",
+      "original": "PÃO 12 CEREAI PD600G"
+    },
+    "bisnaga compal 140g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Concentrado de Tomate",
+      "original": "BISNAGA COMPAL 140G"
+    },
+    "b argolas pd 128g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "B. ARGOLAS PD 128G"
+    },
+    "uva honey bran 700gr": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Uvas",
+      "original": "UVA HONEY BRAN 700GR"
+    },
+    "pera rocha saco 1 kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Pera",
+      "original": "PERA ROCHA SACO 1 KG"
+    },
+    "maca pink lady": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Maçã",
+      "original": "MAÇÃ PINK LADY"
+    },
+    "qj vaca ri light 8t": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Vaca que ri",
+      "original": "QJ VACA RI LIGHT 8T"
+    },
+    "qj pal vc ri li 140g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Palitos A Vaca que ri",
+      "original": "QJ PAL VC RI LI 140G"
+    },
+    "crunchy muesl pd 1kg": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Cereais Muesli",
+      "original": "CRUNCHY MUESL PD 1KG"
+    },
+    "mini din cho120g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolachas Dinossauros Ovos",
+      "original": "MINI DIN CHO120G"
+    },
+    "dinosaurus 4x35g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolachas Dinossauros Cereais",
+      "original": "DINOSAURUS 4X35G"
+    },
+    "b maria pd 4x200g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolacha Maria",
+      "original": "B. MARIA PD 4X200G"
+    },
+    "buondi n origin 10un": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Buondi Café 8",
+      "original": "BUONDI N.ORIGIN 10UN"
+    },
+    "caps ristretto 36 un": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Buondi Ristretto 13",
+      "original": "CAPS RISTRETTO 36 UN"
+    },
+    "az plani na fil 50cl": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Azeite",
+      "original": "AZ PLANI NÃ FIL 50CL"
+    },
+    "croissant brioche un": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão Unidade",
+      "original": "CROISSANT BRIOCHE UN"
+    },
+    "croissant manteiga u": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão Unidade",
+      "original": "CROISSANT MANTEIGA U"
+    },
+    "cenoura granel kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Cenouras",
+      "original": "CENOURA GRANEL KG"
+    },
+    "lt choc pd 4x200ml": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Leitinhos Chocolate",
+      "original": "LT CHOC PD 4X200ML"
+    },
+    "lt 40 pd4x200ml": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Leitinhos Chocolate",
+      "original": "LT -40% PD4X200ML"
+    },
+    "l uht m g pd 200ml": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Leitinhos",
+      "original": "L UHT M/G PD 200ML"
+    },
+    "ovo m solo pd 6un": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Ovos",
+      "original": "OVO M SOLO PD 6UN"
+    },
+    "v quinta da leda tt": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Vinhos",
+      "original": "V. QUINTA DA LEDA TT"
+    },
+    "compal fam f tropica": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Sumos",
+      "original": "COMPAL FAM.F.TROPICA"
+    },
+    "amac floral ul 80d": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Amaciador Roupa",
+      "original": "AMAC FLORAL UL 80D"
+    },
+    "gb flor laranj pd 1l": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Gel de Banho",
+      "original": "GB FLOR LARANJ PD 1L"
+    },
+    "bolas choc pd 375g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Cereais Chocolate",
+      "original": "BOLAS CHOC PD 375G"
     }
   }
 }
