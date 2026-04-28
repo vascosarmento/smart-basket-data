@@ -5668,5 +5668,42 @@
     "cont_id": "7635789",
     "pingo_id": "",
     "conversion_factor": 1.0
+  },
+  "562": {
+    "global_id": 562,
+    "cont_name": "",
+    "pingo_name": "Detergente Máquina Roupa Líquido Sabão Natural",
+    "receipt_string": "",
+    "category": "🧴 Higiene e Limpeza",
+    "subcategory": "Detergente Skip Sabão Natural",
+    "exclude_comparison": false,
+    "cont_id": "",
+    "pingo_id": "960326",
+    "conversion_factor": 1.0
+  },
+  "563": {
+    "global_id": 563,
+    "cont_name": "",
+    "pingo_name": "Soro Fisiológico",
+    "receipt_string": "",
+    "category": "🧴 Higiene e Limpeza",
+    "subcategory": "Soro Fisiológico",
+    "exclude_comparison": false,
+    "cont_id": "",
+    "pingo_id": "644116",
+    "conversion_factor": 1.0,
+    "category_manual": true
+  },
+  "564": {
+    "global_id": 564,
+    "cont_name": "",
+    "pingo_name": "Cápsulas de Café Nespresso Original",
+    "receipt_string": "",
+    "category": "🥫 Despensa",
+    "subcategory": "Buondi Café 8",
+    "exclude_comparison": false,
+    "cont_id": "",
+    "pingo_id": "951844",
+    "conversion_factor": 1.0
   }
 }
