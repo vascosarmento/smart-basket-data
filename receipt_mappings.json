@@ -3160,6 +3160,132 @@
       "category": "🥫 Despensa",
       "subcategory": "Cereais Chocolate",
       "original": "BOLAS CHOC PD 375G"
+    },
+    "bolsa pera pd 90g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolsa de Fruta",
+      "original": "BOLSA PERA PD 90G"
+    },
+    "passata guloso 210g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Polpa de Tomate",
+      "original": "PASSATA GULOSO 210G"
+    },
+    "arroz basmati pd": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Arroz Basmati",
+      "original": "ARROZ BASMATI PD"
+    },
+    "massa farfalle pd": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Massa várias",
+      "original": "MASSA FARFALLE PD"
+    },
+    "penne rigate pd 500g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Massa várias",
+      "original": "PENNE RIGATE PD 500G"
+    },
+    "azeitona preta 210g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Azeitonas",
+      "original": "AZEITONA PRETA 210G"
+    },
+    "azeitona ver sc 165g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Azeitonas",
+      "original": "AZEITONA VER SC 165G"
+    },
+    "atum azeite pd85g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Atum Azeite",
+      "original": "ATUM AZEITE PD85G"
+    },
+    "frango coxas atp pd": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Coxa de Frango",
+      "original": "FRANGO COXAS ATP PD"
+    },
+    "manga pronta a comer": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Manga",
+      "original": "MANGA PRONTA A COMER"
+    },
+    "peskito s g pnova 1k": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Douradinhos",
+      "original": "PESKITO S/G PNOVA 1K"
+    },
+    "veggie rice pd 450g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Mistura legumes",
+      "original": "VEGGIE RICE PD 450G"
+    },
+    "amb maq loica limao": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Ambientador Máquina Loiça",
+      "original": "AMB MAQ LOIÇA LIMÃO"
+    },
+    "lt ultra herbal 2l": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Lava tudo",
+      "original": "LT ULTRA HERBAL 2L"
+    },
+    "l tud mad ul sb 1 5l": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Lava tudo madeira",
+      "original": "L.TUD MAD UL SB 1,5L"
+    },
+    "tomate p doce pe390g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Tomate Pelado",
+      "original": "TOMATE P.DOCE PE390G"
+    },
+    "lv dsc hm7 m g 10un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Luvas",
+      "original": "LV DSC HM7 M/G 10UN"
+    },
+    "ig 00 fru v 4x170gpd": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Líquido",
+      "original": "IG 00%FRU.V 4X170GPD"
+    },
+    "ig 00 mo b 4x170gpd": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Líquido",
+      "original": "IG 00% MO&B 4X170GPD"
+    },
+    "grano s acuc pd 325g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Cereais Muesli",
+      "original": "GRANO S/AÇÚC PD 325G"
+    },
+    "ins el ul msc r 30ml": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Raid Mosquitos",
+      "original": "INS EL UL MSC R 30ML"
     }
   }
 }
