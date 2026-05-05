@@ -1629,6 +1629,72 @@
       "category": "🧴 Higiene e Limpeza",
       "subcategory": "Casa/Outros",
       "original": "MARCADOR PERM BIC BISEL PT"
+    },
+    "salsicha frankfurt cnt 10u 250g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Salsichas",
+      "original": "SALSICHA FRANKFURT CNT 10U 250G"
+    },
+    "fralda continente prem t 6 80un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Fraldas Marca Branca T6",
+      "original": "FRALDA CONTINENTE PREM T.6 80UN"
+    },
+    "rec ins electrico continente": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Raid Mosquitos",
+      "original": "REC.INS.ELECTRICO CONTINENTE"
+    },
+    "ph colhogar humido pure 80un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Papel Higiénico Húmido",
+      "original": "PH COLHOGAR HUMIDO PURE 80UN"
+    },
+    "cond ultra suave camomila 400ml": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Amaciador Camomila",
+      "original": "COND ULTRA SUAVE CAMOMILA 400ML"
+    },
+    "arroz extra longo est cacarola": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Arroz Vaporizado",
+      "original": "ARROZ EXTRA LONGO EST CACAROLA"
+    },
+    "esparguete continente 500g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Massa Esparguete",
+      "original": "ESPARGUETE CONTINENTE 500G"
+    },
+    "qj flam fts pack xl terra nostr": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Queijo Limiano/TerraNostra",
+      "original": "QJ FLAM FTS PACK XL TERRA NOSTR"
+    },
+    "croq carne forno cnt poupanca": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Croquete Unidade",
+      "original": "CROQ CARNE FORNO CNT POUPANCA"
+    },
+    "maca candine": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Maçã",
+      "original": "MACA CANDINE"
+    },
+    "pera rocha zer0 d 1kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Pera",
+      "original": "PERA ROCHA ZER0 %D 1KG"
     }
   },
   "pingodoce": {
