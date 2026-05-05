@@ -13583,6 +13583,695 @@
         }
       ],
       "processed_at": "2026-04-28T21:04:52.637977+00:00"
+    },
+    {
+      "id": "daf3d256d97a",
+      "filename": "tmphy8y98ut.pdf",
+      "store": "continente",
+      "date": "2026-05-05",
+      "total_gross": 196.2,
+      "discount_total": 32.9,
+      "voucher_total": 16.33,
+      "total": 162.44,
+      "items": [
+        {
+          "name": "SALSICHA FRANKFURT CNT 10U 250G",
+          "vat_code": "C",
+          "qty": 1,
+          "unit_price": 1.19,
+          "line_total": 1.19,
+          "base_price": null,
+          "discount": null,
+          "category": "Mercearia Salgada",
+          "global_id": null,
+          "match_method": "unmatched",
+          "subcat_key": null
+        },
+        {
+          "name": "ATUM AZEITE CONTINENTE 85GR",
+          "vat_code": "A",
+          "qty": 4.0,
+          "unit_price": 1.09,
+          "line_total": 4.36,
+          "base_price": 4.48,
+          "discount": 0.12,
+          "category": "Mercearia Salgada",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🥫 Despensa::Atum Azeite"
+        },
+        {
+          "name": "BOLACHA NACIONAL TORRADA 200G",
+          "vat_code": "C",
+          "qty": 1,
+          "unit_price": 1.0,
+          "line_total": 1.0,
+          "base_price": 1.34,
+          "discount": 0.34,
+          "category": "Mercearia Doce",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🥫 Despensa::Bolachas Torradas"
+        },
+        {
+          "name": "TORT. MILHO CNT EQ. C/SAL 130G",
+          "vat_code": "C",
+          "qty": 1,
+          "unit_price": 0.79,
+          "line_total": 0.79,
+          "base_price": null,
+          "discount": null,
+          "category": "Mercearia Doce",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🥫 Despensa::Tortitas de Milho"
+        },
+        {
+          "name": "GELAT MANGA 0% CTN 25G",
+          "vat_code": "C",
+          "qty": 1,
+          "unit_price": 0.99,
+          "line_total": 0.99,
+          "base_price": null,
+          "discount": null,
+          "category": "Mercearia Doce",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🥫 Despensa::Gelatina Marca Branca"
+        },
+        {
+          "name": "GELAT MIRTILO 0% CTN 25G",
+          "vat_code": "C",
+          "qty": 1,
+          "unit_price": 0.99,
+          "line_total": 0.99,
+          "base_price": null,
+          "discount": null,
+          "category": "Mercearia Doce",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🥫 Despensa::Gelatina Marca Branca"
+        },
+        {
+          "name": "GELATINA PO ROYAL 0% TROP 31G",
+          "vat_code": "C",
+          "qty": 2.0,
+          "unit_price": 1.49,
+          "line_total": 2.98,
+          "base_price": 4.28,
+          "discount": 1.3,
+          "category": "Mercearia Doce",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🥫 Despensa::Gelatina Royal"
+        },
+        {
+          "name": "BOL ARTIACH MINI DINO CER 3*40G",
+          "vat_code": "C",
+          "qty": 1,
+          "unit_price": 1.99,
+          "line_total": 1.99,
+          "base_price": null,
+          "discount": null,
+          "category": "Mercearia Doce",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🥫 Despensa::Bolachas Dinossauros Cereais"
+        },
+        {
+          "name": "FRALDA CONTINENTE PREM T.6 80UN",
+          "vat_code": "A",
+          "qty": 1,
+          "unit_price": 14.99,
+          "line_total": 14.99,
+          "base_price": null,
+          "discount": null,
+          "category": "Higiene",
+          "global_id": null,
+          "match_method": "unmatched",
+          "subcat_key": null
+        },
+        {
+          "name": "REC.INS.ELECTRICO CONTINENTE",
+          "vat_code": "C",
+          "qty": 1,
+          "unit_price": 2.69,
+          "line_total": 2.69,
+          "base_price": null,
+          "discount": null,
+          "category": "Limpeza do Lar",
+          "global_id": null,
+          "match_method": "unmatched",
+          "subcat_key": null
+        },
+        {
+          "name": "LAVA TUDO CNT BOSQUE 2LT",
+          "vat_code": "C",
+          "qty": 1,
+          "unit_price": 0.99,
+          "line_total": 0.99,
+          "base_price": null,
+          "discount": null,
+          "category": "Limpeza do Lar",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🧴 Higiene e Limpeza::Lava tudo"
+        },
+        {
+          "name": "PERCARBONATO DE SODIO CNT 750G",
+          "vat_code": "C",
+          "qty": 1,
+          "unit_price": 1.65,
+          "line_total": 1.65,
+          "base_price": null,
+          "discount": null,
+          "category": "Limpeza do Lar",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🧴 Higiene e Limpeza::Percabonato de Sódio"
+        },
+        {
+          "name": "SPRAY WC LIMPEZA CNT 750ML",
+          "vat_code": "C",
+          "qty": 1,
+          "unit_price": 1.79,
+          "line_total": 1.79,
+          "base_price": null,
+          "discount": null,
+          "category": "Limpeza do Lar",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🧴 Higiene e Limpeza::Spray Casa de Banho"
+        },
+        {
+          "name": "PH COLHOGAR HUMIDO PURE 80UN",
+          "vat_code": "A",
+          "qty": 1,
+          "unit_price": 2.09,
+          "line_total": 2.09,
+          "base_price": 2.99,
+          "discount": 0.9,
+          "category": "Limpeza do Lar",
+          "global_id": null,
+          "match_method": "unmatched",
+          "subcat_key": null
+        },
+        {
+          "name": "TIRA NOD VANISH SPRA DESENGORDU",
+          "vat_code": "C",
+          "qty": 1,
+          "unit_price": 5.55,
+          "line_total": 5.55,
+          "base_price": 9.99,
+          "discount": 4.44,
+          "category": "Limpeza do Lar",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🧴 Higiene e Limpeza::Spray Pré-Lavagem Roupa Cores Vanish"
+        },
+        {
+          "name": "SPRAY VANISH ROUPA BRANCA 750ML",
+          "vat_code": "C",
+          "qty": 1,
+          "unit_price": 5.55,
+          "line_total": 5.55,
+          "base_price": 9.99,
+          "discount": 4.44,
+          "category": "Limpeza do Lar",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🧴 Higiene e Limpeza::Spray Pré-Lavagem Roupa Branca Vanish"
+        },
+        {
+          "name": "DET LIQ MAQ ROUPA SKIP SABAO 60",
+          "vat_code": "C",
+          "qty": 1,
+          "unit_price": 7.19,
+          "line_total": 7.19,
+          "base_price": 17.99,
+          "discount": 10.8,
+          "category": "Limpeza do Lar",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🧴 Higiene e Limpeza::Detergente Skip Sabão Natural"
+        },
+        {
+          "name": "HAMBURGERS FRANGO IGLO S/GLUTEN",
+          "vat_code": "A",
+          "qty": 1,
+          "unit_price": 4.99,
+          "line_total": 4.99,
+          "base_price": 8.39,
+          "discount": 3.4,
+          "category": "Congelados",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "❄️ Congelados::Hamburguer Frango Iglo"
+        },
+        {
+          "name": "ESPARREGADO GRELOS CNT SELECAO",
+          "vat_code": "C",
+          "qty": 1,
+          "unit_price": 2.49,
+          "line_total": 2.49,
+          "base_price": null,
+          "discount": null,
+          "category": "Congelados",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "❄️ Congelados::Esparregado"
+        },
+        {
+          "name": "MISTURA COGUMELOS CONTINENTE",
+          "vat_code": "A",
+          "qty": 1,
+          "unit_price": 1.89,
+          "line_total": 1.89,
+          "base_price": null,
+          "discount": null,
+          "category": "Congelados",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "❄️ Congelados::Cogumelos"
+        },
+        {
+          "name": "MIST LEG CNT EST ITALIANO 750G",
+          "vat_code": "A",
+          "qty": 1,
+          "unit_price": 2.29,
+          "line_total": 2.29,
+          "base_price": null,
+          "discount": null,
+          "category": "Congelados",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "❄️ Congelados::Mistura legumes"
+        },
+        {
+          "name": "CROQ CARNE FORNO CNT POUPANCA",
+          "vat_code": "C",
+          "qty": 1,
+          "unit_price": 3.69,
+          "line_total": 3.69,
+          "base_price": null,
+          "discount": null,
+          "category": "Congelados",
+          "global_id": null,
+          "match_method": "unmatched",
+          "subcat_key": null
+        },
+        {
+          "name": "OVOS SOLO M CNTINENTE 1/2DZ",
+          "vat_code": "A",
+          "qty": 1,
+          "unit_price": 1.79,
+          "line_total": 1.79,
+          "base_price": null,
+          "discount": null,
+          "category": "Laticinios/Beb. Veg.",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🥫 Despensa::Ovos"
+        },
+        {
+          "name": "IOG NATURAL CONTINENTE 8X125G",
+          "vat_code": "A",
+          "qty": 1,
+          "unit_price": 1.39,
+          "line_total": 1.39,
+          "base_price": null,
+          "discount": null,
+          "category": "Laticinios/Beb. Veg.",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🧀 Frigorífico::Iogurte Natural"
+        },
+        {
+          "name": "SKYR SOL CNT EQ MIRTILO 150G",
+          "vat_code": "A",
+          "qty": 4.0,
+          "unit_price": 0.69,
+          "line_total": 2.76,
+          "base_price": null,
+          "discount": null,
+          "category": "Laticinios/Beb. Veg.",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🧀 Frigorífico::Iogurte Skyr"
+        },
+        {
+          "name": "IOG LIQ 00% CNT EQ F TRO 4X160G",
+          "vat_code": "A",
+          "qty": 1,
+          "unit_price": 1.39,
+          "line_total": 1.39,
+          "base_price": null,
+          "discount": null,
+          "category": "Laticinios/Beb. Veg.",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🧀 Frigorífico::Iogurte Líquido"
+        },
+        {
+          "name": "LEITE CHOC -50% CNT EQL 4X200ML",
+          "vat_code": "A",
+          "qty": 2.0,
+          "unit_price": 1.59,
+          "line_total": 3.18,
+          "base_price": null,
+          "discount": null,
+          "category": "Laticinios/Beb. Veg.",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🥫 Despensa::Leitinhos Chocolate"
+        },
+        {
+          "name": "COND ULTRA SUAVE CAMOMILA 400ML",
+          "vat_code": "C",
+          "qty": 1,
+          "unit_price": 3.79,
+          "line_total": 3.79,
+          "base_price": 5.89,
+          "discount": 2.1,
+          "category": "Beleza",
+          "global_id": null,
+          "match_method": "unmatched",
+          "subcat_key": null
+        },
+        {
+          "name": "CH ULTRA SUAVE CAMOMILA 400ML",
+          "vat_code": "C",
+          "qty": 1,
+          "unit_price": 3.79,
+          "line_total": 3.79,
+          "base_price": 5.89,
+          "discount": 2.1,
+          "category": "Beleza",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🧴 Higiene e Limpeza::Champô Camomila"
+        },
+        {
+          "name": "ARROZ EXTRA LONGO EST CACAROLA",
+          "vat_code": "A",
+          "qty": 1,
+          "unit_price": 1.35,
+          "line_total": 1.35,
+          "base_price": 1.61,
+          "discount": 0.26,
+          "category": "Bens Essenciais",
+          "global_id": null,
+          "match_method": "unmatched",
+          "subcat_key": null
+        },
+        {
+          "name": "ESPARGUETE CONTINENTE 500G",
+          "vat_code": "A",
+          "qty": 1,
+          "unit_price": 0.69,
+          "line_total": 0.69,
+          "base_price": null,
+          "discount": null,
+          "category": "Bens Essenciais",
+          "global_id": null,
+          "match_method": "unmatched",
+          "subcat_key": null
+        },
+        {
+          "name": "ENTRECOTE NOVILHO SKP",
+          "vat_code": "A",
+          "qty": 0.404,
+          "unit_price": 19.99,
+          "line_total": 8.08,
+          "base_price": null,
+          "discount": null,
+          "category": "Talho",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🧀 Frigorífico::Entrecôte"
+        },
+        {
+          "name": "BIFE DE FRANGO CONTINENTE LS",
+          "vat_code": "A",
+          "qty": 0.672,
+          "unit_price": 6.99,
+          "line_total": 4.7,
+          "base_price": null,
+          "discount": null,
+          "category": "Talho",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🧀 Frigorífico::Bifes de Frango"
+        },
+        {
+          "name": "PEITO FRANGO CONTINENTE LS",
+          "vat_code": "A",
+          "qty": 0.499,
+          "unit_price": 6.59,
+          "line_total": 3.29,
+          "base_price": null,
+          "discount": null,
+          "category": "Talho",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🧀 Frigorífico::Peito de Frango"
+        },
+        {
+          "name": "COXAS DE FRANGO LS",
+          "vat_code": "A",
+          "qty": 0.835,
+          "unit_price": 4.49,
+          "line_total": 3.75,
+          "base_price": null,
+          "discount": null,
+          "category": "Talho",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🧀 Frigorífico::Coxa de Frango"
+        },
+        {
+          "name": "CARNE PICADA MISTA CONTINENTE 9",
+          "vat_code": "A",
+          "qty": 1,
+          "unit_price": 8.99,
+          "line_total": 8.99,
+          "base_price": null,
+          "discount": null,
+          "category": "Talho",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🧀 Frigorífico::Carne Picada Mista"
+        },
+        {
+          "name": "BOVINO PICANHA AMERICA SUL SKIN",
+          "vat_code": "A",
+          "qty": 1,
+          "unit_price": 6.99,
+          "line_total": 6.99,
+          "base_price": null,
+          "discount": null,
+          "category": "Talho",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🧀 Frigorífico::Entrecôte"
+        },
+        {
+          "name": "LOMBOS SALMAO ASC CNT CONG 250G",
+          "vat_code": "A",
+          "qty": 1,
+          "unit_price": 5.99,
+          "line_total": 5.99,
+          "base_price": 7.49,
+          "discount": 1.5,
+          "category": "Peixaria",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "❄️ Congelados::Salmão"
+        },
+        {
+          "name": "QJ FLAM FTS PACK XL TERRA NOSTR",
+          "vat_code": "A",
+          "qty": 1,
+          "unit_price": 6.29,
+          "line_total": 6.29,
+          "base_price": 7.49,
+          "discount": 1.2,
+          "category": "Charcutaria&Queijos",
+          "global_id": null,
+          "match_method": "unmatched",
+          "subcat_key": null
+        },
+        {
+          "name": "CRU MUESLI CNT 0% ACU 500G",
+          "vat_code": "C",
+          "qty": 1,
+          "unit_price": 2.19,
+          "line_total": 2.19,
+          "base_price": null,
+          "discount": null,
+          "category": "Pequeno Almoco",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🥫 Despensa::Cereais Muesli"
+        },
+        {
+          "name": "SAQUETA CONTINENTE MACA E PERA",
+          "vat_code": "A",
+          "qty": 2.0,
+          "unit_price": 0.54,
+          "line_total": 1.08,
+          "base_price": null,
+          "discount": null,
+          "category": "Pequeno Almoco",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🥫 Despensa::Bolsa de Fruta"
+        },
+        {
+          "name": "MANGA PALMER AVIAO",
+          "vat_code": "A",
+          "qty": 0.698,
+          "unit_price": 4.99,
+          "line_total": 3.48,
+          "base_price": null,
+          "discount": null,
+          "category": "Frutas e Legumes",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🥬 Frescos::Manga"
+        },
+        {
+          "name": "ALFACE FRISADA",
+          "vat_code": "A",
+          "qty": 0.306,
+          "unit_price": 1.79,
+          "line_total": 0.55,
+          "base_price": null,
+          "discount": null,
+          "category": "Frutas e Legumes",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🥬 Frescos::Alface"
+        },
+        {
+          "name": "BANANA",
+          "vat_code": "A",
+          "qty": 0.754,
+          "unit_price": 1.29,
+          "line_total": 0.97,
+          "base_price": null,
+          "discount": null,
+          "category": "Frutas e Legumes",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🥬 Frescos::Banana"
+        },
+        {
+          "name": "MACA CANDINE",
+          "vat_code": "A",
+          "qty": 0.754,
+          "unit_price": 1.99,
+          "line_total": 1.5,
+          "base_price": null,
+          "discount": null,
+          "category": "Frutas e Legumes",
+          "global_id": null,
+          "match_method": "unmatched",
+          "subcat_key": null
+        },
+        {
+          "name": "UVA BRANCA S/GRAINHA 500 G",
+          "vat_code": "A",
+          "qty": 1,
+          "unit_price": 3.49,
+          "line_total": 3.49,
+          "base_price": null,
+          "discount": null,
+          "category": "Frutas e Legumes",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🥬 Frescos::Uvas"
+        },
+        {
+          "name": "PERA ROCHA ZER0 %D 1KG",
+          "vat_code": "A",
+          "qty": 1,
+          "unit_price": 1.79,
+          "line_total": 1.79,
+          "base_price": null,
+          "discount": null,
+          "category": "Frutas e Legumes",
+          "global_id": null,
+          "match_method": "unmatched",
+          "subcat_key": null
+        },
+        {
+          "name": "AZEITONA VERDE DESCAROCADA CNT",
+          "vat_code": "C",
+          "qty": 1,
+          "unit_price": 1.25,
+          "line_total": 1.25,
+          "base_price": null,
+          "discount": null,
+          "category": "Frutas e Legumes",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🥫 Despensa::Azeitonas"
+        },
+        {
+          "name": "AZEITO PRETA DESCAROCAD OXIDADA",
+          "vat_code": "C",
+          "qty": 1,
+          "unit_price": 1.29,
+          "line_total": 1.29,
+          "base_price": null,
+          "discount": null,
+          "category": "Frutas e Legumes",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🥫 Despensa::Azeitonas"
+        },
+        {
+          "name": "PAO DE LEITE CONTINENTE 350G",
+          "vat_code": "A",
+          "qty": 1,
+          "unit_price": 2.69,
+          "line_total": 2.69,
+          "base_price": null,
+          "discount": null,
+          "category": "Padaria",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🥫 Despensa::Pão de Leite"
+        },
+        {
+          "name": "PAO FORMA 12 CEREAIS/SEMENTES",
+          "vat_code": "A",
+          "qty": 1,
+          "unit_price": 1.39,
+          "line_total": 1.39,
+          "base_price": null,
+          "discount": null,
+          "category": "Padaria",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🥫 Despensa::Pão 12 Cereais"
+        },
+        {
+          "name": "PAO DE FORMA S/CODEA CNT 450GR",
+          "vat_code": "A",
+          "qty": 1,
+          "unit_price": 1.29,
+          "line_total": 1.29,
+          "base_price": null,
+          "discount": null,
+          "category": "Padaria",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🥫 Despensa::Pão Branco sem Côdea"
+        }
+      ],
+      "processed_at": "2026-05-05T08:36:51.142503+00:00"
     }
   ],
   "price_history": {
@@ -13777,6 +14466,13 @@
         "line_total": 2.25,
         "qty": 1,
         "name": "COXAS DE FRANGO LS"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 3.75,
+        "qty": 0.835,
+        "name": "COXAS DE FRANGO LS"
       }
     ],
     "🧀 Frigorífico::Lombinhos de Peru|continente": [
@@ -13912,6 +14608,13 @@
         "date": "2026-04-25",
         "store": "continente",
         "line_total": 8.09,
+        "qty": 1,
+        "name": "CARNE PICADA MISTA CONTINENTE 9"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 8.99,
         "qty": 1,
         "name": "CARNE PICADA MISTA CONTINENTE 9"
       }
@@ -14079,6 +14782,13 @@
         "line_total": 5.83,
         "qty": 1,
         "name": "SAQ.MACA BANANA PACK CNT 12X90G"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 1.08,
+        "qty": 2.0,
+        "name": "SAQUETA CONTINENTE MACA E PERA"
       }
     ],
     "🥬 Frescos::Salada|continente": [
@@ -14237,6 +14947,13 @@
         "line_total": 2.69,
         "qty": 1,
         "name": "PAO DE LEITE CONTINENTE 350G"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 2.69,
+        "qty": 1,
+        "name": "PAO DE LEITE CONTINENTE 350G"
       }
     ],
     "🥫 Despensa::Pão Branco sem Côdea|continente": [
@@ -14305,6 +15022,13 @@
       },
       {
         "date": "2026-04-25",
+        "store": "continente",
+        "line_total": 1.29,
+        "qty": 1,
+        "name": "PAO DE FORMA S/CODEA CNT 450GR"
+      },
+      {
+        "date": "2026-05-05",
         "store": "continente",
         "line_total": 1.29,
         "qty": 1,
@@ -14904,6 +15628,13 @@
         "line_total": 4.99,
         "qty": 1,
         "name": "TIRA NOD VANISH SPRA DESENGORDU"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 5.55,
+        "qty": 1,
+        "name": "TIRA NOD VANISH SPRA DESENGORDU"
       }
     ],
     "🧴 Higiene e Limpeza::Percabonato de Sódio|continente": [
@@ -14916,6 +15647,13 @@
       },
       {
         "date": "2026-03-17",
+        "store": "continente",
+        "line_total": 1.65,
+        "qty": 1,
+        "name": "PERCARBONATO DE SODIO CNT 750G"
+      },
+      {
+        "date": "2026-05-05",
         "store": "continente",
         "line_total": 1.65,
         "qty": 1,
@@ -14978,6 +15716,13 @@
         "line_total": 1.39,
         "qty": 1,
         "name": "ESPARREGO CNT 350G"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 2.49,
+        "qty": 1,
+        "name": "ESPARREGADO GRELOS CNT SELECAO"
       }
     ],
     "🥫 Despensa::Condimentos|continente": [
@@ -15046,6 +15791,13 @@
         "store": "continente",
         "line_total": 6.06,
         "qty": 0.303,
+        "name": "ENTRECOTE NOVILHO SKP"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 8.08,
+        "qty": 0.404,
         "name": "ENTRECOTE NOVILHO SKP"
       }
     ],
@@ -15144,6 +15896,13 @@
         "line_total": 0.99,
         "qty": 1,
         "name": "BOLACHA NACIONAL TORRADA 200G"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 1.0,
+        "qty": 1,
+        "name": "BOLACHA NACIONAL TORRADA 200G"
       }
     ],
     "🥫 Despensa::Gelatina Marca Branca|continente": [
@@ -15202,6 +15961,13 @@
         "line_total": 0.99,
         "qty": 1,
         "name": "GELAT ANANAS 0% CTN 25G"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 0.99,
+        "qty": 1,
+        "name": "GELAT MANGA 0% CTN 25G"
       }
     ],
     "🥫 Despensa::Gelatina Royal|continente": [
@@ -15239,6 +16005,13 @@
         "line_total": 6.27,
         "qty": 3.0,
         "name": "GELATINA PO ROYAL 0% ANANAS S 3"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 2.98,
+        "qty": 2.0,
+        "name": "GELATINA PO ROYAL 0% TROP 31G"
       }
     ],
     "🥫 Despensa::Coca Cola|continente": [
@@ -15410,6 +16183,13 @@
         "line_total": 2.29,
         "qty": 1,
         "name": "MIST LEG CNT EST ITALIANO 750G"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 2.29,
+        "qty": 1,
+        "name": "MIST LEG CNT EST ITALIANO 750G"
       }
     ],
     "🧀 Frigorífico::Iogurte Natural|continente": [
@@ -15502,6 +16282,13 @@
         "store": "continente",
         "line_total": 2.78,
         "qty": 2.0,
+        "name": "IOG NATURAL CONTINENTE 8X125G"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 1.39,
+        "qty": 1,
         "name": "IOG NATURAL CONTINENTE 8X125G"
       }
     ],
@@ -15599,6 +16386,13 @@
       },
       {
         "date": "2026-04-19",
+        "store": "continente",
+        "line_total": 1.39,
+        "qty": 1,
+        "name": "IOG LIQ 00% CNT EQ F TRO 4X160G"
+      },
+      {
+        "date": "2026-05-05",
         "store": "continente",
         "line_total": 1.39,
         "qty": 1,
@@ -15713,6 +16507,13 @@
         "store": "continente",
         "line_total": 4.35,
         "qty": 0.622,
+        "name": "BIFE DE FRANGO CONTINENTE LS"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 4.7,
+        "qty": 0.672,
         "name": "BIFE DE FRANGO CONTINENTE LS"
       }
     ],
@@ -15852,6 +16653,13 @@
         "store": "continente",
         "line_total": 1.52,
         "qty": 0.39,
+        "name": "MANGA PALMER AVIAO"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 3.48,
+        "qty": 0.698,
         "name": "MANGA PALMER AVIAO"
       }
     ],
@@ -16173,6 +16981,13 @@
         "line_total": 1.39,
         "qty": 1,
         "name": "PAO FORMA 12 CEREAIS/SEMENTES"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 1.39,
+        "qty": 1,
+        "name": "PAO FORMA 12 CEREAIS/SEMENTES"
       }
     ],
     "🥫 Despensa::Leitinhos Chocolate|continente": [
@@ -16238,6 +17053,13 @@
         "line_total": 3.18,
         "qty": 2.0,
         "name": "LEITE CHOC -50% CNT EQL 4X200ML"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 3.18,
+        "qty": 2.0,
+        "name": "LEITE CHOC -50% CNT EQL 4X200ML"
       }
     ],
     "🥫 Despensa::Bolachas Dinossauros Cereais|continente": [
@@ -16252,6 +17074,13 @@
         "date": "2026-01-18",
         "store": "continente",
         "line_total": 1.09,
+        "qty": 1,
+        "name": "BOL ARTIACH MINI DINO CER 3*40G"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 1.99,
         "qty": 1,
         "name": "BOL ARTIACH MINI DINO CER 3*40G"
       }
@@ -16508,6 +17337,13 @@
         "line_total": 3.88,
         "qty": 0.589,
         "name": "PEITO FRANGO CONTINENTE LS"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 3.29,
+        "qty": 0.499,
+        "name": "PEITO FRANGO CONTINENTE LS"
       }
     ],
     "🥬 Frescos::Banana|continente": [
@@ -16573,6 +17409,13 @@
         "line_total": 0.67,
         "qty": 0.522,
         "name": "BANANA"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 0.97,
+        "qty": 0.754,
+        "name": "BANANA"
       }
     ],
     "🥬 Frescos::Maçã|continente": [
@@ -16629,6 +17472,13 @@
       },
       {
         "date": "2026-03-24",
+        "store": "continente",
+        "line_total": 0.79,
+        "qty": 1,
+        "name": "TORT. MILHO CNT EQ. C/SAL 130G"
+      },
+      {
+        "date": "2026-05-05",
         "store": "continente",
         "line_total": 0.79,
         "qty": 1,
@@ -16756,6 +17606,13 @@
         "store": "continente",
         "line_total": 2.18,
         "qty": 2.0,
+        "name": "ATUM AZEITE CONTINENTE 85GR"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 4.36,
+        "qty": 4.0,
         "name": "ATUM AZEITE CONTINENTE 85GR"
       }
     ],
@@ -16923,6 +17780,13 @@
         "line_total": 1.79,
         "qty": 1,
         "name": "OVOS SOLO M CNTINENTE 1/2DZ"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 1.79,
+        "qty": 1,
+        "name": "OVOS SOLO M CNTINENTE 1/2DZ"
       }
     ],
     "🥫 Despensa::Leite Meio Gordo|continente": [
@@ -16967,6 +17831,13 @@
         "date": "2026-04-20",
         "store": "continente",
         "line_total": 5.95,
+        "qty": 1,
+        "name": "LOMBOS SALMAO ASC CNT CONG 250G"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 5.99,
         "qty": 1,
         "name": "LOMBOS SALMAO ASC CNT CONG 250G"
       }
@@ -17047,6 +17918,13 @@
         "line_total": 0.75,
         "qty": 0.28,
         "name": "ALFACE FRISADA"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 0.55,
+        "qty": 0.306,
+        "name": "ALFACE FRISADA"
       }
     ],
     "🥬 Frescos::Uvas|continente": [
@@ -17103,6 +17981,13 @@
         "date": "2026-04-10",
         "store": "continente",
         "line_total": 2.79,
+        "qty": 1,
+        "name": "UVA BRANCA S/GRAINHA 500 G"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 3.49,
         "qty": 1,
         "name": "UVA BRANCA S/GRAINHA 500 G"
       }
@@ -17163,6 +18048,13 @@
         "line_total": 1.25,
         "qty": 1,
         "name": "AZEITONA VERDE DESCAROCADA CNT"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 1.25,
+        "qty": 1,
+        "name": "AZEITONA VERDE DESCAROCADA CNT"
       }
     ],
     "🧀 Frigorífico::Iogurte Skyr|continente": [
@@ -17199,6 +18091,13 @@
         "store": "continente",
         "line_total": 2.07,
         "qty": 3.0,
+        "name": "SKYR SOL CNT EQ MIRTILO 150G"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 2.76,
+        "qty": 4.0,
         "name": "SKYR SOL CNT EQ MIRTILO 150G"
       }
     ],
@@ -17331,6 +18230,13 @@
       },
       {
         "date": "2026-04-20",
+        "store": "continente",
+        "line_total": 3.79,
+        "qty": 1,
+        "name": "CH ULTRA SUAVE CAMOMILA 400ML"
+      },
+      {
+        "date": "2026-05-05",
         "store": "continente",
         "line_total": 3.79,
         "qty": 1,
@@ -17612,6 +18518,13 @@
         "line_total": 2.19,
         "qty": 1,
         "name": "CRU MUESLI CNT 0% ACU 500G"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 2.19,
+        "qty": 1,
+        "name": "CRU MUESLI CNT 0% ACU 500G"
       }
     ],
     "🥫 Despensa::Nesquik|continente": [
@@ -17718,6 +18631,13 @@
       },
       {
         "date": "2026-04-10",
+        "store": "continente",
+        "line_total": 1.89,
+        "qty": 1,
+        "name": "MISTURA COGUMELOS CONTINENTE"
+      },
+      {
+        "date": "2026-05-05",
         "store": "continente",
         "line_total": 1.89,
         "qty": 1,
@@ -17862,6 +18782,13 @@
         "line_total": 4.99,
         "qty": 1,
         "name": "SPRAY VANISH ROUPA BRANCA 750ML"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 5.55,
+        "qty": 1,
+        "name": "SPRAY VANISH ROUPA BRANCA 750ML"
       }
     ],
     "🧴 Higiene e Limpeza::Tira Nódoas Pó Oxi Action Cores Vanish|continente": [
@@ -17908,6 +18835,13 @@
         "line_total": 7.99,
         "qty": 1,
         "name": "DET LIQ MAQ ROUPA SKIP SABAO 60"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 7.19,
+        "qty": 1,
+        "name": "DET LIQ MAQ ROUPA SKIP SABAO 60"
       }
     ],
     "❄️ Congelados::Puré de Batata|continente": [
@@ -17951,6 +18885,13 @@
         "line_total": 0.99,
         "qty": 1,
         "name": "LAVA TUDO CNT BOSQUE 2LT"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 0.99,
+        "qty": 1,
+        "name": "LAVA TUDO CNT BOSQUE 2LT"
       }
     ],
     "❄️ Congelados::Hamburguer Frango Iglo|continente": [
@@ -17963,6 +18904,13 @@
       },
       {
         "date": "2026-03-03",
+        "store": "continente",
+        "line_total": 4.99,
+        "qty": 1,
+        "name": "HAMBURGERS FRANGO IGLO S/GLUTEN"
+      },
+      {
+        "date": "2026-05-05",
         "store": "continente",
         "line_total": 4.99,
         "qty": 1,
@@ -18051,6 +18999,13 @@
         "date": "2026-03-24",
         "store": "continente",
         "line_total": 1.59,
+        "qty": 1,
+        "name": "SPRAY WC LIMPEZA CNT 750ML"
+      },
+      {
+        "date": "2026-05-05",
+        "store": "continente",
+        "line_total": 1.79,
         "qty": 1,
         "name": "SPRAY WC LIMPEZA CNT 750ML"
       }
@@ -18163,9 +19118,9 @@
         "last": "2026-03-17"
       },
       "BOLACHA NACIONAL TORRADA 200G": {
-        "count": 10,
+        "count": 11,
         "first": "2026-01-04",
-        "last": "2026-03-31"
+        "last": "2026-05-05"
       },
       "BOLACHA CNT CRACHERS S/SAL 500G": {
         "count": 6,
@@ -18208,9 +19163,9 @@
         "last": "2026-01-04"
       },
       "MIST LEG CNT EST ITALIANO 750G": {
-        "count": 12,
+        "count": 13,
         "first": "2026-01-04",
-        "last": "2026-04-20"
+        "last": "2026-05-05"
       },
       "MIST LEG CNT ESTILO FRANCES 750": {
         "count": 8,
@@ -18218,14 +19173,14 @@
         "last": "2026-03-31"
       },
       "OVOS SOLO M CNTINENTE 1/2DZ": {
-        "count": 18,
+        "count": 19,
         "first": "2026-01-04",
-        "last": "2026-04-20"
+        "last": "2026-05-05"
       },
       "IOG NATURAL CONTINENTE 8X125G": {
-        "count": 26,
+        "count": 27,
         "first": "2026-01-04",
-        "last": "2026-04-19"
+        "last": "2026-05-05"
       },
       "LEITE MG ACORES ROSCA CTN LT": {
         "count": 6,
@@ -18233,9 +19188,9 @@
         "last": "2026-04-06"
       },
       "SKYR SOL CNT EQ MIRTILO 150G": {
-        "count": 10,
+        "count": 11,
         "first": "2026-01-04",
-        "last": "2026-04-20"
+        "last": "2026-05-05"
       },
       "IOG LIQ 000% CNT EQ 4X160G": {
         "count": 2,
@@ -18248,9 +19203,9 @@
         "last": "2026-03-24"
       },
       "IOG LIQ 00% CNT EQ F TRO 4X160G": {
-        "count": 10,
+        "count": 11,
         "first": "2026-01-04",
-        "last": "2026-04-19"
+        "last": "2026-05-05"
       },
       "LEITE UHT C/CH MAXPOWER 3*200ML": {
         "count": 4,
@@ -18293,9 +19248,9 @@
         "last": "2026-04-20"
       },
       "CRU MUESLI CNT 0% ACU 500G": {
-        "count": 8,
+        "count": 9,
         "first": "2026-01-04",
-        "last": "2026-04-20"
+        "last": "2026-05-05"
       },
       "SAQ.MACA BANANA PACK CNT 12X90G": {
         "count": 6,
@@ -18378,9 +19333,9 @@
         "last": "2026-01-04"
       },
       "UVA BRANCA S/GRAINHA 500 G": {
-        "count": 16,
+        "count": 17,
         "first": "2026-01-04",
-        "last": "2026-04-10"
+        "last": "2026-05-05"
       },
       "CEBOLA CNT EMB. 1,5 KG": {
         "count": 8,
@@ -18388,19 +19343,19 @@
         "last": "2026-04-20"
       },
       "PAO DE LEITE CONTINENTE 350G": {
-        "count": 32,
+        "count": 33,
         "first": "2026-01-04",
-        "last": "2026-04-25"
+        "last": "2026-05-05"
       },
       "PAO FORMA 12 CEREAIS/SEMENTES": {
-        "count": 24,
+        "count": 25,
         "first": "2026-01-04",
-        "last": "2026-04-19"
+        "last": "2026-05-05"
       },
       "PAO DE FORMA S/CODEA CNT 450GR": {
-        "count": 20,
+        "count": 21,
         "first": "2026-01-04",
-        "last": "2026-04-25"
+        "last": "2026-05-05"
       },
       "BOMB NOUGAT I LOVE MILKA 110G": {
         "count": 2,
@@ -18418,9 +19373,9 @@
         "last": "2026-01-05"
       },
       "PERCARBONATO DE SODIO CNT 750G": {
-        "count": 4,
+        "count": 5,
         "first": "2026-01-05",
-        "last": "2026-03-17"
+        "last": "2026-05-05"
       },
       "ESPARREGO CNT 350G": {
         "count": 4,
@@ -18443,9 +19398,9 @@
         "last": "2026-01-05"
       },
       "COXAS DE FRANGO LS": {
-        "count": 18,
+        "count": 19,
         "first": "2026-01-05",
-        "last": "2026-04-25"
+        "last": "2026-05-05"
       },
       "CARNE PICADA BOVINO CONTINENTE": {
         "count": 6,
@@ -18458,9 +19413,9 @@
         "last": "2026-03-17"
       },
       "BOVINO PICANHA AMERICA SUL SKIN": {
-        "count": 2,
+        "count": 3,
         "first": "2026-01-05",
-        "last": "2026-01-05"
+        "last": "2026-05-05"
       },
       "SACO COMPRAS REUTILIZAVEL": {
         "count": 2,
@@ -18468,9 +19423,9 @@
         "last": "2026-01-05"
       },
       "GELAT MANGA 0% CTN 25G": {
-        "count": 14,
+        "count": 15,
         "first": "2026-01-11",
-        "last": "2026-04-20"
+        "last": "2026-05-05"
       },
       "GELATINA ROYAL 0% F BOSQUE 31G": {
         "count": 4,
@@ -18498,9 +19453,9 @@
         "last": "2026-03-17"
       },
       "ESPARREGADO GRELOS CNT SELECAO": {
-        "count": 4,
+        "count": 5,
         "first": "2026-01-11",
-        "last": "2026-01-25"
+        "last": "2026-05-05"
       },
       "MIX MEDITERRANEO CNT 750G": {
         "count": 4,
@@ -18553,9 +19508,9 @@
         "last": "2026-01-11"
       },
       "MANGA PALMER AVIAO": {
-        "count": 16,
+        "count": 17,
         "first": "2026-01-11",
-        "last": "2026-04-20"
+        "last": "2026-05-05"
       },
       "PAPAIA FRACIONADA KG": {
         "count": 2,
@@ -18578,9 +19533,9 @@
         "last": "2026-04-06"
       },
       "LEITE CHOC -50% CNT EQL 4X200ML": {
-        "count": 12,
+        "count": 13,
         "first": "2026-01-14",
-        "last": "2026-04-20"
+        "last": "2026-05-05"
       },
       "SALADA CAMPONESA CNT 250GR": {
         "count": 10,
@@ -18593,9 +19548,9 @@
         "last": "2026-01-14"
       },
       "BOL ARTIACH MINI DINO CER 3*40G": {
-        "count": 4,
+        "count": 5,
         "first": "2026-01-14",
-        "last": "2026-01-18"
+        "last": "2026-05-05"
       },
       "PASTA SENSODYNE BRANQ 2X75 ML": {
         "count": 4,
@@ -18613,9 +19568,9 @@
         "last": "2026-03-17"
       },
       "MISTURA COGUMELOS CONTINENTE": {
-        "count": 10,
+        "count": 11,
         "first": "2026-01-14",
-        "last": "2026-04-10"
+        "last": "2026-05-05"
       },
       "BARRINHAS PESCANOVA": {
         "count": 2,
@@ -18653,14 +19608,14 @@
         "last": "2026-04-06"
       },
       "SAQUETA CONTINENTE MACA E PERA": {
-        "count": 10,
+        "count": 11,
         "first": "2026-01-14",
-        "last": "2026-04-20"
+        "last": "2026-05-05"
       },
       "BANANA": {
-        "count": 18,
+        "count": 19,
         "first": "2026-01-14",
-        "last": "2026-04-20"
+        "last": "2026-05-05"
       },
       "MADALENAS CLASS CONTINENTE 450G": {
         "count": 2,
@@ -18718,9 +19673,9 @@
         "last": "2026-01-20"
       },
       "GELAT MIRTILO 0% CTN 25G": {
-        "count": 8,
+        "count": 9,
         "first": "2026-01-20",
-        "last": "2026-04-20"
+        "last": "2026-05-05"
       },
       "SNACK CHOC SNICKERS 50G": {
         "count": 2,
@@ -18743,9 +19698,9 @@
         "last": "2026-01-20"
       },
       "PEITO FRANGO CONTINENTE LS": {
-        "count": 4,
+        "count": 5,
         "first": "2026-01-20",
-        "last": "2026-01-26"
+        "last": "2026-05-05"
       },
       "LOMBINHOS DE PERU LS": {
         "count": 8,
@@ -18758,9 +19713,9 @@
         "last": "2026-01-20"
       },
       "ATUM AZEITE CONTINENTE 85GR": {
-        "count": 8,
+        "count": 9,
         "first": "2026-01-21",
-        "last": "2026-04-20"
+        "last": "2026-05-05"
       },
       "MOLHO DE SOJA CONTINENTE 200ML": {
         "count": 2,
@@ -18793,14 +19748,14 @@
         "last": "2026-04-10"
       },
       "TIRA NOD VANISH SPRA DESENGORDU": {
-        "count": 6,
+        "count": 7,
         "first": "2026-01-21",
-        "last": "2026-04-20"
+        "last": "2026-05-05"
       },
       "SPRAY VANISH ROUPA BRANCA 750ML": {
-        "count": 4,
+        "count": 5,
         "first": "2026-01-21",
-        "last": "2026-03-31"
+        "last": "2026-05-05"
       },
       "TIRA NOD VANISH PO PINK 1,45KG": {
         "count": 8,
@@ -18833,9 +19788,9 @@
         "last": "2026-01-21"
       },
       "BIFE DE FRANGO CONTINENTE LS": {
-        "count": 6,
+        "count": 7,
         "first": "2026-01-21",
-        "last": "2026-03-31"
+        "last": "2026-05-05"
       },
       "SAQ.FRUTA MACA MORANGO CNT 90G": {
         "count": 6,
@@ -18918,14 +19873,14 @@
         "last": "2026-01-26"
       },
       "LAVA TUDO CNT BOSQUE 2LT": {
-        "count": 4,
+        "count": 5,
         "first": "2026-01-26",
-        "last": "2026-03-17"
+        "last": "2026-05-05"
       },
       "HAMBURGERS FRANGO IGLO S/GLUTEN": {
-        "count": 4,
+        "count": 5,
         "first": "2026-01-26",
-        "last": "2026-03-03"
+        "last": "2026-05-05"
       },
       "ESPARGUETE CONTINENTE 1KG": {
         "count": 2,
@@ -18953,14 +19908,14 @@
         "last": "2026-01-26"
       },
       "AZEITONA VERDE DESCAROCADA CNT": {
-        "count": 12,
+        "count": 13,
         "first": "2026-01-26",
-        "last": "2026-04-20"
+        "last": "2026-05-05"
       },
       "AZEITO PRETA DESCAROCAD OXIDADA": {
-        "count": 14,
+        "count": 15,
         "first": "2026-01-26",
-        "last": "2026-04-20"
+        "last": "2026-05-05"
       },
       "BOLA MISTURA 80G": {
         "count": 4,
@@ -18983,9 +19938,9 @@
         "last": "2026-03-03"
       },
       "CARNE PICADA MISTA CONTINENTE 9": {
-        "count": 12,
+        "count": 13,
         "first": "2026-03-03",
-        "last": "2026-04-25"
+        "last": "2026-05-05"
       },
       "PIM MISTURAS GRAO CNT SAQ 45G": {
         "count": 2,
@@ -19003,9 +19958,9 @@
         "last": "2026-03-08"
       },
       "GELATINA PO ROYAL 0% TROP 31G": {
-        "count": 4,
+        "count": 5,
         "first": "2026-03-08",
-        "last": "2026-03-22"
+        "last": "2026-05-05"
       },
       "Q C/POLPA DANONINO MOR/BAN6*50G": {
         "count": 2,
@@ -19058,9 +20013,9 @@
         "last": "2026-03-08"
       },
       "ALFACE FRISADA": {
-        "count": 2,
+        "count": 3,
         "first": "2026-03-08",
-        "last": "2026-03-08"
+        "last": "2026-05-05"
       },
       "CEBOLA CNT KG": {
         "count": 2,
@@ -19073,9 +20028,9 @@
         "last": "2026-03-08"
       },
       "TORT. MILHO CNT EQ. C/SAL 130G": {
-        "count": 4,
+        "count": 5,
         "first": "2026-03-17",
-        "last": "2026-03-24"
+        "last": "2026-05-05"
       },
       "PAPEL DE ALUMINIO CNT 30M": {
         "count": 2,
@@ -19088,9 +20043,9 @@
         "last": "2026-03-31"
       },
       "CH ULTRA SUAVE CAMOMILA 400ML": {
-        "count": 6,
+        "count": 7,
         "first": "2026-03-17",
-        "last": "2026-04-20"
+        "last": "2026-05-05"
       },
       "MASSA NINHOS C/OVOS CNT 500G": {
         "count": 4,
@@ -19198,9 +20153,9 @@
         "last": "2026-04-20"
       },
       "SPRAY WC LIMPEZA CNT 750ML": {
-        "count": 2,
+        "count": 3,
         "first": "2026-03-24",
-        "last": "2026-03-24"
+        "last": "2026-05-05"
       },
       "PORCO LOMBINHOS VACUO": {
         "count": 4,
@@ -19233,9 +20188,9 @@
         "last": "2026-03-25"
       },
       "DET LIQ MAQ ROUPA SKIP SABAO 60": {
-        "count": 2,
+        "count": 3,
         "first": "2026-03-25",
-        "last": "2026-03-25"
+        "last": "2026-05-05"
       },
       "BROCOLOS CONTINENTE 900G": {
         "count": 2,
@@ -19273,9 +20228,9 @@
         "last": "2026-03-31"
       },
       "ENTRECOTE NOVILHO SKP": {
-        "count": 2,
+        "count": 3,
         "first": "2026-03-31",
-        "last": "2026-03-31"
+        "last": "2026-05-05"
       },
       "CHOC CULINARIA PANTAGRUEL 200G": {
         "count": 2,
@@ -19458,9 +20413,9 @@
         "last": "2026-04-20"
       },
       "LOMBOS SALMAO ASC CNT CONG 250G": {
-        "count": 2,
+        "count": 3,
         "first": "2026-04-20",
-        "last": "2026-04-20"
+        "last": "2026-05-05"
       },
       "QJ LIGHT VACA QUE RI 8 PORCOES": {
         "count": 2,
@@ -19516,6 +20471,61 @@
         "count": 2,
         "first": "2026-04-26",
         "last": "2026-04-26"
+      },
+      "SALSICHA FRANKFURT CNT 10U 250G": {
+        "count": 1,
+        "first": "2026-05-05",
+        "last": "2026-05-05"
+      },
+      "FRALDA CONTINENTE PREM T.6 80UN": {
+        "count": 1,
+        "first": "2026-05-05",
+        "last": "2026-05-05"
+      },
+      "REC.INS.ELECTRICO CONTINENTE": {
+        "count": 1,
+        "first": "2026-05-05",
+        "last": "2026-05-05"
+      },
+      "PH COLHOGAR HUMIDO PURE 80UN": {
+        "count": 1,
+        "first": "2026-05-05",
+        "last": "2026-05-05"
+      },
+      "CROQ CARNE FORNO CNT POUPANCA": {
+        "count": 1,
+        "first": "2026-05-05",
+        "last": "2026-05-05"
+      },
+      "COND ULTRA SUAVE CAMOMILA 400ML": {
+        "count": 1,
+        "first": "2026-05-05",
+        "last": "2026-05-05"
+      },
+      "ARROZ EXTRA LONGO EST CACAROLA": {
+        "count": 1,
+        "first": "2026-05-05",
+        "last": "2026-05-05"
+      },
+      "ESPARGUETE CONTINENTE 500G": {
+        "count": 1,
+        "first": "2026-05-05",
+        "last": "2026-05-05"
+      },
+      "QJ FLAM FTS PACK XL TERRA NOSTR": {
+        "count": 1,
+        "first": "2026-05-05",
+        "last": "2026-05-05"
+      },
+      "MACA CANDINE": {
+        "count": 1,
+        "first": "2026-05-05",
+        "last": "2026-05-05"
+      },
+      "PERA ROCHA ZER0 %D 1KG": {
+        "count": 1,
+        "first": "2026-05-05",
+        "last": "2026-05-05"
       }
     },
     "pingodoce": {
