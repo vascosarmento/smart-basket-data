@@ -3352,6 +3352,18 @@
       "category": "🧴 Higiene e Limpeza",
       "subcategory": "Raid Mosquitos",
       "original": "INS EL UL MSC R 30ML"
+    },
+    "tort arr s s pd 130g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Tortitas de Arroz",
+      "original": "TORT ARR S/S PD 130G"
+    },
+    "alho seco kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Alho",
+      "original": "ALHO SECO KG"
     }
   }
 }
