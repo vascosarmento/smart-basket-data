@@ -14272,6 +14272,136 @@
         }
       ],
       "processed_at": "2026-05-05T08:36:51.142503+00:00"
+    },
+    {
+      "id": "98b4d4278a23",
+      "filename": "tmpk8xsqelm.pdf",
+      "store": "pingodoce",
+      "date": "2026-05-07",
+      "total_gross": 22.38,
+      "discount_total": 16.38,
+      "voucher_total": 1.2,
+      "total": 6.0,
+      "items": [
+        {
+          "name": "B. SELVA PD 8X41,2G",
+          "qty": 1.0,
+          "unit_price": 1.69,
+          "line_total": 1.69,
+          "base_price": null,
+          "discount": 0.0,
+          "tax_code": "E",
+          "category": "MERCEARIA + PET FOOD",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🥫 Despensa::Bolachas Várias"
+        },
+        {
+          "name": "TORT ARR S/S PD 130G",
+          "qty": 1.0,
+          "unit_price": 0.79,
+          "line_total": 0.79,
+          "base_price": null,
+          "discount": 0.0,
+          "tax_code": "E",
+          "category": "MERCEARIA + PET FOOD",
+          "global_id": null,
+          "match_method": "unmatched",
+          "subcat_key": null
+        },
+        {
+          "name": "AZEITONA VER SC 165G",
+          "qty": 2.0,
+          "unit_price": 1.29,
+          "line_total": 2.58,
+          "base_price": null,
+          "discount": 0.0,
+          "tax_code": "E",
+          "category": "MERCEARIA + PET FOOD",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🥫 Despensa::Azeitonas"
+        },
+        {
+          "name": "MANGA PRONTA A COMER",
+          "qty": 1.515,
+          "unit_price": 4.99,
+          "line_total": 5.89,
+          "base_price": 7.56,
+          "discount": 1.67,
+          "tax_code": "C",
+          "category": "FRUTAS E VEGETAIS",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🥬 Frescos::Manga"
+        },
+        {
+          "name": "ALHO SECO KG",
+          "qty": 0.15,
+          "unit_price": 6.69,
+          "line_total": 1.0,
+          "base_price": null,
+          "discount": 0.0,
+          "tax_code": "C",
+          "category": "FRUTAS E VEGETAIS",
+          "global_id": null,
+          "match_method": "unmatched",
+          "subcat_key": null
+        },
+        {
+          "name": "YOPRO STRAC 4X120G",
+          "qty": 1.0,
+          "unit_price": 2.99,
+          "line_total": 2.99,
+          "base_price": null,
+          "discount": 0.0,
+          "tax_code": "C",
+          "category": "PRODUTOS LACTEOS",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🧀 Frigorífico::Iogurte YoPro Mini Pack4"
+        },
+        {
+          "name": "YOPRO DAN BAUN 4X120",
+          "qty": 1.0,
+          "unit_price": 2.99,
+          "line_total": 2.99,
+          "base_price": null,
+          "discount": 0.0,
+          "tax_code": "C",
+          "category": "PRODUTOS LACTEOS",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🧀 Frigorífico::Iogurte YoPro Mini Pack4"
+        },
+        {
+          "name": "IOG NATURAL 8X125GPD",
+          "qty": 1.0,
+          "unit_price": 1.39,
+          "line_total": 1.39,
+          "base_price": null,
+          "discount": 0.0,
+          "tax_code": "C",
+          "category": "PRODUTOS LACTEOS",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🧀 Frigorífico::Iogurte Natural"
+        },
+        {
+          "name": "IG LQ MA ME/L PD170G",
+          "qty": 1.0,
+          "unit_price": 1.39,
+          "line_total": 1.39,
+          "base_price": null,
+          "discount": 0.0,
+          "tax_code": "C",
+          "category": "PRODUTOS LACTEOS",
+          "global_id": null,
+          "match_method": "receipt_subcategory",
+          "subcat_key": "🧀 Frigorífico::Iogurte Líquido"
+        }
+      ],
+      "processed_at": "2026-05-07T21:02:44.243712+00:00"
     }
   ],
   "price_history": {
@@ -15049,6 +15179,13 @@
         "line_total": 1.69,
         "qty": 1.0,
         "name": "B. SELVA PD 8X41,2G"
+      },
+      {
+        "date": "2026-05-07",
+        "store": "pingodoce",
+        "line_total": 1.69,
+        "qty": 1.0,
+        "name": "B. SELVA PD 8X41,2G"
       }
     ],
     "🥫 Despensa::Bolachas Animais|pingodoce": [
@@ -15132,6 +15269,13 @@
       },
       {
         "date": "2026-04-28",
+        "store": "pingodoce",
+        "line_total": 1.39,
+        "qty": 1.0,
+        "name": "IG LQ MA ME/L PD170G"
+      },
+      {
+        "date": "2026-05-07",
         "store": "pingodoce",
         "line_total": 1.39,
         "qty": 1.0,
@@ -15279,6 +15423,13 @@
         "line_total": 1.39,
         "qty": 1.0,
         "name": "IOG NATURAL 8X125GPD"
+      },
+      {
+        "date": "2026-05-07",
+        "store": "pingodoce",
+        "line_total": 1.39,
+        "qty": 1.0,
+        "name": "IOG NATURAL 8X125GPD"
       }
     ],
     "🧀 Frigorífico::Iogurte YoPro Mini Pack4|pingodoce": [
@@ -15291,6 +15442,13 @@
       },
       {
         "date": "2026-04-28",
+        "store": "pingodoce",
+        "line_total": 2.99,
+        "qty": 1.0,
+        "name": "YOPRO STRAC 4X120G"
+      },
+      {
+        "date": "2026-05-07",
         "store": "pingodoce",
         "line_total": 2.99,
         "qty": 1.0,
@@ -19108,6 +19266,24 @@
         "qty": 1,
         "name": "RUCULA SELVAGEM CNT EMB.100GR"
       }
+    ],
+    "🥫 Despensa::Azeitonas|pingodoce": [
+      {
+        "date": "2026-05-07",
+        "store": "pingodoce",
+        "line_total": 2.58,
+        "qty": 2.0,
+        "name": "AZEITONA VER SC 165G"
+      }
+    ],
+    "🥬 Frescos::Manga|pingodoce": [
+      {
+        "date": "2026-05-07",
+        "store": "pingodoce",
+        "line_total": 5.89,
+        "qty": 1.515,
+        "name": "MANGA PRONTA A COMER"
+      }
     ]
   },
   "receipt_strings": {
@@ -21525,9 +21701,9 @@
         "last": "2026-04-26"
       },
       "B. SELVA PD 8X41,2G": {
-        "count": 4,
+        "count": 5,
         "first": "2026-03-30",
-        "last": "2026-04-26"
+        "last": "2026-05-07"
       },
       "PEPINO C PD 870/450G": {
         "count": 4,
@@ -21570,24 +21746,24 @@
         "last": "2026-03-30"
       },
       "IOG NATURAL 8X125GPD": {
-        "count": 3,
+        "count": 4,
         "first": "2026-03-30",
-        "last": "2026-04-28"
+        "last": "2026-05-07"
       },
       "IG LQ MA ME/L PD170G": {
-        "count": 5,
+        "count": 6,
         "first": "2026-03-30",
-        "last": "2026-04-28"
+        "last": "2026-05-07"
       },
       "YOPRO DAN BAUN 4X120": {
-        "count": 2,
-        "first": "2026-03-30",
-        "last": "2026-03-30"
-      },
-      "YOPRO STRAC 4X120G": {
         "count": 3,
         "first": "2026-03-30",
-        "last": "2026-04-28"
+        "last": "2026-05-07"
+      },
+      "YOPRO STRAC 4X120G": {
+        "count": 4,
+        "first": "2026-03-30",
+        "last": "2026-05-07"
       },
       "YOPRO DAN MIRT 4X120": {
         "count": 3,
@@ -21820,9 +21996,9 @@
         "last": "2026-04-28"
       },
       "AZEITONA VER SC 165G": {
-        "count": 1,
+        "count": 2,
         "first": "2026-04-28",
-        "last": "2026-04-28"
+        "last": "2026-05-07"
       },
       "ATUM AZEITE PD85G": {
         "count": 1,
@@ -21845,9 +22021,9 @@
         "last": "2026-04-28"
       },
       "MANGA PRONTA A COMER": {
-        "count": 1,
+        "count": 2,
         "first": "2026-04-28",
-        "last": "2026-04-28"
+        "last": "2026-05-07"
       },
       "PESKITO S/G PNOVA 1K": {
         "count": 1,
@@ -21893,6 +22069,16 @@
         "count": 1,
         "first": "2026-04-28",
         "last": "2026-04-28"
+      },
+      "TORT ARR S/S PD 130G": {
+        "count": 1,
+        "first": "2026-05-07",
+        "last": "2026-05-07"
+      },
+      "ALHO SECO KG": {
+        "count": 1,
+        "first": "2026-05-07",
+        "last": "2026-05-07"
       }
     }
   }
