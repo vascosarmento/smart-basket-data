@@ -1021,7 +1021,7 @@
     "ref c gas coca cola zero 50cl": {
       "type": "subcategory",
       "category": "🥫 Despensa",
-      "subcategory": "Coca Cola",
+      "subcategory": "Refrigerantes",
       "original": "REF.C/GAS COCA COLA ZERO 50CL"
     },
     "manteiga c sal milhafre 250g": {
@@ -1695,6 +1695,522 @@
       "category": "🥬 Frescos",
       "subcategory": "Pera",
       "original": "PERA ROCHA ZER0 %D 1KG"
+    },
+    "uva branca s grainha cnt 1 kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Uvas",
+      "original": "UVA BRANCA S/GRAINHA CNT 1 KG"
+    },
+    "ref c gas c cola zero lata 33cl": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Refrigerantes",
+      "original": "REF.C/GAS C.COLA ZERO LATA 33CL"
+    },
+    "pipocas doces continente 150g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "PIPOCAS DOCES CONTINENTE 150G"
+    },
+    "batata fr cnt p p lisa 250g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Batatas Fritas Onduladas Pack 4",
+      "original": "BATATA FR. CNT P. P. LISA 250G"
+    },
+    "agua tonica schweppes zero 1l": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Refrigerantes",
+      "original": "AGUA TONICA SCHWEPPES ZERO 1L"
+    },
+    "novilho lagartos skp": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entrecôte",
+      "original": "NOVILHO LAGARTOS SKP"
+    },
+    "bov picanha angus fatiada kg": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entrecôte",
+      "original": "BOV PICANHA ANGUS FATIADA KG"
+    },
+    "qj flam fts pack xl limiano 600": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Queijo Limiano/TerraNostra",
+      "original": "QJ FLAM FTS PACK XL LIMIANO 600"
+    },
+    "saq fruta maca ananas cnt 90g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolsa de Fruta",
+      "original": "SAQ.FRUTA MACA ANANAS CNT 90G"
+    },
+    "bloco multiativos marinho 2 un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Bloco Sanitário",
+      "original": "BLOCO MULTIATIVOS MARINHO 2 UN"
+    },
+    "bovino maminha am sul pul ls": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entrecôte",
+      "original": "BOVINO MAMINHA AM SUL PUL LS"
+    },
+    "pate campestre cuits kg": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "PATE CAMPESTRE CUITS KG"
+    },
+    "ter pate c ceb caram cuits kg": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "TER. PATE C/CEB CARAM. CUITS KG"
+    },
+    "pilha plus aa k10 duracell": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "PILHA PLUS AA K10 DURACELL"
+    },
+    "pilha plus aaa k10 duracell": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "PILHA PLUS AAA K10 DURACELL"
+    },
+    "croissant brioche c choco un": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão Unidade",
+      "original": "CROISSANT BRIOCHE C/CHOCO UN"
+    },
+    "unicornios": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "UNICORNIOS"
+    },
+    "doces": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "DOCES"
+    },
+    "vela copo 10cm vegan tampa cast": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "VELA COPO 10CM VEGAN TAMPA CAST"
+    },
+    "cj 2 velas candelabro 19cm mar": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "CJ. 2 VELAS CANDELABRO 19CM MAR"
+    },
+    "cj 2 velas candelabro 19cm ver": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "CJ. 2 VELAS CANDELABRO 19CM VER"
+    },
+    "bat frita ond continente 200g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Batatas Fritas Onduladas Pack 4",
+      "original": "BAT FRITA OND CONTINENTE 200G"
+    },
+    "snack choco twix minis 227g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "SNACK CHOCO TWIX MINIS 227G"
+    },
+    "snack choc mini kit kat 200g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "SNACK CHOC MINI KIT KAT 200G"
+    },
+    "drageias choco continente 250g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "DRAGEIAS CHOCO CONTINENTE 250G"
+    },
+    "gomas sortido party mix cnt 420": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "GOMAS SORTIDO PARTY MIX CNT 420"
+    },
+    "marshmallows continente 300gr": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "MARSHMALLOWS CONTINENTE 300GR"
+    },
+    "gomas amoras continente l 300gr": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "GOMAS AMORAS CONTINENTE L 300GR"
+    },
+    "caramelos fruta cnt 450g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "CARAMELOS FRUTA CNT 450G"
+    },
+    "caramelos de fruta 450g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "CARAMELOS DE FRUTA 450G"
+    },
+    "bol argol choc leit cnt 128g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolachas Várias",
+      "original": "BOL.ARGOL CHOC.LEIT.CNT 128G"
+    },
+    "bolacha rech choco cnt 500g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolachas Várias",
+      "original": "BOLACHA RECH CHOCO CNT 500G"
+    },
+    "maca gala 60 70 1 kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Maçã",
+      "original": "MACA GALA 60/70 1 KG"
+    },
+    "bolachas creams cnt poup 440g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolachas Várias",
+      "original": "BOLACHAS CREAMS CNT POUP. 440G"
+    },
+    "sortido chupa chupas cnt 150g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "SORTIDO CHUPA-CHUPAS CNT 150G"
+    },
+    "nectar um bongo 8 frutos 1l": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Sumos",
+      "original": "NECTAR UM BONGO 8 FRUTOS 1L"
+    },
+    "nectar compal tutti frutti 1lt": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Sumos",
+      "original": "NECTAR COMPAL TUTTI-FRUTTI 1LT"
+    },
+    "nectar compal cl lar algarve 1l": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Sumos",
+      "original": "NECTAR COMPAL CL LAR.ALGARVE 1L"
+    },
+    "papel hig cnt 3f decorado 12r": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Papel Higiénico",
+      "original": "PAPEL HIG. CNT 3F DECORADO 12R"
+    },
+    "mini croissants continente 270g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão de Leite",
+      "original": "MINI CROISSANTS CONTINENTE 270G"
+    },
+    "pao de leite poupanca continent": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão de Leite",
+      "original": "PAO DE LEITE POUPANCA CONTINENT"
+    },
+    "biscoitos areias 300gr ab": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolachas Várias",
+      "original": "BISCOITOS AREIAS 300GR(AB)"
+    },
+    "emblema oficial fifa world cup": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "EMBLEMA OFICIAL FIFA WORLD CUP"
+    },
+    "jogo party co junior": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "JOGO PARTY&CO JUNIOR"
+    },
+    "cj 50 copos agu": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "CJ 50 COPOS AGU"
+    },
+    "cj 2 pratos dour p bolo 32cm": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "CJ 2 PRATOS DOUR P/BOLO 32CM"
+    },
+    "3 naperons brancos 35cm": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "3 NAPERONS BRANCOS 35CM"
+    },
+    "bol artiach ovo dinosaurus 140g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolachas Dinossauros Ovos",
+      "original": "BOL ARTIACH OVO DINOSAURUS 140G"
+    },
+    "esfr vileda salva unhas 1 1un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Esfregão",
+      "original": "ESFR.VILEDA SALVA UNHAS 1+1UN"
+    },
+    "filetes pangasius pescanova 600": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Filetes de Pescada",
+      "original": "FILETES PANGASIUS PESCANOVA 600"
+    },
+    "cerv c alc sagres br 15x25cl": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Cerveja/Cidra",
+      "original": "CERV C/ALC SAGRES BR 15X25CL"
+    },
+    "porco preto plumas skp 250g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Bifanas de Porco",
+      "original": "PORCO PRETO PLUMAS SKP 250G"
+    },
+    "bomb t16 schokobons kinder 125g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "BOMB T16 SCHOKOBONS KINDER 125G"
+    },
+    "cerv c alc super bock tp 24 20": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Cerveja/Cidra",
+      "original": "CERV.C/ALC.SUPER BOCK TP 24*20"
+    },
+    "sidra somersby maca tp 12x20cl": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Cerveja/Cidra",
+      "original": "SIDRA SOMERSBY MACA TP 12X20CL"
+    },
+    "pen hig evax cottonl nt 18": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Pensos",
+      "original": "PEN HIG EVAX COTTONL NT 18"
+    },
+    "deo ro sanex sensitive 50ml": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Desodorizante Invisible",
+      "original": "DEO RO SANEX SENSITIVE 50ML"
+    },
+    "lixivia tradicional neoblanc 2l": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Lava tudo madeira",
+      "original": "LIXIVIA TRADICIONAL NEOBLANC 2L"
+    },
+    "cubos de gelo continente 2kg": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "CUBOS DE GELO CONTINENTE 2KG"
+    },
+    "iog liq s lact cnt mor 4x160g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Aromas",
+      "original": "IOG LIQ S/ LACT CNT MOR 4X160G"
+    },
+    "qj amanteigado ovelha seia": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "QJ AMANTEIGADO OVELHA SEIA"
+    },
+    "queijo brie president kg": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "QUEIJO BRIE PRESIDENT KG"
+    },
+    "presunto lasca50 iber 24m cnt s": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "PRESUNTO LASCA50%IBER 24M CNT S"
+    },
+    "coppa stagionata levoni 80g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "COPPA STAGIONATA LEVONI 80G"
+    },
+    "qj c trufas president 200g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "QJ C/ TRUFAS PRESIDENT 200G"
+    },
+    "lombo ext delizias noel 120g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "LOMBO EXT DELIZIAS NOEL 120G"
+    },
+    "chouricao iber elpozo 75g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "CHOURICAO IBER ELPOZO 75G"
+    },
+    "ch carne fundao cnt 220g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "CH CARNE FUNDAO CNT 220G"
+    },
+    "nuggets frango capitao iglo 10u": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Nuggets",
+      "original": "NUGGETS FRANGO CAPITAO IGLO 10U"
+    },
+    "linguica corr picante cnt 150g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "LINGUICA CORR PICANTE CNT 150G"
+    },
+    "salsichao iber elpozo 75g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "SALSICHAO IBER ELPOZO 75G"
+    },
+    "paleta fat cebo iber 50 s alca": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "PALETA FAT CEBO IBER 50% S.ALCA"
+    },
+    "limao": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Limão",
+      "original": "LIMAO"
+    },
+    "amendoa torrada cnt 200g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "AMENDOA TORRADA CNT 200G"
+    },
+    "caju c sal cnt 200g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "CAJU C/SAL CNT 200G"
+    },
+    "pao passas 300g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão Unidade",
+      "original": "PAO PASSAS 300G"
+    },
+    "pao centeio semente m mae 500g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão Unidade",
+      "original": "PAO CENTEIO SEMENTE M. MAE 500G"
+    },
+    "pao triespelta 400g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão Unidade",
+      "original": "PAO TRIESPELTA 400G"
+    },
+    "broa milho doce 400g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão Unidade",
+      "original": "BROA MILHO DOCE 400G"
+    },
+    "pao trigo sarraceno bio 450g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão Unidade",
+      "original": "PAO TRIGO SARRACENO BIO 450G"
+    },
+    "pao de forma c codea cnt 820gr": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão Unidade",
+      "original": "PAO DE FORMA C/CODEA CNT 820GR"
+    },
+    "gin beefeater 1l": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Vinhos",
+      "original": "GIN BEEFEATER 1L"
+    },
+    "mostarda savora frasco 190g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Condimentos",
+      "original": "MOSTARDA SAVORA FRASCO 190G"
+    },
+    "ervilhas continente 1kg": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Mistura legumes",
+      "original": "ERVILHAS CONTINENTE 1KG"
+    },
+    "iog liq bem estar cnt eq 4x160g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Líquido",
+      "original": "IOG LIQ BEM-ESTAR CNT EQ 4X160G"
+    },
+    "laranja citrinos algarve igp kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Laranja",
+      "original": "LARANJA CITRINOS ALGARVE IGP KG"
     }
   },
   "pingodoce": {
