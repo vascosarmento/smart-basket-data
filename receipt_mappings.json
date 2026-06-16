@@ -2211,6 +2211,144 @@
       "category": "🥬 Frescos",
       "subcategory": "Laranja",
       "original": "LARANJA CITRINOS ALGARVE IGP KG"
+    },
+    "bolachas aventura cnt 3x200g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolachas Animais",
+      "original": "BOLACHAS AVENTURA CNT 3X200G"
+    },
+    "drageias smint xl morango": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "DRAGEIAS SMINT XL MORANGO"
+    },
+    "bol artiach choco leite dinosau": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolachas Dinossauros Chocolate",
+      "original": "BOL ARTIACH CHOCO LEITE DINOSAU"
+    },
+    "cerv c alc t p super bock mini": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Cerveja/Cidra",
+      "original": "CERV.C/ALC.T/P SUPER BOCK MINI"
+    },
+    "gelado stracciatela cnt 950ml": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "GELADO STRACCIATELA CNT 950ML"
+    },
+    "iog liq cnt mor ban 4x160g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Líquido",
+      "original": "IOG LIQ CNT MOR/BAN 4X160G"
+    },
+    "mamao fracionado": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Papaia",
+      "original": "MAMAO FRACIONADO"
+    },
+    "aventura pirata": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "AVENTURA PIRATA"
+    },
+    "no quartel dos bombeiros": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "NO QUARTEL DOS BOMBEIROS"
+    },
+    "bolo manhazitos planet us 9 2un": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Manhãzitos",
+      "original": "BOLO MANHAZITOS PLANET US 9*2UN"
+    },
+    "esfr bravo imp c sabao reg 6un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Esfregão",
+      "original": "ESFR.BRAVO IMP C/SABAO REG 6UN"
+    },
+    "det liq skip rp sabao natural 1": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Detergente Skip Sabão Natural",
+      "original": "DET LIQ SKIP RP SABAO NATURAL 1"
+    },
+    "alho frances": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Alho Francês",
+      "original": "ALHO FRANCES"
+    },
+    "abobora manteiga buternut cnt": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Abóbora",
+      "original": "ABOBORA MANTEIGA (BUTERNUT) CNT"
+    },
+    "entregazero anual": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "ENTREGAZERO ANUAL"
+    },
+    "toal hidrat cont do bebe 72un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Toalhitas Bebé",
+      "original": "TOAL HIDRAT CONT.DO BEBE 72UN"
+    },
+    "fralda continente prem t 6 40un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Fraldas Dodot T5",
+      "original": "FRALDA CONTINENTE PREM T.6 40UN"
+    },
+    "guard 1f cont branco 100": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Guardanapos",
+      "original": "GUARD. 1F CONT BRANCO 100"
+    },
+    "det caps maq loic finish quantu": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Pastilhas máquina loiça",
+      "original": "DET CAPS MAQ LOIC FINISH QUANTU"
+    },
+    "iog liq cnt ananas coco 4x160g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Líquido",
+      "original": "IOG LIQ CNT ANANAS/COCO 4X160G"
+    },
+    "cereais choco crockers cnt 500g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Cereais Chocolate",
+      "original": "CEREAIS CHOCO CROCKERS CNT 500G"
+    },
+    "maca golden 75 80 kg imp": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Maçã",
+      "original": "MACA GOLDEN 75/80 KG IMP"
+    },
+    "creme barrar nutella go 52g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "CREME BARRAR NUTELLA&GO 52G"
     }
   },
   "pingodoce": {
@@ -3880,6 +4018,42 @@
       "category": "🥬 Frescos",
       "subcategory": "Alho",
       "original": "ALHO SECO KG"
+    },
+    "cheetos futebola 40g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Batatas Fritas Onduladas Pack 4",
+      "original": "CHEETOS FUTEBOLA 40G"
+    },
+    "bolsa per mac pd 90g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolsa de Fruta",
+      "original": "BOLSA PER MAÇ PD 90G"
+    },
+    "mini din cer120g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolachas Dinossauros Cereais",
+      "original": "MINI DIN CER120G"
+    },
+    "kinder delice t1 39g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "KINDER DELICE T1 39G"
+    },
+    "saco plastico recicl": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "SACO PLASTICO RECICL"
+    },
+    "penso evx cot nt 18": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Pensos",
+      "original": "PENSO EVX COT NT 18"
     }
   }
 }
