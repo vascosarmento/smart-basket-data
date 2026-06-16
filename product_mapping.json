@@ -2833,18 +2833,6 @@
     "pingo_id": "952429",
     "conversion_factor": 1.0
   },
-  "332": {
-    "global_id": 332,
-    "cont_name": "",
-    "pingo_name": "Detergente Loiça Manual Ultra Poder Limão",
-    "receipt_string": "",
-    "category": "🧴 Higiene e Limpeza",
-    "subcategory": "Fairy Limão",
-    "exclude_comparison": false,
-    "cont_id": "",
-    "pingo_id": "952433",
-    "conversion_factor": 1.0
-  },
   "333": {
     "global_id": 333,
     "cont_name": "",
@@ -5704,6 +5692,18 @@
     "exclude_comparison": false,
     "cont_id": "",
     "pingo_id": "951844",
+    "conversion_factor": 1.0
+  },
+  "565": {
+    "global_id": 565,
+    "cont_name": "Papel Higiénico Húmido Continente",
+    "pingo_name": "",
+    "receipt_string": "",
+    "category": "🧴 Higiene e Limpeza",
+    "subcategory": "Papel Higiénico Húmido",
+    "exclude_comparison": false,
+    "cont_id": "7970091",
+    "pingo_id": "",
     "conversion_factor": 1.0
   }
 }
