@@ -2349,6 +2349,90 @@
       "category": "❄️ Congelados",
       "subcategory": "Sobremesas/Gelados",
       "original": "CREME BARRAR NUTELLA&GO 52G"
+    },
+    "sacos lixo continente 30l 20un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Sacos do Lixo",
+      "original": "SACOS LIXO CONTINENTE 30L 20UN"
+    },
+    "creme limpeza cnt flores 750ml": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "CIF",
+      "original": "CREME LIMPEZA CNT FLORES 750ML"
+    },
+    "frango perninha temperada emb": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Pernas de Frango",
+      "original": "FRANGO PERNINHA TEMPERADA EMB."
+    },
+    "novilho costeleta continente ls": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entrecôte",
+      "original": "NOVILHO COSTELETA CONTINENTE LS"
+    },
+    "ch ultra suave camomila 600ml": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Champô Camomila",
+      "original": "CH ULTRA SUAVE CAMOMILA 600ML"
+    },
+    "ovos de solo classe cont 1 2dz": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Ovos",
+      "original": "OVOS DE SOLO CLASSE CONT 1/2DZ"
+    },
+    "massa macarrao grande cnt 500g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Tomate Pelado",
+      "original": "MASSA MACARRAO GRANDE CNT 500G"
+    },
+    "iog liq cnt man coc pim 4x160g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Líquido",
+      "original": "IOG LIQ CNT MAN/COC/PIM 4X160G"
+    },
+    "sbux nespresso italian roast 10": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Buondi Ristretto 13",
+      "original": "SBUX NESPRESSO ITALIAN ROAST 10"
+    },
+    "q c polpa danonino mor 6 50g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Danoninho",
+      "original": "Q C/POLPA DANONINO MOR 6*50G"
+    },
+    "manteiga c sal mimosa 250g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Manteiga",
+      "original": "MANTEIGA C/SAL MIMOSA 250G"
+    },
+    "gb lpm bio f laranjeira 650ml": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Gel de Banho",
+      "original": "GB LPM BIO F. LARANJEIRA 650ML"
+    },
+    "gelatina po royal 0 mirtilo 3": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Gelatina Royal",
+      "original": "GELATINA PO ROYAL 0% MIRTILO 3"
+    },
+    "passata manjer ore guloso 210g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Polpa de Tomate",
+      "original": "PASSATA MANJER.ORE.GULOSO 210G"
     }
   },
   "pingodoce": {
