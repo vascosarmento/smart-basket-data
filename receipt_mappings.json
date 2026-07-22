@@ -2433,6 +2433,143 @@
       "category": "🥫 Despensa",
       "subcategory": "Polpa de Tomate",
       "original": "PASSATA MANJER.ORE.GULOSO 210G"
+    },
+    "iog liq cnt f trop 4x160g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Líquido",
+      "original": "IOG LIQ CNT F TROP 4X160G"
+    },
+    "pessego paraguayo": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Maçã",
+      "original": "PESSEGO PARAGUAYO"
+    },
+    "limpa vidros cnt perf 750ml": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Limpa Vidros",
+      "original": "LIMPA VIDROS CNT PERF 750ML"
+    },
+    "sal loica continente 2 kg": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Sal Máquina Loiça",
+      "original": "SAL LOICA CONTINENTE 2 KG"
+    },
+    "creme culinario continente 250g": {
+      "type": "product",
+      "global_id": 225,
+      "original": "CREME CULINARIO CONTINENTE 250G"
+    },
+    "abobora butternut fr k": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Abóbora",
+      "original": "ABOBORA BUTTERNUT FR K"
+    },
+    "toalhitas dodot azul c tampa 52": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Toalhitas Bebé",
+      "original": "TOALHITAS DODOT AZUL C/TAMPA 52"
+    },
+    "deo maq loica continente": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Fairy Limão",
+      "original": "DEO MAQ LOICA CONTINENTE"
+    },
+    "barra shape go choc negro cnt": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Barritas",
+      "original": "BARRA SHAPE & GO CHOC NEGRO CNT"
+    },
+    "feijao verde": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Feijão Verde",
+      "original": "FEIJAO VERDE"
+    },
+    "pera packams": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Pera",
+      "original": "PERA PACKAMS"
+    },
+    "maca golden cnt emb 1 kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Maçã",
+      "original": "MACA GOLDEN CNT EMB 1 KG"
+    },
+    "iog liq prot cnt manga 280g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Líquido",
+      "original": "IOG LIQ +PROT CNT MANGA 280G"
+    },
+    "iog liq yoggi mor ban 4 160g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Líquido",
+      "original": "IOG LIQ YOGGI MOR/BAN 4*160G"
+    },
+    "tshirt": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "TSHIRT"
+    },
+    "caldo galinha cnt 24 cb 240g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Caldo de Galinha",
+      "original": "CALDO GALINHA CNT 24 CB 240G"
+    },
+    "bol mini artiach dinosaurus cho": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolachas Dinossauros Chocolate",
+      "original": "BOL MINI ARTIACH DINOSAURUS CHO"
+    },
+    "toal bebe cont do bebe 24un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Toalhitas Bebé",
+      "original": "TOAL BEBE CONT.DO BEBE 24UN"
+    },
+    "ph cnt familiar ext suave 24r 3": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Papel Higiénico Húmido",
+      "original": "PH CNT FAMILIAR EXT SUAVE 24R 3"
+    },
+    "lava tudo lavanda cnt 2l": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Lava tudo",
+      "original": "LAVA TUDO LAVANDA CNT 2L"
+    },
+    "pano suave vileda 2un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Pano Amarelo",
+      "original": "PANO SUAVE VILEDA 2UN"
+    },
+    "batata noisette continente 1kg": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Batata Noisette",
+      "original": "BATATA NOISETTE CONTINENTE 1KG"
+    },
+    "iog liq 00 cntlimao 4x160g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Líquido",
+      "original": "IOG LIQ 00% CNTLIMAO 4X160G"
     }
   },
   "pingodoce": {
