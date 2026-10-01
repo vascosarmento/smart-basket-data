@@ -549,7 +549,7 @@
     "category": "🥬 Frescos",
     "subcategory": "Uvas",
     "exclude_comparison": false,
-    "cont_id": "2076622",
+    "cont_id": "7618292",
     "pingo_id": "",
     "conversion_factor": 1.0
   },
@@ -672,18 +672,6 @@
     "subcategory": "Nabos",
     "exclude_comparison": false,
     "cont_id": "2076812",
-    "pingo_id": "",
-    "conversion_factor": 1.0
-  },
-  "156": {
-    "global_id": 156,
-    "cont_name": "Uva Branca sem Grainha Continente",
-    "pingo_name": "",
-    "receipt_string": "",
-    "category": "🥬 Frescos",
-    "subcategory": "Uvas",
-    "exclude_comparison": false,
-    "cont_id": "7618292",
     "pingo_id": "",
     "conversion_factor": 1.0
   },
@@ -1186,19 +1174,6 @@
     "receipt_string": "",
     "category": "🥫 Despensa",
     "subcategory": "Leite Meio Gordo",
-    "exclude_comparison": false,
-    "cont_id": "6879912",
-    "pingo_id": "",
-    "conversion_factor": 1.0,
-    "category_manual": true
-  },
-  "198": {
-    "global_id": 198,
-    "cont_name": "Leite UHT Meio Gordo Continente",
-    "pingo_name": "",
-    "receipt_string": "",
-    "category": "🥫 Despensa",
-    "subcategory": "Leitinhos",
     "exclude_comparison": false,
     "cont_id": "7062996",
     "pingo_id": "",
@@ -5462,18 +5437,6 @@
     "conversion_factor": 1.0,
     "category_manual": true
   },
-  "546": {
-    "global_id": 546,
-    "cont_name": "Pera Rocha DOP Oeste Continente",
-    "pingo_name": "",
-    "receipt_string": "",
-    "category": "🥬 Frescos",
-    "subcategory": "Pera",
-    "exclude_comparison": false,
-    "cont_id": "7102076",
-    "pingo_id": "",
-    "conversion_factor": 1.0
-  },
   "547": {
     "global_id": 547,
     "cont_name": "Queijo Flamengo sem Lactose Fatiado Terra Nostra",
@@ -5703,6 +5666,80 @@
     "subcategory": "Papel Higiénico Húmido",
     "exclude_comparison": false,
     "cont_id": "7970091",
+    "pingo_id": "",
+    "conversion_factor": 1.0
+  },
+  "566": {
+    "global_id": 566,
+    "cont_name": "Filetes de Pangasius Ultracongelado Pescanova",
+    "pingo_name": "",
+    "receipt_string": "",
+    "category": "❄️ Congelados",
+    "subcategory": "Filetes de Pescada",
+    "exclude_comparison": false,
+    "cont_id": "4249238",
+    "pingo_id": "",
+    "conversion_factor": 1.0
+  },
+  "567": {
+    "global_id": 567,
+    "cont_name": "Iogurte Líquido Zero% Ananás e Coco Continente",
+    "pingo_name": "",
+    "receipt_string": "",
+    "category": "🧀 Frigorífico",
+    "subcategory": "Iogurte Líquido",
+    "exclude_comparison": false,
+    "cont_id": "7141459",
+    "pingo_id": "",
+    "conversion_factor": 1.0
+  },
+  "568": {
+    "global_id": 568,
+    "cont_name": "Amaciador Roupa Extra Eficácia Surf",
+    "pingo_name": "",
+    "receipt_string": "",
+    "category": "🧴 Higiene e Limpeza",
+    "subcategory": "Amaciador Roupa",
+    "exclude_comparison": false,
+    "cont_id": "7800301",
+    "pingo_id": "",
+    "conversion_factor": 1.0
+  },
+  "569": {
+    "global_id": 569,
+    "cont_name": "Saqueta de Fruta Maçã e Manga +8M Continente",
+    "pingo_name": "",
+    "receipt_string": "",
+    "category": "🥫 Despensa",
+    "subcategory": "Bolsa de Fruta",
+    "exclude_comparison": false,
+    "cont_id": "7273631",
+    "pingo_id": "",
+    "conversion_factor": 1.0,
+    "category_manual": true
+  },
+  "570": {
+    "global_id": 570,
+    "cont_name": "Saqueta de Fruta Maçã e Morango +8M Continente",
+    "pingo_name": "",
+    "receipt_string": "",
+    "category": "🥫 Despensa",
+    "subcategory": "Bolsa de Fruta",
+    "exclude_comparison": false,
+    "cont_id": "7273633",
+    "pingo_id": "",
+    "conversion_factor": 1.0,
+    "category_manual": true
+  },
+  "571": {
+    "global_id": 571,
+    "cont_name": "Bolacha Merendinha com Mel Continente",
+    "pingo_name": "",
+    "receipt_string": "",
+    "category": "🥫 Despensa",
+    "subcategory": "Bolachas Várias",
+    "exclude_comparison": false,
+    "cont_id": "7620957",
     "pingo_id": "",
     "conversion_factor": 1.0
   }
