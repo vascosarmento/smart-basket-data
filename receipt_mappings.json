@@ -2570,6 +2570,36 @@
       "category": "🧀 Frigorífico",
       "subcategory": "Iogurte Líquido",
       "original": "IOG LIQ 00% CNTLIMAO 4X160G"
+    },
+    "bovino picanha eu fatiada kg cn": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entrecôte",
+      "original": "BOVINO PICANHA EU FATIADA KG CN"
+    },
+    "bat frita cnt p poup ondu 250": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Batatas Fritas Onduladas Pack 4",
+      "original": "BAT. FRITA CNT P. POUP ONDU 250"
+    },
+    "bol merendinha c mel cnt 215g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolachas Várias",
+      "original": "BOL. MERENDINHA C/MEL CNT 215G"
+    },
+    "tomate chucha cnt kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Tomate",
+      "original": "TOMATE CHUCHA CNT KG"
+    },
+    "maca gala alcobaca": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Maçã",
+      "original": "MACA GALA ALCOBACA"
     }
   },
   "pingodoce": {
