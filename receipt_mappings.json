@@ -3050,6 +3050,24 @@
       "category": "🧴 Higiene e Limpeza",
       "subcategory": "Gel de Banho",
       "original": "GB NHONEY HIDRATANTE 1350ML"
+    },
+    "feijao verde cnt emb 500gr": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Feijão Verde",
+      "original": "FEIJAO VERDE CNT EMB.500GR"
+    },
+    "gb nathon derma care hid 650ml": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Gel de Banho",
+      "original": "GB NATHON DERMA CARE HID 650ML"
+    },
+    "mozzarella high protein granaro": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Manjericão",
+      "original": "MOZZARELLA HIGH PROTEIN GRANARO"
     }
   },
   "pingodoce": {
@@ -4767,6 +4785,72 @@
       "category": "🧀 Frigorífico",
       "subcategory": "Entrecôte",
       "original": "BOV MAMINHA PD LS"
+    },
+    "amen mel sal pd 200g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "AMEN.MEL SAL PD 200G"
+    },
+    "bf finissima pd 180g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "BF FINÍSSIMA PD 180G"
+    },
+    "tostas trufa pd 175g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "TOSTAS TRUFA PD 175G"
+    },
+    "tost alecrim pd 175g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "TOST ALECRIM PD 175G"
+    },
+    "bolo iogurte 500 g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "BOLO IOGURTE 500 G"
+    },
+    "past choc amendoim m": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "PAST CHOC AMENDOIM M"
+    },
+    "alho frances pd un 4": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Alho Francês",
+      "original": "ALHO FRANCES PD UN 4"
+    },
+    "uva branca honey": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Uvas",
+      "original": "UVA BRANCA HONEY"
+    },
+    "fuet extra pd 180g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "FUET EXTRA PD 180G"
+    },
+    "pate pimen cuit 125g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "PATE PIMEN CUIT 125G"
+    },
+    "gel avela pd 1lt": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "GEL AVELA PD 1LT"
     }
   }
 }
