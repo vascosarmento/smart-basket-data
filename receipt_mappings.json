@@ -2185,7 +2185,7 @@
     "gin beefeater 1l": {
       "type": "subcategory",
       "category": "🥫 Despensa",
-      "subcategory": "Vinhos",
+      "subcategory": "Vinhos/Gin",
       "original": "GIN BEEFEATER 1L"
     },
     "mostarda savora frasco 190g": {
@@ -3210,7 +3210,7 @@
     "gin gordon s 70cl": {
       "type": "subcategory",
       "category": "🥫 Despensa",
-      "subcategory": "Gin",
+      "subcategory": "Vinhos/Gin",
       "original": "GIN GORDON S 70CL"
     }
   },
@@ -4441,31 +4441,31 @@
     "vinho tinto peninsula de setubal adega de pegoes 75 cl": {
       "type": "subcategory",
       "category": "🥫 Despensa",
-      "subcategory": "Vinhos",
+      "subcategory": "Vinhos/Gin",
       "original": "Vinho Tinto Península de Setúbal Adega de Pegões 75 cl"
     },
     "vinho tinto dao pingo doce colheita selecionada 75 cl": {
       "type": "subcategory",
       "category": "🥫 Despensa",
-      "subcategory": "Vinhos",
+      "subcategory": "Vinhos/Gin",
       "original": "Vinho Tinto Dão Pingo Doce Colheita Selecionada 75 cl"
     },
     "vinho branco peninsula de setubal adegade pegoes 75 cl": {
       "type": "subcategory",
       "category": "🥫 Despensa",
-      "subcategory": "Vinhos",
+      "subcategory": "Vinhos/Gin",
       "original": "Vinho Branco Península de Setúbal Adegade Pegões 75 cl"
     },
     "v dao fuga res tto 75cl": {
       "type": "subcategory",
       "category": "🥫 Despensa",
-      "subcategory": "Vinhos",
+      "subcategory": "Vinhos/Gin",
       "original": "V.DAO FUGA RES.TTO 75CL"
     },
     "v douro qta dos aciprestes res tto 75cl": {
       "type": "subcategory",
       "category": "🥫 Despensa",
-      "subcategory": "Vinhos",
+      "subcategory": "Vinhos/Gin",
       "original": "V.DOURO QTA DOS ACIPRESTES RES.TTO 75cl"
     },
     "queijo mozzarella ralado campainha 2x250": {
@@ -4717,7 +4717,7 @@
     "v quinta da leda tt": {
       "type": "subcategory",
       "category": "🥫 Despensa",
-      "subcategory": "Vinhos",
+      "subcategory": "Vinhos/Gin",
       "original": "V. QUINTA DA LEDA TT"
     },
     "compal fam f tropica": {
