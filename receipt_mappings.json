@@ -2612,6 +2612,444 @@
       "category": "🥬 Frescos",
       "subcategory": "Laranja",
       "original": "LARANJA KG"
+    },
+    "cafe buondi nespresso rist 36c": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Buondi Ristretto 13",
+      "original": "CAFE BUONDI NESPRESSO RIST. 36C"
+    },
+    "hamb bov c picanha sel 480g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entrecôte",
+      "original": "HAMB. BOV C/ PICANHA SEL 480G"
+    },
+    "leite m gordo cnt 6 1l r": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Leite Meio Gordo",
+      "original": "LEITE M/GORDO CNT 6*1L (R)"
+    },
+    "uva branca s gr v rosa 400 g": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Uvas",
+      "original": "UVA BRANCA S/ GR V.ROSA 400 G"
+    },
+    "gran ravioli trufas br 250g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Ranas",
+      "original": "GRAN RAVIOLI TRUFAS BR.250G"
+    },
+    "ravioli presunto burrata rana": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Ranas",
+      "original": "RAVIOLI PRESUNTO BURRATA RANA"
+    },
+    "bolacha grisbi m vicenzicreme a": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "BOLACHA GRISBI M.VICENZICREME A"
+    },
+    "nectar compal pera 3 20cl": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Sumos",
+      "original": "NECTAR COMPAL PERA 3*20CL"
+    },
+    "nectar compal cl mang magd 3 20": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Sumos",
+      "original": "NECTAR COMPAL CL MANG.MAGD.3*20"
+    },
+    "nect compal vital mang lar 3 20": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Sumos",
+      "original": "NECT COMPAL VITAL MANG/LAR 3*20"
+    },
+    "cebola nova": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Cebolas",
+      "original": "CEBOLA NOVA"
+    },
+    "abobora cortada sr emb kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Abóbora",
+      "original": "ABOBORA CORTADA SR EMB KG"
+    },
+    "pera ercolini": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Pera",
+      "original": "PERA ERCOLINI"
+    },
+    "pao bimbo artesencia brioc 500g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão de Forma Brioche",
+      "original": "PAO BIMBO ARTESENCIA BRIOC 500G"
+    },
+    "champo suave j s baby 500ml": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Champô Camomila",
+      "original": "CHAMPO SUAVE J S BABY 500ML"
+    },
+    "douradinhos pescada cnt 450g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Douradinhos",
+      "original": "DOURADINHOS PESCADA CNT 450G"
+    },
+    "skyr sol cnt eq morango 150g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Skyr",
+      "original": "SKYR SOL CNT EQ MORANGO 150G"
+    },
+    "leite uht m g gresso 8 1l": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Leite Meio Gordo",
+      "original": "LEITE UHT M/G GRESSO 8*1L"
+    },
+    "forma brioche 400g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão de Forma Brioche",
+      "original": "FORMA BRIOCHE 400G"
+    },
+    "bol cream cracker carr s 125g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolachas Crackers",
+      "original": "BOL.CREAM CRACKER CARR S 125G"
+    },
+    "crackers gpavesi pomodoro 280g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "CRACKERS GPAVESI POMODORO 280G"
+    },
+    "gel dough my goodness cnt 500ml": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Gel de Banho",
+      "original": "GEL DOUGH MY GOODNESS CNT 500ML"
+    },
+    "gel hella nuts cnt 470ml": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "GEL HELLA NUTS CNT 470ML"
+    },
+    "gelatina 0 cnt man mar 4x100g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Gelatina Marca Branca",
+      "original": "GELATINA 0% CNT MAN/MAR 4X100G"
+    },
+    "lombos salm c pele pescan 250g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Salmão",
+      "original": "LOMBOS SALM C/PELE PESCAN 250G"
+    },
+    "bloc foie gras pato mi cuit 100": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "BLOC FOIE GRAS PATO MI-CUIT 100"
+    },
+    "salada serrana sc emb 150g": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Salada",
+      "original": "SALADA SERRANA SC EMB. 150G"
+    },
+    "alecrim cnt emb 20gr": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Manjericão",
+      "original": "ALECRIM CNT EMB.20GR"
+    },
+    "hamburguer vaca iglo s gluten 3": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Hamburguer Vaca Iglo",
+      "original": "HAMBURGUER VACA IGLO S/GLUTEN 3"
+    },
+    "frald dodot acti extra t6 44un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Fraldas Dodot T5",
+      "original": "FRALD DODOT ACTI EXTRA T6+ 44UN"
+    },
+    "penso hig evax cott noite alas": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Pensos",
+      "original": "PENSO HIG. EVAX COTT NOITE ALAS"
+    },
+    "toal 99 cont do bebe 60un": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Toalhitas Bebé",
+      "original": "TOAL 99% CONT.DO BEBE 60UN"
+    },
+    "uva branca bio hey vita s gr 40": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Uvas",
+      "original": "UVA BRANCA BIO HEY VITA S/GR 40"
+    },
+    "tomate ped manj oreg t cnt": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Tomate Pelado",
+      "original": "TOMATE PED. MANJ OREG. T. CNT"
+    },
+    "ovos solo classe m 1dz": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Ovos",
+      "original": "OVOS SOLO CLASSE M 1DZ"
+    },
+    "perna frango emb familiar ls": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Coxa de Frango",
+      "original": "PERNA FRANGO EMB. FAMILIAR LS"
+    },
+    "lombinhos de frango continente": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Coxa de Frango",
+      "original": "LOMBINHOS DE FRANGO CONTINENTE"
+    },
+    "super b mix panq s cnt eq 300g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Cerveja/Cidra",
+      "original": "SUPER B MIX PANQ.S CNT EQ 300G"
+    },
+    "pipocas cnt caram salg 150g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "PIPOCAS CNT CARAM SALG 150G"
+    },
+    "snack choc crocante c caramelo": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "SNACK CHOC CROCANTE C/ CARAMELO"
+    },
+    "bomb kinder schokobons 200g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "BOMB KINDER SCHOKOBONS 200G"
+    },
+    "lime pepper 150g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "LIME & PEPPER 150G"
+    },
+    "nectar continente manga 1lt": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Sumos",
+      "original": "NECTAR CONTINENTE MANGA 1LT"
+    },
+    "nect continente laranja 1l": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Sumos",
+      "original": "NECT.CONTINENTE LARANJA 1L"
+    },
+    "creme limp continen power lixi": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Fairy Limão",
+      "original": "CREME LIMP CONTINEN POWER+ LIXI"
+    },
+    "spray cif creme 750ml": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "CIF",
+      "original": "SPRAY CIF CREME 750ML"
+    },
+    "biscoitos de limao 300g ab": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "BISCOITOS DE LIMAO 300G(AB)"
+    },
+    "broas de mel 250g ab": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "BROAS DE MEL 250G (AB)"
+    },
+    "sal hd continente 300g": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Salada",
+      "original": "SAL HD CONTINENTE 300G"
+    },
+    "bolo aniversario especial kg": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "BOLO ANIVERSARIO ESPECIAL KG"
+    },
+    "pao hot dog cnt 330gr": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão Unidade",
+      "original": "PAO HOT DOG CNT 330GR"
+    },
+    "bolacha artiach dinosaurus 185g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolachas Dinossauros Cereais",
+      "original": "BOLACHA ARTIACH DINOSAURUS 185G"
+    },
+    "pap hig continente": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Papel Higiénico",
+      "original": "PAP HIG CONTINENTE"
+    },
+    "coentros continente 150g": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Coentros",
+      "original": "COENTROS CONTINENTE 150G"
+    },
+    "perna de frango cnt ls": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Coxa de Frango",
+      "original": "PERNA DE FRANGO CNT LS"
+    },
+    "bov picanha angus fatiada skp": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entrecôte",
+      "original": "BOV PICANHA ANGUS FATIADA SKP"
+    },
+    "bolo marmore 500gr ab": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "BOLO MARMORE 500GR(AB)"
+    },
+    "sacos lixo continente": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Sacos do Lixo",
+      "original": "SACOS LIXO CONTINENTE"
+    },
+    "peito frango familiar cnt ls": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Peito de Frango",
+      "original": "PEITO FRANGO FAMILIAR CNT LS"
+    },
+    "pasta sensodyne pro esmalt 75ml": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Pasta de Dentes",
+      "original": "PASTA SENSODYNE PRO-ESMALT 75ML"
+    },
+    "iog liq cnt f vermelhos 4x160g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Líquido",
+      "original": "IOG LIQ CNT F VERMELHOS 4X160G"
+    },
+    "saq fruta frutos tropic cnt 90g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Bolsa de Fruta",
+      "original": "SAQ.FRUTA FRUTOS TROPIC CNT 90G"
+    },
+    "cafe buond nesp original 72 cap": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Buondi Café 8",
+      "original": "CAFE BUOND NESP ORIGINAL 72 CAP"
+    },
+    "hamburguer frango s gluten iglo": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Hamburguer Frango Iglo",
+      "original": "HAMBURGUER FRANGO S/GLUTEN IGLO"
+    },
+    "perninha frango cnt ls": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Concentrado de Tomate",
+      "original": "PERNINHA FRANGO CNT LS"
+    },
+    "bombom nuxor cornet leite 150g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "BOMBOM NUXOR CORNET LEITE 150G"
+    },
+    "ref c gas c cola lata sleek33cl": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Refrigerantes",
+      "original": "REF.C/GAS C.COLA LATA SLEEK33CL"
+    },
+    "nectar compal cl mang magd 1l": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Sumos",
+      "original": "NECTAR COMPAL CL MANG.MAGD.1L"
+    },
+    "bola centeio 80g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão Unidade",
+      "original": "BOLA CENTEIO 80G"
+    },
+    "bola lenha 100g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão Unidade",
+      "original": "BOLA LENHA 100G"
+    },
+    "chapata cereais 80g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão Unidade",
+      "original": "CHAPATA CEREAIS 80G"
+    },
+    "bolo manhazitos planet a 6un 2": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Manhãzitos",
+      "original": "BOLO MANHAZITOS PLANET -A 6UN*2"
+    },
+    "gb nhoney hidratante 1350ml": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Gel de Banho",
+      "original": "GB NHONEY HIDRATANTE 1350ML"
     }
   },
   "pingodoce": {
@@ -4317,6 +4755,18 @@
       "category": "🧴 Higiene e Limpeza",
       "subcategory": "Pensos",
       "original": "PENSO EVX COT NT 18"
+    },
+    "sob pr ga170g chonat": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "SOB PR GA170G CHONAT"
+    },
+    "bov maminha pd ls": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entrecôte",
+      "original": "BOV MAMINHA PD LS"
     }
   }
 }
