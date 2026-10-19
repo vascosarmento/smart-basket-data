@@ -62,5 +62,29 @@
   {
     "category": "🧴 Higiene e Limpeza",
     "subcategory": "Raid Mosquitos"
+  },
+  {
+    "category": "🧀 Frigorífico",
+    "subcategory": "Pudim"
+  },
+  {
+    "category": "🥬 Frescos",
+    "subcategory": "Melão/ Melância"
+  },
+  {
+    "category": "🥬 Frescos",
+    "subcategory": "Kiwi"
+  },
+  {
+    "category": "🥫 Despensa",
+    "subcategory": "Natas"
+  },
+  {
+    "category": "🥫 Despensa",
+    "subcategory": "Gin"
+  },
+  {
+    "category": "🧀 Frigorífico",
+    "subcategory": "Pizza"
   }
 ]
