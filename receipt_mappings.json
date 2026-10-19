@@ -2600,6 +2600,18 @@
       "category": "🥬 Frescos",
       "subcategory": "Maçã",
       "original": "MACA GALA ALCOBACA"
+    },
+    "rolo cozinha continente 4r 2f": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Rolo de Cozinha",
+      "original": "ROLO COZINHA CONTINENTE 4R 2F"
+    },
+    "laranja kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Laranja",
+      "original": "LARANJA KG"
     }
   },
   "pingodoce": {
