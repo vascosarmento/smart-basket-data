@@ -3065,9 +3065,153 @@
     },
     "mozzarella high protein granaro": {
       "type": "subcategory",
-      "category": "🥬 Frescos",
-      "subcategory": "Manjericão",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
       "original": "MOZZARELLA HIGH PROTEIN GRANARO"
+    },
+    "pudim prot 200g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Pudim",
+      "original": "PUDIM PROT 200G"
+    },
+    "pudim proteico 200g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Pudim",
+      "original": "PUDIM PROTEICO 200G"
+    },
+    "bols peq almoc aveia cnt 300g": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Cereais Muesli",
+      "original": "BOLS PEQ.ALMOC AVEIA CNT 300G"
+    },
+    "kiwi gold 500 g": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Kiwi",
+      "original": "KIWI GOLD 500 G"
+    },
+    "melao waikiki cortado emb kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Melão/ Melância",
+      "original": "MELAO WAIKIKI CORTADO EMB. KG"
+    },
+    "nectarina": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Melão/ Melância",
+      "original": "NECTARINA"
+    },
+    "melao amarelo frac cnt k": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Melão/ Melância",
+      "original": "MELAO AMARELO FRAC CNT K"
+    },
+    "melancia mini fracionada kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Melão/ Melância",
+      "original": "MELANCIA MINI FRACIONADA KG"
+    },
+    "creme hidratante nivea 150ml": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Gel de Banho",
+      "original": "CREME HIDRATANTE NIVEA 150ML"
+    },
+    "discos de algodao desmaq mylabe": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "DISCOS DE ALGODAO DESMAQ MYLABE"
+    },
+    "copo c palhinha hb 300 ml": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "COPO C/PALHINHA HB 300 ML"
+    },
+    "set crochet gel": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "SET CROCHET GEL"
+    },
+    "conjunto 26 car": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "CONJUNTO 26 CAR"
+    },
+    "criar figuras c valsa e plastic": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "CRIAR FIGURAS C/VALSA E PLASTIC"
+    },
+    "set mala cria o teu circo": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "SET MALA CRIA O TEU CIRCO"
+    },
+    "livro colorir c": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "LIVRO COLORIR C"
+    },
+    "melao verde fracionado kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Melão/ Melância",
+      "original": "MELAO VERDE FRACIONADO KG"
+    },
+    "pudim prot cnt avela 200g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Pudim",
+      "original": "PUDIM +PROT CNT AVELA 200G"
+    },
+    "yo pro pud avela 150g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Skyr",
+      "original": "YO PRO PUD AVELA 150G"
+    },
+    "qj crunchy intensidade 1 limian": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "QJ CRUNCHY INTENSIDADE 1 LIMIAN"
+    },
+    "abacaxi super sweet frac kg": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Melão/ Melância",
+      "original": "ABACAXI SUPER SWEET FRAC KG"
+    },
+    "qj fresco vaca magro santiago u": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "QJ FRESCO VACA MAGRO SANTIAGO U"
+    },
+    "sob prot cnt duo choco 170g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Pudim",
+      "original": "SOB +PROT CNT DUO CHOCO 170G"
+    },
+    "gin gordon s 70cl": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Gin",
+      "original": "GIN GORDON S 70CL"
     }
   },
   "pingodoce": {
@@ -4851,6 +4995,168 @@
       "category": "❄️ Congelados",
       "subcategory": "Sobremesas/Gelados",
       "original": "GEL AVELA PD 1LT"
+    },
+    "melao amarelo": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Melão/ Melância",
+      "original": "MELÃO AMARELO"
+    },
+    "lasanha bolo pd400g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Lasanha Bolonhesa",
+      "original": "LASANHA BOLO PD400G"
+    },
+    "pao avo c massa mae": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão Unidade",
+      "original": "PÃO AVÓ C MASSA MÃE"
+    },
+    "pao enriquecido fibr": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão Unidade",
+      "original": "PÃO ENRIQUECIDO FIBR"
+    },
+    "pud prot ga200g choc": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Pudim",
+      "original": "PUD PROT GA200G CHOC"
+    },
+    "m milaneza fusi prot": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Massa Espirais",
+      "original": "M MILANEZA FUSI PROT"
+    },
+    "pao de forma sporty": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Pão 12 Cereais",
+      "original": "PÃO DE FORMA SPORTY"
+    },
+    "l choc 0 pd 4x200ml": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Leitinhos Chocolate",
+      "original": "L CHOC 0% PD 4X200ML"
+    },
+    "l choc s ac ucal 250": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Leitinhos Chocolate",
+      "original": "L CHOC S/AÇ UCAL 250"
+    },
+    "ig 0 mor l m4x170gpd": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Iogurte Líquido",
+      "original": "IG 0%MOR L M4X170GPD"
+    },
+    "pud prot bau ga200g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Pudim",
+      "original": "PUD PROT BAU GA200G"
+    },
+    "guylian seashells65g": {
+      "type": "subcategory",
+      "category": "❄️ Congelados",
+      "subcategory": "Sobremesas/Gelados",
+      "original": "GUYLIAN SEASHELLS65G"
+    },
+    "frango pernin atp pd": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Coxa de Frango",
+      "original": "FRANGO PERNIN ATP PD"
+    },
+    "maca mini naciona sc": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Maçã",
+      "original": "MAÇÃ MINI NACIONA SC"
+    },
+    "kiwi sungold zespri": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Kiwi",
+      "original": "KIWI SUNGOLD ZESPRI"
+    },
+    "pud prot goactive sp": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Pudim",
+      "original": "PUD PROT GOACTIVE SP"
+    },
+    "ovalor deposito": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "ºVALOR DEPÓSITO"
+    },
+    "qj burrat buf pd 125": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "QJ BURRAT BUF PD 125"
+    },
+    "qj fr santi mg 80": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "QJ FR SANTI MG 80"
+    },
+    "oagua pingo doce33": {
+      "type": "subcategory",
+      "category": "🧴 Higiene e Limpeza",
+      "subcategory": "Casa/Outros",
+      "original": "ºÁGUA PINGO DOCE33"
+    },
+    "salada fresc 150g pd": {
+      "type": "subcategory",
+      "category": "🥬 Frescos",
+      "subcategory": "Salada",
+      "original": "SALADA FRESC 150G PD"
+    },
+    "tem frang peninsular": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Coxa de Frango",
+      "original": "TEM FRANG PENINSULAR"
+    },
+    "babybel light 6x20g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Entradas",
+      "original": "BABYBEL LIGHT 6X20G"
+    },
+    "natas culin light pd": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Natas",
+      "original": "NATAS CULIN LIGHT PD"
+    },
+    "oschweppes zero 1lt": {
+      "type": "subcategory",
+      "category": "🥫 Despensa",
+      "subcategory": "Refrigerantes",
+      "original": "ºSCHWEPPES ZERO 1LT"
+    },
+    "pz margari pd 2x200g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Pizza",
+      "original": "PZ MARGARI PD 2X200G"
+    },
+    "pizza pd pres s 390g": {
+      "type": "subcategory",
+      "category": "🧀 Frigorífico",
+      "subcategory": "Pizza",
+      "original": "PIZZA PD PRES.S.390G"
     }
   }
 }
